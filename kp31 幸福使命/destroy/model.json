@@ -1,0 +1,161 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "model.moc",
+  "textures": [
+    "model.1024/texture_00.png"
+  ],
+  "groups": [
+    {
+      "target": "PartOpacity",
+      "name": "add",
+      "ids": [
+        "PARTS_SKIRT",
+        "PARTS_01_BACKGROUND",
+        "PARTS_HAIRDRESS"
+      ]
+    }
+  ],
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF_HEAD"
+    },
+    {
+      "name": "leg",
+      "id": "D_REF_LEG"
+    },
+    {
+      "name": "body",
+      "id": "D_REF_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/daiji_idle_01.mtn",
+        "weight": 1
+      }
+    ],
+    "tap": [
+      {
+        "name": "1",
+        "sound": "sounds/KP31_005.mp3",
+        "weight": 1
+      },
+      {
+        "name": "2",
+        "sound": "sounds/KP31_006.mp3",
+        "weight": 1
+      },
+      {
+        "name": "3",
+        "sound": "sounds/KP31_007.mp3",
+        "weight": 1
+      },
+      {
+        "name": "4",
+        "sound": "sounds/KP31_026.mp3",
+        "weight": 1
+      },
+      {
+        "name": "5",
+        "sound": "sounds/KP31_015.mp3",
+        "weight": 1
+      },
+      {
+        "name": "6",
+        "sound": "sounds/KP31_004.mp3",
+        "weight": 1
+      },
+      {
+        "name": "7",
+        "sound": "sounds/KP31_024.mp3",
+        "weight": 1
+      },
+      {
+        "name": "8",
+        "sound": "sounds/KP31_025.mp3",
+        "weight": 1
+      },
+      {
+        "name": "9",
+        "sound": "sounds/KP31_026.mp3",
+        "weight": 1
+      }
+    ],
+    "tap_head": [
+      {
+        "name": "1",
+        "file": "motions/broken_1.mtn",
+        "sound": "sounds/KP31_020.mp3",
+        "weight": 1
+      },
+      {
+        "name": "2",
+        "file": "motions/broken_2.mtn",
+        "sound": "sounds/KP31_032.mp3",
+        "weight": 1
+      },
+      {
+        "name": "3",
+        "file": "motions/broken_3.mtn",
+        "sound": "sounds/KP31_035.mp3",
+        "weight": 1
+      },
+      {
+        "name": "4",
+        "file": "motions/broken_4.mtn",
+        "sound": "sounds/KP31_036.mp3",
+        "weight": 1
+      }
+    ],
+    "tap_body": [
+      {
+        "name": "1",
+        "file": "motions/broken_3.mtn",
+        "sound": "sounds/KP31_029.mp3",
+        "weight": 1
+      },
+      {
+        "name": "2",
+        "file": "motions/broken_5.mtn",
+        "sound": "sounds/KP31_041.mp3",
+        "weight": 1
+      }
+    ],
+    "tap_leg": [
+      {
+        "name": "1",
+        "sound": "sounds/KP31_028.mp3",
+        "weight": 1
+      },
+      {
+        "name": "2",
+        "sound": "sounds/KP31_009.mp3",
+        "weight": 1
+      }
+    ],
+    "shake": [
+      {
+        "file": "motions/shake.mtn",
+        "sound": "sounds/KP31_033.mp3",
+        "weight": 1
+      }
+    ],
+    "start": [
+      {
+        "file": "motions/login.mtn",
+        "sound": "sounds/KP31_001.mp3",
+        "weight": 1
+      },
+      {
+        "file": "motions/login.mtn",
+        "sound": "sounds/KP31_002.mp3",
+        "weight": 1
+      }
+    ]
+  },
+  "lip_sync": "true",
+  "auto_breath": false,
+  "aniso_level": 4
+}
