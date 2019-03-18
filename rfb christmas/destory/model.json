@@ -1,0 +1,79 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "model.moc",
+  "textures": [
+    "model.1024/texture_00 #21.png",
+    "model.1024/texture_00.png"
+  ],
+  "groups": [
+    {
+      "target": "PartOpacity",
+      "name": "hexie",
+      "ids": [
+        "PARTS_HEXIE",
+        "PARTS_MISK"
+      ]
+    }
+  ],
+  "hit_areas": [
+    {
+      "name": "body",
+      "id": "D_REF.BODY"
+    },
+    {
+      "name": "leg",
+      "id": "D_REF.LEG"
+    }
+  ],
+  "motions": {
+    "tap_body": [
+      {
+        "file": "motions/broken_1.mtn",
+        "sound": "sounds/RFB_BREAK_JP.mp3",
+        "text": "很好，没有难度的话游戏就没意思了♪……"
+      },
+      {
+        "file": "motions/broken_2.mtn",
+        "sound": "sounds/RFB_RETREAT_JP.mp3",
+        "text": "在这里Game Over了吗？……"
+      },
+      {
+        "file": "motions/broken_3.mtn",
+        "sound": "sounds/RFB_FIX_JP.mp3",
+        "text": "好像玩得太过火了♪"
+      },
+      {
+        "file": "motions/broken_4.mtn",
+        "sound": "sounds/RFB_OPERATIONOVER_JP.mp3",
+        "text": "要多少钱呢~?"
+      },
+      {
+        "file": "motions/broken_5.mtn",
+        "sound": "sounds/RFB_COMBINE_JP.mp3",
+        "text": "能力上升!"
+      }
+    ],
+    "tap_leg": [
+      {
+        "file": "motions/wait_1.mtn",
+        "sound": "sounds/RFB_CHRISTMAS_JP.mp3",
+        "text": "圣诞节DLC打折啦！指挥官快买来送给我当礼物吧？"
+      }
+    ],
+    "start": [
+      {
+        "file": "motions/login.mtn",
+        "sound": "sounds/RFB_HELLO_JP.mp3",
+        "text": "哎呀、这不是指挥官吗？Hello~"
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/daiji_idle_01.mtn"
+      }
+    ]
+  },
+  "physics": "physics.json",
+  "lip_sync": "true",
+  "aniso_level": 4
+}
