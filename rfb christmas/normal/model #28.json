@@ -1,0 +1,159 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "model.moc",
+  "textures": [
+    "model.1024/texture_00.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.BODY"
+    },
+    {
+      "name": "breast",
+      "id": "D_REF.BREAST"
+    },
+    {
+      "name": "hand",
+      "id": "D_REF.HAND"
+    }
+  ],
+  "hit_params": [
+    {
+      "id": "PARAM_BREATH",
+      "hit_area": "breast",
+      "axis": 0,
+      "factor": 0.0
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/daiji_idle_01.mtn"
+      }
+    ],
+    "tap": [
+      {
+        "file": "motions/touch_1.mtn",
+        "sound": "sounds/RFB_DIALOGUE2_JP.mp3",
+        "text": "哼哼，我领悟到了新的秘籍，下次一定能赢过KSG的"
+      },
+      {
+        "file": "motions/touch_2.mtn",
+        "sound": "sounds/RFB_DIALOGUE1_JP.mp3",
+        "text": "嗯！是新游戏哦！我已经准备好啦！"
+      },
+      {
+        "file": "motions/touch_3.mtn",
+        "sound": "sounds/RFB_DIALOGUE3_JP.mp3",
+        "text": "指挥官，好感度不够的话，请不要尝试这个选项哦♪"
+      },
+      {
+        "file": "motions/touch_4.mtn"
+      },
+      {
+        "file": "motions/touch_4.mtn",
+        "sound": "sounds/RFB_DIALOGUEWEDDING_JP.mp3",
+        "text": "指挥官，工作都完成了嘛？下一个网游活动就要结束了，快跟我在线上汇合吧！",
+        "fade_in": 10,
+        "fade_out": 50
+      },
+      {
+        "file": "motions/touch_5.mtn",
+        "sound": "sounds/RFB_CHRISTMAS_JP.mp3",
+        "text": "圣诞节DLC打折啦！指挥官快买来送给我当礼物吧？"
+      }
+    ],
+    "start": [
+      {
+        "file": "motions/login.mtn",
+        "sound": "sounds/RFB_GAIN_JP.mp3",
+        "text": "Hello，我是RFB！充满挑战的游戏，从现在起就开始了哦！"
+      }
+    ],
+    "shake": [
+      {
+        "file": "motions/shake.mtn",
+        "sound": "sounds/RFB_MOOD2_JP.mp3",
+        "text": "わぉー！"
+      }
+    ],
+    "tap_head": [
+      {
+        "name": "head",
+        "sound": "sounds/RFB_MOOD1_JP.mp3",
+        "text": "うふふふ"
+      },
+      {
+        "name": "2",
+        "sound": "sounds/RFB_AGREE_JP.mp3"
+      },
+      {
+        "name": "3",
+        "sound": "sounds/RFB_APPRECIATE_JP.mp3"
+      }
+    ],
+    "tap_body": [
+      {
+        "name": "1",
+        "sound": "sounds/RFB_BUILDOVER_JP.mp3"
+      },
+      {
+        "name": "2",
+        "sound": "sounds/RFB_FEED_JP.mp3"
+      },
+      {
+        "name": "3",
+        "file": "motions/shake.mtn",
+        "sound": "sounds/RFB_MOOD2_JP.mp3",
+        "text": "わぉー！"
+      }
+    ],
+    "tap_breast": [
+      {
+        "name": "1",
+        "sound": "sounds/RFB_SKILL1_JP.mp3",
+        "priority": 4
+      },
+      {
+        "name": "2",
+        "sound": "sounds/RFB_SKILL2_JP.mp3",
+        "priority": 5
+      },
+      {
+        "name": "3",
+        "sound": "sounds/RFB_SKILL3_JP.mp3",
+        "priority": 6
+      },
+      {
+        "file": "motions/wedding.mtn",
+        "sound": "sounds/RFB_SOULCONTRACT_JP.mp3",
+        "text": "指挥官，您的攻略终于进行到这个地步了吗……嘻嘻，不要以为这样就通关了哦，真正的游戏才刚刚开始呢♪新的游玩模式，让我现在就告诉你吧……❤",
+        "fade_in": 50,
+        "fade_out": 50,
+        "priority": 2
+      }
+    ],
+    "tick_5": [
+      {
+        "file": "motions/wedding_touch.mtn"
+      }
+    ],
+    "tap_hand": [
+      {
+        "name": "changecos",
+        "sound": "sounds/RFB_BREAK_JP.mp3",
+        "command": "change_cos model1.json"
+      }
+    ]
+  },
+  "physics": "physics.json",
+  "pose": "pose.json",
+  "lip_sync": "true",
+  "auto_breath": false,
+  "aniso_level": 4
+}

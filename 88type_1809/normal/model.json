@@ -1,0 +1,130 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "model.moc",
+  "textures": [
+    "model.1024/texture_00.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "face",
+      "id": "D_REF.FACE",
+      "motion": "tap_face"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.BODY",
+      "motion": "tap_body"
+    },
+    {
+      "name": "breast",
+      "id": "D_REF.BREAST",
+      "motion": "tap_breast"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/daiji_idle_01.mtn"
+      }
+    ],
+    "tap": [
+      {
+        "name": "DIALOGUE",
+        "sound": "sounds/88type_DIALOGUE1_JP.mp3"
+      },
+      {
+        "name": "DIALOGUE",
+        "sound": "sounds/88type_DIALOGUE2_JP.mp3"
+      },
+      {
+        "name": "DIALOGUE",
+        "file": "DIALOGUE",
+        "sound": "sounds/88type_DIALOGUE3_JP.mp3"
+      },
+      {
+        "name": "DIALOGUE",
+        "sound": "sounds/88type_DIALOGUEWEDDING_JP.mp3"
+      },
+      {
+        "name": "DIALOGUE",
+        "sound": "sounds/88type_CHRISTMAS_JP.mp3"
+      },
+      {
+        "name": "DIALOGUE",
+        "sound": "sounds/88type_ALLHALLOWS_JP.mp3"
+      }
+    ],
+    "tap_face": [
+      {
+        "file": "motions/shuohua_01.mtn",
+        "sound": "sounds/88type_BLACKACTION_JP.mp3",
+        "choices": [
+          {}
+        ]
+      },
+      {
+        "file": "motions/shuohua_02.mtn",
+        "sound": "sounds/88type_DIALOGUE2_JP.mp3"
+      },
+      {
+        "file": "motions/shuohua_03.mtn",
+        "sound": "sounds/88type_DIALOGUEWEDDING_JP.mp3"
+      },
+      {
+        "file": "motions/shuohua_01.mtn",
+        "sound": "sounds/88type_APPRECIATE_JP.mp3"
+      }
+    ],
+    "shake": [
+      {
+        "file": "motions/shake.mtn",
+        "sound": "sounds/88type_MOOD2_JP.mp3"
+      }
+    ],
+    "start": [
+      {
+        "file": "motions/login.mtn",
+        "sound": "sounds/88type_HELLO_JP.mp3"
+      },
+      {
+        "file": "motions/login.mtn",
+        "sound": "sounds/88type_GAIN_JP.mp3"
+      },
+      {
+        "file": "motions/login.mtn",
+        "sound": "sounds/88type_MEET_JP.mp3"
+      }
+    ],
+    "tap_breast": [
+      {
+        "file": "motions/moxiong_01.mtn",
+        "sound": "sounds/88type_SKILL2_JP.mp3"
+      },
+      {
+        "file": "motions/moxiong_02.mtn",
+        "sound": "sounds/88type_SKILL3_JP.mp3"
+      },
+      {
+        "file": "motions/moxiong_03.mtn",
+        "sound": "sounds/88type_BREAK_JP.mp3"
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "motions/newyear.mtn",
+        "sound": "sounds/88type_NEWYEAR_JP.mp3"
+      }
+    ],
+    "tick_3": [
+      {
+        "file": "motions/wait_1.mtn"
+      },
+      {
+        "file": "motions/wait_2.mtn"
+      }
+    ]
+  },
+  "physics": "physics.json",
+  "auto_breath": false,
+  "aniso_level": 4
+}

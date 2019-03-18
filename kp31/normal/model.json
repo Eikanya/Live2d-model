@@ -1,0 +1,139 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "model.moc",
+  "textures": [
+    "model.1024/texture_00.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF_HEAD"
+    },
+    {
+      "name": "leg",
+      "id": "D_REF_LEG"
+    },
+    {
+      "name": "body",
+      "id": "D_REF_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/daiji_idle_01.mtn"
+      }
+    ],
+    "tap": [
+      {
+        "file": "motions/touch_1.mtn",
+        "sound": "sounds/KP31_005.mp3",
+        "text": "呀！真是的，不要突然吓人一跳啊！"
+      },
+      {
+        "file": "motions/touch_2.mtn",
+        "sound": "sounds/KP31_006.mp3",
+        "text": "指挥官，你累了吗？想让我放点音乐听吗？"
+      },
+      {
+        "file": "motions/touch_3.mtn",
+        "sound": "sounds/KP31_007.mp3",
+        "text": "我不是讨厌您，指挥官，只是……我们不习惯离得这么近……"
+      },
+      {
+        "file": "motions/touch_4.mtn",
+        "sound": "sounds/KP31_026.mp3",
+        "text": "那个，我能选有三温暖的房间吗？"
+      },
+      {
+        "file": "motions/touch_5.mtn",
+        "sound": "sounds/KP31_015.mp3",
+        "text": "我……又要被埋没了吗？但是……这不会是最后一次吧……"
+      },
+      {
+        "file": "motions/touch_1.mtn",
+        "sound": "sounds/KP31_004.mp3",
+        "text": "请继续为我更新强度，我想变得更强。"
+      },
+      {
+        "file": "motions/touch_2.mtn",
+        "sound": "sounds/KP31_024.mp3",
+        "text": "一步也不会退让的。"
+      },
+      {
+        "file": "motions/touch_3.mtn",
+        "sound": "sounds/KP31_025.mp3",
+        "text": "请从这里出去吧！"
+      },
+      {
+        "file": "motions/touch_4.mtn",
+        "sound": "sounds/KP31_026.mp3",
+        "text": "这杯鸡尾酒是献给你们的，同志呀。"
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "motions/christmas.mtn",
+        "sound": "sounds/KP31_020.mp3",
+        "text": "圣诞快乐，指挥官......我今晚的服装，您还满意吗？作为迎接圣诞老人的第一人，不好好打扮可不行呢。"
+      },
+      {
+        "file": "motions/bonus.mtn",
+        "sound": "sounds/KP31_032.mp3"
+      },
+      {
+        "file": "motions/bonus.mtn",
+        "sound": "sounds/KP31_035.mp3"
+      },
+      {
+        "file": "motions/bonus.mtn",
+        "sound": "sounds/KP31_036.mp3"
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "motions/wedding.mtn",
+        "sound": "sounds/KP31_029.mp3",
+        "text": "终于迎来这一天了吗？感谢您的陪伴，指挥官，我的使命终于完成了……啊，让我放首音乐庆祝一下吧！诶，不用了吗？"
+      },
+      {
+        "file": "motions/wedding_touch.mtn",
+        "sound": "sounds/KP31_041.mp3",
+        "text": "指挥官，上回的音乐会还不错吧？我也玩得很开心呢，下次有机会还会一起去吧，就我们两个！"
+      }
+    ],
+    "tap_leg": [
+      {
+        "file": "motions/wait_1.mtn",
+        "sound": "sounds/KP31_028.mp3",
+        "text": "规则就是用来打破的！"
+      },
+      {
+        "file": "motions/wait_2.mtn",
+        "sound": "sounds/KP31_009.mp3",
+        "text": "就算只有我一人，也会带回胜利的。"
+      }
+    ],
+    "shake": [
+      {
+        "file": "motions/shake.mtn",
+        "sound": "sounds/KP31_033.mp3"
+      }
+    ],
+    "start": [
+      {
+        "file": "motions/login.mtn",
+        "sound": "sounds/KP31_001.mp3",
+        "text": "索米1931式，报到。指挥官……请让我在您的部队中，继续履行使命吧！"
+      },
+      {
+        "file": "motions/login.mtn",
+        "sound": "sounds/KP31_002.mp3",
+        "text": "您好，指挥官，您的房间已经整理好了，请开始工作吧。"
+      }
+    ]
+  },
+  "lip_sync": "true",
+  "auto_breath": false,
+  "aniso_level": 4
+}
