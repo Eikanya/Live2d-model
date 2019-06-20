@@ -1,0 +1,20 @@
+{
+	"version": "Sample 1.0.0",
+	"model": "model.moc",
+	"textures": [
+		"texture/texture_00.png",
+		"texture/texture_01.png"
+	],
+	"motions": {
+		"idle": [{
+			"file": "ak12_dapo_idle.mtn","fade_in":0,"fade_out":0
+		}],
+		"": [{
+			"file": "ak12_dapo_idle.mtn","fade_in":0,"fade_out":0
+		}]
+	},
+	"hit_areas": [{
+		"name": "body",
+		"id": "D_REF.BODY"
+	}]
+}
