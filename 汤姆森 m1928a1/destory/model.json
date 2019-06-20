@@ -1,0 +1,55 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "model.moc",
+  "textures": [
+    "texture/texture_00.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "face",
+      "id": "D_REF.FACE"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.BODY"
+    }
+  ],
+  "motions": {
+    "motions": [
+      {
+        "file": "motions/broken_1.mtn",
+        "sound": "destory/voice/M1928A1_BREAK_JP.mp3",
+        "weight": 1
+      },
+      {
+        "file": "motions/broken_2.mtn",
+        "sound": "destory/voice/M1928A1_BREAK_JP.mp3",
+        "weight": 1
+      },
+      {
+        "file": "motions/broken_3.mtn",
+        "weight": 1
+      },
+      {
+        "file": "motions/broken_4.mtn",
+        "weight": 1
+      },
+      {
+        "file": "motions/wait_1.mtn",
+        "sound": "destory/voice/M1928A1_DIALOGUE1_JP.mp3",
+        "weight": 1
+      },
+      {
+        "file": "motions/shake.mtn",
+        "weight": 1
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/daiji_idle_01.mtn",
+        "weight": 1
+      }
+    ]
+  },
+  "physics": "physics.json"
+}

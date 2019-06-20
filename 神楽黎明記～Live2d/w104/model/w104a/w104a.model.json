@@ -1,0 +1,129 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "w104a_01",
+	"model": "w104a_01.moc",
+	"textures": [
+		"w104a_01.2048/texture_000.png",
+		"w104a_01.2048/texture_01.png"
+	],
+	"expressions":[
+		{"name":"w104a",  "file":"expressions/w104a_a2.exp.json", "parts_index":0},
+		{"name":"w104a2", "file":"expressions/w104a_a2.exp.json", "parts_index":0},
+		{"name":"w104a3", "file":"expressions/w104a_a3.exp.json", "parts_index":0},
+		{"name":"w104a4", "file":"expressions/w104a_a4.exp.json", "parts_index":0},
+		{"name":"w104a5", "file":"expressions/w104a_a5.exp.json", "parts_index":0},
+		{"name":"w104b",  "file":"expressions/w104a_b.exp.json",  "parts_index":0},
+		{"name":"w104b2", "file":"expressions/w104a_b2.exp.json", "parts_index":0},
+		{"name":"w104b3", "file":"expressions/w104a_b3.exp.json", "parts_index":0},
+		{"name":"w104b4", "file":"expressions/w104a_b4.exp.json", "parts_index":0},
+		{"name":"w104c",  "file":"expressions/w104a_c.exp.json",  "parts_index":0},
+		{"name":"w104c2", "file":"expressions/w104a_c2.exp.json", "parts_index":0},
+		{"name":"w104c3", "file":"expressions/w104a_c3.exp.json", "parts_index":0},
+		{"name":"w104c4", "file":"expressions/w104a_c4.exp.json", "parts_index":0},
+		{"name":"w104d",  "file":"expressions/w104a_d.exp.json",  "parts_index":0},
+		{"name":"w104d2", "file":"expressions/w104a_d2.exp.json", "parts_index":0},
+		{"name":"w104d3", "file":"expressions/w104a_d3.exp.json", "parts_index":0},
+		{"name":"w104d4", "file":"expressions/w104a_d4.exp.json", "parts_index":0},
+		{"name":"w104e",  "file":"expressions/w104a_e.exp.json",  "parts_index":0},
+		{"name":"w104e2", "file":"expressions/w104a_e2.exp.json", "parts_index":0},
+		{"name":"w104e3", "file":"expressions/w104a_e3.exp.json", "parts_index":0},
+		{"name":"w104e4", "file":"expressions/w104a_e4.exp.json", "parts_index":0},
+		{"name":"w104f",  "file":"expressions/w104a_f.exp.json",  "parts_index":0},
+		{"name":"w104f2", "file":"expressions/w104a_f2.exp.json", "parts_index":0},
+		{"name":"w104f3", "file":"expressions/w104a_f3.exp.json", "parts_index":0},
+		{"name":"w104f4", "file":"expressions/w104a_f4.exp.json", "parts_index":0},
+		{"name":"w104g",  "file":"expressions/w104a_g.exp.json",  "parts_index":0},
+		{"name":"w104g2", "file":"expressions/w104a_g2.exp.json", "parts_index":0},
+		{"name":"w104g3", "file":"expressions/w104a_g3.exp.json", "parts_index":0},
+		{"name":"w104g4", "file":"expressions/w104a_g4.exp.json", "parts_index":0},
+		{"name":"w104aa", "file":"expressions/w104a_a2.exp.json", "parts_index":1}
+	],
+	"layout":
+	{
+		"center_x":1.06,
+		"y":0.228,
+		"height":1.64
+	},
+	"motions":{
+		"w104a_a":[
+			{"file":"motions/w104a_base_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_base_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104a_b":[
+			{"file":"motions/w104a_base_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_base_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104a_c":[
+			{"file":"motions/w104a_base_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_base_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+
+		"w104h_a":[
+			{"file":"motions/w104a_h_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_h_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104h_b":[
+			{"file":"motions/w104a_h_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_h_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104h_c":[
+			{"file":"motions/w104a_h_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_h_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104i_a":[
+			{"file":"motions/w104a_i_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_i_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104i_b":[
+			{"file":"motions/w104a_i_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_i_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104i_c":[
+			{"file":"motions/w104a_i_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_i_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104j_a":[
+			{"file":"motions/w104a_j_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_j_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104j_b":[
+			{"file":"motions/w104a_j_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_j_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104j_c":[
+			{"file":"motions/w104a_j_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_j_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+
+		"w104k_a":[
+			{"file":"motions/w104a_k_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_k_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104k_b":[
+			{"file":"motions/w104a_k_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_k_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104k_c":[
+			{"file":"motions/w104a_k_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_k_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+
+		"w104l_a":[
+			{"file":"motions/w104a_l_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_l_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104l_b":[
+			{"file":"motions/w104a_l_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_l_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w104l_c":[
+			{"file":"motions/w104a_l_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/w104a_l_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+
+		"idle":[
+			{"file":"motions/w104a_idle.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w104a_idle.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		]
+	}
+}
