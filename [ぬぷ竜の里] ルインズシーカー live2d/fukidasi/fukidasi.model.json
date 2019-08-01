@@ -1,0 +1,35 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"fukidasi.moc",
+	"textures":[
+		"fukidasi.1024/texture_00.png"
+	],
+	"expressions":[
+		{"name":"b1","file":"expressions/b1.exp.json"},
+		{"name":"b2","file":"expressions/b2.exp.json"},
+		{"name":"b3","file":"expressions/b3.exp.json"},
+		{"name":"b4","file":"expressions/b4.exp.json"},
+		{"name":"b5","file":"expressions/b5.exp.json"},
+		{"name":"cf","file":"expressions/cf.exp.json"},
+		{"name":"m1","file":"expressions/m1.exp.json"},
+		{"name":"m2","file":"expressions/m2.exp.json"},
+		{"name":"pf1","file":"expressions/pf1.exp.json"},
+		{"name":"pf10","file":"expressions/pf10.exp.json"},
+		{"name":"pf2","file":"expressions/pf2.exp.json"},
+		{"name":"pf3","file":"expressions/pf3.exp.json"},
+		{"name":"pf4","file":"expressions/pf4.exp.json"},
+		{"name":"pf5","file":"expressions/pf5.exp.json"},
+		{"name":"pf6","file":"expressions/pf6.exp.json"},
+		{"name":"rf3","file":"expressions/rf3.exp.json"},
+		{"name":"sf1","file":"expressions/sf1.exp.json"},
+		{"name":"sf2","file":"expressions/sf2.exp.json"},
+		{"name":"sf3","file":"expressions/sf3.exp.json"}
+	],
+	"motions":{
+		"":[
+			{"file":"motions/FBack.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/FNomal.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/Fset.mtn" ,"fade_in":1000, "fade_out":1000}
+		]
+	}
+}
