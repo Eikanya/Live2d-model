@@ -1,0 +1,114 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "s_yayoi_01",
+	"model": "s_yayoi_01.moc",
+	"textures": [
+		"s_yayoi_01.2048/texture_00.png"
+	],
+	"physics":"s_yayoi_01.physics.json",
+	"layout":
+	{
+		"center_x":0.06,
+		"y":0.99,
+		"height":3.4
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF_HEAD", "offset_x":0, "offset_y":50, "scale_x":0.6, "scale_y":0.7},
+		{"name":"body", "id":"D_REF_BODY", "offset_x":-3, "offset_y":12, "scale_x":0.82, "scale_y":0.68}
+	],
+	"motions":{
+		"m01":[
+		{"file":"motions/idle_a.mtn","fade_in":300,"fade_out":0, "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"01通常"}
+		],
+		"m02":[
+		{"file":"motions/m02.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "end_delay":-1,  "memo":"02キリッ"}
+		],
+		"m03":[
+		{"file":"motions/m03.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"03にっこり"}
+		],
+		"m04":[
+		{"file":"motions/m04.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAMM_06_M__Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"04あれ？"}
+		],
+		"m05":[
+		{"file":"motions/m05.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAMKANASHI_M__Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"05落ち込んでる"}
+		],
+		"m06":[
+		{"file":"motions/m06.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "end_delay":-1,  "memo":"06不安げな表情"}
+		],
+		"m07":[
+		{"file":"motions/m07.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAMM_06_M__Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"07不機嫌"}
+		],
+		"m08":[
+		{"file":"motions/m08.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "end_delay":-1,  "memo":"08真剣"}
+		],
+		"m09":[
+		{"file":"motions/m09.mtn" ,"fade_in":300,"fade_out":0   "lip_offset":1.0, "lip_weight":0.4, "lip_id":"PARAMBIG_M__Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"09怒り（咆哮）"}
+		],
+		"m10":[
+		{"file":"motions/m10.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "end_delay":-1,  "memo":"10考える"}
+		],
+		"m11":[
+		{"file":"motions/m11.mtn" ,"fade_in":300,"fade_out":0  "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"11肯定"}
+		],
+		"m12":[
+		{"file":"motions/m12.mtn" ,"fade_in":300,"fade_out":0, "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"12否定"},
+		],
+		"m17":[
+		{"file":"motions/m17.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"17ハッとする→照れ"}
+		],
+		"m18":[
+		{"file":"motions/m18.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":0.4, "lip_id":"PARAMBIG_M__Y", "lip_scale":1.0,  "memo":"18乳揺れ＆照れ驚き→照れ怒り"}
+		],
+		"m19":[
+		{"file":"motions/m03.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"03にっこり"},
+		{"file":"motions/m27.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":1000,  "memo":"27笑い・口を閉じてにっこり"}
+		],
+
+		"m20":[
+		{"file":"motions/m20.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"20照れ笑い"}
+		],
+		"m21":[
+		{"file":"motions/m21.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":0.8, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"21歓喜・大きく口をあけてにっこり"}
+		],
+		"m22":[
+		{"file":"motions/m22.mtn" ,"fade_in":300,"fade_out":0   "lip_offset":1.0, "lip_weight":0.4, "lip_id":"PARAMBIG_M__Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"22怒りＢ"}
+		],
+		"m23":[
+		{"file":"motions/m23.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "end_delay":-1,  "memo":"23がんばります"}
+		],
+		"m24":[
+		{"file":"motions/m24.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "end_delay":-1,  "memo":"24気合を入れてる表情"}
+		],
+		"m25":[
+		{"file":"motions/m25.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":0.4, "lip_id":"PARAMBIG_M__Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"25ビックリ"}
+		],
+		"m26":[
+		{"file":"motions/m26.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"26えーっと"}
+		],
+		"m27":[
+		{"file":"motions/m27.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"27笑い・口を閉じてにっこり"}
+		],
+		"m28":[
+		{"file":"motions/m28.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAMKANASHI_M__Y", "lip_scale":1.0,  "end_delay":-1,  "memo":"28やだなー"}
+		],
+
+		"idle":[
+		{"file":"motions/idle_b.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/m27.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":1000,  "memo":"27笑い・口を閉じてにっこり"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":500, "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/m04.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAMM_06_M__Y", "lip_scale":1.0,  "end_delay":1000,  "memo":"04あれ？"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":500, "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/m27.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "end_delay":1000,  "memo":"27笑い・口を閉じてにっこり"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":500, "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/m04.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAMM_06_M__Y", "lip_scale":1.0,  "end_delay":1000,  "memo":"04あれ？"},
+		{"file":"motions/idle_b.mtn"  ,"fade_in":500, "fade_out":0,   "memo":"01通常"}
+		]
+	}
+}
