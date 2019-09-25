@@ -1,0 +1,21 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "s_kanade_01",
+	"model": "s_kanade_01.moc",
+	"textures": [
+		"s_kanade_01.2048/texture_00.png"
+	],
+	"physics":"s_kanade_01.physics.json",
+	"layout":
+	{
+		"center_x":0.0,
+		"y":0.9,
+		"height":3.4
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF_HEAD", "offset_x":3, "offset_y":65, "scale_x":0.53, "scale_y":0.6},
+		{"name":"body", "id":"D_REF_BODY", "offset_x":47, "offset_y":25, "scale_x":0.55, "scale_y":0.6}
+	]
+	
+}
