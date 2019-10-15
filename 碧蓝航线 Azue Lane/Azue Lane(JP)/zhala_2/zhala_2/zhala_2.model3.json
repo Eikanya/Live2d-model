@@ -1,0 +1,146 @@
+{
+  "Version": 3,
+  "Name": "zhara",
+  "ScaleFactor": 0.1,
+  "FileReferences": {
+    "Moc": "zhala_2.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "zhala_2.physics3.json",
+    "Motions": {
+      "Start": [
+        {
+          "File": "motions/login.motion3.json",
+          "Sound": "vioce/login.mp3",
+          "SoundDelay": 15000,
+          "Text": "指挥官，如果想去深水区游泳的话，还请稍微注意安全哦？",
+          "TextDelay": 15000
+        }
+      ],
+      "Tap": [
+        {
+          "File": "motions/home.motion3.json",
+          "Sound": "vioce/home.mp3",
+          "Text": "打水的时候腿部自然伸直，脚面要绷直——…啊，欢迎回来。如你所见，我正在教她们游泳呢，指挥官想要接受我的指·导吗~？哈哈"
+        },
+        {
+          "File": "motions/mission_complete.motion3.json",
+          "Sound": "vioce/任务完成.mp3",
+          "Text": "任务完成了！奖励很丰厚呢，指挥官值得表扬啊，好孩子好孩子~"
+        },
+        {
+          "File": "motions/mission.motion3.json",
+          "Sound": "vioce/任务提醒.mp3",
+          "Text": "嗯？遇到困难的任务了吗？让我帮你看看吧。"
+        },
+        {
+          "File": "motions/complete.motion3.json",
+          "Sound": "vioce/委托完成.mp3",
+          "Text": "能将这么多物资安全运到，真的很了不起呢…要好好慰劳她们哦，指挥官"
+        }
+      ],
+      "Idle": [
+        {
+          "File": "zhala_2/motions/idle.motion3.json"
+        }
+      ],
+      "Taphairfront": [
+        {
+          "File": "motions/touch_head.motion3.json"
+        },
+        {
+          "File": "motions/mail.motion3.json",
+          "Sound": "vioce/邮件.mp3",
+          "Text": "指挥官，邮件已经送到了。再不收的话，我就要替您大声念出来了哦？也许会是哪个孩子的“情书”也说不定哦~？"
+        },
+        {
+          "File": "motions/wedding.motion3.json",
+          "Sound": "vioce/wedding.mp3",
+          "Text": "用这么一枚小小的戒指，就想把扎拉永远地留在身边…你是不是想得太简单了点…？——啊哈哈，指挥官这样的表情，真是百看不厌呢~开玩笑的~就算没有这个，我也不会轻易离开你的身边的，安心吧——"
+        },
+        {
+          "File": "motions/effect.motion3.json"
+        }
+      ],
+      "Tapbodylower": [
+        {
+          "File": "zhala_2/motions/main_1.motion3.json",
+          "Sound": "zhala_2/vioce/main_1.mp3",
+          "Text": "（哔哔——）那边的小朋友们，泳池里不能做刚刚那样的危险动作哦！"
+        },
+        {
+          "File": "zhala_2/motions/main_2.motion3.json",
+          "Sound": "zhala_2/vioce/main_2.mp3",
+          "Text": "唔…虽然我很喜欢游泳，不过速度总是比不过潜艇和驱逐们呢…指挥官，你知道为什么吗~？"
+        },
+        {
+          "File": "zhala_2/motions/main_3.motion3.json",
+          "Sound": "zhala_2/vioce/main_3.mp3",
+          "Text": "虽然速度不敢说，不过对于耐力我可是很有自信的哦？指挥官想要和我比比吗~？"
+        },
+        {
+          "File": "motions/touch_body.motion3.json",
+          "Sound": "vioce/普通触摸.mp3",
+          "Text": "眼睛在看着哪里呢？嘻嘻~有什么想法的话，不妨都告诉我吧。"
+        }
+      ],
+      "TapTouchSpecial": [
+        {
+          "File": "motions/touch_special.motion3.json",
+          "Sound": "vioce/touch_special.mp3",
+          "Text": "真是的~指挥官？就算再怎么心急，也要看看周围的环境吧？"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Text": "",
+      "Ids": [
+        "ParamMouthOpenY"
+      ],
+      "Axes": [
+        "X"
+      ],
+      "Factors": [
+        0.0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Text": "",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ],
+      "Axes": [
+        "X",
+        "X"
+      ],
+      "Factors": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Name": "hairfront",
+      "Id": "hairfront"
+    },
+    {
+      "Name": "bodylower",
+      "Id": "bodylower"
+    },
+    {
+      "Name": "TouchSpecial",
+      "Id": "TouchSpecial"
+    }
+  ],
+  "LipSync": true,
+  "AnisoLevel": 4
+}
