@@ -4,7 +4,7 @@
     "Duration": 8.5,
     "Fps": 60.0,
     "Loop": true,
-    "CurveCount": 312,
+    "CurveCount": 311,
     "TotalSegmentCount": 1254,
     "TotalPointCount": 1966,
     "UserDataCount": 2,
@@ -2300,20 +2300,14 @@
         2,
         1.217,
         0,
-        0,
-        1.25,
-        1,
         2,
-        1.35,
+        1.25,
         1,
         2,
         4.05,
         1,
         0,
         4.2,
-        0,
-        2,
-        5.4,
         0,
         2,
         8.5,
@@ -2551,6 +2545,26 @@
         7.4,
         0,
         2,
+        8.5,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBodyAngleX",
+      "Segments": [
+        0,
+        0,
+        2,
+        5.4,
+        0,
+        0,
+        6.083,
+        4,
+        0,
+        7.4,
+        -5,
+        0,
         8.5,
         0
       ]
@@ -7175,17 +7189,6 @@
     },
     {
       "Target": "Parameter",
-      "Id": "ParamBodyAngleX",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.5,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
       "Id": "ParamBodyAngleY",
       "Segments": [
         0,
@@ -7253,17 +7256,6 @@
     {
       "Target": "Parameter",
       "Id": "zongshangxia",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.5,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zongjiaodu",
       "Segments": [
         0,
         0,
