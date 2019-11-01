@@ -1,12 +1,12 @@
 {
   "Version": 3,
-  "ScaleFactor": 0.07,
+  "ScaleFactor": 0.1,
   "FileReferences": {
-    "Moc": "genaisennao_2.moc3",
+    "Moc": "pinghai_4.moc3",
     "Textures": [
       "textures/texture_00.png"
     ],
-    "Physics": "genaisennao_2.physics3.json",
+    "Physics": "pinghai_4.physics3.json",
     "Motions": {
       "tap": [
         {
@@ -71,16 +71,23 @@
     {
       "Target": "Parameter",
       "Name": "LipSync",
+      "Text": "",
       "Ids": [
         "ParamMouthOpenY"
+      ],
+      "Axes": [
+        "X"
+      ],
+      "Factors": [
+        0.0
       ]
     },
     {
-      "Target": "Parameter",
-      "Name": "EyeBlink",
+      "Target": "PartOpacity",
+      "Name": "opai",
+      "Text": "",
       "Ids": [
-        "ParamEyeLOpen",
-        "ParamEyeROpen"
+        "Part11"
       ]
     }
   ],
