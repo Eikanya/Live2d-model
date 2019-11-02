@@ -9,12 +9,12 @@
     ],
     "Physics": "aierdeliqi_5.physics3.json",
     "Motions": {
-      "Start": [
+      "Idle": [
         {
-          "File": "motions/login.motion3.json"
+          "File": "motions/idle.motion3.json"
         }
       ],
-      "Tap": [
+      "TapTouchHead": [
         {
           "File": "motions/mission.motion3.json"
         },
@@ -47,26 +47,22 @@
         },
         {
           "File": "motions/mission.motion3.json"
-        }
-      ],
-      "Idle": [
-        {
-          "File": "motions/idle.motion3.json"
-        }
-      ],
-      "TapTouchHead": [
+        },
         {
           "File": "motions/touch_head.motion3.json"
         }
       ],
-      "TapTouchBody": [
-        {
-          "File": "motions/touch_body.motion3.json"
-        }
-      ],
       "TapTouchSpecial": [
         {
+          "File": "motions/touch_body.motion3.json"
+        },
+        {
           "File": "motions/touch_special.motion3.json"
+        }
+      ],
+      "Tapcat3_frontleg_r": [
+        {
+          "File": "motions/login.motion3.json"
         }
       ]
     }
@@ -94,12 +90,13 @@
       "Id": "TouchHead"
     },
     {
-      "Name": "TouchBody",
-      "Id": "TouchBody"
-    },
-    {
       "Name": "TouchSpecial",
       "Id": "TouchSpecial"
+    },
+    {
+      "Name": "cat3_frontleg_r",
+      "Id": "cat3_frontleg_r"
     }
-  ]
+  ],
+  "AnisoLevel": 4
 }

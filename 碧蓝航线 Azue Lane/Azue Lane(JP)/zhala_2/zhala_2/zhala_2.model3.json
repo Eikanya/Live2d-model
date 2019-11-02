@@ -18,28 +18,7 @@
           "TextDelay": 15000
         }
       ],
-      "Tap": [
-        {
-          "File": "motions/home.motion3.json",
-          "Sound": "vioce/home.mp3",
-          "Text": "打水的时候腿部自然伸直，脚面要绷直——…啊，欢迎回来。如你所见，我正在教她们游泳呢，指挥官想要接受我的指·导吗~？哈哈"
-        },
-        {
-          "File": "motions/mission_complete.motion3.json",
-          "Sound": "vioce/任务完成.mp3",
-          "Text": "任务完成了！奖励很丰厚呢，指挥官值得表扬啊，好孩子好孩子~"
-        },
-        {
-          "File": "motions/mission.motion3.json",
-          "Sound": "vioce/任务提醒.mp3",
-          "Text": "嗯？遇到困难的任务了吗？让我帮你看看吧。"
-        },
-        {
-          "File": "motions/complete.motion3.json",
-          "Sound": "vioce/委托完成.mp3",
-          "Text": "能将这么多物资安全运到，真的很了不起呢…要好好慰劳她们哦，指挥官"
-        }
-      ],
+
       "Idle": [
         {
           "File": "zhala_2/motions/idle.motion3.json"
@@ -61,6 +40,26 @@
         },
         {
           "File": "motions/effect.motion3.json"
+        },
+{
+          "File": "motions/home.motion3.json",
+          "Sound": "vioce/home.mp3",
+          "Text": "打水的时候腿部自然伸直，脚面要绷直——…啊，欢迎回来。如你所见，我正在教她们游泳呢，指挥官想要接受我的指·导吗~？哈哈"
+        },
+        {
+          "File": "motions/mission_complete.motion3.json",
+          "Sound": "vioce/任务完成.mp3",
+          "Text": "任务完成了！奖励很丰厚呢，指挥官值得表扬啊，好孩子好孩子~"
+        },
+        {
+          "File": "motions/mission.motion3.json",
+          "Sound": "vioce/任务提醒.mp3",
+          "Text": "嗯？遇到困难的任务了吗？让我帮你看看吧。"
+        },
+        {
+          "File": "motions/complete.motion3.json",
+          "Sound": "vioce/委托完成.mp3",
+          "Text": "能将这么多物资安全运到，真的很了不起呢…要好好慰劳她们哦，指挥官"
         }
       ],
       "Tapbodylower": [
