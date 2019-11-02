@@ -8,8 +8,21 @@
     ],
     "Physics": "ninghai_4.physics3.json",
     "Motions": {
-      "tap": [
+      "Idle": [
         {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "Start": [
+        {
+          "File": "motions/login.motion3.json"
+        }
+      ],
+      "TapTouchBody": [
+        {
+          "File": "motions/touch_body.motion3.json"
+        },
+ {
           "File": "motions/mail.motion3.json"
         },
         {
@@ -38,21 +51,6 @@
         },
         {
           "File": "motions/mail.motion3.json"
-        }
-      ],
-      "Idle": [
-        {
-          "File": "motions/idle.motion3.json"
-        }
-      ],
-      "Start": [
-        {
-          "File": "motions/login.motion3.json"
-        }
-      ],
-      "TapTouchBody": [
-        {
-          "File": "motions/touch_body.motion3.json"
         }
       ],
       "TapTouchHead": [
