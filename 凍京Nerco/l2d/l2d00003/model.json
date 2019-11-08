@@ -1,0 +1,47 @@
+{
+  "name": "model",
+  "model": "model.moc",
+  "textures": [
+    "model.2048/texture_00.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "D_REF.HEAD",
+      "id": "D_REF.HEAD"
+    }
+  ],
+  "motions": {
+    "tap_D_REF.HEAD": [
+      {
+        "file": "motions/tap1.mtn"
+      },
+      {
+        "file": "motions/tap2.mtn"
+      },
+      {
+        "file": "motions/tap3.mtn"
+      },
+      {
+        "file": "anger.mtn"
+      },
+      {
+        "file": "blues.mtn"
+      },
+      {
+        "file": "cutin.mtn"
+      },
+      {
+        "file": "ease.mtn"
+      },
+      {
+        "file": "elapse.mtn"
+      },
+      {
+        "file": "loop.mtn"
+      },
+      {
+        "file": "joy.mtn"
+      }
+    ]
+  }
+}
