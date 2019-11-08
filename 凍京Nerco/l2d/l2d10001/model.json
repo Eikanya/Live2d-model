@@ -1,0 +1,126 @@
+{
+  "name": "model",
+  "model": "model.moc",
+  "textures": [
+    "model.2048/texture_00.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "D_REF.HEAD",
+      "id": "D_REF.HEAD"
+    },
+    {
+      "name": "D_REF.BODY",
+      "id": "D_REF.BODY"
+    }
+  ],
+  "motions": {
+    "tap_D_REF.HEAD": [
+      {
+        "file": "motions/anger.mtn",
+        "sound": "voice/601.wav"
+      },
+      {
+        "file": "motions/anger_loop.mtn",
+        "sound": "voice/602.wav"
+      },
+      {
+        "file": "motions/bashful.mtn",
+        "sound": "voice/603.wav"
+      },
+      {
+        "file": "motions/bashful_loop.mtn",
+        "sound": "voice/604.wav"
+      },
+      {
+        "file": "motions/confidence.mtn",
+        "sound": "voice/605.wav"
+      },
+      {
+        "file": "motions/confidence_loop.mtn",
+        "sound": "voice/606.wav"
+      },
+      {
+        "file": "motions/elapse.mtn",
+        "sound": "voice/621.wav"
+      },
+      {
+        "file": "motions/joy.mtn",
+        "sound": "voice/608.wav"
+      },
+      {
+        "file": "motions/joy2.mtn",
+        "sound": "voice/609.wav"
+      },
+      {
+        "file": "motions/joy2_loop.mtn",
+        "sound": "voice/610.wav"
+      },
+      {
+        "file": "motions/joy_loop.mtn",
+        "sound": "voice/611.wav"
+      },
+      {
+        "file": "motions/sleep.mtn",
+        "sound": "voice/612.wav"
+      },
+      {
+        "file": "motions/sleep_loop.mtn",
+        "sound": "voice/613.wav"
+      },
+      {
+        "file": "motions/surprise.mtn",
+        "sound": "voice/614.wav"
+      },
+      {
+        "file": "motions/surprise_loop.mtn",
+        "sound": "voice/615.wav"
+      }
+    ],
+    "tap_D_REF.BODY": [
+      {
+        "file": "motions/tap1.mtn",
+        "sound": "voice/616.wav"
+      },
+      {
+        "file": "motions/tap2.mtn",
+        "sound": "voice/616.wav"
+      },
+      {
+        "file": "motions/tap3.mtn",
+        "sound": "voice/617.wav"
+      },
+      {
+        "file": "motions/tap1.mtn",
+        "sound": "voice/618.wav"
+      },
+      {
+        "file": "motions/tap2.mtn",
+        "sound": "voice/619.wav"
+      },
+      {
+        "file": "motions/tap3.mtn",
+        "sound": "voice/620.wav"
+      },
+      {
+        "file": "motions/tap1.mtn",
+        "sound": "voice/621.wav"
+      },
+      {
+        "file": "motions/tap2.mtn",
+        "sound": "voice/622.wav"
+      },
+      {
+        "file": "motions/tap3.mtn",
+        "sound": "voice/623.wav"
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/loop.mtn"
+      }
+    ]
+  },
+  "lip_sync": "true",
+  "aniso_level": 5
+}
