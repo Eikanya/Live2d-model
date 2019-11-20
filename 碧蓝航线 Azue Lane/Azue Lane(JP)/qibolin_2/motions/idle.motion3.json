@@ -4,10 +4,10 @@
     "Duration": 16.0,
     "Fps": 30.0,
     "Loop": true,
-    "CurveCount": 145,
-    "TotalSegmentCount": 2658,
-    "TotalPointCount": 2928,
-    "UserDataCount": 0,
+    "CurveCount": 144,
+    "TotalSegmentCount": 2657,
+    "TotalPointCount": 2927,
+    "UserDataCount": 1,
     "TotalUserDataSize": 0
   },
   "Curves": [
@@ -9640,17 +9640,6 @@
     },
     {
       "Target": "PartOpacity",
-      "Id": "Coat",
-      "Segments": [
-        0,
-        0,
-        0,
-        16,
-        0
-      ]
-    },
-    {
-      "Target": "PartOpacity",
       "Id": "Coat2",
       "Segments": [
         0,
@@ -9683,5 +9672,10 @@
       ]
     }
   ],
-  "UserData": []
+  "UserData": [
+    {
+      "Time": 0.0,
+      "Value": ""
+    }
+  ]
 }
