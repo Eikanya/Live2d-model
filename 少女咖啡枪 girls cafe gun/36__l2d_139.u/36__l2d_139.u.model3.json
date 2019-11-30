@@ -1,0 +1,64 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "36__l2d_139.u.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "36__l2d_139.u.physics3.json",
+    "Expressions": [
+      {
+        "Name": "Mgirl12_jingxia.motion3.json",
+        "File": "motions/Mgirl12_jingxia.motion3.json"
+      }
+    ]
+  },
+  "Groups": [
+    {
+      "Target": "ParameterValue",
+      "Name": "Transform",
+      "Text": "www",
+      "Ids": [
+        "PARAM_QunziXQ"
+      ],
+      "Values": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "Keys": [
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  ],
+  "HitAreas": [
+    {
+      "Name": "D_PSD1_04",
+      "Id": "D_PSD1_04"
+    }
+  ],
+  "HitParams": [
+    {
+      "Name": "www",
+      "Id": "PARAM_QunziXQ",
+      "HitArea": "D_PSD1_04",
+      "Axis": 1,
+      "Factor": 1.0,
+      "ReleaseType": 0
+    }
+  ],
+  "LoopParams": [
+    {
+      "Name": "PARAM_QunziXQ",
+      "Ids": [
+        "PARAM_QunziXQ"
+      ],
+      "Type": 0,
+      "Duration": 2000,
+      "BlendMode": 0,
+      "TimeSync": true
+    }
+  ]
+}
