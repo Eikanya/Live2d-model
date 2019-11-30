@@ -1,0 +1,1595 @@
+{
+  "Version": 3,
+  "Meta": {
+    "Duration": 2.0,
+    "Fps": 30.0,
+    "Loop": true,
+    "AreBeziersRestricted": true,
+    "CurveCount": 130,
+    "TotalSegmentCount": 159,
+    "TotalPointCount": 191,
+    "UserDataCount": 0,
+    "TotalUserDataSize": 0
+  },
+  "Curves": [
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ANGLE_X",
+      "Segments": [
+        0,
+        18,
+        0,
+        1.067,
+        26.88,
+        0,
+        2,
+        18
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ANGLE_Y",
+      "Segments": [
+        0,
+        -6,
+        1,
+        0.189,
+        -10.224,
+        0.378,
+        -12.02,
+        0.567,
+        -12.02,
+        0,
+        1.533,
+        -0.424,
+        1,
+        1.689,
+        -0.424,
+        1.844,
+        -2.522,
+        2,
+        -6
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ANGLE_Z",
+      "Segments": [
+        0,
+        14,
+        0,
+        1.067,
+        8,
+        0,
+        2,
+        14
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BODY_ANGLE_X",
+      "Segments": [
+        0,
+        0,
+        1,
+        0.178,
+        -0.496,
+        0.355,
+        -0.73,
+        0.533,
+        -0.73,
+        0,
+        1.467,
+        0.758,
+        1,
+        1.645,
+        0.758,
+        1.822,
+        0.496,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_LEG_wave",
+      "Segments": [
+        0,
+        -0.1,
+        1,
+        0.178,
+        -0.113,
+        0.355,
+        -0.123,
+        0.533,
+        -0.123,
+        0,
+        1.467,
+        -0.083,
+        1,
+        1.645,
+        -0.083,
+        1.822,
+        -0.087,
+        2,
+        -0.1
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_TotalY",
+      "Segments": [
+        0,
+        0,
+        0,
+        1.067,
+        0.1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BREATH",
+      "Segments": [
+        0,
+        0,
+        0,
+        1.067,
+        0.3,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_L_BIG_ROLL",
+      "Segments": [
+        0,
+        -2,
+        0,
+        1.067,
+        -1.2,
+        0,
+        2,
+        -2
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_L_SMALL_ROLL",
+      "Segments": [
+        0,
+        0,
+        1,
+        0.122,
+        -0.469,
+        0.245,
+        -0.892,
+        0.367,
+        -0.892,
+        0,
+        1.333,
+        1.145,
+        1,
+        1.555,
+        1.145,
+        1.778,
+        0.852,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_SleeveShake_L",
+      "Segments": [
+        0,
+        0,
+        1,
+        0.156,
+        -0.049,
+        0.311,
+        -0.058,
+        0.467,
+        -0.058,
+        0,
+        1.433,
+        0.112,
+        1,
+        1.622,
+        0.112,
+        1.811,
+        0.059,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HANDL_Z",
+      "Segments": [
+        0,
+        0,
+        1,
+        0.2,
+        -0.446,
+        0.4,
+        -0.612,
+        0.6,
+        -0.612,
+        0,
+        1.567,
+        0.556,
+        1,
+        1.711,
+        0.556,
+        1.856,
+        0.322,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_Finger0L",
+      "Segments": [
+        0,
+        0,
+        0,
+        1.067,
+        0.1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_Finger1L",
+      "Segments": [
+        0,
+        0,
+        0,
+        1.067,
+        -0.1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_Fingers_L_Move",
+      "Segments": [
+        0,
+        0,
+        0,
+        1.067,
+        -0.1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_R_BIG_ROLL",
+      "Segments": [
+        0,
+        0,
+        0,
+        1.067,
+        1.7,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_R_SMALL_ROLL",
+      "Segments": [
+        0,
+        0,
+        1,
+        0.144,
+        1.098,
+        0.289,
+        1.779,
+        0.433,
+        1.779,
+        0,
+        1.467,
+        -1.912,
+        1,
+        1.645,
+        -1.912,
+        1.822,
+        -1.351,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_SleeveShake_R",
+      "Segments": [
+        0,
+        0,
+        1,
+        0.156,
+        0.052,
+        0.311,
+        0.106,
+        0.467,
+        0.106,
+        0,
+        1.433,
+        -0.077,
+        1,
+        1.622,
+        -0.077,
+        1.811,
+        -0.063,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HANDR_Z",
+      "Segments": [
+        0,
+        0,
+        0,
+        0.267,
+        -0.919,
+        0,
+        0.7,
+        4.533,
+        0,
+        1.633,
+        -1.63,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYE_L_OPEN",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYE_L_Deform",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYE_R_OPEN",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYE_R_Deform",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYE_BALL_X",
+      "Segments": [
+        0,
+        -0.3,
+        0,
+        2,
+        -0.3
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYE_BALL_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYESMALL",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYEBALL_TYPE",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYEBALL_CHANGE",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYETYPE1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYETYPE2",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_EYECHANGE",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_TEAR",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BROW_L_X",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BROW_L_Y",
+      "Segments": [
+        0,
+        -0.5,
+        0,
+        2,
+        -0.5
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BROW_R_X",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BROW_R_Y",
+      "Segments": [
+        0,
+        -0.5,
+        0,
+        2,
+        -0.5
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BROW_L_ANGLE",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BROW_L_FORM",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BROW_R_ANGLE",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BROW_R_FORM",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MOUTH_FORM",
+      "Segments": [
+        0,
+        -0.6,
+        0,
+        2,
+        -0.6
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MOUTH_OPEN_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MOUTH_WID",
+      "Segments": [
+        0,
+        -0.2,
+        0,
+        2,
+        -0.2
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MOUTHTYPE1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MOUTHTYPE2",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MOUTH_SPEACIAL1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MOUTH_SPEACIAL2",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_CheekNormal",
+      "Segments": [
+        0,
+        0.6,
+        0,
+        2,
+        0.6
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_CHEEK",
+      "Segments": [
+        0,
+        0.4,
+        0,
+        2,
+        0.4
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_CHEEK1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HEIXIAN0",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HEIXIAN",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HEIXIAN1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAN",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_QI",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_NOSE_HY",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_FACE_DU",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ZHAMAO",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_PENTI",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_PENTIZ",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_FLOWER_SHOW",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_FLOWER_SIZE",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_FLOWER_ROLL",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_qizicengji",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_Piece",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_PieceX",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_PieceY",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ZHENGTONG_SHOW",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ZHENGTONG",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ZHENGT_X",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ZHENGT_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ZHENGTONG_Z",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BLB_SHOW",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BLB_X",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BLB_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MAOYI",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MAOYIZ",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MAOYI_W",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_MAOYIMOVE",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ZHIMAOYI_X",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ZHIMAOYI_Y",
+      "Segments": [
+        0,
+        -1,
+        0,
+        2,
+        -1
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ZHIMAOYIL",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_SHOULDER_L",
+      "Segments": [
+        0,
+        0.2,
+        0,
+        2,
+        0.2
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_SHOULDER_R",
+      "Segments": [
+        0,
+        0.2,
+        0,
+        2,
+        0.2
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BUST_X",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BUST_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_JIXIONG",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_TX_L",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_TX_R",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BAOXIONG",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BODY_ANGLE_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BODY_TUN_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_CHEST_Z",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_BODY_ANGLE_Z",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_L_BIG_LEVEL",
+      "Segments": [
+        0,
+        350,
+        0,
+        2,
+        350
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_L_SMALL_LEVEL",
+      "Segments": [
+        0,
+        350,
+        0,
+        2,
+        350
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_L_BIG_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_L_SMALL_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HandZlevelAjustL",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAND_L_X",
+      "Segments": [
+        0,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_R_BIG_LEVEL",
+      "Segments": [
+        0,
+        400,
+        0,
+        2,
+        400
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_R_SMALL_LEVEL",
+      "Segments": [
+        0,
+        500,
+        0,
+        2,
+        500
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_R_BIG_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_ARM_R_SMALL_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HandZlevelAjust",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAND_R_X",
+      "Segments": [
+        0,
+        4,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_Finger0R",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_Finger1R",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_Fingers_R_Move",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIR_FRONT",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRFRONT_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRSIDE_Z",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIR_SIDE1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRSIDE_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIR_BACK_WAVE",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_13_1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_13_2",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_14_1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_14_2",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_11_1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_11_2",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_12_1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_12_2",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_BACKMID",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_HAIRBACK_BACK_SIDE",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_SkirtZ",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_SkirtR_Z",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_SkirtM_Z",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_SkirtM_Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_RibbonR1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "PARAM_RibbonL1",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ]
+    }
+  ],
+  "UserData": []
+}
