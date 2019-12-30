@@ -1,0 +1,154 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "47__l2d_202.u.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "47__l2d_202.u.physics3.json",
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/Mgirl01_stand.motion3.json"
+        }
+      ],
+      "TapLdai": [
+        {
+          "File": "motions/Mgirl01_Ldaihualuo.motion3.json"
+        }
+      ],
+      "TapRdai": [
+        {
+          "File": "motions/Mgirl01_Rdaihualuo.motion3.json"
+        }
+      ],
+      "Taphead": [
+        {
+          "File": "motions/Mgirl01_dazhaohu.motion3.json"
+        },
+        {
+          "File": "motions/Mgirl01_deyi_a.motion3.json"
+        },
+        {
+          "File": "motions/Mgirl01_duishouzhi_a.motion3.json"
+        },
+        {
+          "File": "motions/Mgirl01_ganga_c.motion3.json"
+        },
+        {
+          "File": "motions/Mgirl01_helengyin.motion3.json"
+        }
+      ],
+      "Tapchest": [
+        {
+          "File": "motions/Mgirl01_tiaopi_a.motion3.json"
+        },
+        {
+          "File": "motions/Mgirl01_tuoyehaixiu_a.motion3.json"
+        },
+        {
+          "File": "motions/Mgirl01_sajiao_a.motion3.json"
+        },
+        {
+          "File": "motions/Mgirl01_shuai.motion3.json"
+        }
+      ],
+      "TapLshrit": [
+        {
+          "File": "motions/Mgirl01_tuoyehaixiu_a.motion3.json"
+        }
+      ],
+      "TapRshirt": [
+        {
+          "File": "motions/Mgirl01_xiunu_a.motion3.json"
+        }
+      ],
+      "Tapcosplay": [
+        {
+          "File": "motions/Mgirl01_sajiao_a.motion3.json",
+          "Command": "change_cos cosplay.model3.json"
+        }
+      ]
+    }
+  },
+  "HitAreas": [
+    {
+      "Name": "chest",
+      "Id": "D_PSD_53"
+    },
+    {
+      "Name": "head",
+      "Id": "D_PSD1_24"
+    },
+    {
+      "Name": "Lshrit",
+      "Id": "D_PSD1_70",
+      "Motion": "TapLshrit"
+    },
+    {
+      "Name": "Rshirt",
+      "Id": "D_PSD1_72",
+      "Motion": "TapRshirt"
+    },
+    {
+      "Name": "head",
+      "Id": "D_PSD_42"
+    },
+    {
+      "Name": "Ldai",
+      "Id": "D_PSD1_86"
+    },
+    {
+      "Name": "Rdai",
+      "Id": "D_PSD_73"
+    },
+    {
+      "Name": "cosplay",
+      "Id": "D_PSD1_71"
+    }
+  ],
+  "HitParams": [
+    {
+      "Name": "R_CHEQUNZI",
+      "Id": "PARAM_R_CHEQUNZI",
+      "HitArea": "Rshirt",
+      "Axis": 0,
+      "Factor": 0.0,
+      "Release": 0,
+      "ReleaseType": 0,
+      "MinMtn": "TapRshirt"
+    },
+    {
+      "Name": "R_CHEQUNZI_Y",
+      "Id": "PARAM_R_CHEQUNZI_Y",
+      "HitArea": "Rshirt",
+      "Axis": 1,
+      "Factor": 0.0,
+      "Release": 0,
+      "ReleaseType": 0,
+      "MinMtn": "TapRshirt"
+    },
+    {
+      "Name": "L_CHEQUNZI",
+      "Id": "PARAM_L_CHEQUNZI",
+      "HitArea": "Lshrit",
+      "Axis": 0,
+      "Factor": 0.0,
+      "Release": 0,
+      "ReleaseType": 2,
+      "MinMtn": "TapLshrit"
+    },
+    {
+      "Name": "L_CHEQUN_Y",
+      "Id": "PARAM_L_CHEQUN_Y",
+      "HitArea": "Lshrit",
+      "Axis": 1,
+      "Factor": 0.0,
+      "Release": 200,
+      "ReleaseType": 0,
+      "MinMtn": "TapLshrit"
+    }
+  ],
+  "LipSync": true,
+  "AnisoLevel": 5
+}
