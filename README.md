@@ -15,3 +15,10 @@ Can eidt live2d models in Live2DViewerEX
 Can add live2d models in web,such as Wordpress,Typecho ,Hexo.
 How to add? please search in github,google or baidu.
 
+--------------------
+2020.2.1：
+少女前线Live2d在线预览
+http://gfl.zzzzz.kr/dolls.php?lang=ja
+
+碧蓝航线Live2d在线预览
+https://l2d.alg-wiki.com/
