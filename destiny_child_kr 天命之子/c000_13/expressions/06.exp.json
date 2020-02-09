@@ -1,0 +1,111 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "character.dat",
+  "textures": [
+    "texture_00.png"
+  ],
+  "expressions": [
+    {
+      "name": "angry",
+      "file": "angry.exp.json"
+    },
+    {
+      "name": "confused",
+      "file": "confused.exp.json"
+    },
+    {
+      "name": "cry",
+      "file": "cry.exp.json"
+    },
+    {
+      "name": "fury",
+      "file": "fury.exp.json"
+    },
+    {
+      "name": "haah",
+      "file": "haah.exp.json"
+    },
+    {
+      "name": "idle",
+      "file": "idle.exp.json"
+    },
+    {
+      "name": "irritation",
+      "file": "irritation.exp.json"
+    },
+    {
+      "name": "joy",
+      "file": "joy.exp.json"
+    },
+    {
+      "name": "nonsense",
+      "file": "nonsense.exp.json"
+    },
+    {
+      "name": "pretense",
+      "file": "pretense.exp.json"
+    },
+    {
+      "name": "sad",
+      "file": "sad.exp.json"
+    },
+    {
+      "name": "serious",
+      "file": "serious.exp.json"
+    },
+    {
+      "name": "shock",
+      "file": "shock.exp.json"
+    },
+    {
+      "name": "sigh",
+      "file": "sigh.exp.json"
+    },
+    {
+      "name": "smile",
+      "file": "smile.exp.json"
+    },
+    {
+      "name": "sulky",
+      "file": "sulky.exp.json"
+    },
+    {
+      "name": "superangry",
+      "file": "superangry.exp.json"
+    },
+    {
+      "name": "unfair",
+      "file": "unfair.exp.json"
+    }
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "c000_13_attack.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "c000_13_idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle_facial_nokey": [
+      {
+        "file": "c000_13_idle_facial_nokey.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle_stay": [
+      {
+        "file": "c000_13_idle_stay.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}
