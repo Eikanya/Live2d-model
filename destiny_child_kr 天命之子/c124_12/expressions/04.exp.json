@@ -1,0 +1,31 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "character.dat",
+  "textures": [
+    "texture_00.png",
+    "texture_01.png"
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "c124_12_attack.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "hit": [
+      {
+        "file": "c124_12_hit.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "c124_12_idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}

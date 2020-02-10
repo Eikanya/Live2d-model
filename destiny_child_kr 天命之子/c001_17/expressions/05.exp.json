@@ -1,0 +1,60 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "character.dat",
+  "textures": [
+    "texture_00.png"
+  ],
+  "expressions": [
+    {
+      "name": "angry",
+      "file": "angry.exp.json"
+    },
+    {
+      "name": "idle",
+      "file": "idle.exp.json"
+    },
+    {
+      "name": "joy",
+      "file": "joy.exp.json"
+    },
+    {
+      "name": "shock",
+      "file": "shock.exp.json"
+    },
+    {
+      "name": "smile",
+      "file": "smile.exp.json"
+    },
+    {
+      "name": "teach",
+      "file": "teach.exp.json"
+    },
+    {
+      "name": "victory",
+      "file": "victory.exp.json"
+    }
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "c001_17_attack.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "hit": [
+      {
+        "file": "c001_17_hit.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "c001_17_idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+	"type":"Live2D Expression",
+	"fade_in":0,
+	"fade_out":0,
+	"params":[
+		{"id":"EYEBROW_L","val":30,"def":-30},
+		{"id":"EYEBROW_R","val":30},
+		{"id":"EYE_OPEN_L","val":-10,"calc":"mult"},
+		{"id":"EYE_OPEN_R","val":0,"calc":"mult"},
+		{"id":"MOUTH_O","val":0,"calc":"mult"},
+		{"id":"MOUTH_E","val":30},
+		{"id":"MOUTH_T","val":60,"def":30},
+		{"id":"JOY_O","val":-30}
+	]
+}

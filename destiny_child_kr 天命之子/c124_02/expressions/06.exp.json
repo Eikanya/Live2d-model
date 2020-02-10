@@ -1,0 +1,67 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "character.dat",
+  "textures": [
+    "texture_00.png"
+  ],
+  "expressions": [
+    {
+      "name": "angry",
+      "file": "angry.exp.json"
+    },
+    {
+      "name": "fury",
+      "file": "fury.exp.json"
+    },
+    {
+      "name": "idle",
+      "file": "idle.exp.json"
+    },
+    {
+      "name": "sad",
+      "file": "sad.exp.json"
+    },
+    {
+      "name": "shock",
+      "file": "shock.exp.json"
+    },
+    {
+      "name": "sigh",
+      "file": "sigh.exp.json"
+    },
+    {
+      "name": "smile",
+      "file": "smile.exp.json"
+    }
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "c124_02_attack.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "banner": [
+      {
+        "file": "c124_02_banner.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "hit": [
+      {
+        "file": "c124_02_hit.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "c124_02_idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}
