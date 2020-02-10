@@ -1,0 +1,110 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "character.dat",
+  "textures": [
+    "texture_00.png",
+    "texture_01.png"
+  ],
+  "expressions": [
+    {
+      "name": "angry",
+      "file": "angry.exp.json"
+    },
+    {
+      "name": "confused",
+      "file": "confused.exp.json"
+    },
+    {
+      "name": "idle",
+      "file": "idle.exp.json"
+    },
+    {
+      "name": "irritation",
+      "file": "irritation.exp.json"
+    },
+    {
+      "name": "pretense",
+      "file": "pretense.exp.json"
+    },
+    {
+      "name": "sad",
+      "file": "sad.exp.json"
+    },
+    {
+      "name": "serious",
+      "file": "serious.exp.json"
+    },
+    {
+      "name": "shy",
+      "file": "shy.exp.json"
+    },
+    {
+      "name": "sigh",
+      "file": "sigh.exp.json"
+    },
+    {
+      "name": "smile",
+      "file": "smile.exp.json"
+    },
+    {
+      "name": "superangry",
+      "file": "superangry.exp.json"
+    },
+    {
+      "name": "teach",
+      "file": "teach.exp.json"
+    },
+    {
+      "name": "tempt",
+      "file": "tempt.exp.json"
+    },
+    {
+      "name": "twinkle",
+      "file": "twinkle.exp.json"
+    }
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "c001_02_attack.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "hit": [
+      {
+        "file": "c001_02_hit.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "c001_02_idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle_eye_noclose": [
+      {
+        "file": "c001_02_idle_eye_noclose.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle_ls": [
+      {
+        "file": "c001_02_idle_ls.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle_mouth_anim": [
+      {
+        "file": "c001_02_idle_mouth_anim.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}

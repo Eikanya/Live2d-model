@@ -1,0 +1,81 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "character.dat",
+  "textures": [
+    "texture_00.png",
+    "texture_01.png"
+  ],
+  "expressions": [
+    {
+      "name": "cry",
+      "file": "cry.exp.json"
+    },
+    {
+      "name": "fury",
+      "file": "fury.exp.json"
+    },
+    {
+      "name": "idle",
+      "file": "idle.exp.json"
+    },
+    {
+      "name": "joy",
+      "file": "joy.exp.json"
+    },
+    {
+      "name": "sad",
+      "file": "sad.exp.json"
+    }
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "c193_01_attack.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "banner": [
+      {
+        "file": "c193_01_banner.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "event_c193_2": [
+      {
+        "file": "c193_01_event_c193_2.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "event_c193_3": [
+      {
+        "file": "c193_01_event_c193_3.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "event_c193_4": [
+      {
+        "file": "c193_01_event_c193_4.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "hit": [
+      {
+        "file": "c193_01_hit.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "c193_01_idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}

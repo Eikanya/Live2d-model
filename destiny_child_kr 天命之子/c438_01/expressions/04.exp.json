@@ -1,0 +1,33 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "character.dat",
+  "textures": [
+    "texture_00.png"
+  ],
+  "expressions": [
+    {
+      "name": "affair",
+      "file": "affair.exp.json"
+    },
+    {
+      "name": "idle",
+      "file": "idle.exp.json"
+    }
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "c438_01_attack.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "c438_01_idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}
