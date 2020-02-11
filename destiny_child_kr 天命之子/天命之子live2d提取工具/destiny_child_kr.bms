@@ -1,0 +1,28 @@
+# Destiny Child (KR) (script 0.2)
+# script for QuickBMS http://quickbms.aluigi.org
+
+comtype yappy
+idstring "PCK\0"
+get DUMMY long
+get FILES long
+for i = 0 < FILES
+    get DUMMY threebyte
+    getdstring DUMMY 5
+    get FLAGS byte
+    get OFFSET long
+    get XSIZE long
+    get SIZE long
+    get LESS long
+    math ZSIZE = XSIZE
+    math ZSIZE - LESS
+
+    if FLAGS & 2
+        encryption aes "\x37\xea\x79\x85\x86\x29\xec\x94\x85\x20\x7c\x1a\x62\xc3\x72\x4f\x72\x75\x25\x0b\x99\x99\xbd\x7f\x0b\x24\x9a\x8d\x85\x38\x0e\x39"
+    endif
+    if FLAGS & 1
+        clog "" OFFSET ZSIZE SIZE 0 XSIZE
+    else
+        log "" OFFSET ZSIZE 0 XSIZE
+    endif
+    encryption "" ""
+next i
