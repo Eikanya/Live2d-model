@@ -1,0 +1,66 @@
+{
+  "Version": 3,
+  "Name": "Senko",
+  "FileReferences": {
+    "Moc": "senko_normal.moc3",
+    "Textures": [
+      "senko_normal.4096/texture_00.png"
+    ],
+    "Physics": "senko.physics3.json",
+    "Motions": {
+      "Idle": [
+        {
+          "Name": "Idle",
+          "File": "motions/Idle.motion3.json",
+          "Weight": 1
+        }
+      ],
+      "Tap": [
+        {
+          "Name": "Anim",
+          "File": "motions/Anim_1.motion3.json",
+          "Weight": 1
+        }
+      ],
+      "Taphead": [
+        {
+          "Name": "Sing",
+          "File": "motions/Singing.motion3.json",
+          "Weight": 1
+        },
+        {
+          "Name": "Sleep",
+          "File": "motions/Sleeping.motion3.json",
+          "Weight": 1
+        }
+      ],
+      "Tick_5": [
+        {
+          "File": "motions/Sleeping.motion3.json",
+          "Weight": 1
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Text": ""
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Text": ""
+    }
+  ],
+  "HitAreas": [
+    {
+      "Name": "head",
+      "Id": "head"
+    }
+  ],
+  "LipSync": true,
+  "AutoBreath": false,
+  "AnisoLevel": 2
+}
