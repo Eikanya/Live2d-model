@@ -1,0 +1,45 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "2d用iraP1a1.moc3",
+		"Textures": [
+			"2d用iraP1a1.4096/texture_00.png"
+		],
+		"DisplayInfo": "2d用iraP1a1.cdi3.json",
+		"Motions": {
+			"Ikuiku": [
+				{
+					"File": "motions/ikuiku.motion3.json"
+				}
+			],
+			"Kokyu": [
+				{
+					"File": "motions/kokyuuu.motion3.json"
+				}
+			],
+			"Pston": [
+				{
+					"File": "motions/psotn.motion3.json"
+				}
+			],
+			"PstonX": [
+				{
+					"File": "motions/pstonX.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
