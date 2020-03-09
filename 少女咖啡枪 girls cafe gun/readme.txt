@@ -3,7 +3,6 @@
 Girl Cafe cancer
 ガールカフェガン
 
-
 配置模型推荐用Live2DViewerEX，比较容易配置。
 
 Live2d模型提取和语音提取方法
@@ -30,8 +29,9 @@ delwem.bat  删除.web文件
 3.可以运行delwem.bat  删除.web文件。
 
 我也没有提取全部角色的音频，Vo_Normal_xxxx.bnk里有的角色的文件太小，音频不全。
------------------
 
-提取出来的模型和音频自己配置吧，虽然有点麻烦，记得她们是你的老婆，坚持到最好。
-基本每个角色都有一个裸体的模型。可以打开texture看看图片，看到奶子是单独的（比如泳装的模型），把胸罩用ps等软件用橡皮擦擦去，变成了色图，
-会板绘的可以自己ghs。
+2020.3.9
+\Android\data\jp.Marvelous.girlcafegun\files\AutoAudio\Android\English(US) 目录下是人物对话配合，好像不是Live2d的音频
+\Android\data\jp.Marvelous.girlcafegun\files\AutoAudio\Android\  目录下是游戏音乐，L2D.bnk是Live2d语音，好像只加载游戏界面人物的语音。
+如果转换wem显示Parse error: expected 0x42 fmt if vorb missing的错误，表示不支持此文件转换。
+建议还是录屏提取Live2d语音简单粗暴。
