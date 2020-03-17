@@ -25,4 +25,5 @@ http://gfl.zzzzz.kr/dolls.php?lang=ja
 碧蓝航线Live2d在线预览
 https://l2d.alg-wiki.com/
 
-
+百度云盘备份(2020.3.17):
+https://pan.baidu.com/s/1ghnAGXUnN-k-arcsY9Ad1Q 提取码:f8gr 
