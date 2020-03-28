@@ -1,0 +1,347 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"Lead_00.moc",
+
+	"config":{
+		"scale":1,
+		"posX":0,
+		"posY":0,
+		"offsetX":0,
+		"offsetY":0,
+		"textPosX":300,
+		"textPosY":500,
+		"mirrorX":false,
+	},
+	"textures":{
+		"10101":[
+		"texture_00.png",
+		"texture_01.png",
+		"texture_02.png"
+	    ]
+	},
+	"motions":{
+		"idle":[
+			{"file":"motions/idle01.mtn"},
+			{"file":"motions/idle02.mtn"}
+		],
+
+		"stay":[
+			{"file":"motions/stay_01.mtn"},
+			{"file":"motions/stay_02.mtn"}
+		],
+
+		"slide_TY":[
+		{
+		"file":"motions/tap_TY.mtn",
+			"sound": "10120_touch08",
+            "say_text": "唔，别碰我，我还能喝……"
+		}
+		],
+		"slide_CY":[
+		{
+		"file":"motions/tap_CY.mtn",
+			"sound": "",
+            "say_text": ""
+		}
+		],
+		"tap_HEAD":[
+		{
+		"file":"motions/tap_head.mtn",
+			 "sound":"10120_touch01",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"诶嘿嘿",
+			 "say_text_show_time":0   
+		}
+		],
+		"tap_OP":[
+		{
+		"file":"motions/tap_op.mtn",
+			 "sound":"",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"啊？",
+			 "say_text_show_time":0  
+		}
+		],
+		"tap_OP01":[
+		{
+		"file":"motions/tap_op01.mtn",
+			 "sound":"",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"啊？",
+			 "say_text_show_time":0  
+		}
+		],
+	   "tap_OP02":[
+		{
+		"file":"motions/touch_99.mtn",
+			 "sound":"10120_touch07",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"喏，手上的这瓶酒给你……",
+			 "say_text_show_time":0  
+		}
+		],
+		"tap_FOOD":[
+		{
+		"file":"motions/touch_01.mtn",
+			 "sound":"10120_touch02",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"你在做……什么啊？",
+			 "say_text_show_time":0  
+		}
+		],
+		"tap_FOOD01":[
+		{
+		"file":"motions/touch_0101.mtn",
+			 "sound":"10120_touch02",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"你在做……什么啊？",
+			 "say_text_show_time":0  
+		}
+		],
+		"tap_FOOD02":[
+		{
+		"file":"motions/touch_99.mtn",
+			 "sound":"10120_touch07",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"喏，手上的这瓶酒给你……",
+			 "say_text_show_time":0  
+		}
+		],
+		"tap_SSJP":[
+		{
+		"file":"motions/touch_02.mtn",
+            "sound": "10120_touch03",
+            "say_text": "咕噜咕噜咕噜……"
+		}
+		],
+		"tap_SSJP01":[
+		{
+		"file":"motions/touch_0201.mtn",
+            "sound": "",
+            "text": "",
+		}
+		],
+		"tap_SSJP02":[
+		{
+		"file":"motions/touch_99.mtn",
+			 "sound":"10120_touch07",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"喏，手上的这瓶酒给你……",
+			 "say_text_show_time":0   
+		}
+		],
+		"tap_DFS":[
+		{
+		"file":"motions/touch_03.mtn",
+			 "sound":"10120_touch04",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"风，吹的好舒服……",
+			 "say_text_show_time":0   
+		}
+		],
+		"tap_DSJP":[
+		{
+		"file":"motions/touch_04.mtn",
+			 "sound":"10120_touch05",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"是什么东西在吵啊……",
+			 "say_text_show_time":0  
+		}
+		],
+		"tap_QJT":[
+		{
+		"file":"motions/touch_05.mtn",
+			 "sound":"10120_touch06",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"别晃来晃去的，头好晕……",
+			 "say_text_show_time":0  
+		}
+		],
+		"tap_DSSJ":[
+		{
+		"file":"motions/touch_06.mtn",
+			 "sound":"",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"",
+			 "say_text_show_time":0  
+		}
+		],
+		"tap_YX1":[
+		{
+		"file":"motions/touch_07_1.mtn",
+			 "sound":"10120_touch09",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"唔……嗯？",
+			 "say_text_show_time":0  
+		},
+		{
+		"file":"motions/touch_07_2.mtn",
+			 "sound":"10120_touch09",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"唔……嗯？",
+			 "say_text_show_time":0  
+		}
+		],
+		"tap_YX2":[
+		{
+		"file":"motions/touch_07_1.mtn",
+			 "sound":"10120_touch09",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"唔……嗯？",
+			 "say_text_show_time":0  
+		},
+		{
+		"file":"motions/touch_07_2.mtn",
+			 "sound":"10120_touch09",
+			 "fade_in": 300,
+             "fade_out": 300,
+			 "say_text":"唔……嗯？",
+			 "say_text_show_time":0  
+		}
+		], 
+		"tick_5":[
+		{"file":"motions/stay_01.mtn",
+            "sound": "",
+            "text": ""
+			},
+		{"file":"motions/stay_02.mtn",
+            "sound": "",
+            "text": ""
+			}
+		],
+
+		"tap_kaixin":[
+		{
+		"file":"motions/tap_head.mtn",
+		}
+		],
+		"tap_zhengchang":[
+		{
+		"file":"motions/touch_05.mtn",
+		}
+		],
+		"tap_fanu":[
+		{
+		"file":"motions/touch_99.mtn",
+		}
+		],
+		"tap_aichou":[
+		{
+		"file":"motions/touch_01.mtn",
+		}
+		],
+		"tap_haixiu":[
+		{
+		"file":"motions/tap_op.mtn",
+		}
+		]
+	},
+	"hit_areas": [ 
+	{
+      "name": "tap_HEAD",
+      "id": "D_REF.HEAD"
+    },
+	{
+      "name": "tap_OP",
+      "id": "D_REF.OP"
+    },
+   	{
+      "name": "tap_OP01",
+      "id": "D_REF.OP01"
+    },
+	{
+      "name": "tap_OP02",
+      "id": "D_REF.OP02"
+    },
+	{
+      "name": "tap_FOOD",
+      "id": "D_REF.FOOD"
+    },
+   	{
+      "name": "tap_FOOD01",
+      "id": "D_REF.FOOD01"
+    },
+	{
+      "name": "tap_FOOD02",
+      "id": "D_REF.FOOD02"
+    },
+	{
+      "name": "tap_SSJP",
+      "id": "D_REF.SSJP"
+    },
+	{
+      "name": "tap_SSJP01",
+      "id": "D_REF.SSJP01"
+    },
+	{
+      "name": "tap_SSJP02",
+      "id": "D_REF.SSJP02"
+    },
+    {
+      "name": "tap_DFS",
+      "id": "D_REF.DFS"
+    },
+    {
+      "name": "tap_DSJP",
+      "id": "D_REF.DSJP"
+    },
+    {
+      "name": "tap_QJT",
+      "id": "D_REF.QJT"
+    },
+	{
+      "name": "tap_DSSJ",
+      "id": "D_REF.DSSJ"
+    },
+	{
+      "name": "tap_YX1",
+      "id": "D_REF.YX1"
+    },
+	{
+      "name": "tap_YX2",
+      "id": "D_REF.YX2"
+    },
+	{
+      "name": "tap_TY",
+      "id": "D_REF.TYF"
+    },
+	{
+      "name": "tap_CY",
+      "id": "D_REF.CYF"
+    }
+	], 
+	"hit_params": [
+    {
+      "id": "PARAM_tuoyi",
+      "hit_area": "tap_TY",
+      "axis": 1,
+      "weight": 1.0,
+      "distance": 200,
+      "max_group": "slide_TY",
+    },
+	{
+      "id": "PARAM_chuanyi",
+      "hit_area": "tap_CY",
+      "axis": 1,
+      "weight": 1.0,
+      "distance": 200,
+      "min_group": "slide_CY"
+    }
+	],
+	"physics": "physics.json"
+}

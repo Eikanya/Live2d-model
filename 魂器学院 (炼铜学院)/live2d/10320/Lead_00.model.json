@@ -1,0 +1,149 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "Lead_00.moc",
+  "textures": {
+    "10320":[
+      "texture_00.png",
+      "texture_01.png",
+    ]
+  },
+  "config":{
+      "scale":1.3,
+      "posX":-95,
+      "posY":150,
+      "offsetX":0,
+      "offsetY":0,
+      "textPosX":300,
+      "textPosY":700,
+      "mirrorX":false,
+  },
+  "motions": {
+    "idle": [
+      { "file": "motions/idle.mtn" }
+    ],
+	 "stay": [
+      {
+        "file": "motions/stay_01.mtn" 
+                  "sound":"",
+                  "fade_in": 300,
+                  "fade_out": 300,
+                  "say_text":"你在干什么呢？",
+                  "say_text_show_time":0
+    }
+	  ],
+	"slide_move00": [
+      { "file": "motions/move_00.mtn" }
+    ],
+  "slide_move01": [
+      { "file": "motions/move_01.mtn" 
+                  "sound":"",
+                  "fade_in": 300,
+                  "fade_out": 300,
+                  "say_text":"椅子在动哎！",
+                  "say_text_show_time":0
+    }
+    ], 
+	"tap_head": [
+      { "file": "motions/touch_02.mtn" 
+                  "sound":"",
+                  "fade_in": 300,
+                  "fade_out": 300,
+                  "say_text":"不许摸我头！哼！",
+                  "say_text_show_time":0
+    }
+    ],
+	"tap_body": [
+      { "file": "motions/touch_03.mtn" 
+                  "sound":"",
+                  "fade_in": 300,
+                  "fade_out": 300,
+                  "say_text":"你干什么啊！",
+                  "say_text_show_time":0
+    }
+    ],
+	"tap_food": [
+      { "file": "motions/touch_01.mtn" 
+                  "sound":"",
+                  "fade_in": 300,
+                  "fade_out": 300,
+                  "say_text":"哼！",
+                  "say_text_show_time":0
+    }
+    ],
+	"tap_car": [
+      { "file": "motions/touch_05.mtn" 
+                  "sound":"",
+                  "fade_in": 300,
+                  "fade_out": 300,
+                  "say_text":"冲鸭！旋风冲锋龙卷风！",
+                  "say_text_show_time":0
+    }
+    ],
+	"tap_cat": [
+      { "file": "motions/touch_04.mtn" 
+                  "sound":"",
+                  "fade_in": 300,
+                  "fade_out": 300,
+                  "say_text":"嗯？什么？",
+                  "say_text_show_time":0
+    }
+    ],
+	"tap_doll": [
+      { "file": "motions/touch_06.mtn" 
+                  "sound":"",
+                  "fade_in": 300,
+                  "fade_out": 300,
+                  "say_text":"有风是吗？",
+                  "say_text_show_time":0
+    }
+    ],
+	"tap_keyboard": [
+      { "file": "motions/touch_07.mtn" 
+                  "sound":"",
+                  "fade_in": 300,
+                  "fade_out": 300,
+                  "say_text":"不许动我电脑哼！",
+                  "say_text_show_time":0
+    }
+    ]
+  },
+  "hit_areas": [
+    {
+      "name": "tap_head",
+      "id": "D_REF.HEAD"
+    },
+    {
+      "name": "tap_body",
+      "id": "D_REF.BODY"
+    },
+    {
+      "name": "tap_food",
+      "id": "D_REF.FOOD"
+    },
+    {
+      "name": "moveoff",
+      "id": "D_REF.MOVEOFF"
+    },
+    {
+      "name": "moveno",
+      "id": "D_REF.MOVENO"
+    },
+    {
+      "name": "tap_car",
+      "id": "D_REF.CAR"
+    },
+    {
+      "name": "tap_cat",
+      "id": "D_REF.CAT"
+    },
+    {
+      "name": "tap_doll",
+      "id": "D_REF.DOLL"
+    },
+    {
+      "name": "tap_keyboard",
+      "id": "D_REF.KEYBOARD"
+    }
+  ],
+	"physics": "physics.json"
+}

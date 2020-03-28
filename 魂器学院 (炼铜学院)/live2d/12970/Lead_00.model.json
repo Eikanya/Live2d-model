@@ -1,0 +1,70 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "莱拉-万圣节",
+	"model": "Lead_00.moc",
+	"textures": {
+		"12970":[
+			"texture_00.png",
+			"texture_01.png",
+			"texture_02.png",
+		]
+	},
+	"config":{
+        "scale":1,
+        "posX":0,
+        "posY":-30,
+        "offsetX":0,
+        "offsetY":0,
+        "textPosX":325,
+        "textPosY":280,
+        "mirrorX":false,
+    },
+    "motions":{
+    	"idle":[
+            {
+            	"file":"motions/idle.mtn",
+            },
+            
+        ],
+        "stay":[
+            {
+                "file":"motions/idle.mtn",
+                "sound":"129_H",
+                "say_text":"魂器学院，由我来守护！",
+                "say_text_show_time":2
+            },
+            {
+                "file":"motions/idle01.mtn",
+                "sound":"129_01",
+                "say_text":"学院的安全就交给我吧，我会做好巡逻工作的！",
+                "say_text_show_time":7
+            },
+        ],
+        "touch01":[
+        	{"file":"motions/touch01.mtn"}
+        ],
+        "touch02":[
+        	{"file":"motions/touch02.mtn"}
+        ],
+        "touch03":[
+        	{"file":"motions/touch03.mtn"}
+        ],
+        "touch04":[
+        	{"file":"motions/touch04.mtn"}
+        ],
+        "touch99":[
+        	{"file":"motions/touch99.mtn"}
+        ],
+        "touch_ghost":[
+            {
+                "file":"motions/touch_ghost.mtn",
+            }
+        ]
+    },
+    "hit_areas":[
+    	{
+    		"name":"touch_ghost",
+        	"id":"D_REF.touch_ghost",
+    	},
+    ]
+}

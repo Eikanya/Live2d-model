@@ -1,0 +1,69 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"Lead_00.moc",
+	"config":{
+		"scale":1,
+		"posX":-100,
+		"posY":0,
+		"offsetX":100,
+		"offsetY":0,
+		"textPosX":300,
+		"textPosY":450,
+		"mirrorX":false,
+	},
+	"textures":{
+		"model":[
+		"texture_00.png",
+		"texture_01.png",
+		"texture_02.png",
+		"texture_03.png"
+	    ]
+	},
+	"motions":{
+		"stay":[
+			    {"file":"motions/stay_01.mtn","fade_in":300,"fade_out":300},
+			],
+
+		"tapbody":[
+			    {"file":"motions/touch_98.mtn","fade_in":300,"fade_out":300,"say_text":"这么久不理我，真是担心死我了", "say_text_show_time":0},	
+		   ],
+        "tapSkirt":[
+			    {"file":"motions/touch_99.mtn","fade_in":300,"fade_out":300,"say_text":"啊！！不要乱点呀！真是羞死了~~", "say_text_show_time":0},
+		   ],
+		"flickhead":[
+			    {"file":"motions/stay_02.mtn","fade_in":300,"fade_out":300,"say_text":"诶，欧尼酱，在做什么呢？", "say_text_show_time":0},
+		    ],
+		"guide":[
+			    {"file":"motions/guide_01.mtn"},
+			    {"file":"motions/guide_02.mtn"},
+			    {"file":"motions/win_01.mtn"},
+			    {"file":"motions/guide_04.mtn"},
+			    {"file":"motions/guide_05.mtn"},
+			    {"file":"motions/stay_01.mtn"},
+			    {"file":"motions/stay_02.mtn"},
+			    {"file":"motions/touch_01.mtn"},
+			    {"file":"motions/touch_02.mtn"},
+		    ],
+		"idle":[
+			    {"file":"motions/idle_01.mtn"},
+			    {"file":"motions/idle_02.mtn"},
+			    {"file":"motions/idle_03.mtn"},
+		    ]
+	},
+	"hit_areas": [
+     {
+      "name": "tapbody",
+      "id": "D_REF.BODY"
+     },
+	 {
+      "name": "flickhead",
+      "id": "D_REF.HEAD"
+     }, 
+	 {
+      "name": "tapSkirt",
+      "id": "D_REF.FOOD"
+     }
+	],
+	"physics":"model.physics.json",
+	"pose":"pose.json"
+}
