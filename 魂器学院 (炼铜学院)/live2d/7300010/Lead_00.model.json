@@ -1,0 +1,36 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "艾丽卡_前景",
+	"model": "Lead_00.moc",
+	"textures": {
+	    "7300010":[
+	    	"texture_00.png",
+	    ]
+	},
+	"config":{
+	    "scale":1.1,
+	    "posX":-230,
+	    "posY":110,
+	    "offsetX":90,
+	    "offsetY":-40,
+	    "textPosX":300,
+	    "textPosY":600,
+	    "mirrorX":false,
+  	},
+  	"motions":{
+		"idle":[
+			{	
+				"file":"motions/idle.mtn",
+				"fade_in":0,
+				"fade_out":0,
+			}
+		],
+		"stay":[
+            {
+                "file":"motions/idle.mtn",
+                "fade_in":0,
+				"fade_out":0,
+            },
+        ],
+	},
+}

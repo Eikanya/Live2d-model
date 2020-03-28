@@ -1,0 +1,150 @@
+{
+  "name": "model",
+  "model": "Lead_00.moc",
+  "textures": {
+    "21320":[
+      "texture_00.png",
+      "texture_01.png"
+    ]
+  },
+  "hit_areas": [
+    {
+      "name": "tap_leg",
+      "id": "D_PSD.23"
+    },
+    {
+      "name": "tap_pillow",
+      "id": "D_PSD.01"
+    },
+    {
+      "name": "tap_cup",
+      "id": "D_PSD.04"
+    },
+    {
+      "name": "tap_head",
+      "id": "D_PSD.27"
+    },
+    {
+      "name": "tap_bra",
+      "id": "D_PSD.43"
+    },
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mot/idle.mtn",
+        "weight": 1
+      }
+    ],
+    "stay": [
+      {
+        "file": "mot/stay_01.mtn",
+        "weight": 1,
+        "say_text": "呜……好困……那就先……休息一下……",
+        "sound":"11320_stay01",
+        "weight": 1
+      },
+      {
+        "file": "mot/stay_02.mtn",
+        "weight": 1
+      },
+      {
+        "file": "mot/stay_03.mtn",
+        "weight": 1,
+        "say_text": "窗外吹来的微风……好舒服……",
+        "sound":"11320_stay03",
+        "weight": 1
+      }
+    ],
+    "tap_leg": [
+      {
+        "file": "mot/touch_01.mtn",
+        "say_text": "班……班长，千竹的脚不可以随便碰！",
+        "sound":"11320_touch01",
+        "weight": 1
+      }
+    ],
+    "tap_pillow": [
+      {
+        "file": "mot/touch_06.mtn",
+        "say_text": "枕头软软的，靠起来好舒服……",
+        "sound":"11320_touch03",
+        "weight": 1
+      }
+    ],
+    "tap_cup": [
+      {
+        "file": "mot/touch_07.mtn",
+        "say_text": "班长口渴了吗，我去给你倒杯茶吧。",
+        "sound":"11320_touch02",
+        "weight": 1
+      }
+    ],
+    "tap_head": [
+      { 
+        "file": "mot/touch_05.mtn"
+      }
+
+    ],
+    "tap_bra": [
+      {
+        "file": "mot/touch_02.mtn",
+        "say_text": "哎……哎？！……班长快转过去啦！",
+        "sound":"11320_touch04",
+        "say_text_show_time":4.8,
+        "weight": 1,   
+      }
+    ],
+
+    "tap_haixiu": [
+      {
+        "file": "mot/touch_02.mtn"
+      }
+    ],
+    "tap_zhengchang": [
+      {
+        "file": "mot/touch_05.mtn"
+      }
+    ],
+    "tap_fanu": [
+      {
+        "file": "mot/touch_01.mtn"
+      }
+    ],"tap_aichou": [
+      {
+        "file": "mot/touch_01.mtn"
+      }
+    ],
+    "tap_kaixin": [
+      {
+        "file": "mot/touch_07.mtn"
+      }
+    ],
+
+    "conversation": [
+      {"file": "mot/touch_01.mtn"}
+    ],
+    "conversation2": [
+      {"file": "mot/touch_02.mtn"}
+    ],
+    "conversation3": [
+      {"file": "mot/touch_05.mtn"}
+    ],
+    "conversation4": [
+      {"file": "mot/touch_06.mtn"}
+    ],
+    "conversation5": [
+      {"file": "mot/touch_07.mtn"}
+    ]
+  },
+  "config":{
+    "scale":1,
+    "posX":0,
+    "posY":30,
+    "offsetX":0,
+    "offsetY":0,
+    "textPosX":300,
+    "textPosY":550,
+    "mirrorX":false,
+  },
+}

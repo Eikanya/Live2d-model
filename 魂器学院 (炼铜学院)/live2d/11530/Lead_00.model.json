@@ -1,0 +1,57 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"Lead_00.moc",
+	"textures": {
+		"11530":[
+			"texture_00.png",
+			"texture_01.png",
+		]
+	},
+	"config":{
+        "scale":1.1,
+        "posX":-30,
+        "posY":100,
+        "offsetX":0,
+        "offsetY":0,
+        "textPosX":300,
+        "textPosY":650,
+        "mirrorX":false,
+    },
+	"motions":{
+		"idle":[
+			{	
+				"file":"motions/idle.mtn",
+				"fade_in":500,
+				"fade_out":1000,
+			}
+		],
+		"stay":[
+            {
+                "file":"motions/idle.mtn",
+                "fade_in":500,
+				"fade_out":1000,
+            },
+        ],
+		"touch_01_1":[
+			{
+				"file":"motions/touch_01_1.mtn",
+				"fade_in":500,
+				"fade_out":1000,
+			}
+		],
+		"touch_01_2":[
+			{
+				"file":"motions/touch_01_2.mtn",
+				"fade_in":500,
+				"fade_out":1000,
+			}
+		],
+		"touch_99":[
+			{
+				"file":"motions/touch_99.mtn",
+				"fade_in":500,
+				"fade_out":1000,
+			}
+		],
+	}
+}

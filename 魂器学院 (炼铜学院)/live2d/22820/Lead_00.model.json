@@ -1,0 +1,247 @@
+{
+  "name": "model",
+  "model": "Lead_00.moc",
+  "textures": {
+    "22820":[
+      "texture_00.png",
+      "texture_01.png",
+      "texture_02.png"
+    ]
+  },
+  "hit_areas": [
+    {
+      "name": "tap_armLa",
+      "id": "armLa"
+    },
+    {
+      "name": "tap_armLa1",
+      "id": "armLa1"
+    },
+    {
+      "name": "tap_quanshen3",
+      "id": "quanshen3"
+    },
+    {
+      "name": "tap_legLa",
+      "id": "legLa"
+    },
+    {
+      "name": "tap_legLa1",
+      "id": "legLa1"
+    },
+    {
+      "name": "tap_quanshen2",
+      "id": "quanshen2"
+    },
+    {
+      "name": "tap_boby",
+      "id": "body"
+    },
+    {
+      "name": "tap_body1",
+      "id": "body1"
+    },
+    {
+      "name": "tap_quanshen1",
+      "id": "quanshen1"
+    },
+    {
+      "name": "tap_D_PSD_153",
+      "id": "D_PSD_153"
+    },
+    {
+      "name": "tap_D_PSD_83",
+      "id": "D_PSD_83"
+    },
+    {
+      "name": "tap_D_PSD_141",
+      "id": "D_PSD_141"
+    },
+    {
+      "name": "tap_D_PSD_91",
+      "id": "D_PSD_91"
+    },
+    {
+      "name": "tap_D_PSD_90",
+      "id": "D_PSD_90"
+    },
+    {
+      "name": "tap_D_PSD5_03",
+      "id": "D_PSD5_03"
+    },
+    {
+      "name": "tap_D_PSD_72",
+      "id": "D_PSD_72"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/idle.mtn",
+        "weight": 1
+      }
+    ],
+    "stay": [
+      {
+        "file": "motions/stay_01.mtn",
+        "choices": [
+          {}
+        ],
+        "weight": 1
+      },
+      {
+        "file": "motions/stay_02.mtn",
+        "weight": 1
+      }
+    ],
+    "tap_D_PSD_153": [
+      {
+        "file": "motions/touch_03.mtn",
+        "say_text": "嗯哼，终于忍不住要对爱丽丝出手了吗？想不到班长也是这么无聊的家伙呢……",
+        "sound":"12820_touch01",
+        "weight": 1
+      }
+    ],
+    "tap_D_PSD_83": [
+      {
+        "file": "motions/touch_05.mtn",
+        "weight": 1
+      }
+    ],
+    "tap_D_PSD_141": [
+      {
+        "file": "motions/touch_06.mtn",
+        "say_text": "居然以为摸摸头就能讨女孩子的欢心，班长还真是幼稚呢~",
+        "sound":"12820_touch05",
+        "weight": 1
+      }
+    ],
+    "tap_D_PSD_72": [
+      {
+        "file": "motions/touch_07.mtn",
+        "say_text": "哦？班长要给爱丽丝按摩吗？记得要温柔哦~",
+        "sound":"12820_touch02",
+        "weight": 1
+      }
+    ],
+    "tap_D_PSD_91": [
+      {
+        "file": "motions/touch_08.mtn",
+        "say_text": "班长要和我一起玩魔方吗？我可以教你“六面皇后”玩法哟~",
+        "sound":"12820_touch03",
+        "weight": 1
+      }
+    ],
+    "tap_D_PSD_90": [
+      {
+        "file": "motions/touch_09.mtn",
+        "say_text": "是不是软绵绵的呢，哎呀，我是在说抱枕，班长想哪去了~",
+        "sound":"12820_touch04",
+        "weight": 1
+      }
+    ],
+    "tap_D_PSD5_03": [
+      {
+        "file": "motions/touch_10.mtn",
+        "weight": 1
+      }
+    ],
+    "tap_boby": [
+      {
+        "file": "motions/touch_02.mtn",
+        "next_mtn": "tap_D_PSD_02",
+        "weight": 1
+      }
+    ],
+    "tap_body1": [
+      {
+        "file": "motions/touch_02B.mtn",
+        "weight": 1
+      }
+    ],
+    "tap_quanshen2": [
+      {
+        "file": "motions/touch_99.mtn",
+        "weight": 1
+      }
+    ],
+    "tap_legLa": [
+      {
+        "file": "motions/touch_01.mtn",
+        "say_text": "居然对女孩的脚感兴趣，班长的口味还真是糟糕呢。",
+        "sound":"12820_touch06",
+        "weight": 1
+      }
+    ],
+    "tap_legLa1": [
+      {
+        "file": "motions/touch_01B.mtn",
+        "say_text": "居然对女孩的脚感兴趣，班长的口味还真是糟糕呢。",
+        "sound":"12820_touch06",
+        "weight": 1
+      }
+    ],
+    "tap_quanshen3": [
+      {
+        "file": "motions/touch_99.mtn",
+        "weight": 1
+      }
+    ],
+    "tap_armLa": [
+      {
+        "file": "motions/touch_04.mtn",
+        "weight": 1
+      }
+    ],
+    "tap_armLa1": [
+      {
+        "file": "motions/touch_04B.mtn",
+        "weight": 1
+      }
+    ],
+    "tap_quanshen1": [
+      {
+        "file": "motions/touch_99.mtn",
+        "weight": 1
+      }
+    ],
+
+    "tap_fanu": [
+      {
+        "file": "motions/touch_99.mtn",
+      }
+    ],
+    "tap_zhengchang": [
+      {
+        "file": "motions/touch_01.mtn",
+      }
+    ],
+    "tap_kaixin": [
+      {
+        "file": "motions/touch_10.mtn",
+      }
+    ],
+    "tap_aichou": [
+      {
+        "file": "motions/touch_06.mtn",
+      }
+    ],
+    "tap_haixiu": [
+      {
+        "file": "motions/touch_07.mtn",
+      }
+    ],
+  },
+  "config":{
+    "scale":1,
+    "posX":0,
+    "posY":0,
+    "offsetX":0,
+    "offsetY":0,
+    "textPosX":300,
+    "textPosY":550,
+    "mirrorX":false,
+  },
+  "physics": "physics.json",
+  "aniso_level": 9
+}

@@ -1,0 +1,36 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "圣诞艾丽卡_背景",
+	"model": "Lead_00.moc",
+	"textures": {
+	    "6300010":[
+	    	"texture_00.png",
+	    ]
+	},
+	"config":{
+	    "scale":1,
+	    "posX":0,
+	    "posY":30,
+	    "offsetX":0,
+	    "offsetY":-20,
+	    "textPosX":300,
+	    "textPosY":600,
+	    "mirrorX":false,
+  	},
+  	"motions":{
+		"idle":[
+			{	
+				"file":"motions/idle.mtn",
+				"fade_in":0,
+				"fade_out":0,
+			}
+		],
+		"stay":[
+            {
+                "file":"motions/idle.mtn",
+                "fade_in":0,
+				"fade_out":0,
+            },
+        ],
+	},
+}
