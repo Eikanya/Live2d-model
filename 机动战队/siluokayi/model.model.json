@@ -1,0 +1,151 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "model.moc",
+  "textures": [
+    "model.2048/texture_00.png",
+    "model.2048/texture_01.png",
+    "model.2048/texture_02.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "A1",
+      "id": "A1"
+    },
+    {
+      "name": "A2",
+      "id": "A2"
+    },
+    {
+      "name": "A3",
+      "id": "A3"
+    }
+  ],
+  "motions": {
+    "tap_A2": [
+      {
+        "file": "motions/tap_A2/tap1.mtn",
+        "sound": "motions/tap_A2/tap1.mp3",
+        "text": "放肆，靠我太近了凡人，想去见机械神吗。",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions\\tap_A2\\tap5.mtn",
+        "sound": "motions/tap_A2/tap5.mp3",
+        "text": "你……！算了……看在你兢兢业业服侍我的份上，我恕你无罪。",
+        "fade_in": 1000,
+        "fade_out": 0
+      }
+    ],
+    "tap_A1": [
+      {
+        "file": "motions/tap_A1/tap3.mtn",
+        "sound": "motions/tap_A1/tap3.mp3",
+        "text": "凡人，你以后只要看着我一个人就够了。",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions\\tap_A1\\tap4.mtn",
+        "sound": "motions/tap_A1/tap4.mp3",
+        "text": "你的就是我的，我的还是我的，有什么不满吗？",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions\\tap_A1\\tap7.mtn",
+        "sound": "motions/tap_A1/tap7.mp3",
+        "text": "这种低等的构造，扔掉算了~",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions\\tap_A1\\tap8.mtn",
+        "sound": "motions/tap_A1/tap8.mp3",
+        "text": "你要盯着我到什么时候，差劲的哥哥先生。",
+        "fade_in": 1000,
+        "fade_out": 0
+      }
+    ],
+    "tap_A3": [
+      {
+        "file": "motions/tap_A3/tap2.mtn",
+        "sound": "motions/tap_A3/tap2.mp3",
+        "text": "不……不要误会，是午夜兔又嘴馋了。",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions\\tap_A3\\tap6.mtn",
+        "sound": "motions/tap_A3/tap6.mp3",
+        "text": "做好你的分内之事，凡人。",
+        "fade_in": 1000,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/idle/idle1-c.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle1.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle2-c.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle2-t1.mtn",
+        "sound": "motions/idle/idle2-t1.mp3",
+        "text": "凡人，抬起头来，看着我。",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle2.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle3-c.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle3-t1.mtn",
+        "sound": "motions/idle/idle3-t1.mp3",
+        "text": "凡人~赶快交出你所有的布丁。",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle3.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle4-c.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle4-t1.mtn",
+        "sound": "motions/idle/idle4-t1.mp3",
+        "text": "机械就是未来，未来就是机械。",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle4.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  },
+  "physics": "physics.json"
+}
