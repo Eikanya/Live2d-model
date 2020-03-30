@@ -1,0 +1,67 @@
+{
+  "Version": 3,
+  "Meta": {
+    "Duration": 10.0,
+    "Fps": 30.0,
+    "Loop": true,
+    "CurveCount": 3,
+    "TotalSegmentCount": 7,
+    "TotalPointCount": 9,
+    "UserDataCount": 1,
+    "TotalUserDataSize": 0
+  },
+  "Curves": [
+    {
+      "Target": "Parameter",
+      "Id": "ParamPAngel",
+      "Segments": [
+        0,
+        0,
+        0,
+        2,
+        5,
+        0,
+        4.767,
+        0,
+        0,
+        7.633,
+        2,
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamParticular",
+      "Segments": [
+        0,
+        0,
+        1,
+        3.333,
+        20,
+        6.667,
+        40,
+        10,
+        60
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamPTransparent",
+      "Segments": [
+        0,
+        1,
+        0,
+        10,
+        1
+      ]
+    }
+  ],
+  "UserData": [
+    {
+      "Time": 0.0,
+      "Value": ""
+    }
+  ]
+}
