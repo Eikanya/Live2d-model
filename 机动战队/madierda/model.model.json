@@ -1,0 +1,154 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "model.moc",
+  "textures": [
+    "model.2048/texture_00.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "A",
+      "id": "A"
+    },
+    {
+      "name": "B",
+      "id": "B"
+    },
+    {
+      "name": "C",
+      "id": "C"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/idle/idle1.mtn",
+        "fade_in": 0,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/idle/idle2.mtn",
+        "fade_in": 0,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/idle/idle3.mtn",
+        "fade_in": 0,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/idle/idle4.mtn",
+        "fade_in": 0,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/idle/idle-j25.mtn",
+        "sound": "motions/idle/idle-j25.mp3",
+        "text": "只要陛下一声令下，我就算化成恶鬼也再所不惜。",
+        "fade_in": 0,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/idle/idle-j27.mtn",
+        "sound": "motions/idle/idle-j27.mp3",
+        "text": "能够在陛下身边，就是我的至福，我不敢再有任何奢望。",
+        "fade_in": 0,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/idle/idle-j29.mtn",
+        "sound": "motions/idle/idle-j29.mp3",
+        "text": "包括我在内，陛下共有七位教廷骑士，我与维斯帕阁下随侍在左右，薇诺娜阁下与另外两位率领大军向世间昭告机械神的力量与荣光，还有两位乃是陛下怀中隐匿的利刃。",
+        "fade_in": 0,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/idle/idle-j32.mtn",
+        "sound": "motions/idle/idle-j32.mp3",
+        "text": "陛下是机械之神在凡间的化身，服侍陛下就是服侍机械之神。",
+        "fade_in": 0,
+        "fade_out": 0,
+        "priority": 0
+      }
+    ],
+    "tap_A": [
+      {
+        "file": "motions/tap_A/tap1.mtn",
+        "fade_in": 500,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/tap_A/tap-j26.mtn",
+        "sound": "motions/tap_A/tap-j26.mp3",
+        "text": "成为教廷骑士前的记忆？在我经由陛下之手重生的时候，我已经舍弃了过去。",
+        "fade_in": 1000,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/tap_A/tap-j28.mtn",
+        "sound": "motions/tap_A/tap-j28.mp3",
+        "text": "人类软弱而愚昧，但他们当中偶尔也会诞生出我主那样闪烁着光芒的人，人类真是难以理解啊。",
+        "fade_in": 1000,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/tap_A/tap-j30.mtn",
+        "sound": "motions/tap_A/tap-j30.mp3",
+        "text": "不，一点都不累，像这样不分日夜地为陛下服务，是我的至福。",
+        "fade_in": 1000,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/tap_A/tap-j33.mtn",
+        "sound": "motions/tap_A/tap-j33.mp3",
+        "text": "薇诺娜阁下的性格虽然有点……个性？但她非常强大，我也要变得更强，这样才能更好地保护陛下。",
+        "fade_in": 1000,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/tap_A/tap-j34.mtn",
+        "sound": "motions/tap_A/tap-j34.mp3",
+        "text": "陛下好像十分中意你，如果你让陛下失望，我是不会放过你的！",
+        "fade_in": 1000,
+        "fade_out": 0,
+        "priority": 0
+      }
+    ],
+    "tap_B": [
+      {
+        "file": "motions/tap_B/tap2.mtn",
+        "fade_in": 500,
+        "fade_out": 0,
+        "priority": 0
+      },
+      {
+        "file": "motions/tap_B/tap-j31.mtn",
+        "sound": "motions/tap_B/tap-j31.mp3",
+        "text": "你说我看起来和机械祭司们很不一样？陛下为我铸造的仿生部件在外表上跟人体几乎一样，这也是陛下的赐福之一。",
+        "fade_in": 1000,
+        "fade_out": 0,
+        "priority": 0
+      }
+    ],
+    "tap_C": [
+      {
+        "file": "motions/tap_C/tap3.mtn",
+        "fade_in": 500,
+        "fade_out": 0,
+        "priority": 0
+      }
+    ]
+  },
+  "physics": "physics.json"
+}

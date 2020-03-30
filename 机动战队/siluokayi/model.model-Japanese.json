@@ -1,0 +1,142 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "model.moc",
+  "textures": [
+    "model.2048/texture_00.png",
+    "model.2048/texture_01.png",
+    "model.2048/texture_02.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "A1",
+      "id": "A1"
+    },
+    {
+      "name": "A2",
+      "id": "A2"
+    },
+    {
+      "name": "A3",
+      "id": "A3"
+    }
+  ],
+  "motions": {
+    "tap_A2": [
+      {
+        "file": "motions/tap_A2/tap-j1.mtn",
+        "sound": "motions/tap_A2/tap-j1.mp3",
+        "text": "哼~夸你两句竟然还跳起来了。果然是只猴子~。",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/tap_A2/tap-j6.mtn",
+        "sound": "motions/tap_A2/tap-j6.mp3",
+        "text": "唔……坐近一点，不要误会，钢铁的冰冷才是我的最爱，我只是偶尔，偶尔想要试试人的温暖是什么样的感觉。",
+        "fade_in": 1000,
+        "fade_out": 0
+      }
+    ],
+    "tap_A1": [
+      {
+        "file": "motions/tap_A1/tap-j2.mtn",
+        "sound": "motions/tap_A1/tap-j2.mp3",
+        "text": "凡人，你以后只要看着我一个人就够了。",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/tap_A1/tap-j3.mtn",
+        "sound": "motions/tap_A1/tap-j3.mp3",
+        "text": "玛蒂尔达吗？她是我的作品，我的手足，我的铠甲利剑。",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/tap_A1/tap-j4.mtn",
+        "sound": "motions/tap_A1/tap-j4.mp3",
+        "text": "呵呵~我才不会为你担心呢，凡人。",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/tap_A1/tap-j5.mtn",
+        "sound": "motions/tap_A1/tap-j5.mp3",
+        "text": "我不讨厌战争，但要打就必须赢！科技之眼行事过于急躁，战争应该是精密计算与率性而为相结合的艺术之举，仅凭一时狂热带来的胜利也太过浪费。",
+        "fade_in": 1000,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/tap_A1/tap-j7.mtn",
+        "sound": "motions/tap_A1/tap-j7.mp3",
+        "text": "你问我想要什么东西？呵呵，我乃机械教廷之主，机械神行走于凡间的代理，有什么是我得不到的？对……我什么都有……什么都能得到……",
+        "fade_in": 1000,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "motions/idle/idle1-c.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle1.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle2-c.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle2-j1.mtn",
+        "sound": "motions/idle/idle2-j1.mp3",
+        "text": "机械可以修复你的一切缺陷。让我来看看……我会帮你塑造一具完美的机械躯体，怎么样？",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle2.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle3-c.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle3-j1.mtn",
+        "sound": "motions/tap_A1/tap4.mp3",
+        "text": "你的就是我的，我的还是我的。有什么不满吗？",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle3.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle4-c.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle4-j1.mtn",
+        "sound": "motions/idle/idle4-j1.mp3",
+        "text": "凡人受凡躯之左右，反复无常，难以信赖。相比起来，机械更值得信赖，只要诚挚地维护，机械毫无疑问会回应你的期待。",
+        "fade_in": 0,
+        "fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle4.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  },
+  "physics": "physics.json"
+}

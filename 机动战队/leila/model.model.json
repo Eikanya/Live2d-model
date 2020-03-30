@@ -1,0 +1,64 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "model.moc",
+  "textures": [
+    "model.2048/texture_00.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": 0.0,
+    "width": 2.0
+  },
+  "hit_areas": [
+    {
+      "name": "A",
+      "id": "A"
+    },
+    {
+      "name": "B",
+      "id": "B"
+    },
+    {
+      "name": "C",
+      "id": "C"
+    },
+    {
+      "name": "D",
+      "id": "D"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "motions/idle/idle1.mtn","fade_in": 0,"fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle2.mtn","fade_in": 0,"fade_out": 0
+      },
+      {
+        "file": "motions/idle/idle3.mtn","fade_in": 0,"fade_out": 0
+      }
+    ],
+    "tap_A": [
+      {
+        "file": "motions/tap_A/tap1.mtn","fade_in": 1000,"fade_out": 0
+      }
+    ],
+    "tap_B": [
+      {
+        "file": "motions/tap_B/tap2.mtn","fade_in": 1000,"fade_out": 0
+      }
+    ],
+    "tap_C": [
+      {
+        "file": "motions/tap_C/tap3.mtn","fade_in": 1000,"fade_out": 0
+      }
+    ],
+    "tap_D": [
+      {
+        "file": "motions/tap_D/tap4.mtn","fade_in": 1000,"fade_out": 0
+      }
+    ]
+  },
+  "physics": "physics.json"
+}
