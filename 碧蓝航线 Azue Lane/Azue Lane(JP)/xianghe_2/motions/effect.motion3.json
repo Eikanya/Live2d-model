@@ -1,12 +1,13 @@
 {
   "Version": 3,
   "Meta": {
-    "Duration": 6.0,
+    "Duration": 13.0,
     "Fps": 60.0,
     "Loop": true,
+    "AreBeziersRestricted": true,
     "CurveCount": 2,
     "TotalSegmentCount": 3,
-    "TotalPointCount": 5,
+    "TotalPointCount": 7,
     "UserDataCount": 1,
     "TotalUserDataSize": 0
   },
@@ -18,23 +19,27 @@
         0,
         0,
         1,
+        4.333,
         2,
-        0.667,
+        8.667,
         4,
-        1.333,
-        6,
-        2
+        13,
+        6
       ]
     },
     {
-      "Target": "Model",
-      "Id": "Opacity",
+      "Target": "Parameter",
+      "Id": "qiwu",
       "Segments": [
         0,
-        1,
         0,
-        6,
-        1
+        1,
+        4.333,
+        0.667,
+        8.667,
+        1.333,
+        13,
+        2
       ]
     }
   ],

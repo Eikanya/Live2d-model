@@ -1,6 +1,5 @@
 {
   "Version": 3,
-  "ScaleFactor": 0.1,
   "FileReferences": {
     "Moc": "sipeibojue_5.moc3",
     "Textures": [
@@ -8,60 +7,51 @@
     ],
     "Physics": "sipeibojue_5.physics3.json",
     "Motions": {
-     
-      "Idle": [
+      "": [
         {
           "File": "motions/idle.motion3.json"
-        }
-      ],
-      "Start": [
-        {
-          "File": "motions/login.motion3.json"
-        }
-      ],
-      "TapTouchBody": [
-        {
-          "File": "motions/touch_body.motion3.json"
-        },
- {
-          "File": "motions/mail.motion3.json"
-        },
-        {
-          "File": "motions/main_1.motion3.json"
-        },
-        {
-          "File": "motions/wedding.motion3.json"
         },
         {
           "File": "motions/home.motion3.json"
         },
         {
-          "File": "motions/main_2.motion3.json"
+          "File": "motions/login.motion3.json"
         },
         {
-          "File": "motions/mission_complete.motion3.json"
-        },
-        {
-          "File": "motions/mission.motion3.json"
-        },
-        {
-          "File": "motions/idle.motion3.json"
+          "File": "motions/touch_body.motion3.json"
         },
         {
           "File": "motions/main_3.motion3.json"
         },
         {
-          "File": "motions/mail.motion3.json"
-        }
-      ],
-      "TapTouchHead": [
-        {
           "File": "motions/touch_head.motion3.json"
-        }
-      ],
-      "TapTouchSpecial": [
+        },
+        {
+          "File": "motions/effect.motion3.json"
+        },
+        {
+          "File": "motions/main_2.motion3.json"
+        },
+        {
+          "File": "motions/main_1.motion3.json"
+        },
+        {
+          "File": "motions/mission_complete.motion3.json"
+        },
         {
           "File": "motions/touch_special.motion3.json"
+        },
+        {
+          "File": "motions/mail.motion3.json"
+        },
+        {
+          "File": "motions/complete.motion3.json"
+        },
+        {
+          "File": "motions/mission.motion3.json"
+        },
+        {
+          "File": "motions/wedding.motion3.json"
         }
       ]
     }
@@ -73,30 +63,6 @@
       "Ids": [
         "ParamMouthOpenY"
       ]
-    },
-    {
-      "Target": "Parameter",
-      "Name": "EyeBlink",
-      "Ids": [
-        "ParamEyeLOpen",
-        "ParamEyeROpen"
-      ]
     }
-  ],
-  "HitAreas": [
-    {
-      "Name": "TouchBody",
-      "Id": "TouchBody"
-    },
-    {
-      "Name": "TouchHead",
-      "Id": "TouchHead"
-    },
-    {
-      "Name": "TouchSpecial",
-      "Id": "TouchSpecial"
-    }
-  ],
-  "LipSync": true,
-  "AnisoLevel": 4
+  ]
 }

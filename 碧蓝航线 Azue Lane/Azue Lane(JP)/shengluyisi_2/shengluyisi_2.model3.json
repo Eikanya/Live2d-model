@@ -10,7 +10,7 @@
     "Motions": {
       "": [
         {
-          "File": "motions/wedding.motion3.json"
+          "File": "motions/touch_head.motion3.json"
         },
         {
           "File": "motions/complete.motion3.json"
@@ -59,15 +59,8 @@
       "Target": "Parameter",
       "Name": "LipSync",
       "Ids": [
+        "ParamMouthOpenY",
         "ParamMouthOpenY"
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Name": "EyeBlink",
-      "Ids": [
-        "ParamEyeLOpen",
-        "ParamEyeROpen"
       ]
     }
   ]
