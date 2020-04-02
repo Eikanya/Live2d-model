@@ -5,27 +5,13 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
-    "CurveCount": 288,
-    "TotalSegmentCount": 1237,
-    "TotalPointCount": 1515,
+    "CurveCount": 203,
+    "TotalSegmentCount": 966,
+    "TotalPointCount": 1214,
     "UserDataCount": 2,
     "TotalUserDataSize": 0
   },
   "Curves": [
-    {
-      "Target": "Parameter",
-      "Id": "baiwutmd",
-      "Segments": [
-        0,
-        1,
-        2,
-        5.5,
-        1,
-        0,
-        8.333,
-        0
-      ]
-    },
     {
       "Target": "Parameter",
       "Id": "ninghaitmd",
@@ -110,18 +96,24 @@
         3.422,
         0,
         3.711,
-        0.121,
+        0.296,
         4,
         0.7,
         1,
         4.344,
-        1.391,
+        1.182,
         4.689,
-        2,
+        1.553,
         5.033,
         2,
-        3,
+        2,
         5.067,
+        10,
+        2,
+        6,
+        10,
+        2,
+        6.033,
         0,
         2,
         8.333,
@@ -607,448 +599,19 @@
     },
     {
       "Target": "Parameter",
-      "Id": "pinghaitiX",
-      "Segments": [
-        0,
-        5,
-        2,
-        1,
-        5,
-        0,
-        2.5,
-        10,
-        0,
-        3.367,
-        -10,
-        0,
-        5.5,
-        10,
-        0,
-        6.9,
-        5,
-        0,
-        8.333,
-        10
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaiyoutui1",
-      "Segments": [
-        0,
-        8,
-        2,
-        1,
-        8,
-        0,
-        2.5,
-        10,
-        0,
-        3.367,
-        -10,
-        0,
-        5.5,
-        10,
-        0,
-        6.9,
-        8,
-        0,
-        8.333,
-        10
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaitiY",
-      "Segments": [
-        0,
-        -2.786,
-        2,
-        0.5,
-        -2.786,
-        0,
-        1.967,
-        1.852,
-        0,
-        3.7,
-        -5.02,
-        0,
-        5.5,
-        0,
-        0,
-        6.433,
-        -2.786,
-        0,
-        7.833,
-        1.852,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaitiZ",
-      "Segments": [
-        0,
-        2.621,
-        2,
-        2.367,
-        2.621,
-        0,
-        5.5,
-        0,
-        0,
-        8.2,
-        2.621,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaiXIASHENZ",
-      "Segments": [
-        0,
-        -0.118,
-        2,
-        2.233,
-        -0.118,
-        0,
-        3.733,
-        1,
-        1,
-        4.322,
-        1,
-        4.911,
-        0.085,
-        5.5,
-        0,
-        1,
-        6.367,
-        -0.125,
-        7.233,
-        -0.118,
-        8.1,
-        -0.118,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaidaxiao",
-      "Segments": [
-        0,
-        -1,
-        2,
-        4.3,
-        -1,
-        0,
-        4.533,
-        0,
-        2,
-        5.5,
-        0,
-        2,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pnghailianX",
-      "Segments": [
-        0,
-        9,
-        2,
-        1,
-        9,
-        0,
-        2.5,
-        0,
-        0,
-        4,
-        9,
-        0,
-        5.5,
-        0,
-        0,
-        6.9,
-        9,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghailianY",
-      "Segments": [
-        0,
-        -14,
-        2,
-        1,
-        -14,
-        0,
-        2.5,
-        0,
-        2,
-        5.5,
-        0,
-        0,
-        6.9,
-        -14,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaizuomukaibi",
-      "Segments": [
-        0,
-        1,
-        0,
-        0.167,
-        0,
-        0,
-        0.5,
-        1,
-        2,
-        3.233,
-        1,
-        0,
-        3.4,
-        0,
-        0,
-        3.733,
-        1,
-        0,
-        4.667,
-        0,
-        0,
-        5.167,
-        1.2,
-        0,
-        5.5,
-        1,
-        2,
-        5.933,
-        1,
-        0,
-        6.1,
-        0,
-        0,
-        6.433,
-        1,
-        2,
-        8.333,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingyoumukaibi",
-      "Segments": [
-        0,
-        1,
-        0,
-        0.167,
-        0,
-        0,
-        0.5,
-        1,
-        2,
-        3.233,
-        1,
-        0,
-        3.4,
-        0,
-        0,
-        3.733,
-        1,
-        0,
-        4.667,
-        0,
-        0,
-        5.167,
-        1.2,
-        0,
-        5.5,
-        1,
-        2,
-        5.933,
-        1,
-        0,
-        6.1,
-        0,
-        0,
-        6.433,
-        1,
-        2,
-        8.333,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingtongkongdaxiao",
-      "Segments": [
-        0,
-        0,
-        0,
-        0.167,
-        1,
-        0,
-        0.5,
-        -0.5,
-        0,
-        0.667,
-        0.3,
-        0,
-        0.767,
-        -0.1,
-        0,
-        0.833,
-        0,
-        2,
-        3.233,
-        0,
-        0,
-        3.4,
-        1,
-        0,
-        3.733,
-        -0.5,
-        0,
-        3.9,
-        0.3,
-        0,
-        4,
-        -0.1,
-        0,
-        4.067,
-        0,
-        2,
-        5.5,
-        0,
-        2,
-        5.933,
-        0,
-        0,
-        6.1,
-        1,
-        0,
-        6.433,
-        -0.5,
-        0,
-        6.6,
-        0.3,
-        0,
-        6.7,
-        -0.1,
-        0,
-        6.733,
-        0,
-        2,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaigaoguangdonghua",
+      "Id": "ParamAngleX",
       "Segments": [
         0,
         0,
         2,
-        0.1,
-        0,
-        0,
-        0.367,
-        1,
-        0,
-        0.7,
-        0,
-        0,
-        0.967,
-        1,
-        0,
-        1.3,
-        0,
-        0,
-        1.567,
-        1,
-        0,
-        1.9,
-        0,
-        0,
-        2.167,
-        1,
-        0,
-        2.5,
-        0,
-        0,
-        2.767,
-        1,
-        0,
-        3.1,
-        0,
-        0,
-        3.367,
-        1,
-        0,
-        3.7,
-        0,
-        0,
-        3.967,
-        1,
-        0,
-        4.3,
-        0,
-        0,
-        4.567,
-        1,
-        0,
-        4.9,
-        0,
-        0,
-        5.167,
-        1,
-        0,
         5.5,
-        0,
-        0,
-        5.7,
-        1,
-        0,
-        6.033,
         0,
         0,
         6.3,
-        1,
+        22,
         0,
-        6.6,
-        0,
-        0,
-        6.9,
-        1,
-        0,
-        7.2,
-        0,
-        0,
-        7.433,
-        1,
-        0,
-        7.733,
-        0,
-        0,
-        8.033,
-        1,
+        7.4,
+        -8,
         0,
         8.333,
         0
@@ -1056,437 +619,19 @@
     },
     {
       "Target": "Parameter",
-      "Id": "zuopaoyaobai",
+      "Id": "ParamAngleY",
       "Segments": [
         0,
-        0.491,
-        2,
-        0.3,
-        0.491,
-        0,
-        1.733,
-        -0.481,
-        0,
-        3.233,
-        0.491,
-        0,
-        4.833,
-        -0.481,
-        1,
-        5.055,
-        -0.481,
-        5.278,
-        -0.308,
-        5.5,
-        0,
-        1,
-        5.744,
-        0.339,
-        5.989,
-        0.491,
-        6.233,
-        0.491,
-        0,
-        7.6,
-        -0.481,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youpaoyaobai",
-      "Segments": [
-        0,
-        0.656,
-        2,
-        0.3,
-        0.656,
-        0,
-        1.6,
-        -0.591,
-        0,
-        2.967,
-        0.656,
-        0,
-        4.4,
-        -0.591,
-        1,
-        4.767,
-        -0.591,
-        5.133,
-        -0.469,
-        5.5,
-        0,
-        1,
-        5.744,
-        0.313,
-        5.989,
-        0.656,
-        6.233,
-        0.656,
-        0,
-        7.5,
-        -0.591,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuobixuanzhuang",
-      "Segments": [
-        0,
-        -0.094,
-        2,
-        0.767,
-        -0.094,
         0,
         2,
-        0.099,
-        0,
-        3.4,
-        -0.094,
-        0,
-        4.633,
-        0.099,
-        1,
-        4.922,
-        0.099,
-        5.211,
-        0.052,
-        5.5,
-        0,
-        1,
-        5.9,
-        -0.072,
-        6.3,
-        -0.094,
-        6.7,
-        -0.094,
-        0,
-        7.9,
-        0.099,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuoxiabixuanzhaun",
-      "Segments": [
-        0,
-        -0.057,
-        2,
-        0.133,
-        -0.057,
-        0,
-        1.367,
-        0.044,
-        0,
-        2.767,
-        -0.057,
-        0,
-        3.467,
-        0.4,
-        1,
-        4.145,
-        0.4,
-        4.822,
-        0.214,
-        5.5,
-        0,
-        1,
-        5.7,
-        -0.063,
-        5.9,
-        -0.057,
-        6.1,
-        -0.057,
-        0,
-        7.233,
-        0.044,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "nzuoxiabishensuo",
-      "Segments": [
-        0,
-        1,
-        2,
-        3.467,
-        1,
-        0,
-        5.5,
-        -1,
-        2,
-        8.333,
-        -1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuoshouxuanzhuang",
-      "Segments": [
-        0,
-        1,
-        2,
-        4.233,
-        1,
-        0,
-        5.5,
-        0,
-        2,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "nyoubixuanzhuan",
-      "Segments": [
-        0,
-        -1,
-        2,
-        3.633,
-        -1,
-        0,
-        5.5,
-        0,
-        2,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youxiabixuanzhuangn",
-      "Segments": [
-        0,
-        0.18,
-        2,
-        0.967,
-        0.18,
-        0,
-        2.5,
-        0.343,
-        0,
-        3.833,
-        -2,
-        0,
-        5.067,
-        0.748,
-        1,
-        5.211,
-        0.748,
-        5.356,
-        0.394,
-        5.5,
-        0.35,
-        1,
-        5.967,
-        0.207,
-        6.433,
-        0.18,
-        6.9,
-        0.18,
-        0,
-        8.333,
-        0.35
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youxiabishensuon",
-      "Segments": [
-        0,
-        -0.264,
-        2,
-        1,
-        -0.264,
-        0,
-        2.5,
-        0,
-        0,
-        4,
-        -0.3,
-        0,
         5.5,
         0,
         0,
         6.9,
-        -0.264,
+        -19,
         0,
         8.333,
         0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshouxuanzhuann",
-      "Segments": [
-        0,
-        0.611,
-        2,
-        0.5,
-        0.611,
-        0,
-        1.367,
-        1,
-        2,
-        2.167,
-        1,
-        0,
-        3.367,
-        0.605,
-        0,
-        4.467,
-        1,
-        0,
-        5.167,
-        0.3,
-        0,
-        5.5,
-        1,
-        0,
-        6.433,
-        0.611,
-        0,
-        7.233,
-        1,
-        2,
-        8.033,
-        1,
-        2,
-        8.333,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshouhuanph",
-      "Segments": [
-        0,
-        0.5,
-        2,
-        1,
-        0.5,
-        0,
-        2.5,
-        0,
-        0,
-        4,
-        0.5,
-        0,
-        5.5,
-        0,
-        0,
-        6.9,
-        0.5,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshouhuanshensuoph",
-      "Segments": [
-        0,
-        0.212,
-        2,
-        1,
-        0.212,
-        0,
-        2.5,
-        0.037,
-        0,
-        4,
-        0.213,
-        0,
-        5.5,
-        0,
-        0,
-        6.9,
-        0.212,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshouzi1n",
-      "Segments": [
-        0,
-        -1,
-        2,
-        4.933,
-        -1,
-        0,
-        5.5,
-        1,
-        2,
-        8.333,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youzitou3",
-      "Segments": [
-        0,
-        -1,
-        2,
-        4.933,
-        -1,
-        0,
-        5.5,
-        1,
-        2,
-        8.333,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youzitou4",
-      "Segments": [
-        0,
-        -1,
-        2,
-        4.933,
-        -1,
-        0,
-        5.5,
-        1,
-        2,
-        8.333,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youziyou5",
-      "Segments": [
-        0,
-        -1,
-        2,
-        4.933,
-        -1,
-        0,
-        5.5,
-        1,
-        2,
-        8.333,
-        1
       ]
     },
     {
@@ -1494,17 +639,8 @@
       "Id": "NINGHAILIANX",
       "Segments": [
         0,
-        11,
+        0,
         2,
-        0.333,
-        11,
-        0,
-        1.5,
-        -3.9,
-        0,
-        3.233,
-        4,
-        0,
         5.5,
         0,
         0,
@@ -1887,9 +1023,9 @@
         0,
         8.133,
         0,
-        0,
+        2,
         8.333,
-        0.7
+        0
       ]
     },
     {
@@ -2012,9 +1148,9 @@
         0,
         7.667,
         0.8,
-        0,
+        2,
         8.333,
-        0
+        0.8
       ]
     },
     {
@@ -2090,8 +1226,8 @@
       "Id": "zuobiyishensuo",
       "Segments": [
         0,
-        -1,
-        2,
+        0,
+        0,
         0.367,
         -1,
         0,
@@ -2130,8 +1266,8 @@
       "Id": "youbiyiyaobai",
       "Segments": [
         0,
-        1,
-        2,
+        0,
+        0,
         1.467,
         1,
         0,
@@ -2167,8 +1303,8 @@
       "Id": "zuobineiyiyaobai",
       "Segments": [
         0,
-        1,
-        2,
+        0,
+        0,
         0.367,
         1,
         0,
@@ -2207,8 +1343,8 @@
       "Id": "zuobixuanzhuan",
       "Segments": [
         0,
-        0.3,
-        2,
+        0,
+        0,
         0.767,
         0.3,
         0,
@@ -2235,9 +1371,6 @@
         6.7,
         0.699,
         0,
-        8.233,
-        0,
-        2,
         8.333,
         0
       ]
@@ -2247,8 +1380,8 @@
       "Id": "zuoshangbishensuo",
       "Segments": [
         0,
-        0.6,
-        2,
+        0,
+        0,
         0.267,
         0.6,
         0,
@@ -2276,8 +1409,8 @@
       "Id": "zuoxiabixuanzhuan",
       "Segments": [
         0,
-        0.118,
-        2,
+        0,
+        0,
         0.2,
         0.118,
         0,
@@ -2319,7 +1452,7 @@
       "Id": "zuoxiabishensuo",
       "Segments": [
         0,
-        0.6,
+        0,
         0,
         1.7,
         -0.441,
@@ -2339,8 +1472,8 @@
       "Id": "zuoshouxuanzhuan",
       "Segments": [
         0,
-        0.622,
-        2,
+        0,
+        0,
         0.367,
         0.622,
         0,
@@ -2379,8 +1512,8 @@
       "Id": "zuozhitou1",
       "Segments": [
         0,
-        -0.8,
-        2,
+        -1,
+        0,
         0.333,
         -0.8,
         0,
@@ -2411,10 +1544,7 @@
       "Id": "zuozi1jiaodu",
       "Segments": [
         0,
-        -1,
-        2,
-        0.033,
-        -1,
+        0,
         0,
         1.3,
         1,
@@ -2451,8 +1581,8 @@
       "Id": "zuozhitou2",
       "Segments": [
         0,
-        -0.8,
-        2,
+        -1,
+        0,
         0.4,
         -0.8,
         0,
@@ -2483,10 +1613,7 @@
       "Id": "zuoji2jiaodu",
       "Segments": [
         0,
-        -1,
-        2,
-        0.033,
-        -1,
+        0,
         0,
         1.3,
         1,
@@ -2523,8 +1650,8 @@
       "Id": "zuozhitou3",
       "Segments": [
         0,
-        -0.8,
-        2,
+        -1,
+        0,
         0.467,
         -0.8,
         0,
@@ -2566,10 +1693,7 @@
       "Id": "zuozi3jiaodu",
       "Segments": [
         0,
-        -0.2,
-        2,
-        0.033,
-        -0.2,
+        0,
         0,
         1.3,
         1,
@@ -2606,8 +1730,8 @@
       "Id": "zuozhitou4",
       "Segments": [
         0,
-        -0.8,
-        2,
+        -1,
+        0,
         0.533,
         -0.8,
         0,
@@ -2649,10 +1773,7 @@
       "Id": "zuozi4jiaodu",
       "Segments": [
         0,
-        -1,
-        2,
-        0.033,
-        -1,
+        0,
         0,
         1.3,
         1,
@@ -2689,8 +1810,8 @@
       "Id": "zuozhitou5",
       "Segments": [
         0,
-        -0.8,
-        2,
+        -1,
+        0,
         0.6,
         -0.8,
         0,
@@ -2732,10 +1853,7 @@
       "Id": "zuozi5jiaodu",
       "Segments": [
         0,
-        -0.502,
-        2,
-        0.033,
-        -0.502,
+        0,
         0,
         1.3,
         1,
@@ -2772,8 +1890,8 @@
       "Id": "zuoshouzhan",
       "Segments": [
         0,
-        0.2,
-        2,
+        -1,
+        0,
         1.267,
         0.2,
         0,
@@ -2809,8 +1927,8 @@
       "Id": "youbixuanzhuan",
       "Segments": [
         0,
-        -0.062,
-        2,
+        0,
+        0,
         0.4,
         -0.062,
         0,
@@ -2841,8 +1959,8 @@
       "Id": "youxiabixuanzhuan",
       "Segments": [
         0,
-        -0.124,
-        2,
+        0,
+        0,
         0.867,
         -0.124,
         0,
@@ -2857,9 +1975,6 @@
         0,
         6.733,
         -0.124,
-        0,
-        8.2,
-        0.039,
         0,
         8.333,
         0
@@ -2887,7 +2002,7 @@
       "Id": "youshouxuanzhuan",
       "Segments": [
         0,
-        0.112,
+        0,
         0,
         0.967,
         -0.124,
@@ -2913,8 +2028,8 @@
       "Id": "youshouzi5",
       "Segments": [
         0,
-        -0.352,
-        2,
+        0,
+        0,
         0.6,
         -0.352,
         0,
@@ -3116,34 +2231,6 @@
         -0.6,
         0,
         5.5,
-        0,
-        2,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "ninghaidaxiao",
-      "Segments": [
-        0,
-        -0.923,
-        2,
-        2.7,
-        -0.923,
-        1,
-        3.222,
-        -0.923,
-        3.745,
-        -0.872,
-        4.267,
-        -0.7,
-        1,
-        4.356,
-        -0.671,
-        4.444,
-        0,
-        4.533,
         0,
         2,
         8.333,
@@ -4555,21 +3642,6 @@
     },
     {
       "Target": "Parameter",
-      "Id": "xuehuaxunhuan",
-      "Segments": [
-        0,
-        1,
-        1,
-        2.778,
-        0.667,
-        5.555,
-        0.333,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
       "Id": "zipianfanzuang",
       "Segments": [
         0,
@@ -4668,9 +3740,6 @@
         4.333,
         0,
         2,
-        5.5,
-        0,
-        2,
         8.333,
         0
       ]
@@ -4682,16 +3751,10 @@
         0,
         0.1,
         2,
-        3.167,
-        0.1,
-        2,
         4.167,
         0.1,
-        0,
-        4.2,
-        0,
         2,
-        5.5,
+        4.2,
         0,
         2,
         8.333,
@@ -4840,644 +3903,6 @@
         0,
         8.333,
         -0.8
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "Param1544",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaizuotui1",
-      "Segments": [
-        0,
-        10,
-        0,
-        8.333,
-        10
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaizuodatui",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaizuojiao",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaiyoudatui",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaiyoujiao",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingzuotuishensuo",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaizuoyou",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaishangxia",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "ParamBreath",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "PINGHAIJIAODUZ",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "PINGHAIBOZIZ",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaizuomuxiaoyan",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingyoumuxiaoyan",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingyanzhudaxiao",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingzuomeishangxia",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingyoumeishangxia",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingzuomeizuoyou",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingyoumeizuoyou",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingzuomeijiaodu",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingyoumeijiaodu",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingzuomeibianxing",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pingyoumeibianxing",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaikoubianxing",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaikoukaibi",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "duduzuiba",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "pinghaizhao",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuobishensuo",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuopaoshensuo",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuoshou1ph",
-      "Segments": [
-        0,
-        1,
-        0,
-        8.333,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuoshou2ph",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuoshou2tuceng",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuoshou3ph",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "phzuoshou4",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zushou4huatong",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "huatongqiehuanph",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "phhuatongxuanzhuan",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "phzuozhitou1",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "phzuozhitou2",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "phzuozhitou3",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "phzuozhitou4",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "zuozhitou5ph",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youbishensuon",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youpaoshensuo",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshouhuanjiaodu",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youzi1jioaodu",
-      "Segments": [
-        0,
-        -1,
-        0,
-        8.333,
-        -1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youzitou2",
-      "Segments": [
-        0,
-        -1,
-        0,
-        8.333,
-        -1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youzi2jiaodun",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youzi3jiaodun",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youzi4jiaodu",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youzi5jiaodu",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "shouzhangshouhe",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshouzhang",
-      "Segments": [
-        0,
-        1,
-        0,
-        8.333,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshou1",
-      "Segments": [
-        0,
-        1,
-        0,
-        8.333,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshou2n",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshou3ph",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshou4ph",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "youshou5ps",
-      "Segments": [
-        0,
-        0,
-        0,
-        8.333,
-        0
       ]
     },
     {
@@ -5944,6 +4369,17 @@
     },
     {
       "Target": "Parameter",
+      "Id": "ninghaidaxiao",
+      "Segments": [
+        0,
+        0,
+        0,
+        8.333,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "yiyaobai",
       "Segments": [
         0,
@@ -5973,6 +4409,17 @@
         0,
         8.333,
         0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "xuehuaxunhuan",
+      "Segments": [
+        0,
+        1,
+        0,
+        8.333,
+        1
       ]
     },
     {

@@ -4,9 +4,10 @@
     "Duration": 11.833,
     "Fps": 60.0,
     "Loop": true,
+    "AreBeziersRestricted": true,
     "CurveCount": 194,
-    "TotalSegmentCount": 1699,
-    "TotalPointCount": 2535,
+    "TotalSegmentCount": 1679,
+    "TotalPointCount": 2515,
     "UserDataCount": 2,
     "TotalUserDataSize": 0
   },
@@ -753,18 +754,6 @@
         4.567,
         -1,
         2,
-        5.4,
-        -1,
-        0,
-        5.5,
-        -2,
-        2,
-        6.533,
-        -2,
-        0,
-        6.867,
-        -1,
-        2,
         8.35,
         -1,
         1,
@@ -793,58 +782,6 @@
         1,
         0,
         11.267,
-        0,
-        2,
-        11.333,
-        0,
-        2,
-        11.833,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "ParamMouthOpenY",
-      "Segments": [
-        0,
-        0,
-        2,
-        5.4,
-        0,
-        0,
-        5.5,
-        1,
-        2,
-        6.533,
-        1,
-        0,
-        6.867,
-        0,
-        2,
-        11.333,
-        0,
-        2,
-        11.833,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "ParamMouthOpenKey",
-      "Segments": [
-        0,
-        0,
-        2,
-        5.4,
-        0,
-        0,
-        5.5,
-        1,
-        2,
-        6.533,
-        1,
-        0,
-        6.867,
         0,
         2,
         11.333,
@@ -7185,57 +7122,6 @@
     },
     {
       "Target": "PartOpacity",
-      "Id": "PartMouthKey",
-      "Segments": [
-        0,
-        0,
-        2,
-        5.23,
-        1,
-        2,
-        7,
-        0,
-        2,
-        11.83,
-        0
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "PartTeeth2",
-      "Segments": [
-        0,
-        0,
-        2,
-        5.23,
-        0,
-        2,
-        7,
-        0,
-        2,
-        11.83,
-        0
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "PartMouth",
-      "Segments": [
-        0,
-        1,
-        2,
-        5.23,
-        0,
-        2,
-        7,
-        1,
-        2,
-        11.83,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
       "Id": "PartTeeth",
       "Segments": [
         0,
@@ -7408,6 +7294,28 @@
     {
       "Target": "Parameter",
       "Id": "ParamBrowR2",
+      "Segments": [
+        0,
+        0,
+        0,
+        11.833,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamMouthOpenY",
+      "Segments": [
+        0,
+        0,
+        0,
+        11.833,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamMouthOpenKey",
       "Segments": [
         0,
         0,
@@ -8261,6 +8169,39 @@
         0,
         11.833,
         0
+      ]
+    },
+    {
+      "Target": "PartOpacity",
+      "Id": "PartMouthKey",
+      "Segments": [
+        0,
+        0,
+        0,
+        11.833,
+        0
+      ]
+    },
+    {
+      "Target": "PartOpacity",
+      "Id": "PartTeeth2",
+      "Segments": [
+        0,
+        0,
+        0,
+        11.833,
+        0
+      ]
+    },
+    {
+      "Target": "PartOpacity",
+      "Id": "PartMouth",
+      "Segments": [
+        0,
+        1,
+        0,
+        11.833,
+        1
       ]
     },
     {

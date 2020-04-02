@@ -4,9 +4,10 @@
     "Duration": 7.05,
     "Fps": 60.0,
     "Loop": true,
-    "CurveCount": 311,
-    "TotalSegmentCount": 1324,
-    "TotalPointCount": 2082,
+    "AreBeziersRestricted": true,
+    "CurveCount": 286,
+    "TotalSegmentCount": 1299,
+    "TotalPointCount": 2045,
     "UserDataCount": 2,
     "TotalUserDataSize": 0
   },
@@ -44,13 +45,9 @@
         0,
         5.983,
         1,
-        1,
-        6.339,
-        1,
-        6.694,
-        0.031,
+        2,
         7.05,
-        0.001
+        1
       ]
     },
     {
@@ -182,13 +179,9 @@
         0,
         3.8,
         0.246,
-        1,
-        4.883,
-        0.246,
-        5.967,
-        0.003,
+        2,
         7.05,
-        0
+        0.246
       ]
     },
     {
@@ -209,13 +202,9 @@
         0,
         5.883,
         -0.471,
-        1,
-        6.272,
-        -0.471,
-        6.661,
-        -0.013,
+        2,
         7.05,
-        0
+        -0.471
       ]
     },
     {
@@ -295,20 +284,12 @@
         -0.4,
         4.967,
         -0.4,
-        1,
-        5.095,
-        -0.4,
-        5.222,
-        -0.118,
+        0,
         5.35,
         -0.1,
-        1,
-        5.917,
-        -0.021,
-        6.483,
-        0,
+        2,
         7.05,
-        0
+        -0.1
       ]
     },
     {
@@ -369,13 +350,9 @@
         0,
         5.833,
         -0.394,
-        1,
-        6.239,
-        -0.394,
-        6.644,
-        -0.011,
+        2,
         7.05,
-        0
+        -0.394
       ]
     },
     {
@@ -7601,6 +7578,17 @@
     },
     {
       "Target": "PartOpacity",
+      "Id": "Part72",
+      "Segments": [
+        0,
+        1,
+        0,
+        7.05,
+        1
+      ]
+    },
+    {
+      "Target": "PartOpacity",
       "Id": "Part2",
       "Segments": [
         0,
@@ -7612,227 +7600,7 @@
     },
     {
       "Target": "PartOpacity",
-      "Id": "Part3",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part4",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part5",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part6",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part7",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part8",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part9",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part10",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
       "Id": "Part12",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part13",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part26",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part25",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part14",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part15",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "houfabian_Skinning",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part16",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part17",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part18",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part19",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part20",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part27",
       "Segments": [
         0,
         1,
@@ -7898,73 +7666,7 @@
     },
     {
       "Target": "PartOpacity",
-      "Id": "Part22",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "houbeipiaodaiS_Skinning",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "houbeipiaodaiX_Skinning",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part28",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
       "Id": "Part11",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part30",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.05,
-        1
-      ]
-    },
-    {
-      "Target": "PartOpacity",
-      "Id": "Part31",
       "Segments": [
         0,
         1,

@@ -1,6 +1,5 @@
 {
   "Version": 3,
-  "ScaleFactor": 0.15,
   "FileReferences": {
     "Moc": "aierdeliqi_5.moc3",
     "Textures": [
@@ -9,17 +8,18 @@
     ],
     "Physics": "aierdeliqi_5.physics3.json",
     "Motions": {
-      "Idle": [
+      "": [
         {
           "File": "motions/idle.motion3.json"
-        }
-      ],
-      "TapTouchHead": [
-        {
-          "File": "motions/mission.motion3.json"
         },
         {
           "File": "motions/effect.motion3.json"
+        },
+        {
+          "File": "motions/touch_body.motion3.json"
+        },
+        {
+          "File": "motions/touch_head.motion3.json"
         },
         {
           "File": "motions/complete.motion3.json"
@@ -37,6 +37,9 @@
           "File": "motions/mail.motion3.json"
         },
         {
+          "File": "motions/login.motion3.json"
+        },
+        {
           "File": "motions/mission_complete.motion3.json"
         },
         {
@@ -46,23 +49,10 @@
           "File": "motions/main_2.motion3.json"
         },
         {
-          "File": "motions/mission.motion3.json"
-        },
-        {
-          "File": "motions/touch_head.motion3.json"
-        }
-      ],
-      "TapTouchSpecial": [
-        {
-          "File": "motions/touch_body.motion3.json"
-        },
-        {
           "File": "motions/touch_special.motion3.json"
-        }
-      ],
-      "Tapcat3_frontleg_r": [
+        },
         {
-          "File": "motions/login.motion3.json"
+          "File": "motions/mission.motion3.json"
         }
       ]
     }
@@ -74,29 +64,6 @@
       "Ids": [
         "ParamMouthOpenY"
       ]
-    },
-    {
-      "Target": "Parameter",
-      "Name": "EyeBlink",
-      "Ids": [
-        "ParamEyeLOpen",
-        "ParamEyeROpen"
-      ]
     }
-  ],
-  "HitAreas": [
-    {
-      "Name": "TouchHead",
-      "Id": "TouchHead"
-    },
-    {
-      "Name": "TouchSpecial",
-      "Id": "TouchSpecial"
-    },
-    {
-      "Name": "cat3_frontleg_r",
-      "Id": "cat3_frontleg_r"
-    }
-  ],
-  "AnisoLevel": 4
+  ]
 }
