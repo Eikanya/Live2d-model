@@ -1,0 +1,127 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "1014100.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": ".physics3.json",
+    "Motions": {
+      "": [
+        {
+          "File": "motions/00_Anger_03.motion3.json"
+        },
+        {
+          "File": "motions/00_Happy_03.motion3.json"
+        },
+        {
+          "File": "motions/00_Happy_01.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Tooth_01.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Upset_02.motion3.json"
+        },
+        {
+          "File": "motions/00_Puzzle_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Cry_03.motion3.json"
+        },
+        {
+          "File": "motions/00_Cry_04.motion3.json"
+        },
+        {
+          "File": "motions/bound.motion3.json"
+        },
+        {
+          "File": "motions/00_Cry_01.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Serious_01.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Anger_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Pride_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Shame_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Wait_01.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Sad_01.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Shame_01.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Puzzle_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Serious_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Upset_01.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Crymouth_01.motion3.json"
+        },
+        {
+          "File": "motions/bound_double.motion3.json"
+        },
+        {
+          "File": "motions/00_Doubt_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Anger_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Happy_02.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Upset_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Sad_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Cry_02.motion3.json"
+        },
+        {
+          "File": "motions/bound_down.motion3.json"
+        },
+        {
+          "File": "motions/00_Surprise_01.motion3.json"
+        },
+        {
+          "File": "motions/00_Anger_02.motion3.json"
+        },
+        {
+          "File": "motions/20_Expression_Smile_01.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "PARAM_EYE_L_OPEN",
+        "PARAM_EYE_R_OPEN"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "PARAM_MOUTH_OPEN_Y"
+      ]
+    }
+  ]
+}
