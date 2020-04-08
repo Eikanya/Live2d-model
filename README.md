@@ -1,29 +1,31 @@
-# Live2d-model
+**Live2d-model**
 
 个人收集的Live2d模型，主要为少女前线，碧蓝航线,少女咖啡枪Live2d模型。主要玩这3个游戏，都会一直更新。
 girls fronline,Azura lane，girls cafe gun Live2d models.
-
-注意：
-不保证模型的配置正确，使用前请查看model.json是否配置正确，特别是动作(motions)的配置。
-编辑模型请使用Live2DViewerEX，自行添加语音或修改模型。
+模型分为moc和moc3。
 
 
-Live2d模型也适合放在博客上,个人网站，请自行在github，google，baidu找教程。
-Live2d模型也可以用于facerig，当虚拟角色。
-
-Live2d model collection
-
-Can eidt live2d models in Live2DViewerEX.
-Can add live2d models in web,such as Wordpress,Typecho ,Hexo.
-How to add? please search in github,google or baidu.
+**注意**
+不保证模型的配置正确，如果不能用Live2d Viewer查看，请查看model.json(model3.json)是否配置正确。
+模型配置说明可查看我个人写的说明，仅供参考
+[配置说明](https://eikanya.github.io/2020/04/08/live2d%E9%85%8D%E7%BD%AE/)
+编辑模型可以使用Live2DViewerEX，自行添加语音或修改模型配置。
 
 
-2020.2.1：
+**看板**
+Live2d模型也适合放在个人博客，个人网站上。Hexo，wordpress，typecho等等。
+请自行在github，google，baidu找相应教程，如果模型不显示，请检查模型格式和配置文件。
+Live2d模型也可以用于facerig，当虚拟角色，vtuber出道。
+
+
+
+- - -
 少女前线Live2d在线预览
-http://gfl.zzzzz.kr/dolls.php?lang=ja
+[少女前线](http://gfl.zzzzz.kr/dolls.php?lang=ja)
 
 碧蓝航线Live2d在线预览
-https://l2d.alg-wiki.com/
+[碧蓝航线](https://l2d.alg-wiki.com/)
 
-百度云盘备份(2020.3.17):
-https://pan.baidu.com/s/1ghnAGXUnN-k-arcsY9Ad1Q 提取码:f8gr 
+百度云盘备份(2020.4.8):
+
+[百度云](https://pan.baidu.com/s/1iuuMYtAn-C8Wy49ScCl5Xw) 提取码: thfd
