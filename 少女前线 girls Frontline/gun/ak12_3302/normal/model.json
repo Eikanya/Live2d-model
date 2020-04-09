@@ -1,0 +1,18 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"model.1024/texture_00.png"
+	],
+	"motions":{
+		"idle":[
+			{"file":"ak12_idle.mtn"}
+		],
+		"": [{
+			"file": "ak12_idle.mtn"
+		}]
+	},
+	"hit_areas":[
+			{"name":"body","id":"D_REF.BODY"}
+			]
+}

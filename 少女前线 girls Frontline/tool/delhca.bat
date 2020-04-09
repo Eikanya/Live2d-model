@@ -1,0 +1,3 @@
+del /s *.hca
+
+pause
