@@ -1,0 +1,61 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"model.1024/texture_00.png"
+	],
+	"expressions":[
+		
+		{"name":"f01.exp.json","file":"expressions/f01.exp.json"},
+		{"name":"f02.exp.json","file":"expressions/f02.exp.json"},
+		{"name":"f03.exp.json","file":"expressions/f03.exp.json"},
+		{"name":"f04.exp.json","file":"expressions/f04.exp.json"},
+		{"name":"f05.exp.json","file":"expressions/f05.exp.json"},
+		{"name":"f06.exp.json","file":"expressions/f06.exp.json"},
+		{"name":"f07.exp.json","file":"expressions/f07.exp.json"},
+		{"name":"f08.exp.json","file":"expressions/f08.exp.json"},
+		{"name":"f09.exp.json","file":"expressions/f09.exp.json"},
+		{"name":"f10.exp.json","file":"expressions/f10.exp.json"}
+	],
+	"motions":{
+		"idle":[
+			{"file":"motions/daiji_idle_01.mtn"}
+		],
+		"":[
+			{"file":"motions/buy_2.mtn"},
+			{"file":"motions/enter_shop.mtn"},
+			{"file":"motions/levelup.mtn"},
+			{"file":"motions/mall_01.mtn"},
+			{"file":"motions/mall_02.mtn"},
+			{"file":"motions/mall_03.mtn"},
+			{"file":"motions/mall_04.mtn"},
+			{"file":"motions/shake.mtn"},
+			{"file":"motions/touch_arm.mtn"},
+			{"file":"motions/touch_breast.mtn"},
+			{"file":"motions/touch_head.mtn"},
+			{"file":"motions/wait_1.mtn"},
+			{"file":"motions/wait_2.mtn"},
+			{"file":"motions/wait_3.mtn"},
+			{"file":"motions/wait_4.mtn"},
+			{"file":"motions/buy_1.mtn"},
+			{"file":"motions/kalina_004.mtn"},
+			{"file":"motions/kalina_014.mtn"},
+			{"file":"motions/kalina_024.mtn"},
+			{"file":"motions/kalina_025.mtn"},
+			{"file":"motions/kalina_027.mtn"},
+			{"file":"motions/kalina_030.mtn"},
+			{"file":"motions/kalina_035.mtn"},
+			{"file":"motions/kalina_037.mtn"},
+			{"file":"motions/kalina_043.mtn"},
+			{"file":"motions/kalina_054.mtn"}
+			
+			
+		]
+	},
+	"physics":"physics.json",
+	"hit_areas":[    
+		{"name":"face","id":"D_REF.FACE"},
+		{"name":"body","id":"D_REF.BODY"},
+		{"name":"arm_l","id":"D_REF.ARM_L"}
+	]
+}
