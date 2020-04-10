@@ -1,0 +1,30 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "L_153400301",
+	"model": "model.moc",
+  "textures": [
+    "textures/L_153400301.png",
+    "textures/L_153400302.png",
+    "textures/L_153400303.png",
+    "textures/L_153400304.png"
+  ],
+	"motions": {
+		"idle": [
+		  { "file": "motions/idle.mtn","fade_in":250, "fade_out":200 ,"cv_id":1}
+		],
+		"idle_click": [
+		  { "file": "motions/1534003_02.mtn","fade_in":250, "fade_out":200,"cv_id":2},
+		  { "file": "motions/1534003_03.mtn","fade_in":250, "fade_out":200 ,"cv_id":3},
+		  { "file": "motions/1534003_04.mtn","fade_in":250, "fade_out":200 ,"cv_id":4},
+		  { "file": "motions/1534003_05.mtn","fade_in":250, "fade_out":200,"cv_id":5},
+		  { "file": "motions/1534003_06.mtn","fade_in":250, "fade_out":200 ,"cv_id":6},
+		  { "file": "motions/1534003_07.mtn","fade_in":250, "fade_out":200 ,"cv_id":7},
+		  { "file": "motions/1534003_08.mtn","fade_in":250, "fade_out":200,"cv_id":8},
+		  { "file": "motions/1534003_09.mtn","fade_in":250, "fade_out":200 ,"cv_id":9},
+		  { "file": "motions/1534003_10.mtn","fade_in":250, "fade_out":200 ,"cv_id":10},
+		  { "file": "motions/1534003_11.mtn","fade_in":250, "fade_out":200 ,"cv_id":11},
+		  { "file": "motions/1534003_12.mtn","fade_in":250, "fade_out":200 ,"cv_id":12},
+		  { "file": "motions/1534003_20.mtn","fade_in":0, "fade_out":0 ,"cv_id":20}
+		]
+	}
+}
