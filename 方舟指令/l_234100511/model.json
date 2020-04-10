@@ -1,0 +1,30 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "L_234100511",
+	
+  "model": "model.moc",
+  "textures": [
+    "textures/texture_00.png"
+  ],
+  "motions": {
+		"idle": [
+		  { "file": "motions/idle.mtn","fade_in":0, "fade_out":0 ,"cv_id":1}
+		],
+		"idle_click": [
+		  { "file": "motions/002.mtn","fade_in":0, "fade_out":0,"cv_id":2},
+		  { "file": "motions/003.mtn","fade_in":0, "fade_out":0 ,"cv_id":3},
+		  { "file": "motions/004.mtn","fade_in":0, "fade_out":0 ,"cv_id":4},
+		  { "file": "motions/005.mtn","fade_in":0, "fade_out":0,"cv_id":5},
+		  { "file": "motions/006.mtn","fade_in":0, "fade_out":0 ,"cv_id":6},
+		  { "file": "motions/007.mtn","fade_in":0, "fade_out":0 ,"cv_id":7},
+		  { "file": "motions/008.mtn","fade_in":0, "fade_out":0,"cv_id":8},
+		  { "file": "motions/009.mtn","fade_in":0, "fade_out":0 ,"cv_id":9},
+		  { "file": "motions/010.mtn","fade_in":0, "fade_out":0 ,"cv_id":10},
+		  { "file": "motions/011.mtn","fade_in":0, "fade_out":0 ,"cv_id":11},
+		  { "file": "motions/012.mtn","fade_in":0, "fade_out":0 ,"cv_id":12},
+		],
+    "login": [
+		  { "file": "motions/020.mtn","fade_in":0, "fade_out":0 ,"cv_id":20}
+		]
+	}
+}

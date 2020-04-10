@@ -1,0 +1,46 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "L_103300401",
+	"model": "model.moc",
+	"textures": [
+    "textures/L_103300401.png",
+    "textures/L_103300402.png",
+    "textures/L_103300403.png",
+    "textures/L_103300404.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "breast_r",
+      "id": "D_PSD_123"
+		},
+		{
+			"name":"breast_l",
+			"id":"D_PSD_124"
+		}
+  ],
+  "trigger": [
+	{ "id": "D_PSD_124", "actionType": "click", "action": "breast"}
+  ],
+	"motions": {
+		"idle": [
+		  { "file": "motions/idle.mtn","fade_in":0, "fade_out":0 ,"cv_id":1}
+		],
+		"breast":[
+			{ "file": "motions/03.mtn","fade_in":0, "fade_out":0,"cv_id":2}
+		],
+		"idle_click": [
+		  { "file": "motions/01.mtn","fade_in":0, "fade_out":0,"cv_id":2},
+		  { "file": "motions/04.mtn","fade_in":0, "fade_out":0 ,"cv_id":3},
+		  { "file": "motions/02_2.mtn","fade_in":0, "fade_out":0 ,"cv_id":4},
+		  { "file": "motions/04.mtn","fade_in":0, "fade_out":750,"cv_id":5},
+		  { "file": "motions/02_2.mtn","fade_in":0, "fade_out":0 ,"cv_id":6},
+		  { "file": "motions/05.mtn","fade_in":0, "fade_out":0 ,"cv_id":7},
+		  { "file": "motions/02.mtn","fade_in":0, "fade_out":0,"cv_id":8},
+		  { "file": "motions/04.mtn","fade_in":0, "fade_out":0 ,"cv_id":9},
+		  { "file": "motions/03.mtn","fade_in":0, "fade_out":0 ,"cv_id":10},
+		  { "file": "motions/01.mtn","fade_in":0, "fade_out":0 ,"cv_id":11},
+		  { "file": "motions/03.mtn","fade_in":0, "fade_out":0 ,"cv_id":12},
+		  { "file": "motions/03.mtn","fade_in":0, "fade_out":0 ,"cv_id":20}
+		]
+	}
+}
