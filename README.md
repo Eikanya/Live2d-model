@@ -1,4 +1,4 @@
-**Live2d-model**
+# Live2d model
 
 个人收集的Live2d模型，主要为少女前线，碧蓝航线,少女咖啡枪Live2d模型。主要玩这3个游戏，都会一直更新。
 girls fronline,Azura lane，girls cafe gun Live2d models.
@@ -34,4 +34,10 @@ Live2d模型也可以用于facerig，当虚拟角色，vtuber出道。
 
 百度云盘备份(2020.4.8):
 
-[百度云](https://pan.baidu.com/s/1iuuMYtAn-C8Wy49ScCl5Xw) 提取码: thfd
+[百度云](https://pan.baidu.com/s/1iuuMYtAn-C8Wy49ScCl5Xw) 提取码: thfd  
+
+
+**下载** **Download**
+文件较多，可以使用GitZip下载，可以选择单个文件夹下载。
+[GitZip](https://gitzip.org/)
+

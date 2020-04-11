@@ -1,0 +1,44 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"DanmenzuYR.moc",
+	"textures":[
+		"DanmenzuYR.1024/texture_00.png"
+	],
+	"expressions":[
+		{"name":"facehaga","file":"expressions/facehaga.exp.json"},
+		{"name":"gadhian","file":"expressions/gadhian.exp.json"},
+		{"name":"Gobrin","file":"expressions/Gobrin.exp.json"},
+		{"name":"Gorem","file":"expressions/Gorem.exp.json"},
+		{"name":"H1Gorem","file":"expressions/H1Gorem.exp.json"},
+		{"name":"Homun","file":"expressions/Homun.exp.json"},
+		{"name":"Hwnd","file":"expressions/Hwnd.exp.json"},
+		{"name":"LikeLike","file":"expressions/LikeLike.exp.json"},
+		{"name":"mimic","file":"expressions/mimic.exp.json"},
+		{"name":"Orc","file":"expressions/Orc.exp.json"},
+		{"name":"Sahagin","file":"expressions/Sahagin.exp.json"},
+		{"name":"SGobrin","file":"expressions/SGobrin.exp.json"},
+		{"name":"SSyokusyu","file":"expressions/SSyokusyu.exp.json"},
+		{"name":"Tinpira","file":"expressions/Tinpira.exp.json"},
+		{"name":"USyokusyu","file":"expressions/USyokusyu.exp.json"}
+	],
+	"motions":{
+		"":[
+			{"file":"motions/0gTaiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/0Taiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/1aSounyu.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/1Sounyu.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/2Taiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/3Ugoki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/3UgokiSR.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/3UgokiT.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/3UgokiUR.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/4Ugoki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/5Ugoki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/6H1Syasei.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/6H2Syasei.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/6Syasei.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/6SyaseiLong.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/ExTaiki.mtn" ,"fade_in":1000, "fade_out":1000}
+		]
+	}
+}

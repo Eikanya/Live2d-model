@@ -1,0 +1,118 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "w108a_01",
+	"model": "w108a_01.moc",
+	"textures": [
+		"w108a_01.2048/texture_00.png",
+		"w108a_01.2048/texture_01.png"
+	],
+	"expressions":[
+		{"name":"w108a", "file":"expressions/w108a_a2.exp.json", "parts_index":0},
+		{"name":"w108b", "file":"expressions/w108a_b.exp.json", "parts_index":0},
+		{"name":"w108c", "file":"expressions/w108a_c.exp.json", "parts_index":0},
+		{"name":"w108d", "file":"expressions/w108a_d.exp.json", "parts_index":0},
+		{"name":"w108e", "file":"expressions/w108a_e.exp.json", "parts_index":0},
+		{"name":"w108f", "file":"expressions/w108a_f.exp.json", "parts_index":0},
+		{"name":"w108g", "file":"expressions/w108a_g.exp.json", "parts_index":0},
+		{"name":"w108h", "file":"expressions/w108a_h.exp.json", "parts_index":0},
+		{"name":"w108aa","file":"expressions/w108a_a2.exp.json", "parts_index":1}
+	],
+	"layout":
+	{
+		"center_x":0.94,
+		"y":0.24,
+		"height":1.66
+	},
+	"motions":{
+		"w108a_a":[
+			{"file":"motions/w108a_base_a.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_base_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108a_b":[
+			{"file":"motions/w108a_base_b.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_base_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108a_c":[
+			{"file":"motions/w108a_base_c.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_base_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+
+		"w108i_a":[
+			{"file":"motions/w108a_i_a.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_i_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108i_b":[
+			{"file":"motions/w108a_i_b.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_i_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108i_c":[
+			{"file":"motions/w108a_i_c.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_i_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108j_a":[
+			{"file":"motions/w108a_j_a.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_j_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108j_b":[
+			{"file":"motions/w108a_j_b.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_j_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108j_c":[
+			{"file":"motions/w108a_j_c.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_j_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108k_a":[
+			{"file":"motions/w108a_k_a.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_k_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108k_b":[
+			{"file":"motions/w108a_k_b.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_k_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108k_c":[
+			{"file":"motions/w108a_k_c.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_k_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108l_a":[
+			{"file":"motions/w108a_l_a.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_l_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108l_b":[
+			{"file":"motions/w108a_l_b.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_l_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108l_c":[
+			{"file":"motions/w108a_l_c.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_l_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108m_a":[
+			{"file":"motions/w108a_m_a.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_m_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108m_b":[
+			{"file":"motions/w108a_m_b.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_m_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108m_c":[
+			{"file":"motions/w108a_m_c.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_m_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108n_a":[
+			{"file":"motions/w108a_n_a.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_n_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108n_b":[
+			{"file":"motions/w108a_n_b.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_n_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"w108n_c":[
+			{"file":"motions/w108a_n_c.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_n_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+
+		"idle":[
+			{"file":"motions/w108a_idle.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/w108a_idle.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		]
+	}
+}

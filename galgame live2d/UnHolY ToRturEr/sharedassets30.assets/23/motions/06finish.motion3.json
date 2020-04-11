@@ -1,0 +1,71 @@
+{
+  "Version": 3,
+  "Meta": {
+    "Duration": 3.0,
+    "Fps": 30.0,
+    "Loop": true,
+    "AreBeziersRestricted": true,
+    "CurveCount": 2,
+    "TotalSegmentCount": 8,
+    "TotalPointCount": 8,
+    "UserDataCount": 4,
+    "TotalUserDataSize": 0
+  },
+  "Curves": [
+    {
+      "Target": "Parameter",
+      "Id": "ParamEye",
+      "Segments": [
+        0,
+        20,
+        0,
+        0.3,
+        0,
+        2,
+        1.5,
+        0,
+        0,
+        3,
+        20
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamKuchi",
+      "Segments": [
+        0,
+        20,
+        0,
+        0.3,
+        30,
+        0,
+        1.2,
+        12,
+        0,
+        1.533,
+        30,
+        0,
+        3,
+        20
+      ]
+    }
+  ],
+  "UserData": [
+    {
+      "Time": 0.0333333351,
+      "Value": ""
+    },
+    {
+      "Time": 0.366666675,
+      "Value": ""
+    },
+    {
+      "Time": 1.33333337,
+      "Value": ""
+    },
+    {
+      "Time": 2.9666667,
+      "Value": ""
+    }
+  ]
+}

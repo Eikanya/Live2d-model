@@ -1,0 +1,118 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "s_chihaya01",
+	"model": "s_chihaya01.moc",
+	"textures": [
+		"s_chihaya01.2048/texture_00.png"
+	],
+	"layout":
+	{
+		"center_x":0.14,
+		"y":0.55,
+		"height":2.9
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_REF_HEAD", "offset_x":240, "offset_y":175, "scale_x":0.48, "scale_y":0.41},
+		{"name":"body", "id":"D_REF_BODY", "offset_x":190,"offset_y":200, "scale_x":0.54, "scale_y":0.57}
+	],
+	"motions":{
+		"m01":[
+		{"file":"motions/chihaya_m_00.mtn","fade_in":300,"fade_out":0, "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"01通常"},
+		{"file":"motions/chihaya_m_00.mtn","fade_in":0,  "fade_out":0, "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m02":[
+		{"file":"motions/chihaya_m_02a.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"02照れ笑い"},
+		{"file":"motions/chihaya_m_02b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":1.0, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m03":[
+		{"file":"motions/chihaya_m_03a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_GIMON__Y", "lip_scale":1.0,  "memo":"03あれ？"},
+		{"file":"motions/chihaya_m_03b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_GIMON__Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m04":[
+		{"file":"motions/chihaya_m_04a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"04えーっと"},
+		{"file":"motions/chihaya_m_04b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m05":[
+		{"file":"motions/chihaya_m_05a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_KANASHI__Y", "lip_scale":1.0,  "memo":"05落ち込んでる"},
+		{"file":"motions/chihaya_m_05b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_KANASHI__Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m06":[
+		{"file":"motions/chihaya_m_06a.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"06がんばります"},
+		{"file":"motions/chihaya_m_06b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m07":[
+		{"file":"motions/chihaya_m_07a.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":0.8, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"07歓喜・大きく口をあけてにっこり"},
+		{"file":"motions/chihaya_m_07b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.8, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m08":[
+		{"file":"motions/chihaya_m_08a.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"08笑い・口を閉じてにっこり"},
+		{"file":"motions/chihaya_m_08b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m09":[
+		{"file":"motions/chihaya_m_09a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_KANASHI__Y", "lip_scale":1.0,  "memo":"09やだなー"},
+		{"file":"motions/chihaya_m_09b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_KANASHI__Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m10":[
+		{"file":"motions/chihaya_m_10a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "memo":"10不安げな表情"},
+		{"file":"motions/chihaya_m_10b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m11":[
+		{"file":"motions/chihaya_m_11a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":0.9, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_BIKKU__Y", "lip_scale":1.0,  "memo":"11ビックリ"},
+		{"file":"motions/chihaya_m_11b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.9, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_BIKKU__Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m12":[
+		{"file":"motions/chihaya_m_12a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "memo":"12気合を入れてる表情"},
+		{"file":"motions/chihaya_m_12b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m13":[
+		{"file":"motions/chihaya_m_13a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"13真剣"},
+		{"file":"motions/chihaya_m_13b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m14":[
+		{"file":"motions/chihaya_m_14a.mtn" ,"fade_in":300,"fade_out":0   "lip_offset":0.9, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_IKARI__Y", "lip_scale":1.0,  "memo":"14怒り（咆哮）"},
+		{"file":"motions/chihaya_m_14b.mtn",  "fade_in":0,  "fade_out":0, "lip_offset":0.9, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_IKARI__Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m15":[
+		{"file":"motions/chihaya_m_15a.mtn" ,"fade_in":300,"fade_out":0  "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"15肯定"},
+		{"file":"motions/chihaya_m_00.mtn",  "fade_in":0,  "fade_out":0, "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m16":[
+		{"file":"motions/chihaya_m_16a.mtn" ,"fade_in":300,"fade_out":0, "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"16否定"},
+		{"file":"motions/chihaya_m_00.mtn",  "fade_in":0,  "fade_out":0, "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":1}
+		],
+		"m17":[
+		{"file":"motions/chihaya_m_17a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":2.0, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"17ハッとする→照れ"}
+		],
+		"m18":[
+		{"file":"motions/chihaya_m_18a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":1.0, "lip_weight":1.0, "lip_id":"PARAM_MOUTH_FORM", "lip_scale":1.0,  "memo":"18乳揺れ＆照れ驚き→照れ怒り"}
+		],
+		"m19":[
+		{"file":"motions/chihaya_m_03a.mtn" ,"fade_in":300, "fade_out":0    "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_GIMON__Y", "lip_scale":1.0,  "memo":"03あれ？"},
+		{"file":"motions/chihaya_m_03b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.8, "lip_weight":0.2, "lip_id":"PARAM_MOUTH_GIMON__Y", "lip_scale":1.0},
+		{"file":"motions/chihaya_m_07a.mtn" ,"fade_in":300, "fade_out":0,   "lip_offset":0.8, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "memo":"07歓喜・大きく口をあけてにっこり"},
+		{"file":"motions/chihaya_m_07b.mtn" ,"fade_in":0,   "fade_out":0,   "lip_offset":0.8, "lip_weight":0.5, "lip_id":"PARAM_MOUTH_OPEN_Y", "lip_scale":1.0,  "jump_index":3}
+		],
+		"idle":[
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_08a.mtn" ,"fade_in":300, "fade_out":0,   "memo":"08口を閉じてにっこり"},
+		{"file":"motions/chihaya_m_08b.mtn" ,"fade_in":0,   "fade_out":500, "memo":"08口を閉じてにっこり"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":500, "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_03a.mtn" ,"fade_in":300, "fade_out":0,   "memo":"03あれ？"},
+		{"file":"motions/chihaya_m_03b.mtn" ,"fade_in":0,   "fade_out":500, "memo":"03あれ？"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":500, "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_08a.mtn" ,"fade_in":300, "fade_out":0,   "memo":"08口を閉じてにっこり"},
+		{"file":"motions/chihaya_m_08b.mtn" ,"fade_in":0,   "fade_out":500, "memo":"08口を閉じてにっこり"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":500, "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":0,   "fade_out":0,   "memo":"01通常"},
+		{"file":"motions/chihaya_m_03a.mtn" ,"fade_in":300, "fade_out":0,   "memo":"03あれ？"},
+		{"file":"motions/chihaya_m_03b.mtn" ,"fade_in":0,   "fade_out":500, "memo":"03あれ？"},
+		{"file":"motions/chihaya_m_01.mtn"  ,"fade_in":500, "fade_out":0,   "memo":"01通常"}
+		]
+	}
+}

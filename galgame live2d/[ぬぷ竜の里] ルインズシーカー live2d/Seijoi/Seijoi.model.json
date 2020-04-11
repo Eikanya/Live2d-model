@@ -1,0 +1,39 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"Seijoi.moc",
+	"textures":[
+		"Seijoi.1024/texture_00.png"
+	],
+	"expressions":[
+		{"name":"SH1","file":"expressions/SH1.exp.json"},
+		{"name":"SH2","file":"expressions/SH2.exp.json"},
+		{"name":"YH1","file":"expressions/YH1.exp.json"},
+		{"name":"YH2","file":"expressions/YH2.exp.json"},
+		{"name":"YH3","file":"expressions/YH3.exp.json"},
+		{"name":"YH4","file":"expressions/YH4.exp.json"},
+		{"name":"YH5","file":"expressions/YH5.exp.json"},
+		{"name":"YH6","file":"expressions/YH6.exp.json"},
+		{"name":"YH7","file":"expressions/YH7.exp.json"}
+	],
+	"motions":{
+		"":[
+			{"file":"motions/0H1Taiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/0H2Taiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/0H3Taiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/0Stop.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/0Taiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/1Sounyu.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/2H1Taiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/2Taiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/3Ugoki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/4Ugoki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/5Ugoki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/6H1Syasei.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/6Syasei.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/ExDoku.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/ExHairu.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/ExTaiki.mtn" ,"fade_in":1000, "fade_out":1000},
+			{"file":"motions/ExTaikiOji.mtn" ,"fade_in":1000, "fade_out":1000}
+		]
+	}
+}
