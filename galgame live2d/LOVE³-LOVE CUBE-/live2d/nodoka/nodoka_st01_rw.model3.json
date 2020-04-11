@@ -1,0 +1,29 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "nodoka_st01_rw.moc3",
+		"Textures": [
+			"nodoka_st01_rw_00.png"
+		],
+		"Physics": "nodoka_st01_rw.physics3.json",
+		"ExternalPhysics": "nodoka_st01_rw.physics3_external.json",
+		"ExternalParamter": "externalParam.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	]
+}

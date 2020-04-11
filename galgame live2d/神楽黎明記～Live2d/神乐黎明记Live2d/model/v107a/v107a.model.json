@@ -1,0 +1,81 @@
+{
+
+	"name": "v107a_01",
+	"model": "v107a_01.moc",
+	"textures": [
+		"v107a_01.2048/texture_00.png",
+		"v107a_01.2048/texture_01.png"
+	],
+	"expressions":[
+		{"name":"v107a", "file":"expressions/v107a_a.exp.json", "parts_index":0},
+		{"name":"v107b", "file":"expressions/v107a_b.exp.json", "parts_index":0},
+		{"name":"v107c", "file":"expressions/v107a_c.exp.json", "parts_index":0},
+		{"name":"v107d", "file":"expressions/v107a_d.exp.json", "parts_index":0},
+		{"name":"v107e", "file":"expressions/v107a_e.exp.json", "parts_index":0},
+		{"name":"v107f", "file":"expressions/v107a_f.exp.json", "parts_index":0},
+		{"name":"v107g", "file":"expressions/v107a_g.exp.json", "parts_index":0},
+		{"name":"v107aa","file":"expressions/v107a_a.exp.json", "parts_index":1}
+	],
+	"layout":
+	{
+		"center_x":0.93,
+		"y":0.240,
+		"height":1.66
+	},
+	"motions":{
+		"v107a_a":[
+			{"file":"motions/v107a_base_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_base_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107a_b":[
+			{"file":"motions/v107a_base_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_base_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107a_c":[
+			{"file":"motions/v107a_base_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_base_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+
+		"v107h_a":[
+			{"file":"motions/v107a_h_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_h_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107h_b":[
+			{"file":"motions/v107a_h_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_h_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107h_c":[
+			{"file":"motions/v107a_h_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_h_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107i_a":[
+			{"file":"motions/v107a_i_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_i_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107i_b":[
+			{"file":"motions/v107a_i_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_i_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107i_c":[
+			{"file":"motions/v107a_i_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_i_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107j_a":[
+			{"file":"motions/v107a_j_a.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_j_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107j_b":[
+			{"file":"motions/v107a_j_b.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_j_b.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+		"v107j_c":[
+			{"file":"motions/v107a_j_c.mtn" ,"fade_in":500, "fade_out":0},
+			{"file":"motions/v107a_j_c.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		],
+
+		"idle":[
+			{"file":"motions/v107a_base_a.mtn" ,"fade_in":1000, "fade_out":0},
+			{"file":"motions/v107a_base_a.mtn" ,"fade_in":0, "fade_out":0, "jump_index":1}
+		]
+	}
+}

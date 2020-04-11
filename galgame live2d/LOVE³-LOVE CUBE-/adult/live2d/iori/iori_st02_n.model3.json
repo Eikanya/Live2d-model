@@ -1,0 +1,29 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "iori_st02_n.moc3",
+		"Textures": [
+			"iori_st02_n_00.png"
+		],
+		"Physics": "iori_st02_n.physics3.json",
+		"ExternalPhysics": "iori_st02_n.physics3_external.json",
+		"ExternalParamter": "externalParam.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}

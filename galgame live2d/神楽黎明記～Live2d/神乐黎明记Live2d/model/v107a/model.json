@@ -1,0 +1,25 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "v107a_01.moc",
+  "textures": [
+    "v107a_01.2048/texture_00.png",
+	"v107a_01.2048/texture_01.png"
+  ],
+  "hit_areas": [
+    {
+      "name": "body",
+      "id": "D_REF.BODYBROKEN"
+    },
+    {
+      "name": "head",
+      "id": "D_REF.HEAD"
+    },
+    {
+      "name": "leg",
+      "id": "D_REF.LEGBROKEN"
+    }
+  ],
+  "motions": {
+    "idle": []
+  }
+}
