@@ -1,0 +1,32 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "magelite",
+	"model": "model.moc",
+	"textures": [
+		"model.1024/texture_00.png"
+	]
+	"response_rate":1.5,
+	"layout":
+	{
+		"center_x":0.55,
+		"center_y":-0.3,
+		"width":0.85
+	},
+	"hit_areas":
+	[
+
+	],
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/daiji.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/suiji.mtn","fade_in":0,"fade_out":0}
+		],
+		"tap_zuopifeng":
+		[
+			{"file":"motions/dianji2.mtn","sound":"sound/mglt02.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji3.mtn","sound":"sound/mglt03.mp3","fade_in":0,"fade_out":0}
+		],
+	}
+}

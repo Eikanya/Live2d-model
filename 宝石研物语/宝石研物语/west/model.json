@@ -1,0 +1,71 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "west",
+	"model": "model.moc",
+	"textures": [
+		"model.1024/texture_00.png",
+		"model.1024/texture_01.png",
+	]
+	"response_rate":1.5,
+	"layout":
+	{
+		"center_x":0.16,
+		"center_y":-0.205,
+		"width":1.9,
+	},
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/idle.mtn","fade_in":0,"fade_out":0}
+		],
+		"idle2":
+		[
+			{"file":"motions/idle2_1.mtn","fade_in":0,"fade_out":0}
+		],
+		"idle3":
+		[
+			{"file":"motions/idle2_2.mtn","fade_in":0,"fade_out":0}
+		],
+		"idle4":
+		[
+			{"file":"motions/idle2_3.mtn","fade_in":0,"fade_out":0}
+		],
+		"dianji1":
+		[
+			{"file":"motions/dianji1.mtn","sound":"sound/dianji1_effect.mp3","fade_in":0,"fade_out":0}
+		],
+		"dianji2":
+		[
+			{"file":"motions/dianji2.mtn","sound":"sound/dianji2_effect.mp3","fade_in":0,"fade_out":0}
+		],
+		"dianji3":
+		[
+			{"file":"motions/dianji1_2.mtn","sound":"sound/dianji1_effect.mp3","fade_in":0,"fade_out":0}
+		],
+		"dianji4":
+		[
+			{"file":"motions/dianji3_1.mtn","sound":"sound/dianji3_1_effect.mp3","fade_in":0,"fade_out":0}
+		],
+		"dianji5":
+		[
+			{"file":"motions/dianji4_1.mtn","sound":"sound/dianji4_1_effect.mp3","fade_in":0,"fade_out":0}
+		],
+		"dianji6":
+		[
+			{"file":"motions/dianji4_2.mtn","sound":"sound/dianji4_1_effect.mp3","fade_in":0,"fade_out":0}
+		],
+		"dianji7":
+		[
+			{"file":"motions/dianji3_2.mtn","sound":"sound/dianji3_1_effect.mp3","fade_in":0,"fade_out":0}
+		],
+		"dianji8":
+		[
+			{"file":"motions/dianji1_4.mtn","sound":"sound/dianji1_effect.mp3","fade_in":0,"fade_out":0}
+		],
+		"dianji9":
+		[
+			{"file":"motions/dianji1_3.mtn","sound":"sound/dianji1_effect.mp3","fade_in":0,"fade_out":0}
+		],
+	}
+}

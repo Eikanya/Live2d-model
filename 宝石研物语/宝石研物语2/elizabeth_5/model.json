@@ -1,0 +1,61 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "elizabeth_5",
+	"model": "model.moc",
+	"textures": [
+		"model.2048/texture_00.png",
+		"model.2048/texture_01.png",
+	],
+	"response_rate":1.5,
+	"layout":
+	{
+		"center_x":0.0,
+		"center_y":-0.20,
+		"width":1.76,
+	},
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/idle1.mtn","fade_in":0,"fade_out":0},
+		],
+		"idle_2":
+		[
+			{"file":"motions/idle2.mtn","fade_in":0,"fade_out":0},
+		],
+		"dianji_1":
+		[
+			{"file":"motions/dianji1.mtn","sound":"sound/dianji1_talk.mp3","fade_in":0,"fade_out":0},
+		],
+		"dianji_2":
+		[
+			{"file":"motions/dianji2.mtn","fade_in":0,"fade_out":0},
+		],
+		"tap_none_item":
+		[
+			{"file":"motions/dianji3.mtn","sound":"sound/dianji3_talk.mp3","fade_in":0,"fade_out":0},
+		],
+		"tap_have_item":
+		[
+			{"file":"motions/dianji3.mtn","sound":"sound/dianji3_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji4.mtn","sound":"sound/dianji4_talk.mp3","fade_in":0,"fade_out":0},
+		],
+		"tap_head_idle2":
+		[
+			{"file":"motions/dianji5.mtn","sound":"sound/dianji5_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji5.mtn","sound":"sound/dianji5_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji5.mtn","sound":"sound/dianji5_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji5.mtn","sound":"sound/dianji5_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji5.mtn","sound":"sound/dianji5_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji5.mtn","sound":"sound/dianji5_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji5.mtn","sound":"sound/dianji5_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji6.mtn","sound":"sound/dianji6_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji6.mtn","sound":"sound/dianji6_talk.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji6.mtn","sound":"sound/dianji6_talk.mp3","fade_in":0,"fade_out":0},
+		],
+		"dianji7":
+		[
+			{"file":"motions/dianji7.mtn","sound":"sound/dianji7_talk.mp3","fade_in":0,"fade_out":0},
+		],
+	},
+}

@@ -1,0 +1,47 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "elizabeth_9",
+	"model": "model.moc",
+	"textures": [
+		"model.2048/texture_00.png",
+		"model.2048/texture_01.png"
+	],
+	"response_rate":1.5,
+	"layout":
+	{
+		"center_x":-0.028,
+		"center_y":-0.19,
+		"width":1.76,
+	},
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/idle.mtn","fade_in":0,"fade_out":0},
+		],
+		"idle_2":
+		[
+			{"file":"motions/idle2.mtn","fade_in":0,"fade_out":0},
+		],
+		"tap_head":
+		[
+			{"file":"motions/dianji2.mtn","sound":"sound/dianji2.mp3","fade_in":0,"fade_out":0},
+		],
+		"tap_belly":
+		[
+			{"file":"motions/dianji1.mtn","sound":"sound/dianji1.mp3","fade_in":0,"fade_out":0},
+		],
+		"dianji":
+		[
+			{"file":"motions/dianji3.mtn","sound":"sound/dianji3.mp3","fade_in":0,"fade_out":0},
+		],
+		"dianji_2":
+		[
+			{"file":"motions/dianji5.mtn","sound":"sound/dianji5.mp3","fade_in":0,"fade_out":0},
+		],
+		"dianji_3":
+		[
+			{"file":"motions/dianji4.mtn","sound":"sound/dianji4.mp3","fade_in":0,"fade_out":0},
+		],
+	},
+}
