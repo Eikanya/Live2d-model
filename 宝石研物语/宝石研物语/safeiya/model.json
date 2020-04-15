@@ -1,0 +1,28 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "model",
+	"model": "model.moc",
+	"textures": [
+		"model.1024/texture_00.png"
+	],
+	"layout":
+	{
+		"center_x":0.533,
+		"center_y":-0.14,
+		"width":1.40
+	},
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/daiji2.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/daiji2.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/suiji.mtn","fade_in":0,"fade_out":0},
+		],
+		"tap_hara":
+		[
+			{"file":"motions/dianji3.mtn","sound":"sound/dianji3.mp3","fade_in":0,"fade_out":0},
+			{"file":"motions/dianji2.mtn","sound":"sound/dianji2.mp3","fade_in":0,"fade_out":0},
+		],
+	}
+}

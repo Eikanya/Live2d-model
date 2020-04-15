@@ -1,0 +1,28 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "lili",
+	"model": "model.moc",
+	"textures": [
+		"model.1024/texture_00.png",
+		"model.1024/texture_01.png",
+	],
+	"response_rate":1.5,
+	"layout":
+	{
+		"center_x":0.5,
+		"center_y":-0.17,
+		"width":1.06
+	},
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/daiji.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/suiji.mtn","fade_in":0,"fade_out":0}
+		],
+		"tap_opai":
+		[
+			{"file":"motions/dianji.mtn","sound":"sound/lili02.mp3","fade_in":0,"fade_out":0}
+		]
+	}
+}

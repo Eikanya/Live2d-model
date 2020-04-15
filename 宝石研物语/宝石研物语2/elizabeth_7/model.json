@@ -1,0 +1,38 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "model",
+	"model": "model.moc",
+	"textures": [
+		"model.2048/texture_00.png",
+		"model.2048/texture_01.png",
+		"model.2048/texture_02.png",
+		"model.2048/texture_03.png",
+		"model.2048/texture_04.png"
+	]
+	"response_rate":1.5,
+	"layout":
+	{
+		"center_x":-0.05,
+		"center_y":-0.257,
+		"width":1.76,
+	},
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/idle.mtn","fade_in":0,"fade_out":0},
+		],
+		"idle_2":
+		[
+			{"file":"motions/idle2.mtn","fade_in":0,"fade_out":0},
+		],
+		"dianji_1":
+		[
+			{"file":"motions/dianji1.mtn","sound":"sound/puppet_click_1.mp3","fade_in":0,"fade_out":0},
+		],
+		"dianji_2":
+		[
+			{"file":"motions/dianji2.mtn","sound":"sound/puppet_click_2.mp3","fade_in":0,"fade_out":0},
+		],
+	}
+}

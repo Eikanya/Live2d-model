@@ -1,0 +1,57 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "model",
+	"model": "model.moc",
+	"textures": 
+	[
+		"model.2048/texture_00.png",
+	],
+	"response_rate":1.5,
+	"layout":
+	{
+		"center_x":-0.05,
+		"center_y":-0.25,
+		"width":0.32,
+	},
+	"motions":
+	{
+		"idle":
+		[
+		],
+		"idle_1":
+		[
+			{"file":"motions/idle_1.mtn","fade_in":0,"fade_out":0},
+		],
+		"idle_2":
+		[
+			{"file":"motions/idle_2.mtn","fade_in":0,"fade_out":0},
+		],
+		"touch_1":
+		[
+			{"file":"motions/dianji_1.mtn","fade_in":0,"fade_out":0},
+		],
+		"touch_2":
+		[
+			{"file":"motions/dianji_2.mtn","fade_in":0,"fade_out":0},
+		],
+		"unlock":
+		[
+			{"file":"motions/unlock2.mtn","fade_in":0,"fade_out":0},
+		],
+		"move_1":
+		[
+			{"file":"motions/move_1.mtn","fade_in":0,"fade_out":0},
+		],
+		"move_2":
+		[
+			{"file":"motions/move_2.mtn","fade_in":0,"fade_out":0},
+		],
+		"fixed_frame":
+		[
+			{"file":"motions/move_1.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/move_2.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/move2_1.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/move2_2.mtn","fade_in":0,"fade_out":0},
+		],
+	},
+}

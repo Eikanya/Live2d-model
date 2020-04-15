@@ -1,0 +1,28 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "elizabeth_6",
+	"model": "model.moc",
+	"textures": [
+		"model.2048/texture_00.png",
+		"model.2048/texture_01.png",
+		"model.2048/texture_02.png",
+	],
+	"response_rate":1.5,
+	"layout":
+	{
+		"center_x":0.05,
+		"center_y":-0.19,
+		"width":1.76,
+	},
+	"motions":
+	{
+		"idle":
+		[
+			{"file":"motions/idle.mtn","sound":"sound/idle_effect.mp3","fade_in":0,"fade_out":0},
+		],
+		"tap_head":
+		[
+			{"file":"motions/dianji.mtn","sound":"sound/dianji_effect.mp3","fade_in":0,"fade_out":0},
+		],
+	},
+}
