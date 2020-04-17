@@ -1,0 +1,67 @@
+{
+  "model": "model.moc",
+  "textures": [
+    "model.2048/texture_00.png"
+  ],
+  "motions": {
+    "tap": [
+      {
+        "file": "motions/mtn_00.mtn"
+      },
+      {
+        "file": "motions/mtn_01.mtn"
+      },
+      {
+        "file": "motions/mtn_02.mtn"
+      },
+      {
+        "file": "motions/mtn_03.mtn"
+      },
+      {
+        "file": "motions/mtn_04.mtn"
+      },
+      {
+        "file": "motions/mtn_05.mtn"
+      },
+      {
+        "file": "motions/drunk_00.mtn"
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "name": "ex_00.exp.json",
+      "file": "expressions/ex_00.exp.json"
+    },
+    {
+      "name": "ex_01.exp.json",
+      "file": "expressions/ex_01.exp.json"
+    },
+    {
+      "name": "ex_02.exp.json",
+      "file": "expressions/ex_02.exp.json"
+    },
+    {
+      "name": "ex_03.exp.json",
+      "file": "expressions/ex_03.exp.json"
+    },
+    {
+      "name": "ex_04.exp.json",
+      "file": "expressions/ex_04.exp.json"
+    },
+    {
+      "name": "ex_05.exp.json",
+      "file": "expressions/ex_05.exp.json"
+    },
+    {
+      "name": "ex_06.exp.json",
+      "file": "expressions/ex_06.exp.json"
+    },
+    {
+      "name": "ex_07.exp.json",
+      "file": "expressions/ex_07.exp.json"
+    }
+  ],
+  "physics": "physics.json",
+  "pose": "pose.json"
+}
