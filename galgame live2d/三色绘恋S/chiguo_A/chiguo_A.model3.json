@@ -1,0 +1,49 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "chiguo_A.moc3",
+		"Textures": [
+			"chiguo_A.1024/texture_00.png",
+			"chiguo_A.1024/texture_01.png"
+		],
+		"Physics": "chiguo_A.physics3.json",
+		"Motions": {
+			"Act": [
+				{
+					"File": "act-01066-f20105.motion3.json",
+					"Sound": "voice/cg_01066-01067.wav"
+				},
+				{
+					"File": "act-07-f20706.motion3.json",
+					"Sound": "voice/cg_01130-01131.wav"
+				}
+			],
+			"Idle": [
+				{
+					"File": "body-00.motion3.json"
+				},
+				{
+					"File": "body-01.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"PARAM_EYE_L_OPEN",
+				"PARAM_EYE_R_OPEN"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"PARAM_MOUTH_OPEN_Y"
+			]
+		}
+	],
+	"HitAreas": []
+}

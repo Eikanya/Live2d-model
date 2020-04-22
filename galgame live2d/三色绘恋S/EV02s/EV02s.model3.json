@@ -1,0 +1,53 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "EV02-s.moc3",
+		"Textures": [
+			"EV02-s.2048/texture_00.png",
+			"EV02-s.2048/texture_01.png",
+			"EV02-s.2048/texture_02.png",
+			"EV02-s.2048/texture_03.png"
+		],
+		"Physics": "EV02-s.physics3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "act-00.motion3.json"
+				},
+				{
+					"File": "act-01.motion3.json"
+				},
+				{
+					"File": "act-02.motion3.json"
+				}
+			],
+			"Act": [
+				{
+					"File": "act-in1.motion3.json"
+				},
+				{
+					"File": "act-in2.motion3.json"
+				},
+				{
+					"File": "act-in3.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"PARAM_EYE_L_OPEN",
+				"PARAM_EYE_R_OPEN"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

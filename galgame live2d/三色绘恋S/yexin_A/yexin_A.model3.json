@@ -1,0 +1,49 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "yexin_A.moc3",
+		"Textures": [
+			"yexin_A.1024/texture_00.png",
+			"yexin_A.1024/texture_01.png"
+		],
+		"Physics": "yexin_A.physics3.json",
+		"Motions": {
+			"Act": [
+				{
+					"File": "act-01043-f40201-20406.motion3.json",
+					"Sound": "voice/yx_01043.wav",
+				},
+				{
+					"File": "act-01056-f40105.motion3.json",
+					"Sound": "voice/yx_01137.wav",
+				}
+			],
+			"Idle": [
+				{
+					"File": "body-00.motion3.json",
+				},
+				{
+					"File": "body-01.motion3.json",
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"PARAM_MOUTH_OPEN_Y"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"PARAM_EYE_L_OPEN",
+				"PARAM_EYE_R_OPEN"
+			]
+		}
+	],
+	"HitAreas": []
+}
