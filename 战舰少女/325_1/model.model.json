@@ -1,0 +1,76 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "model",
+	"model": "model.moc",
+	"textures": [
+		"model.1024/texture_00.png"
+	],
+	"physics":"physics.json",
+
+	"name":"",
+	    "hit_areas": [
+        {"name":"head", "id":"D_REF.FACE"},
+		{"name":"body", "id":"D_REF.BODY"},
+		{"name":"gear_l", "id":"D_REF.GEAR_L"},
+		{"name":"gear_r", "id":"D_REF.GEAR_R"}
+    ],
+
+	"motions": {
+        "idle": [
+            { "file": "daiji_idle_01.mtn", "fade_in": 0, "fade_out": 0, "priority": 1, "sound": "test" }
+        ],
+
+        "motou": [
+            { "file": "motou.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+
+        "moxiong": [
+            { "file": "moxiong.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+
+        "nanguo": [
+            { "file": "nanguo.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+
+        "yansu": [
+            { "file": "yansu.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+
+        "zixin": [
+            { "file": "zixin.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ]
+    },
+
+
+    /* ｵ･ﾎｻﾊﾇｺﾁﾃ・*/
+    "trigger": [
+        { "id": "D_REF.FACE", "actionType": "click", "action": [ "motou" ], "delay": 6000, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"指挥官…这也是礼仪的一种吗？"},
+        { "id": "D_REF.FACE", "actionType": "stroke", "action": [ "nanguo" ], "delay": 9000, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"我的体质非常特别。工作的时候一点儿也不觉得累，如果闲着无事反而会使我委顿不堪了。"},
+        { "id": "D_REF.BODY", "actionType": "click", "action": [ "moxiong" ], "delay": 7000, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"……这有什么特殊意义吗？总之…禁、禁止！"},
+		{ "id": "D_REF.GEAR_L", "actionType": "click", "action": [ "zixin" ], "delay": 9000, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"指挥官，“游戏”开始了！"},
+        { "id": "D_REF.GEAR_R", "actionType": "click", "action": [ "yansu" ], "delay": 10000, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"不要让一个人的外表影响你的判断力，这是最重要的。感情会影响理智。任何确定得到的事实都要强于不确定的猜测。"}
+    ],  
+
+    "auto_action": {
+        "action": "idle" , "delay" :  30000
+    },
+
+    "head_offset": {
+        "x": 0,
+        "y": 200
+    },
+    /* ¸¡µãÊý±íÊ¾»ùÓÚ1024 * 576Çé¿öÏÂµÄ±ÈÀý */
+    "head_range": {
+        "x": 1,
+        "y": 1
+    },
+
+	"bodyRange": {
+        "x": 1
+    },
+    
+	"eyeRange": {
+        "x": 0.9,
+        "y": 0.9
+    }
+}

@@ -1,0 +1,94 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "model",
+	"model": "model.moc",
+	"textures": [
+		"model.1024/texture_00.png",
+		"model.1024/texture_01.png"
+	],
+	"physics":"physics.json",
+	
+	"name":"",
+	    "hit_areas": [
+        { "name": "Face", "id": "D_REF_FACE" },
+        { "name": "Mune", "id": "D_REF_MUNE" },
+        { "name": "SUTOKA", "id": "D_REF_SUTOKA" },
+        { "name": "Muppet", "id": "D_REF_MUPPET" },
+        { "name": "Right", "id": "D_REF_RIGHT" },
+        { "name": "Left", "id": "D_REF_LEFT" }
+    ],
+
+    "motions": {
+        "idle": [
+            { "file": "dadian_idle.mtn", "fade_in": 0, "fade_out": 0, "priority": 1, "sound": "test" },
+            { "file": "dadian_idle1.mtn", "fade_in": 0, "fade_out": 0, "priority": 1, "sound": "test" },
+            { "file": "dadian_idle2.mtn", "fade_in": 0, "fade_out": 0, "priority": 1, "sound": "test" }
+        ],
+
+        "hide_plane": [
+            { "file": "dadian_hide_plane.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" },
+            { "file": "dadian_hide_plane_2.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+
+        "skirt": [
+            { "file": "dadian_skirt.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+
+        "look_left": [
+            { "file": "dadian_look_left.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+
+         "look_right": [
+            { "file": "dadian_look_right.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+
+           "hide_bra": [
+            { "file": "dadian_hide_bra.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+		
+		   "spoiled": [
+            { "file": "ordinarily_spoiled.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+
+            "smile": [
+            { "file": "dadian_smile_01.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" },
+            { "file": "dadian_smile_02.mtn", "fade_in": 0, "fade_out": 0, "priority": 2, "sound": "test" }
+
+        ]
+    },
+
+
+    /* ｵ･ﾎｻﾊﾇｺﾁﾃ・*/
+    "trigger": [
+        { "id": "D_REF_MUPPET", "actionType": "click", "action": [ "hide_plane" ], "delay": 4000, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"您想做什么？！紫云是我的哦！"},
+        { "id": "D_REF_SUTOKA", "actionType": "up", "action": [ "skirt" ], "delay": 3500, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"都说过了…这种事情是不允许的啦！提督，坏心眼！"},
+		{ "id": "D_REF_SUTOKA", "actionType": "stroke", "action": [ "spoiled" ], "delay": 11500, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"徐徐微风，这种感觉……"},
+        { "id": "D_REF_RIGHT", "actionType": "click", "action": [ "look_right" ], "delay": 6500, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"不要碰主炮，这可不是玩具。顺便，别靠近这边。"},
+        { "id": "D_REF_LEFT", "actionType": "click", "action": [ "look_left" ], "delay": 6500, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"我说啊，提督您在打算什么呢？不要凑过来，我说真的。"},
+        { "id": "D_REF_MUNE", "actionType": "click", "action": [ "hide_bra" ], "delay": 4500, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"就…就算您是长官！这种事情也是不允许的！"},
+        { "id": "D_REF_FACE", "actionType": "stroke", "action": [ "smile" ], "delay": 2500, "delay_type": 1, "interval": [ 0 ] ,"dialogue":"您一直盯着的话…我…倒不是很困扰啦……"}
+    ],  
+
+    "auto_action": {
+        "action": "idle" , "delay" :  30000
+    },
+
+    "head_offset": {
+        "x": 0,
+        "y": 300
+    },
+    
+    "head_range": {
+        "x": 1,
+        "y": 1
+    },
+
+	"bodyRange": {
+        "x": 1
+    },
+    
+	"eyeRange": {
+        "x": 0.9,
+        "y": 0.9
+    }
+}
