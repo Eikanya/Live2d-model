@@ -1,0 +1,28 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"model.2048/texture_00.png"
+	],
+	"motions":{
+		"idle":[
+			{"file":"motions/daiji_idle_01.mtn"}
+		],
+		"":[
+			{"file":"motions/motou.mtn"},
+			{"file":"motions/moxiong.mtn"},
+			{"file":"motions/nanguo.mtn"},
+			{"file":"motions/yansu.mtn"},
+			{"file":"motions/zixin.mtn"}
+		]
+			"hit_areas":
+	[
+		{"name":"head", "id":"D_REF.FACE"},
+		{"name":"body", "id":"D_REF.BODY"}
+		{"name":"gear_l", "id":"D_REF.GEAR_L"}
+		{"name":"gear_r", "id":"D_REF.GEAR_R"}
+	},
+	"physics":"physics.json",
+	"project_settings":"embed://14.json",
+	"name":"PreviewModel"
+}

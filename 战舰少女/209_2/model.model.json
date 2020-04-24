@@ -1,0 +1,83 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "model",
+	"model": "model.moc",
+	"textures": [
+		"model.2048/texture_00.png"
+	],
+	"physics":"physics.json",
+	"name":"",
+	    "hit_areas": [
+        {"name":"head", "id":"D_REF_FACE"},
+		{"name":"head2", "id":"D_REF_FACE2"},
+		{"name":"body", "id":"D_REF_BODY"},
+		{"name":"tur", "id":"D_REF.TUR"},
+		{"name":"tur2", "id":"D_REF.TUR2"}
+    ],
+	
+	"motions": {
+        "idle": [
+            { "file": "daiji_idle_01.mtn", "fade_in": 1000, "fade_out": 1000, "priority": 1, "sound": "test" },
+			{ "file": "daiji_idle_02.mtn", "fade_in": 1000, "fade_out": 1000, "priority": 1, "sound": "test" },
+			{ "file": "MISULI.mtn", "fade_in": 1000, "fade_out": 1000, "priority": 1, "sound": "test" }
+        ],
+
+        "kiss": [
+            { "file": "KISS.mtn", "fade_in": 1000, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+		
+		"moxiong": [
+            { "file": "moxiong_01.mtn", "fade_in": 1000, "fade_out": 0, "priority": 2, "sound": "test" },
+			{ "file": "moxiong_02.mtn", "fade_in": 1000, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+		
+		"open": [
+            { "file": "TUR_OPEN.mtn", "fade_in": 1000, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+		
+		"close": [
+            { "file": "TUR_CLOSE.mtn", "fade_in": 1000, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+		
+		"glass_on": [
+            { "file": "GLASS_On.mtn", "fade_in": 1000, "fade_out": 0, "priority": 2, "sound": "test" }
+        ],
+		
+		"glass_off": [
+            { "file": "GLASS_Off.mtn", "fade_in": 1000, "fade_out": 0, "priority": 2, "sound": "test" }
+        ]
+		
+	},
+	
+	"trigger": [
+        { "id": "D_REF.TUR", "actionType": "click", "action": [ "close" ], "delay": 2500, "delay_type": 2, "interval": [ 0 ],"dialogue":"哼哼~快回去吧，小家伙，干得不错~！" },
+        { "id": "D_REF.TUR2", "actionType": "click", "action": [ "open" ], "delay": 2500, "delay_type": 2, "interval": [ 0 ] ,"dialogue":"哦？你是在小瞧我吗？"},
+		{ "id": "D_REF_BODY", "actionType": "stroke", "action": [ "moxiong" ], "delay": 4500, "delay_type": 2, "interval": [ 0 ] ,"dialogue":"天啊，你想干什么！我也是会生气的！"},
+		{ "id": "D_REF_FACE", "actionType": "stroke", "action": [ "kiss" ], "delay": 4500, "delay_type": 2, "interval": [ 0 ] ,"dialogue":"这是对你的奖励~"},
+		{ "id": "D_REF_FACE", "actionType": "click", "action": [ "glass_off" ], "delay": 3500, "delay_type": 2, "interval": [ 0 ] ,"dialogue":"唔…这件不行，太过老土了。指挥官，您对自己的着装要求这么低吗？"},
+		{ "id": "D_REF_FACE2", "actionType": "click", "action": [ "glass_on" ], "delay": 4500, "delay_type": 2, "interval": [ 0 ] ,"dialogue":"饶了我吧！请您到一边休息，让我来帮您挑选合适的衣服。"}
+    ],
+	
+	"auto_action": {
+        "action": "idle" , "delay" :  10000
+    },
+
+    "head_offset": {
+        "x": 0,
+        "y": 300
+    },
+    /*  */
+    "head_range": {
+        "x": 1,
+        "y": 1
+    },
+
+	"bodyRange": {
+        "x": 1
+    },
+    
+	"eyeRange": {
+        "x": 0.9,
+        "y": 0.9
+    }
+}
