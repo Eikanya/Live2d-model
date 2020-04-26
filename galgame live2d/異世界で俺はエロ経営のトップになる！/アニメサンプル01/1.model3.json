@@ -1,0 +1,63 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "アニメサンプル01.moc3",
+    "Textures": [
+      "textures/texture_00 #9268.png"
+    ],
+    "Motions": {
+      "Tap": [
+        {
+          "File": "motions/0.motion3.json"
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "ParamValue": {},
+    "PartOpacity": {
+      "Items": [
+        {
+          "Ids": [
+            "Part17",
+            "Part9",
+            "Part16"
+          ]
+        }
+      ],
+      "Enabled": true
+    },
+    "ArtmeshOpacity": {},
+    "IntimacySystem": {}
+  },
+  "Options": {}
+}
