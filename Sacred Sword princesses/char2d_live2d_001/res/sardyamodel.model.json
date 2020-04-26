@@ -1,0 +1,38 @@
+{
+  "model": "sardiyamodel.moc",
+  "textures": [
+    "model.1024/texture_00 .png",
+    "model.1024/texture_01 .png"
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "SardiyaDefaultMtn.mtn"
+      },
+      {
+        "file": "SardiyaLoopMtn_000.mtn"
+      },
+      {
+        "file": "SardiyaLoopMtn_002.mtn"
+      },
+      {
+        "file": "SardiyaLoopMtn_004.mtn"
+      }
+    ],
+    "tap": [
+      {
+        "file": "SardiyaMtn_000.mtn"
+      },
+      {
+        "file": "SardiyaMtn_001.mtn"
+      },
+      {
+        "file": "SardiyaMtn_002.mtn"
+      },
+      {
+        "file": "SardiyaMtn_004.mtn"
+      }
+    ]
+  },
+  "options": {}
+}
