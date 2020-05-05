@@ -1,0 +1,402 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 0.633,
+		"Fps": 30.0,
+		"Loop": true,
+		"AreBeziersRestricted": true,
+		"CurveCount": 19,
+		"TotalSegmentCount": 50,
+		"TotalPointCount": 111,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Model",
+			"Id": "EyeBlink",
+			"Segments": [
+				0,
+				1,
+				0,
+				0.1,
+				1,
+				1,
+				0.133,
+				1,
+				0.167,
+				0,
+				0.2,
+				0,
+				1,
+				0.233,
+				0,
+				0.267,
+				1,
+				0.3,
+				1,
+				0,
+				0.633,
+				1
+			]
+		},
+		{
+			"Target": "Model",
+			"Id": "LipSync",
+			"Segments": [
+				0,
+				0.188,
+				1,
+				0.022,
+				0.188,
+				0.044,
+				0.086,
+				0.067,
+				0.086,
+				1,
+				0.156,
+				0.086,
+				0.244,
+				0.286,
+				0.333,
+				0.286,
+				1,
+				0.378,
+				0.286,
+				0.422,
+				0,
+				0.467,
+				0,
+				1,
+				0.489,
+				0,
+				0.511,
+				0.027,
+				0.533,
+				0.027,
+				1,
+				0.556,
+				0.027,
+				0.578,
+				0,
+				0.6,
+				0,
+				0,
+				0.633,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleX",
+			"Segments": [
+				0,
+				-12,
+				0,
+				0.033,
+				-12,
+				1,
+				0.111,
+				-12,
+				0.189,
+				8,
+				0.267,
+				8,
+				1,
+				0.378,
+				8,
+				0.489,
+				0,
+				0.6,
+				0,
+				0,
+				0.633,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleY",
+			"Segments": [
+				0,
+				30,
+				0,
+				0.033,
+				30,
+				1,
+				0.111,
+				30,
+				0.189,
+				-30,
+				0.267,
+				-30,
+				1,
+				0.378,
+				-30,
+				0.489,
+				20,
+				0.6,
+				20,
+				0,
+				0.633,
+				20
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleZ",
+			"Segments": [
+				0,
+				-7,
+				0,
+				0.033,
+				-7,
+				1,
+				0.111,
+				-7,
+				0.189,
+				1,
+				0.267,
+				1,
+				1,
+				0.378,
+				1,
+				0.489,
+				1,
+				0.6,
+				1,
+				0,
+				0.633,
+				1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeLOpen",
+			"Segments": [
+				0,
+				0.4,
+				0,
+				0.633,
+				0.4
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeLSmile",
+			"Segments": [
+				0,
+				0.7,
+				0,
+				0.633,
+				0.7
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeROpen",
+			"Segments": [
+				0,
+				0.4,
+				0,
+				0.633,
+				0.4
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeRSmile",
+			"Segments": [
+				0,
+				0.7,
+				0,
+				0.633,
+				0.7
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeBallLX",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.633,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeBallLY",
+			"Segments": [
+				0,
+				-0.7,
+				0,
+				0.633,
+				-0.7
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeBallRX",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.633,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEyeBallRY",
+			"Segments": [
+				0,
+				-0.7,
+				0,
+				0.633,
+				-0.7
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBrowLY",
+			"Segments": [
+				0,
+				0.5,
+				0,
+				0.033,
+				0.5,
+				1,
+				0.222,
+				0.5,
+				0.411,
+				0.8,
+				0.6,
+				0.8,
+				0,
+				0.633,
+				0.8
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBrowRY",
+			"Segments": [
+				0,
+				0.5,
+				0,
+				0.033,
+				0.5,
+				1,
+				0.222,
+				0.5,
+				0.411,
+				0.8,
+				0.6,
+				0.8,
+				0,
+				0.633,
+				0.8
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBrowLForm",
+			"Segments": [
+				0,
+				0.2,
+				0,
+				0.033,
+				0.2,
+				1,
+				0.222,
+				0.2,
+				0.411,
+				0.5,
+				0.6,
+				0.5,
+				0,
+				0.633,
+				0.5
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBrowRForm",
+			"Segments": [
+				0,
+				0.2,
+				0,
+				0.033,
+				0.2,
+				1,
+				0.222,
+				0.2,
+				0.411,
+				0.5,
+				0.6,
+				0.5,
+				0,
+				0.633,
+				0.5
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamSReaction",
+			"Segments": [
+				0,
+				9,
+				0,
+				0.033,
+				9,
+				1,
+				0.111,
+				9,
+				0.189,
+				20.183,
+				0.267,
+				24,
+				1,
+				0.378,
+				29.453,
+				0.489,
+				30,
+				0.6,
+				30,
+				0,
+				0.633,
+				30
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamLeg",
+			"Segments": [
+				0,
+				9,
+				0,
+				0.033,
+				9,
+				1,
+				0.111,
+				9,
+				0.189,
+				20.183,
+				0.267,
+				24,
+				1,
+				0.378,
+				29.453,
+				0.489,
+				30,
+				0.6,
+				30,
+				0,
+				0.633,
+				30
+			]
+		}
+	]
+}
