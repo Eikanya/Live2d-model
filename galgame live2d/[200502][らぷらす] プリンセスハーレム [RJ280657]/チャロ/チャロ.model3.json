@@ -1,0 +1,275 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "チャロ114.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Motions": {
+      "Tapoppai": [
+        {
+          "File": "motions/011.motion3.json",
+          "PostCommand": "parameters unlock ParamUpCosD"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "001.motion3.json",
+        "File": "motions/001.motion3.json"
+      },
+      {
+        "Name": "002.motion3.json",
+        "File": "motions/002.motion3.json"
+      },
+      {
+        "Name": "003.motion3.json",
+        "File": "motions/003.motion3.json"
+      },
+      {
+        "Name": "004.motion3.json",
+        "File": "motions/004.motion3.json"
+      },
+      {
+        "Name": "005.motion3.json",
+        "File": "motions/005.motion3.json"
+      },
+      {
+        "Name": "006.motion3.json",
+        "File": "motions/006.motion3.json"
+      },
+      {
+        "Name": "007.motion3.json",
+        "File": "motions/007.motion3.json"
+      },
+      {
+        "Name": "008.motion3.json",
+        "File": "motions/008.motion3.json"
+      },
+      {
+        "Name": "009.motion3.json",
+        "File": "motions/009.motion3.json"
+      },
+      {
+        "Name": "010.motion3.json",
+        "File": "motions/010.motion3.json"
+      }
+    ]
+  },
+  "Controllers": {
+    "ParamHit": {
+      "Items": [
+        {
+          "Name": "胸部脱",
+          "Id": "ParamUpCosD",
+          "HitArea": "oppai",
+          "Axis": 1,
+          "Factor": -1.0,
+          "ReleaseType": 1,
+          "LockParam": true
+        },
+        {
+          "Name": "手臂脱衣服",
+          "Id": "ParamUpCosArm",
+          "HitArea": "右臂",
+          "Axis": 1,
+          "Factor": 0.5,
+          "ReleaseType": 0,
+          "LockParam": true
+        },
+        {
+          "Name": "手臂穿衣服",
+          "Id": "ParamUpCosArm",
+          "HitArea": "左臂",
+          "Axis": 0,
+          "Factor": 0.5,
+          "ReleaseType": 0,
+          "LockParam": true
+        },
+        {
+          "Name": "左胸X",
+          "Id": "ParamBustRX",
+          "HitArea": "左胸",
+          "Axis": 0,
+          "Factor": 0.0,
+          "ReleaseType": 0
+        },
+        {
+          "Name": "左胸Y",
+          "Id": "ParamBustRY",
+          "HitArea": "左胸",
+          "Axis": 1,
+          "Factor": 0.0,
+          "ReleaseType": 0
+        },
+        {
+          "Name": "右胸X",
+          "Id": "ParamBustLX",
+          "HitArea": "右胸",
+          "Axis": 0,
+          "Factor": 0.0,
+          "ReleaseType": 0
+        },
+        {
+          "Name": "右胸Y",
+          "Id": "ParamBustLY",
+          "HitArea": "右胸",
+          "Axis": 1,
+          "Factor": 0.0,
+          "ReleaseType": 0
+        },
+        {
+          "Name": "内裤上",
+          "Id": "ParamBottomCosD",
+          "HitArea": "内裤上",
+          "Axis": 0,
+          "Factor": 0.5,
+          "ReleaseType": 0,
+          "LockParam": true
+        },
+        {
+          "Name": "内裤下",
+          "Id": "ParamPantsD",
+          "HitArea": "内裤下",
+          "Axis": 0,
+          "Factor": 0.5,
+          "ReleaseType": 0,
+          "LockParam": true
+        },
+        {
+          "Name": "阴核X",
+          "Id": "ParamCX",
+          "HitArea": "阴核",
+          "Axis": 0,
+          "Factor": 1.0,
+          "ReleaseType": 0
+        },
+        {
+          "Name": "阴核Y",
+          "Id": "ParamCY",
+          "HitArea": "阴核",
+          "Axis": 1,
+          "Factor": 1.0,
+          "ReleaseType": 0
+        },
+        {
+          "Name": "阴唇X",
+          "Id": "ParamKunni",
+          "Axis": 0,
+          "Factor": 0.5,
+          "ReleaseType": 0
+        },
+        {
+          "Name": "阴唇Y",
+          "Id": "ParamKunni2",
+          "Axis": 1,
+          "Factor": 0.5,
+          "ReleaseType": 0
+        }
+      ],
+      "Enabled": true
+    },
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {},
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {
+      "Items": [
+        {
+          "Name": "part",
+          "Ids": [
+            "Part"
+          ]
+        }
+      ],
+      "Enabled": true
+    },
+    "ArtmeshOpacity": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "oppai",
+      "Id": "ArtMesh128",
+      "Order": 2
+    },
+    {
+      "Name": "内裤上",
+      "Id": "ArtMesh129",
+      "Order": 3
+    },
+    {
+      "Name": "内裤下",
+      "Id": "ArtMesh132",
+      "Order": 4
+    },
+    {
+      "Name": "右臂",
+      "Id": "ArtMesh167",
+      "Order": 3
+    },
+    {
+      "Name": "左臂",
+      "Id": "ArtMesh161",
+      "Order": 3
+    },
+    {
+      "Name": "淫纹",
+      "Id": "ArtMesh133"
+    },
+    {
+      "Name": "脸",
+      "Id": "ArtMesh63",
+      "Order": 2
+    },
+    {
+      "Name": "左胸",
+      "Id": "ArtMesh99",
+      "Order": 3,
+      "Enabled": false
+    },
+    {
+      "Name": "右胸",
+      "Id": "ArtMesh108",
+      "Order": 3,
+      "Enabled": false
+    },
+    {
+      "Name": "阴核",
+      "Id": "ArtMesh146",
+      "Order": 6
+    },
+    {
+      "Name": "阴唇",
+      "Id": "ArtMesh150",
+      "Order": 6
+    }
+  ],
+  "Options": {
+    "AnisoLevel": 4
+  }
+}
