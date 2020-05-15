@@ -1,0 +1,88 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"xier.2048/texture_00.png"
+	],
+	"motions":{
+		"shake":[
+			{"file":"motions/001.mtn","sound":"Ev_Cv_Partner_1026_001","text":155021,"sound_delay":-2}
+		],
+		"flick_head":[
+			{"file":"motions/003.mtn","sound":"Ev_Cv_Partner_1026_003","text":155023,"sound_delay":-4}
+		],
+		"tap_face":[
+			{"file":"motions/002.mtn","sound":"Ev_Cv_Partner_1026_002","text":155022,"sound_delay":-2}
+		],
+		"tap_breast":[
+			{"file":"motions/010.mtn","sound":"Ev_Cv_Partner_1026_010","text":155030,"sound_delay":-5}
+		],
+		"tap_leg":[
+			{"file":"motions/014.mtn","sound":"Ev_Cv_Partner_1026_014","text":155034,"sound_delay":-1}
+		],
+		"tap_belly":[
+			{"file":"motions/014.mtn","sound":"Ev_Cv_Partner_1026_014","text":155034,"sound_delay":-1}
+		],
+		"mail":[
+			{"file":"motions/007.mtn","sound":"Ev_Cv_Partner_1026_007","text":155027,"sound_delay":-2}
+		],
+		"idle":[
+			{"file":"motions/010.mtn","sound":"Ev_Cv_Partner_1026_010","text":155030,"sound_delay":-5},
+			{"file":"motions/idle.mtn"}
+		],
+		"activity":[
+			{"file":"motions/012.mtn","sound":"Ev_Cv_Partner_1026_012","text":155032,"sound_delay":-2}
+		],
+		"born":[
+			{"file":"motions/012.mtn","sound":"Ev_Cv_Partner_1026_012","text":155032,"sound_delay":-2}
+		],
+		"friend":[
+			{"file":"motions/idle.mtn"}
+		],
+		"morning":[
+			{"file":"motions/008.mtn","sound":"Ev_Cv_Partner_1026_008","text":155028,"sound_delay":-2}
+		],
+		"afternoon":[
+			{"file":"motions/idle.mtn"}
+		],
+		"evening":[
+			{"file":"motions/019.mtn","sound":"Ev_Cv_Partner_1026_019","text":155039,"sound_delay":-2}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"embed://111.json",
+	"name":"",
+	"layout":
+	{
+		"image_height": 800,
+		"image_center_y": 0.31,
+		"head_center_y": 0.25,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_CORE_HEAD"},
+		{"name":"face", "id":"D_CORE_FACE"},
+		{"name":"breast", "id":"D_CORE_BREAST"},
+		{"name":"belly", "id":"D_CORE_BELLY"},
+		{"name":"leg", "id":"D_CORE_LEG"}
+	],
+	"motion_settings":
+	{
+		"idle":{"cd":20},
+		"morning":{"cd":3600},
+		"afternoon":{"cd":3600},
+		"evening":{"cd":3600},
+		"activity":{"cd":3600},
+		"friend":{"cd":18000},
+		"mail":{"cd":18000},
+		"tap_breast":{"cd":10},
+		"tap_belly":{"cd":10},
+		"tap_leg":{"cd":10},
+		"tap_face":{"cd":10},
+		"flick_head":{"cd":20},
+		"shake":{"cd":60},
+		"born":{"cd":60}
+	}
+}

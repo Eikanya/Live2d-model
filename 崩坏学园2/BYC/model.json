@@ -1,0 +1,97 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"BCY.moc",
+	"textures":[
+		"BCY.2048/texture_00.png"
+	],
+	"motions":{
+		"shake":[
+			{"file":"motions/confused.mtn","sound":"sound/D_Sak_Live2D001.wav","text":155079,"sound_delay":-1}
+		],
+		"flick_head":[
+			{"file":"motions/happy.mtn","sound":"sound/D_Sak_Live2D002.wav","text":155080,"sound_delay":-1}
+		],
+		"tap_face":[
+			{"file":"motions/happy.mtn","sound":"sound/D_Sak_Live2D002.wav","text":155080,"sound_delay":-1}
+		],
+		"tap_breast":[
+			{"file":"motions/happy.mtn","sound":"sound/D_Sak_Live2D002.wav","text":155080,"sound_delay":-1}
+		],
+		"tap_belly":[
+			{"file":"motions/happy.mtn","sound":"sound/D_Sak_Live2D002.wav","text":155080,"sound_delay":-1}
+		],
+		"tap_leg":[
+			{"file":"motions/happy.mtn","sound":"sound/D_Sak_Live2D002.wav","text":155080,"sound_delay":-1}
+		],
+		"mail":[
+			{"file":"motions/soft.mtn","sound":"sound/D_Sak_Live2D003.wav","text":155081,"sound_delay":-1}
+		],
+		"morning":[
+			{"file":"motions/smart.mtn","sound":"sound/D_Sak_Live2D004.wav","text":155082,"sound_delay":-1},
+			{"file":"motions/soft.mtn","sound":"sound/D_Sak_Live2D011.wav","text":155089,"sound_delay":-1}
+		],
+		"idle":[
+			{"file":"motions/idle.mtn"},
+			{"file":"motions/laugh.mtn","sound":"sound/D_Sak_Live2D005.wav","text":155083,"sound_delay":-1},
+			{"file":"motions/laugh.mtn","sound":"sound/D_Sak_Live2D007.wav","text":155085,"sound_delay":-1},
+			{"file":"motions/joke.mtn","sound":"sound/D_Sak_Live2D008.wav","text":155086,"sound_delay":-1}
+		],
+		"activity":[
+			{"file":"motions/soft.mtn","sound":"sound/D_Sak_Live2D006.wav","text":155084,"sound_delay":-1}
+
+		],
+		"born":[
+			{"file":"motions/soft.mtn","sound":"sound/D_Sak_Live2D009.wav","text":155087,"sound_delay":-1}
+		],
+		"friend":[
+			{"file":"motions/soft.mtn","sound":"sound/D_Sak_Live2D010.wav","text":155088,"sound_delay":-1}
+		],
+		"afternoon":[
+			{"file":"motions/soft.mtn","sound":"sound/D_Sak_Live2D012.wav","text":155090,"sound_delay":-1}
+		],
+		"evening":[
+			{"file":"motions/soft.mtn","sound":"sound/D_Sak_Live2D013.wav","text":155091,"sound_delay":-1}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"embed://111.json",
+	"name":"",
+	"layout":
+	{
+		"image_height": 750,
+		"image_center_y": -0.25,
+		"anchor_center_y": 0,
+		"head_center_y": 0.5,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_CORE.HEAD"},
+		{"name":"face", "id":"D_CORE.FACE"},
+		{"name":"breast", "id":"D_CORE.BREAST"},
+		{"name":"belly", "id":"D_CORE.BELLY"},
+		{"name":"leg", "id":"D_CORE.LEG"}
+	],
+	"motion_settings":
+	{
+		"idle":{"cd":20},
+		"morning":{"cd":3600},
+		"afternoon":{"cd":3600},
+		"evening":{"cd":3600},
+		"activity":{"cd":3600},
+		"friend":{"cd":18000},
+		"mail":{"cd":18000},
+		"tap_breast":{"cd":10},
+		"tap_belly":{"cd":10},
+		"tap_leg":{"cd":10},
+		"tap_face":{"cd":10},
+		"flick_head":{"cd":20},
+		"shake":{"cd":60},
+		"born":{"cd":60}
+	},
+	"extra_param_prefix_settings":
+	[
+		"PARAM_FYW"
+	]
+}

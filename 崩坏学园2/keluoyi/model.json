@@ -1,0 +1,89 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"keluoyi.2048/texture_00.png"
+	],
+	"motions":{
+		"shake":[
+			{"file":"motions/8.mtn","sound":"sound/kuroe_live2d_001.wav","text":81562,"sound_delay":-2}
+		],
+		"flick_head":[
+			{"file":"motions/1.mtn","sound":"sound/kuroe_live2d_003.wav","text":81555,"sound_delay":-2}
+		],
+		"tap_face":[
+			{"file":"motions/2.mtn","sound":"sound/kuroe_live2d_005.wav","text":81556,"sound_delay":-2}
+		],
+		"tap_breast":[
+			{"file":"motions/3.mtn","sound":"sound/kuroe_live2d_002.wav","text":81557,"sound_delay":-2}
+		],
+		"tap_belly":[
+			{"file":"motions/5.mtn","sound":"sound/kuroe_live2d_006.wav","text":81559,"sound_delay":-2}
+		],
+		"tap_leg":[
+			{"file":"motions/4.mtn","sound":"sound/kuroe_live2d_004.wav","text":81558,"sound_delay":-2}
+		],
+		"mail":[
+			{"file":"motions/idle.mtn"}
+		],
+		"morning":[
+			{"file":"motions/idle.mtn"}
+		],
+		"idle":[
+			{"file":"motions/6.mtn","sound":"sound/kuroe_live2d_009.wav","text":81560,"sound_delay":-2},
+			{"file":"motions/7.mtn","sound":"sound/kuroe_live2d_011.wav","text":81561,"sound_delay":-2},
+			{"file":"motions/idle.mtn"}
+		],
+		"activity":[
+			{"file":"motions/idle.mtn"}
+		],
+		"born":[
+			{"file":"motions/7.mtn","sound":"sound/kuroe_live2d_011.wav","text":81561,"sound_delay":-2}
+		],
+		"friend":[
+			{"file":"motions/idle.mtn"}
+		],
+		"afternoon":[
+			{"file":"motions/idle.mtn"}
+		],
+		"evening":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"embed://111.json",
+	"name":"",
+	"layout":
+	{
+		"image_height": 1170,
+		"image_center_y": 0.57,
+		"head_center_y": 0.25,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_CORE_HEAD"},
+		{"name":"face", "id":"D_CORE_FACE"},
+		{"name":"breast", "id":"D_CORE_BREAST"},
+		{"name":"belly", "id":"D_CORE_BELLY"},
+		{"name":"leg", "id":"D_CORE_LEG"}
+	],
+	"motion_settings":
+	{
+		"idle":{"cd":20},
+		"morning":{"cd":3600},
+		"afternoon":{"cd":3600},
+		"evening":{"cd":3600},
+		"activity":{"cd":3600},
+		"friend":{"cd":18000},
+		"mail":{"cd":18000},
+		"tap_breast":{"cd":10},
+		"tap_belly":{"cd":10},
+		"tap_leg":{"cd":10},
+		"tap_face":{"cd":10},
+		"flick_head":{"cd":20},
+		"shake":{"cd":60},
+		"born":{"cd":60}
+	}
+}
