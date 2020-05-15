@@ -1,0 +1,102 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"Kiana.2048/texture_00.png"
+	],
+	"motions":{
+		"shake":[
+			{"file":"motions/6.mtn","sound":"sound/kiana_live2d_001.wav","text":155040,"sound_delay":-1}
+		],
+		"flick_head":[
+
+			{"file":"motions/4.mtn","sound":"sound/kiana_live2d_004.wav","text":155043,"sound_delay":-1}
+		],
+		"tap_face":[
+			{"file":"motions/3.mtn","sound":"sound/kiana_live2d_014.wav","text":155053,"sound_delay":-1}
+		],
+		"tap_breast":[
+			{"file":"motions/1.mtn","sound":"sound/kiana_live2d_007.wav","text":155046,"sound_delay":-1}
+		],
+		"tap_belly":[
+			{"file":"motions/2.mtn","sound":"sound/kiana_live2d_002.wav","text":155041,"sound_delay":-1}
+		],
+		"tap_leg":[
+			{"file":"motions/1.mtn","sound":"sound/kiana_live2d_007.wav","text":155046,"sound_delay":-1}
+		],
+		"mail":[
+			{"file":"motions/idle.mtn"}
+		],
+		"morning":[
+			{"file":"motions/idle.mtn"}
+		],
+		"idle":[
+			{"file":"motions/5.mtn","sound":"sound/kiana_live2d_010.wav","text":155049,"sound_delay":-1}
+		],
+		"activity":[
+			{"file":"motions/idle.mtn"}
+		],
+		"born":[
+			{"file":"motions/3.mtn","sound":"sound/kiana_live2d_014.wav","text":155053,"sound_delay":-1}
+		],
+		"friend":[
+			{"file":"motions/idle.mtn"}
+		],
+		"afternoon":[
+			{"file":"motions/idle.mtn"}
+		],
+		"evening":[
+			{"file":"motions/idle.mtn"}
+		],
+		"special01":[
+			{"file":"motions/idle.mtn"}
+		],
+		"birthday":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"embed://111.json",
+	"name":"",
+	"layout":
+	{
+		"image_height": 790,
+		"image_center_y": 0.35,
+		"anchor_center_y": 0.5,
+		"head_center_y": 0.25,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_CORE_HEAD"},
+		{"name":"face", "id":"D_CORE_FACE"},
+		{"name":"breast", "id":"D_CORE_BREAST"},
+		{"name":"belly", "id":"D_CORE_BELLY"},
+		{"name":"leg", "id":"D_CORE_LEG"}
+	],
+	"motion_settings":
+	{
+		"idle":{"cd":20},
+		"morning":{"cd":3600},
+		"afternoon":{"cd":3600},
+		"evening":{"cd":3600},
+		"activity":{"cd":3600},
+		"friend":{"cd":18000},
+		"mail":{"cd":18000},
+		"tap_breast":{"cd":10},
+		"tap_belly":{"cd":10},
+		"tap_leg":{"cd":10},
+		"tap_face":{"cd":10},
+		"flick_head":{"cd":20},
+		"shake":{"cd":60},
+		"born":{"cd":60},
+		"special01":{"cd":3000},
+		"birthday":{"cd":3000}
+	},
+	"special_settings":
+	{
+		"special01":{"start_month":5,"start_day":28,"end_month":5,"end_day":28},
+		"birthday":{"start_month":5,"start_day":27,"end_month":5,"end_day":27}
+	}
+}

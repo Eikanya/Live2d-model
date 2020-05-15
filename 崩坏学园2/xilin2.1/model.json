@@ -1,0 +1,90 @@
+{
+	"version":"Sample 1.0.0",
+	"model": "xilin2.1.moc",
+	"textures": [
+		"xilin2.1.2048/texture_00.png"
+	],
+	"motions":{
+		"flick_head":[
+			{"file":"motions/1.mtn","sound":"Ev_Cv_Partner_1220_002_cn","text":155160,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_002","text1":155154,"sound_delay1":0}
+		],
+		"tap_face":[
+			{"file":"motions/2.mtn","sound":"Ev_Cv_Partner_1220_003_cn","text":155161,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_003","text1":155155,"sound_delay1":0}
+		],
+		"tap_breast":[
+			{"file":"motions/3.mtn","sound":"Ev_Cv_Partner_1220_004_cn","text":155162,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_004","text1":155156,"sound_delay1":0}
+		],
+		"tap_leg":[
+			{"file":"motions/3.mtn","sound":"Ev_Cv_Partner_1220_004_cn","text":155162,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_004","text1":155156,"sound_delay1":0}
+		],
+		"tap_belly":[
+			{"file":"motions/3.mtn","sound":"Ev_Cv_Partner_1220_004_cn","text":155162,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_004","text1":155156,"sound_delay1":0}
+		],
+		"mail":[
+			{"file":"motions/idle.mtn"}
+		],
+		"idle":[
+			{"file":"motions/5.mtn","sound":"Ev_Cv_Partner_1220_009_cn","text":155166,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_009","text1":155157,"sound_delay1":0},
+			{"file":"motions/5.mtn","sound":"Ev_Cv_Partner_1220_005_cn","text":155163,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_009","text1":155157,"sound_delay1":0},
+			{"file":"motions/6.mtn","sound":"Ev_Cv_Partner_1220_010_cn","text":155164,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_010","text1":155158,"sound_delay1":0},
+			{"file":"motions/idle.mtn"}
+		],
+		"shake":[
+			{"file":"motions/7.mtn","sound":"Ev_Cv_Partner_1220_001_cn","text":155165,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_001","text1":155159,"sound_delay1":0}
+		],
+		"activity":[
+			{"file":"motions/idle.mtn"}
+		],
+		"born":[
+			{"file":"motions/2.mtn","sound":"Ev_Cv_Partner_1220_003_cn","text":155161,"sound_delay":0,"sound1":"Ev_Cv_Partner_1220_003","text1":155155,"sound_delay1":0}
+		],
+		"friend":[
+			{"file":"motions/idle.mtn"}
+		],
+		"morning":[
+			{"file":"motions/idle.mtn"}
+		],
+		"afternoon":[
+			{"file":"motions/idle.mtn"}
+		],
+		"evening":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"embed://111.json",
+	"name":"kika",
+	"layout":
+	{
+		"image_height": 1700,
+		"image_center_y": 0.52,
+		"head_center_y": 0.25,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_CORE_HEAD"},
+		{"name":"face", "id":"D_CORE_FACE"},
+		{"name":"breast", "id":"D_CORE_BREAST"},
+		{"name":"belly", "id":"D_CORE_BELLY"},
+		{"name":"leg", "id":"D_CORE_LEG"}
+	],
+	"motion_settings":
+	{
+		"idle":{"cd":20},
+		"morning":{"cd":3600},
+		"afternoon":{"cd":3600},
+		"evening":{"cd":3600},
+		"activity":{"cd":3600},
+		"friend":{"cd":18000},
+		"mail":{"cd":18000},
+		"tap_breast":{"cd":10},
+		"tap_belly":{"cd":10},
+		"tap_leg":{"cd":10},
+		"tap_face":{"cd":10},
+		"flick_head":{"cd":20},
+		"shake":{"cd":60},
+		"born":{"cd":60}
+	}
+}

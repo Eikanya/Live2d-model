@@ -1,0 +1,88 @@
+{
+	"version":"Sample 1.0.0",
+	"model": "kiro.moc",
+	"textures": [
+		"kiro.2048/texture_00.png"
+	],
+	"motions":{
+		"flick_head":[
+			{"file":"motions/1.mtn","sound":"Ev_Cv_Partner_1279_002","text":155183,"sound_delay":0}
+		],
+		"tap_face":[
+			{"file":"motions/2.mtn","sound":"Ev_Cv_Partner_1279_003","text":155184,"sound_delay":0}
+		],
+		"tap_breast":[
+			{"file":"motions/2.mtn","sound":"Ev_Cv_Partner_1279_003","text":155184,"sound_delay":0}
+		],
+		"tap_leg":[
+			{"file":"motions/1.mtn","sound":"Ev_Cv_Partner_1279_002","text":155183,"sound_delay":0}
+		],
+		"tap_belly":[
+			{"file":"motions/1.mtn","sound":"Ev_Cv_Partner_1279_002","text":155183,"sound_delay":0}
+		],
+		"mail":[
+			{"file":"motions/idle.mtn"}
+		],
+		"idle":[
+			{"file":"motions/3.mtn","sound":"Ev_Cv_Partner_1279_008","text":155185,"sound_delay":0},
+			{"file":"motions/4.mtn","sound":"Ev_Cv_Partner_1279_009","text":155186,"sound_delay":0},
+			{"file":"motions/idle.mtn"}
+		],
+		"shake":[
+			{"file":"motions/5.mtn","sound":"Ev_Cv_Partner_1279_001","text":155187,"sound_delay":0}
+		],
+		"activity":[
+			{"file":"motions/idle.mtn"}
+		],
+		"born":[
+			{"file":"motions/3.mtn","sound":"Ev_Cv_Partner_1279_008","text":155185,"sound_delay":0}
+		],
+		"friend":[
+			{"file":"motions/idle.mtn"}
+		],
+		"morning":[
+			{"file":"motions/idle.mtn"}
+		],
+		"afternoon":[
+			{"file":"motions/idle.mtn"}
+		],
+		"evening":[
+			{"file":"motions/idle.mtn"}
+		]
+	},
+	"physics":"physics.json",
+	"project_settings":"embed://111.json",
+	"layout":
+	{
+		"image_height": 1150,
+		"image_center_y": 0.52,
+		"head_center_y": 0.25,
+		"time_to_max_speed": 0.08,
+		"face_max_angle": 20
+	},
+	"hit_areas":
+	[
+		{"name":"head", "id":"D_CORE_HEAD"},
+		{"name":"face", "id":"D_CORE_FACE"},
+		{"name":"breast", "id":"D_CORE_BREAST"},
+		{"name":"belly", "id":"D_CORE_BELLY"},
+		{"name":"leg", "id":"D_CORE_LEG"}
+	],
+	"motion_settings":
+	{
+		"idle":{"cd":20},
+		"morning":{"cd":3600},
+		"afternoon":{"cd":3600},
+		"evening":{"cd":3600},
+		"activity":{"cd":3600},
+		"friend":{"cd":18000},
+		"mail":{"cd":18000},
+		"tap_breast":{"cd":10},
+		"tap_belly":{"cd":10},
+		"tap_leg":{"cd":10},
+		"tap_face":{"cd":10},
+		"flick_head":{"cd":20},
+		"shake":{"cd":60},
+		"born":{"cd":60}
+	}
+}
