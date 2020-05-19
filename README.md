@@ -43,7 +43,7 @@ Live2d模型也可以用于facerig，当虚拟角色，vtuber出道。
 
 百度云盘备份(2020.4.8):
 
-[百度云](https://pan.baidu.com/s/1iuuMYtAn-C8Wy49ScCl5Xw) 提取码: thfd  
+[百度云](https://pan.baidu.com/s/1O91q2XCA_Un8Ja836RDwzA) 提取码: er7k
 
 
 **下载** **Download**
