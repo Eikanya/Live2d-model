@@ -1,79 +1,8 @@
 {
-  "name": "model",
-  "model": "model.moc",
-  "textures": [
-    "model.2048/texture_00.png"
-  ],
-  "hit_areas": [
-    {
-      "name": "D_REF.BODY",
-      "id": "D_REF.BODY"
-    },
-    {
-      "name": "D_REF.HEAD",
-      "id": "D_REF.HEAD"
-    }
-  ],
-  "motions": {
-    "tap_D_REF.BODY": [
-      {
-        "file": "motions/anger.mtn"
-      },
-      {
-        "file": "motions/anger_loop.mtn"
-      },
-      {
-        "file": "motions/blues.mtn"
-      },
-      {
-        "file": "motions/blues_loop.mtn"
-      },
-      {
-        "file": "motions/cutin.mtn"
-      },
-      {
-        "file": "motions/ease.mtn"
-      },
-      {
-        "file": "motions/ease_loop.mtn"
-      },
-      {
-        "file": "motions/joy_loop.mtn"
-      },
-      {
-        "file": "motions/elapse.mtn"
-      },
-      {
-        "file": "motions/joy.mtn"
-      },
-      {
-        "file": "motions/ease_loop.mtn"
-      },
-      {
-        "file": "motions/cutin.mtn"
-      },
-      {
-        "file": "motions/blues_loop.mtn"
-      },
-      {
-        "file": "motions/blues.mtn"
-      }
-    ],
-    "tap_D_REF.HEAD": [
-      {
-        "file": "motions/tap1.mtn"
-      },
-      {
-        "file": "motions/tap2.mtn"
-      },
-      {
-        "file": "motions/tap3.mtn"
-      }
-    ],
-    "idle": [
-      {
-        "file": "motions/loop.mtn"
-      }
-    ]
-  }
+	"type": "Live2D Model Setting",
+	"name": "model",
+	"model": "model.moc",
+	"textures": [
+		"model.2048/texture_00.png"
+	]
 }
