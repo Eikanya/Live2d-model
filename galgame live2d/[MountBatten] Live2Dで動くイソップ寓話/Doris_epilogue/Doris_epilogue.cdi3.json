@@ -1,0 +1,286 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "ParamGroup",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "ParamGroup",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "ParamGroup",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "ParamGroup",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "ParamGroup",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "ParamGroup",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "Param10",
+			"GroupId": "ParamGroup",
+			"Name": "目玉Z"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "ParamGroup",
+			"Name": "照れ"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "ParamGroup",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "Param5",
+			"GroupId": "",
+			"Name": "頭部45-90"
+		},
+		{
+			"Id": "Param9",
+			"GroupId": "",
+			"Name": "口開閉"
+		},
+		{
+			"Id": "Param6",
+			"GroupId": "",
+			"Name": "口切替45"
+		},
+		{
+			"Id": "Param7",
+			"GroupId": "",
+			"Name": "口切替90"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup3",
+			"Name": "着衣切替"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup3",
+			"Name": "両腕切替"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "ParamGroup3",
+			"Name": "左腕切替"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "ParamGroup3",
+			"Name": "右腕切替"
+		},
+		{
+			"Id": "Param14",
+			"GroupId": "ParamGroup3",
+			"Name": "飲み1"
+		},
+		{
+			"Id": "Param15",
+			"GroupId": "ParamGroup3",
+			"Name": "飲み2"
+		},
+		{
+			"Id": "Param13",
+			"GroupId": "ParamGroup3",
+			"Name": "左腹さすり"
+		},
+		{
+			"Id": "Param12",
+			"GroupId": "ParamGroup3",
+			"Name": "右腹さすり"
+		},
+		{
+			"Id": "Param8",
+			"GroupId": "ParamGroup3",
+			"Name": "脚"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "ParamGroup3",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "ParamGroup2",
+			"Name": "髪揺れ　前"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "ParamGroup2",
+			"Name": "髪揺れ　横"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "ParamGroup2",
+			"Name": "髪揺れ　後"
+		},
+		{
+			"Id": "Param11",
+			"GroupId": "ParamGroup2",
+			"Name": "耳飾り揺れ"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "頭部"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "身体"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "揺れ"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "ドリス"
+		},
+		{
+			"Id": "Part2",
+			"Name": "頭部_45"
+		},
+		{
+			"Id": "Part8",
+			"Name": "頭部_90"
+		},
+		{
+			"Id": "Part14",
+			"Name": "妊娠"
+		},
+		{
+			"Id": "Part17",
+			"Name": "腕"
+		},
+		{
+			"Id": "Part18",
+			"Name": "着衣"
+		},
+		{
+			"Id": "Part21",
+			"Name": "髪の毛"
+		},
+		{
+			"Id": "Part3",
+			"Name": "表情"
+		},
+		{
+			"Id": "Part39",
+			"Name": "ベース"
+		},
+		{
+			"Id": "Part38",
+			"Name": "髪の毛"
+		},
+		{
+			"Id": "Part9",
+			"Name": "表情"
+		},
+		{
+			"Id": "Part49",
+			"Name": "ベース"
+		},
+		{
+			"Id": "Part15",
+			"Name": "右腕"
+		},
+		{
+			"Id": "Part16",
+			"Name": "左腕"
+		},
+		{
+			"Id": "Part5",
+			"Name": "眉"
+		},
+		{
+			"Id": "Part6",
+			"Name": "目"
+		},
+		{
+			"Id": "Part7",
+			"Name": "口"
+		},
+		{
+			"Id": "Part4",
+			"Name": "特殊"
+		},
+		{
+			"Id": "Part10",
+			"Name": "眉"
+		},
+		{
+			"Id": "Part11",
+			"Name": "目"
+		},
+		{
+			"Id": "Part12",
+			"Name": "口"
+		},
+		{
+			"Id": "Part13",
+			"Name": "特殊"
+		},
+		{
+			"Id": "Part22",
+			"Name": "定型"
+		},
+		{
+			"Id": "Part26",
+			"Name": "汎用"
+		},
+		{
+			"Id": "Part23",
+			"Name": "定型"
+		},
+		{
+			"Id": "Part35",
+			"Name": "汎用"
+		},
+		{
+			"Id": "Part27",
+			"Name": "左目"
+		},
+		{
+			"Id": "Part28",
+			"Name": "右目"
+		}
+	]
+}

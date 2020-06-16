@@ -1,0 +1,117 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Doris_interval_2.moc3",
+		"Textures": [
+			"Doris_interval_2.2048/texture_00.png"
+		],
+		"Physics": "Doris_interval_2.physics3.json",
+		"DisplayInfo": "Doris_interval_2.cdi3.json",
+		"Motions": {
+			"3_2_a": [
+				{
+					"File": "motion/d3_2_a.motion3.json"
+				}
+			],
+			"3_2_a_loop": [
+				{
+					"File": "motion/d3_2_a_loop.motion3.json"
+				}
+			],
+			"3_2_b": [
+				{
+					"File": "motion/d3_2_b.motion3.json"
+				}
+			],
+			"3_2_b_loop": [
+				{
+					"File": "motion/d3_2_b_loop.motion3.json"
+				}
+			],
+			"3_2_c": [
+				{
+					"File": "motion/d3_2_c.motion3.json"
+				}
+			],
+			"3_2_c_loop": [
+				{
+					"File": "motion/d3_2_c_loop.motion3.json"
+				}
+			],
+			"3_2_d": [
+				{
+					"File": "motion/d3_2_d_1.motion3.json"
+				},
+				{
+					"File": "motion/d3_2_d_2.motion3.json"
+				}
+			],
+			"3_2_d_loop": [
+				{
+					"File": "motion/d3_2_d_loop.motion3.json"
+				}
+			],
+			"3_2_e": [
+				{
+					"File": "motion/d3_2_e.motion3.json"
+				}
+			],
+			"3_2_e_loop": [
+				{
+					"File": "motion/d3_2_e_loop.motion3.json"
+				}
+			],
+			"3_2_f": [
+				{
+					"File": "motion/d3_2_f.motion3.json"
+				}
+			],
+			"3_2_f_loop": [
+				{
+					"File": "motion/d3_2_f_loop.motion3.json"
+				}
+			],
+			"3_2_g": [
+				{
+					"File": "motion/d3_2_g.motion3.json"
+				}
+			],
+			"3_2_h": [
+				{
+					"File": "motion/d3_2_h_1.motion3.json"
+				}
+			],
+			"3_2_h_loop": [
+				{
+					"File": "motion/d3_2_h_loop.motion3.json"
+				}
+			],
+			"3_2_j": [
+				{
+					"File": "motion/d3_2_j.motion3.json"
+				}
+			],
+			"stay": [
+				{
+					"File": "motion/stay.motion3.json"
+				}
+			]
+
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

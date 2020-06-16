@@ -1,0 +1,78 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Doris_interval_1.moc3",
+		"Textures": [
+			"Doris_interval_1.2048/texture_00.png"
+		],
+		"Physics": "Doris_interval_1.physics3.json",
+		"DisplayInfo": "Doris_interval_1.cdi3.json",
+		"Motions": {
+			"3_1_a": [
+				{
+					"File": "motion/d3_1_a.motion3.json"
+				}
+			],
+			"3_1_a_loop": [
+				{
+					"File": "motion/d3_1_a_loop.motion3.json"
+				}
+			],
+			"3_1_b": [
+				{
+					"File": "motion/d3_1_b.motion3.json"
+				}
+			],
+			"3_1_b_loop": [
+				{
+					"File": "motion/d3_1_b_loop.motion3.json"
+				}
+			],
+			"3_1_c": [
+				{
+					"File": "motion/d3_1_c.motion3.json"
+				}
+			],
+			"3_1_c_loop": [
+				{
+					"File": "motion/d3_1_c_loop.motion3.json"
+				}
+			],
+			"3_1_d": [
+				{
+					"File": "motion/d3_1_d.motion3.json"
+				}
+			],
+			"3_1_e": [
+				{
+					"File": "motion/d3_1_e.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "motion/Idle.motion3.json"
+				}
+			],
+			"Stay": [
+				{
+					"File": "motion/stay.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"Param9"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

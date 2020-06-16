@@ -1,0 +1,85 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Doris_goddess.moc3",
+		"Textures": [
+			"Doris_goddess.1024/texture_00.png"
+		],
+		"Physics": "Doris_goddess.physics3.json",
+		"DisplayInfo": "Doris_goddess.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motion/0_Neutral_Idle.motion3.json"
+				}
+			],
+			"Neutral": [
+				{
+					"File": "motion/0_Neutral_to_Left_Half.motion3.json"
+				},
+				{
+					"File": "motion/0_Neutral_to_Right_Half.motion3.json"
+				}
+			],
+			"Idle_Left_Half": [
+				{
+					"File": "motion/1_Left_Half_Idle.motion3.json"
+				}
+			],
+			"Left_Half": [
+				{
+					"File": "motion/1_Left_Half_to_Left_Max.motion3.json"
+				},
+				{
+					"File": "motion/1_Left_Half_to_Neutral.motion3.json"
+				}
+			],
+			"Idle_Left_Max": [
+				{
+					"File": "motion/2_Left_Max_Idle.motion3.json"
+				}
+			],
+			"Left_Max": [
+				{
+					"File": "motion/2_Left_Max_to_Left_Half.motion3.json"
+				}
+			],
+			"Idle_Right_Half": [
+				{
+					"File": "motion/3_Right_Half_Idle.motion3.json"
+				}
+			],
+			"Right_Half": [
+				{
+					"File": "motion/3_Right_Half_to_Neutral.motion3.json"
+				},
+				{
+					"File": "motion/3_Right_Half_to_Right_Max.motion3.json"
+				}
+			],
+			"Idle_Right_Max": [
+				{
+					"File": "motion/4_Right_Max_Idle.motion3.json"
+				}
+			],
+			"Right_Max": [
+				{
+					"File": "motion/4_Right_Max_to_Right_Half.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
