@@ -1,0 +1,38 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Doris_Heart.moc3",
+		"Textures": [
+			"Doris_Heart.512/texture_00.png"
+		],
+		"DisplayInfo": "Doris_Heart.cdi3.json",
+		"Motions": {
+			"test": [
+				{
+					"File": "motion/Heart1.motion3.json"
+				},
+				{
+					"File": "motion/Heart2.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "motion/Heart_Idle.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

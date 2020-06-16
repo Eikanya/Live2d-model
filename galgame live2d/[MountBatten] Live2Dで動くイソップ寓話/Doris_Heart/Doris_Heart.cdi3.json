@@ -1,0 +1,68 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamX1",
+			"GroupId": "ParamGroup",
+			"Name": "X"
+		},
+		{
+			"Id": "ParamY1",
+			"GroupId": "ParamGroup",
+			"Name": "Y"
+		},
+		{
+			"Id": "ParamZ1",
+			"GroupId": "ParamGroup",
+			"Name": "Z"
+		},
+		{
+			"Id": "ParamS1",
+			"GroupId": "ParamGroup",
+			"Name": "Size"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "ParamGroup",
+			"Name": "Visiblity"
+		},
+		{
+			"Id": "ParamX2",
+			"GroupId": "ParamGroup2",
+			"Name": "X"
+		},
+		{
+			"Id": "ParamY2",
+			"GroupId": "ParamGroup2",
+			"Name": "Y"
+		},
+		{
+			"Id": "ParamZ2",
+			"GroupId": "ParamGroup2",
+			"Name": "Z"
+		},
+		{
+			"Id": "ParamS2",
+			"GroupId": "ParamGroup2",
+			"Name": "Size"
+		},
+		{
+			"Id": "ParamV2",
+			"GroupId": "ParamGroup2",
+			"Name": "Visiblity"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "H1"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "H2"
+		}
+	],
+	"Parts": []
+}

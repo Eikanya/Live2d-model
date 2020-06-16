@@ -1,0 +1,72 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Doris_ride.moc3",
+		"Textures": [
+			"Doris_ride.4096/texture_00.png",
+			"Doris_ride.4096/texture_01.png"
+		],
+		"Physics": "Doris_ride.physics3.json",
+		"DisplayInfo": "Doris_ride.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motion/4_1_1_2.motion3.json"
+				}
+			],
+			"4_1_1_2": [
+				{
+					"File": "motion/4_1_1_2.motion3.json"
+				}
+			],
+			"4_1_1_3_1": [
+				{
+					"File": "motion/4_1_1_3_1.motion3.json"
+				}
+			],
+			"4_1_1_3_2": [
+				{
+					"File": "motion/4_1_1_3_2.motion3.json"
+				}
+			],
+			"4_1_1_4_1": [
+				{
+					"File": "motion/4_1_1_4_1.motion3.json"
+				}
+			],
+			"4_1_1_4_2": [
+				{
+					"File": "motion/4_1_1_4_2.motion3.json"
+				}
+			],
+			"4_1_2": [
+				{
+					"File": "motion/4_1_2_1.motion3.json"
+				},
+				{
+					"File": "motion/4_1_2_2.motion3.json"
+				}
+			],
+			"Stay": [
+				{
+					"File": "motion/Stay.motion3.json"
+				}
+			],
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

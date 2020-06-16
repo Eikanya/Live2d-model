@@ -1,0 +1,55 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Doris_talk.moc3",
+		"Textures": [
+			"Doris_talk.2048/texture_00.png"
+		],
+		"Physics": "Doris_talk.physics3.json",
+		"DisplayInfo": "Doris_talk.cdi3.json",
+		"Motions": {
+			"6": [
+				{
+					"File": "motion/d6_1.motion3.json"
+				},
+				{
+					"File": "motion/d6_2.motion3.json"
+				},
+				{
+					"File": "motion/d6_3.motion3.json"
+				},
+				{
+					"File": "motion/d6_4.motion3.json"
+				},
+				{
+					"File": "motion/d6_5.motion3.json"
+				}
+			],
+			"6_1_loop": [
+				{
+					"File": "motion/d6_1_loop.motion3.json"
+				}
+			],
+			"Stay": [
+				{
+					"File": "motion/stay.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"Param9"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
