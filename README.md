@@ -41,9 +41,6 @@ Live2d模型也可以用于facerig，当虚拟角色，vtuber出道。
 碧蓝航线Live2d在线预览：
 [碧蓝航线](https://l2d.alg-wiki.com/)
 
-百度云盘备份(2020.4.8):
-
-[百度云](https://pan.baidu.com/s/1O91q2XCA_Un8Ja836RDwzA) 提取码: er7k
 
 
 **下载** **Download**
@@ -52,3 +49,5 @@ Live2d模型也可以用于facerig，当虚拟角色，vtuber出道。
   
 [GitZip](https://gitzip.org/)
 
+
+[FastGit](https://fastgit.org/)
