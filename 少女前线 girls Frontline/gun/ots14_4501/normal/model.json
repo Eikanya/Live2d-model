@@ -1,0 +1,33 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"model.1024/texture_00.png",
+		"model.1024/texture_01.png"
+	],
+	"motions":{
+		"":[
+			{"file":"motions/login.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/shake.mtn","fade_out":0},
+			{"file":"motions/touch_1.mtn","fade_out":0},
+			{"file":"motions/touch_2.mtn","fade_out":0},
+			{"file":"motions/touch_3.mtn","fade_out":0},
+			{"file":"motions/touch_4.mtn","fade_out":0},
+			{"file":"motions/touch_5.mtn","fade_out":0},
+			{"file":"motions/wait_1.mtn","fade_out":0},
+			{"file":"motions/wait_2.mtn","fade_out":0},
+			{"file":"motions/wedding.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/wedding_touch.mtn","fade_out":0}
+		],
+		"idle":[
+			{"file":"motions/daiji_idle_01.mtn","fade_out":0}
+		]
+	},
+	"physics":"physics.json",
+	
+		"hit_areas":[
+			{"name":"head","id":"D_REF.HEAD"},
+			{"name":"leg","id":"D_REF.LEG"},
+			{"name":"body","id":"D_REF.BODY"}
+			]
+}
