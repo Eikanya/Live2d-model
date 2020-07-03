@@ -1,0 +1,35 @@
+{
+	"type":"Live2D Physics",
+	"physics_hair":[
+		{
+			"label":"accessory",
+			"setup":{
+				"length":0.15,
+				"regist":0.5,
+				"mass":0.15
+			},
+			"src":[
+				{
+					"id":"PARAM_BODY_ANGLE_X",
+					"ptype":"x",
+					"scale":0.007,
+					"weight":1
+				},
+				{
+					"id":"PARAM_BODY_ANGLE_Z",
+					"ptype":"angle",
+					"scale":0.8,
+					"weight":1
+				}
+			],
+			"targets":[
+				{
+					"id":"PARAM_CLOTHES_C",
+					"ptype":"angle",
+					"scale":0.025,
+					"weight":0.5
+				}
+			]
+		}
+	]
+}
