@@ -1,0 +1,47 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "character.dat",
+  "textures": [
+    "texture_00.png"
+  ],
+  "expressions": [
+    {
+      "name": "affair",
+      "file": "affair.exp.json"
+    },
+    {
+      "name": "idle",
+      "file": "idle.exp.json"
+    }
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "c438_02_attack.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "banner": [
+      {
+        "file": "c438_02_banner.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "hit": [
+      {
+        "file": "c438_02_hit.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "c438_02_idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}

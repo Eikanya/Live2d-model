@@ -1,0 +1,56 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "character.dat",
+  "textures": [
+    "texture_00.png"
+  ],
+  "expressions": [
+    {
+      "name": "angry",
+      "file": "angry.exp.json"
+    },
+    {
+      "name": "confused",
+      "file": "confused.exp.json"
+    },
+    {
+      "name": "idle",
+      "file": "idle.exp.json"
+    },
+    {
+      "name": "joy",
+      "file": "joy.exp.json"
+    },
+    {
+      "name": "pain",
+      "file": "pain.exp.json"
+    },
+    {
+      "name": "serious",
+      "file": "serious.exp.json"
+    }
+  ],
+  "motions": {
+    "attack": [
+      {
+        "file": "c441_01_attack.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "hit": [
+      {
+        "file": "c441_01_hit.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "idle": [
+      {
+        "file": "c441_01_idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ]
+  }
+}
