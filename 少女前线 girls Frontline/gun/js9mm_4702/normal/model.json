@@ -1,0 +1,18 @@
+{
+	"version": "Sample 1.0.0",
+	"model": "model.moc",
+	"textures": [
+		"model.1024/texture_00.png"
+	],
+	"motions": {
+		"idle": [
+			{"file": "daiji_idle_01.mtn","fade_in":0,"fade_out":0},
+			{"file": "wait_01.mtn","fade_in":500,"fade_out":0},
+			{"file": "wait_02.mtn","fade_in":500,"fade_out":0}
+		]
+	},
+	"hit_areas": [{
+		"name": "body",
+		"id": "D_REF.BODY"
+	}]
+}
