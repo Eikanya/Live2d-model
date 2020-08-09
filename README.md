@@ -1,7 +1,6 @@
 # Live2d model
 
-个人收集的Live2d模型，主要为少女前线，碧蓝航线,少女咖啡枪Live2d模型。主要玩这3个游戏，都会一直更新。
-girls fronline,Azura lane，girls cafe gun Live2d models。模型分为moc和moc3。
+个人收集的Live2d模型，一般提取自游戏中，手游居多。手游的Live2d，音频资源一般有加密，解密方法来源与网络上。
 
 
 **注意**
@@ -13,9 +12,9 @@ girls fronline,Azura lane，girls cafe gun Live2d models。模型分为moc和moc
 
 
 编辑模型可以使用Live2DViewerEX，自行添加语音或修改模型配置。
+[Live2DViewerEX配置例子](https://eikanya.github.io/post/liv2DViewerEX%E9%85%8D%E7%BD%AE/)
 
-
-**看板**
+**看板娘**
 
 
 Live2d模型也适合放在个人博客，个人网站上。Hexo，wordpress，typecho等等。 
@@ -28,7 +27,7 @@ Live2d模型也可以用于facerig，当虚拟角色，vtuber出道。
   
 - - -
 
-我的个人博客上有测试live2d看板娘，moc3模型，因为moc模型网络上教程很多，源码也有，所以就测试一下moc3模型。  
+我的个人博客[博客](https://eikanya.github.io/) 上有测试live2d的moc3模型，也有部分相关游戏Live2d模型和音频的提取方法，因为moc模型网络上教程很多，源码也有，所以就测试一下moc3模型。  
 
 我的博客上测试的live2d也是参考自网络上，自行修改，功能还不多，自己娱乐还行。注意LICENSE,请勿作商业用途。
 
@@ -51,3 +50,4 @@ Live2d模型也可以用于facerig，当虚拟角色，vtuber出道。
 
 
 [FastGit](https://fastgit.org/)
+

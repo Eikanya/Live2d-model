@@ -1,0 +1,57 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "黑木兴",
+	"model": "Lead_00.moc",
+	"textures": {
+        "16120":[
+		  "texture_00.png",
+	   ]
+    },
+    "config":{
+        "scale":1.2,
+        "posX":-50,
+        "posY":140,
+        "offsetX":0,
+        "offsetY":0,
+        "textPosX":325,
+        "textPosY":580,
+        "mirrorX":false,
+    },
+    "motions":{
+		"idle":[
+			{
+				"file":"motions/idle.mtn",
+				"fade_in":0,
+				"fade_out":0,
+			},
+		],
+		"stay":[
+			{
+				"file":"motions/stay.mtn",
+				"fade_in":0,
+				"fade_out":0,
+			},
+		],
+		"set":[
+			{
+				"file":"motions/setting.mtn",
+				"fade_in":0,
+				"fade_out":0,
+			},
+		],
+		"touch_01":[
+			{
+				"file":"motions/touch_01.mtn",
+				"fade_in":0,
+				"fade_out":0,
+			},
+		],
+		"touch_99":[
+			{
+				"file":"motions/touch_99.mtn",
+				"fade_in":0,
+				"fade_out":0,
+			},
+		],
+	},
+}

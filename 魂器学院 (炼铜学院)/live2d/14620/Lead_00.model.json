@@ -1,0 +1,37 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "睡衣伊迪斯",
+	"model": "Lead_00.moc",
+	"textures":{
+        "14620":[
+		  "texture_00.png",
+	   ]
+    },
+    "config":{
+        "scale":1.2,
+        "posX":-70,
+        "posY":80,
+        "offsetX":0,
+        "offsetY":0,
+        "textPosX":325,
+        "textPosY":580,
+        "mirrorX":false,
+    },
+    "motions":{
+        "idle":[
+            {"file":"motions/idle.mtn"}
+        ],
+        "stay":[
+            {"file":"motions/idle.mtn"},
+        ],
+        "setting_01":[
+            {"file":"motions/setting_01.mtn"}
+        ],
+        "touch_01_1":[
+            {"file":"motions/touch_01_1.mtn"}
+        ],
+        "touch_99":[
+            {"file":"motions/touch_99.mtn"}
+        ],
+    },
+}

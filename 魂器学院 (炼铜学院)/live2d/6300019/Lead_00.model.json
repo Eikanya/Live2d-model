@@ -1,0 +1,36 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "爱丽丝-背景",
+	"model": "Lead_00.moc",
+	"textures": {
+        "6300019":[
+		  "texture_00.png",
+	   ]
+    },
+    "config":{
+        "scale":1,
+        "posX":0,
+        "posY":0,
+        "offsetX":0,
+        "offsetY":0,
+        "textPosX":325,
+        "textPosY":280,
+        "mirrorX":false
+    },
+    "motions":{
+		"idle":[
+			{
+				"file":"motions/idle.mtn",
+				"fade_in":0,
+				"fade_out":0
+			}
+		],
+		"stay":[
+			{
+				"file":"motions/idle.mtn",
+				"fade_in":0,
+				"fade_out":0
+			}
+		]
+	}
+}
