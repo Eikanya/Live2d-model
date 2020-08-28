@@ -5,9 +5,9 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
-    "CurveCount": 187,
-    "TotalSegmentCount": 520,
-    "TotalPointCount": 612,
+    "CurveCount": 183,
+    "TotalSegmentCount": 500,
+    "TotalPointCount": 588,
     "UserDataCount": 0,
     "TotalUserDataSize": 0
   },
@@ -1368,72 +1368,6 @@
     },
     {
       "Target": "Parameter",
-      "Id": "PARAM_RIGHT_ARM",
-      "Segments": [
-        0,
-        0.4,
-        0,
-        0.333,
-        0.44,
-        0,
-        0.667,
-        0.4,
-        2,
-        1,
-        0.4,
-        0,
-        1.2,
-        0.54,
-        2,
-        2.167,
-        0.54,
-        0,
-        2.733,
-        0.261,
-        0,
-        3.167,
-        0.4
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "PARAM_ARM_R",
-      "Segments": [
-        0,
-        2.725,
-        0,
-        0.333,
-        3.173,
-        0,
-        0.667,
-        2.725,
-        2,
-        1,
-        2.725,
-        0,
-        1.2,
-        5,
-        2,
-        2.167,
-        5,
-        1,
-        2.356,
-        5,
-        2.544,
-        4.308,
-        2.733,
-        3.485,
-        1,
-        2.878,
-        2.856,
-        3.022,
-        2.725,
-        3.167,
-        2.725
-      ]
-    },
-    {
-      "Target": "Parameter",
       "Id": "PARAM_ARM_R_02",
       "Segments": [
         0,
@@ -1519,29 +1453,6 @@
         0,
         3.167,
         0.2
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "PARAM_HAND_R_LEVEL",
-      "Segments": [
-        0,
-        0,
-        0,
-        0.667,
-        1,
-        2,
-        1,
-        1,
-        2,
-        2.967,
-        1,
-        0,
-        3.067,
-        0,
-        2,
-        3.167,
-        0
       ]
     },
     {
@@ -2635,6 +2546,17 @@
     },
     {
       "Target": "Parameter",
+      "Id": "PARAM_HAND_R_LEVEL",
+      "Segments": [
+        0,
+        1,
+        0,
+        3.17,
+        1
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "PARAM_CAT_EYE_CHANGE",
       "Segments": [
         0,
@@ -2977,28 +2899,6 @@
     {
       "Target": "Parameter",
       "Id": "PARAM_HAIR_WAVE",
-      "Segments": [
-        0,
-        0,
-        0,
-        3.17,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "PARAM_HUDIEJIE_R",
-      "Segments": [
-        0,
-        0,
-        0,
-        3.17,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "PARAM_HUDIEJIE_L",
       "Segments": [
         0,
         0,
