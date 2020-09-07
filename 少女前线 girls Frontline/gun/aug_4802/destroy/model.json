@@ -1,0 +1,26 @@
+{
+	"version":"Sample 1.0.0",
+	"model":"model.moc",
+	"textures":[
+		"model.1024/texture_00.png"
+	],
+	"motions":{
+		"":[
+			{"file":"motions/broken_1.mtn","fade_in":1000,"fade_out":0},
+			{"file":"motions/broken_2.mtn","fade_in":1000,"fade_out":0},
+			{"file":"motions/broken_3.mtn","fade_in":1000,"fade_out":0},
+			{"file":"motions/broken_4.mtn","fade_in":1000,"fade_out":0},
+			{"file":"motions/broken_5.mtn","fade_in":1000,"fade_out":0},
+			{"file":"motions/login.mtn","fade_in":0,"fade_out":0},
+			{"file":"motions/shake.mtn","fade_in":1000,"fade_out":0}
+		],
+		"idle":[
+			{"file":"motions/daiji_idle_01.mtn","fade_in":1000,"fade_out":0}
+		]
+	},
+		"hit_areas":[
+			{"name":"head","id":"D_REF.HEAD"},
+			{"name":"body","id":"D_REF.BODY"},
+			{"name":"leg","id":"D_REF.LEG"}
+			]
+}
