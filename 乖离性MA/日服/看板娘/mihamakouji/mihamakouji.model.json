@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "mihamakouji",
+  "model": "moc/mihamakouji.moc",
+  "textures": [
+    "moc/mihamakouji2048/texture_00.png"
+  ],
+  "physics": "json/mihamakouji.physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 2.3,
+    "center_x": 0.1,
+    "center_y": -0.35
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_kouji_0011.mtn",
+        "text": "え？何か歌って欲しいって？……そうだな、何かリクエストはあるかい？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0012.mtn",
+        "text": "どうしたの？僕の顔に何かついてる？",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0013.mtn",
+        "text": "君のこと、もっと知りたいな。",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0014.mtn",
+        "text": "心配してくれるの？ありがとう。元気が出たよ",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0015.mtn",
+        "text": "これからも、僕たちOver The Rainbowのことをよろしくお願いします！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0016.mtn",
+        "text": "うふふっ、そんなに触られるとなんだかくすぐったいよ",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0017.mtn",
+        "text": "君も僕の料理、食べてみたいの？いいよ、今度作ってあげる。",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0018.mtn",
+        "text": "今夜のメニューは…何にしようかな……",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0019.mtn",
+        "text": "キュンキュンキュ～ン",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0020.mtn",
+        "text": "サイリウムの色…？ヒロがライトブルー、カヅキがグリーンで、僕はパープルだよ",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0001.mtn",
+        "text": "やあ、こんにちは。元気にしてるかい？",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0002.mtn",
+        "text": "料理をするのは好きだよ…オバレのメンバーにもよく作ってあげてるんだ。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0003.mtn",
+        "text": "これは……プリズムの光…！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0004.mtn",
+        "text": "準備はいいかな？僕はバッチリだよ！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0005.mtn",
+        "text": "疲れたときは休憩も必要だよ。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0006.mtn",
+        "text": "趣味は……歌を作ることと、料理をすることです。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0007.mtn",
+        "text": "見える！曲が…詩が…歌が！！",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0010.mtn",
+        "text": "ヒロも、カヅキも僕の料理をおいしそうに食べてくれるから作り甲斐があるよ。",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_kouji_0021.mtn",
+        "text": "うっ……目が、回る…",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0022.mtn",
+        "text": "どうして…こんなことをするんだ……！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0023.mtn",
+        "text": "光なんか……ない…",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0024.mtn",
+        "text": "うわぁぁ…すごい揺れて……うう……",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0025.mtn",
+        "text": "大丈夫……平気だよ……",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_kouji_0027.mtn",
+        "text": "新しい秘境があるみたいだね。行ってみたらいいよ。",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_kouji_0028.mtn",
+        "text": "新しいストーリーがあるようだよ。見てみないかい？",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_kouji_0029.mtn",
+        "text": "プレゼントが消えてしまいそうだ。早く受け取るといいよ。",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_kouji_0030.mtn",
+        "text": "特別な敵が出現しているようだね。君なら大丈夫。勝てるよ。",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_kouji_0031.mtn",
+        "text": "いつもと違う秘境が出ているね。行くなら気をつけて…",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_kouji_0032.mtn",
+        "text": "新しいサブストーリーが見つかったよ。息抜きに見てみるといいんじゃないかな。",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_kouji_0033.mtn",
+        "text": "君にフレンド申請が来ているよ。手料理でも振舞おうか？",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_kouji_0034.mtn",
+        "text": "君にプレゼントが届いているようだよ。中身は何が入っているのかな？",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_kouji_0008.mtn",
+        "text": "おはよう。ふふっ。髪、寝癖ついてるよ。",
+        "sound": "sound/080.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_kouji_0009.mtn",
+        "text": "夜遅くまでお疲れ様。ゆっくり休んでね。",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_kouji_0003.mtn",
+        "text": "これは……プリズムの光…！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0026.mtn",
+        "text": "神浜コウジです。今日から僕が君のサポートをするよ。よろしくお願いします。",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_kouji_0001.mtn",
+        "text": "やあ、こんにちは。元気にしてるかい？",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0002.mtn",
+        "text": "料理をするのは好きだよ…オバレのメンバーにもよく作ってあげてるんだ。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0003.mtn",
+        "text": "これは……プリズムの光…！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0004.mtn",
+        "text": "準備はいいかな？僕はバッチリだよ！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0005.mtn",
+        "text": "疲れたときは休憩も必要だよ。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0006.mtn",
+        "text": "趣味は……歌を作ることと、料理をすることです。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0007.mtn",
+        "text": "見える！曲が…詩が…歌が！！",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0010.mtn",
+        "text": "ヒロも、カヅキも僕の料理をおいしそうに食べてくれるから作り甲斐があるよ。",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0021.mtn",
+        "text": "うっ……目が、回る…",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0022.mtn",
+        "text": "どうして…こんなことをするんだ……！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0023.mtn",
+        "text": "光なんか……ない…",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0024.mtn",
+        "text": "うわぁぁ…すごい揺れて……うう……",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kouji_0025.mtn",
+        "text": "大丈夫……平気だよ……",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

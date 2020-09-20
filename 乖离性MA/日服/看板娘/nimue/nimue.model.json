@@ -1,0 +1,983 @@
+{
+  "version": "1.0.0",
+  "name": "nimue",
+  "model": "moc/nimue.moc",
+  "textures": [
+    "moc/nimue1024/texture_00.png",
+    "moc/nimue1024/texture_01.png",
+    "moc/nimue1024/texture_02.png",
+    "moc/nimue1024/texture_03.png"
+  ],
+  "physics": "json/physics.json",
+  "pose": "json/pose.json",
+  "expressions": [
+    {
+      "name": "F01",
+      "file": "json/F01.exp.json"
+    },
+    {
+      "name": "F02",
+      "file": "json/F02.exp.json"
+    },
+    {
+      "name": "F03",
+      "file": "json/F03.exp.json"
+    },
+    {
+      "name": "F04",
+      "file": "json/F04.exp.json"
+    },
+    {
+      "name": "F05",
+      "file": "json/F05.exp.json"
+    },
+    {
+      "name": "F06",
+      "file": "json/F06.exp.json"
+    },
+    {
+      "name": "F07",
+      "file": "json/F07.exp.json"
+    },
+    {
+      "name": "F08",
+      "file": "json/F08.exp.json"
+    },
+    {
+      "name": "F09",
+      "file": "json/F09.exp.json"
+    },
+    {
+      "name": "F10",
+      "file": "json/F10.exp.json"
+    }
+  ],
+  "layout": {
+    "height": 2,
+    "center_x": 0,
+    "center_y": 0
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "hit_params": [
+      {
+          "id": "PARAM_ANGLE_X",
+          "hit_area": "body",
+          "axis": 0,
+          "factor": 0.02,
+          "max_mtn": "tex_switch:query"
+      }
+  ],
+  "motions": {
+    "tex_switch": [
+      {
+        "name": "query",
+        "text": "着替えますか？",
+        "choices": [
+          {
+            "text": "初期バージョン",
+            "next_mtn": "tex_switch:tex0"
+          },
+          {
+            "text": "新年バージョン",
+            "next_mtn": "tex_switch:tex1"
+          },
+          {
+            "text": "ホワイトバージョン",
+            "next_mtn": "tex_switch:tex2"
+          }
+        ]
+      },
+      {
+        "name": "tex0",
+        "command": "replace_tex 0 moc/nimue1024/texture_00.png; replace_tex 1 moc/nimue1024/texture_01.png; replace_tex 2 moc/nimue1024/texture_02.png; replace_tex 3 moc/nimue1024/texture_03.png;"
+      },
+      {
+        "name": "tex1",
+        "command": "replace_tex 0 moc/nimue1024/texture_10.png; replace_tex 1 moc/nimue1024/texture_11.png; replace_tex 2 moc/nimue1024/texture_12.png; replace_tex 3 moc/nimue1024/texture_13.png;"
+      },
+      {
+        "name": "tex2",
+        "command": "replace_tex 0 moc/nimue1024/texture_20.png; replace_tex 1 moc/nimue1024/texture_21.png; replace_tex 2 moc/nimue1024/texture_22.png; replace_tex 3 moc/nimue1024/texture_23.png;"
+      }
+    ],
+    "idle": [
+      {
+        "file": "mtn/nimue_idle_01.mtn",
+        "fade_in": 2000,
+        "fade_out": 2000,
+        "expressions": "F01",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/nimue_m_07.mtn",
+        "text": "あなたの背中は私が守ります。お腹は攻撃します。",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_10.mtn",
+        "text": "お手伝いします。がんばります。だから、ナデナデしてください。アタマを。お尻を。",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "ジジ……おっぱいって、これ以上大きくならないんでしょうか。これみよがしに揺らしたいのに。",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_06.mtn",
+        "expressions": "F02",
+        "text": "私を必要としてください。不要品として。",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_05.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "もっとナデナデしていいんですよ。ナデナデ、ゴリゴリ",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_17.mtn",
+        "text": "なでられました。褒められました。私、いい子だから。悪い子だから。",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_15.mtn",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "ツンツン、私もしたいです。ツンツン、グサグサ。",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_14.mtn",
+        "text": "触れられると、温かいです。ほっこり。ブルブル……",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_12.mtn",
+        "text": "ジジ……　ンッ！　そこを触られるとビクンとなります。面白い反応です。",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_15.mtn",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "ジジ……くすぐったいです。これが噂に聞く、女心をくすぐるというやつですか？",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "お帰りなさい。いってらっしゃい。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_05.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "いっしょにお出かけしたいです。ちょっとそこまで。地平の彼方まで。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_08.mtn",
+        "text": "ずっと待ってました。首を長くしたり、短くしたりして。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_05.mtn",
+        "expressions": "F06",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "ちょうどお片付けをしてたところです。グチャグチャに。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "あなたに会えて嬉しいです。悔し涙が出るほどに。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_06.mtn",
+        "expressions": "F02",
+        "text": "お風呂にしますか。お食事にしますか。それとも私？　あなた？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_13.mtn",
+        "text": "あなたのことをもっと知りたいです。ちょっぴり、たっぷり。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F09",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "アーサーのお帰りを歓迎中です。塩をまきましょう。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_15.mtn",
+        "expressions": "F04",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "アーサーがいない間寂しくて、眠れませんでした。安眠生活です。",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_06.mtn",
+        "expressions": "F07",
+        "text": "お待ちしていました。いなくなってからずっと。ちょっと前から。",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "空が……回ります……地面が……止まります……",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "そんなに揺らしても、私のおっぱいは微動だにしないのです。悲しいほどに。嬉しいことに。",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "世界が揺れて……、危険が危ないです……安全が安らかです……",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "もっと……優しく……厳しく……",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "乙女心がクラクラ揺れています。これが恋でしょうか。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "新しい秘境を探索しましょう。ワクワク、ブルブル。",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/nimue_m_09.mtn",
+        "expressions": "F07",
+        "text": "新しいストーリーがあります。ジジ……、お話、私にも聞かせてください。",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/nimue_m_18.mtn",
+        "expressions": "F03",
+        "text": "プレゼントの開封期限が迫ってますよ。開けてください。閉じましょう。",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/nimue_m_05.mtn",
+        "expressions": "F03",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "特別な敵が、出現中です。挑戦しましょう。あきらめましょう。",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/nimue_m_08.mtn",
+        "expressions": "F09",
+        "text": "異質な秘境を確認しました。ジジ……、お散歩可能です。",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F05",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "新たなサブストーリーが生まれるのを感じました。気になります。ものすごく。ちっとも……",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "フレンドの申請が来てます。お友達を増やしましょう。減らしましょう。",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/nimue_m_05.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "プレゼントが届いてます。開けてみせてください。ワクワク、ビクビク。",
+        "sound": "sound/350.wav"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "あなたに会えて嬉しいです。悔し涙が出るほどに。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_05.mtn",
+        "expressions": "F02",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "ナビゲートを任されました。がんばります。ダラダラと！",
+        "sound": "sound/270.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_18.mtn",
+        "expressions": "F05",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "今日からナビゲートをさせていただくニムエです。末長く、短くよろしくお願いします。",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "お帰りなさい。いってらっしゃい。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_05.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "いっしょにお出かけしたいです。ちょっとそこまで。地平の彼方まで。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_08.mtn",
+        "text": "ずっと待ってました。首を長くしたり、短くしたりして。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_05.mtn",
+        "expressions": "F06",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "ちょうどお片付けをしてたところです。グチャグチャに。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F02",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "あなたに会えて嬉しいです。悔し涙が出るほどに。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_06.mtn",
+        "expressions": "F02",
+        "text": "お風呂にしますか。お食事にしますか。それとも私？　あなた？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_13.mtn",
+        "text": "あなたのことをもっと知りたいです。ちょっぴり、たっぷり。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_04.mtn",
+        "expressions": "F09",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "アーサーのお帰りを歓迎中です。塩をまきましょう。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_15.mtn",
+        "expressions": "F04",
+        "fade_in": 300,
+        "fade_out": 1000,
+        "text": "アーサーがいない間寂しくて、眠れませんでした。安眠生活です。",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_06.mtn",
+        "expressions": "F07",
+        "text": "お待ちしていました。いなくなってからずっと。ちょっと前から。",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "空が……回ります……地面が……止まります……",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "そんなに揺らしても、私のおっぱいは微動だにしないのです。悲しいほどに。嬉しいことに。",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "世界が揺れて……、危険が危ないです……安全が安らかです……",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "もっと……優しく……厳しく……",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nimue_m_20.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "乙女心がクラクラ揺れています。これが恋でしょうか。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  },
+  "lip_sync": true
+}

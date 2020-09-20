@@ -1,0 +1,233 @@
+{
+  "type": "Live2D Physics",
+  "physics_hair": [
+    {
+      "label": "HAIR_FRONT",
+      "setup": {
+        "length": 0.2,
+        "regist": 0.5,
+        "mass": 0.3
+      },
+      "src": [
+        {
+          "id": "PARAM_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.005,
+          "weight": 0.5
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.015,
+          "weight": 1
+        },
+        {
+          "id": "PARAM_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 0.8,
+          "weight": 0.5
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 2.4,
+          "weight": 1
+        }
+      ],
+      "targets": [
+        {
+          "id": "PARAM_HAIR_FRONT",
+          "ptype": "angle",
+          "scale": 0.022,
+          "weight": 1
+        },
+        {
+          "id": "PARAM_HAIR_SIDE",
+          "ptype": "angle",
+          "scale": 0.02,
+          "weight": 1
+        },
+        {
+          "id": "PARAM_HAIR_TOP",
+          "ptype": "angle",
+          "scale": 0.01,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "label": "HAIR_BACK",
+      "setup": {
+        "length": 0.28,
+        "regist": 0.57,
+        "mass": 0.5
+      },
+      "src": [
+        {
+          "id": "PARAM_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.005,
+          "weight": 0.5
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.015,
+          "weight": 1
+        },
+        {
+          "id": "PARAM_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 0.8,
+          "weight": 0.5
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 2.4,
+          "weight": 1
+        }
+      ],
+      "targets": [
+        {
+          "id": "PARAM_HAIR_BACK",
+          "ptype": "angle",
+          "scale": 0.017,
+          "weight": 0.7
+        },
+        {
+          "id": "PARAM__HAIR_TOP2",
+          "ptype": "angle",
+          "scale": 0.017,
+          "weight": 0.7
+        }
+      ]
+    },
+    {
+      "label": "青ふさふさ",
+      "setup": {
+        "length": 0.32,
+        "regist": 0.21,
+        "mass": 0.1
+      },
+      "src": [
+        {
+          "id": "PARAM_BODY_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.05,
+          "weight": 0.5
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_Z",
+          "ptype": "x",
+          "scale": 0.05,
+          "weight": 1
+        }
+      ],
+      "targets": [
+        {
+          "id": "PARAM_HUSARINNGU",
+          "ptype": "angle",
+          "scale": 0.05,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "label": "赤いふぁー",
+      "setup": {
+        "length": 0.5,
+        "regist": 0.2,
+        "mass": 0.4
+      },
+      "src": [
+        {
+          "id": "PARAM_BODY_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.015,
+          "weight": 1
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 2.4,
+          "weight": 1
+        }
+      ],
+      "targets": [
+        {
+          "id": "PARAM_REDH",
+          "ptype": "angle",
+          "scale": 0.02,
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "label": "尻尾",
+      "setup": {
+        "length": 0.5,
+        "regist": 0.5,
+        "mass": 0.5
+      },
+      "src": [
+        {
+          "id": "PARAM_BODY_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.015,
+          "weight": 1
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 2.4,
+          "weight": 1
+        }
+      ],
+      "targets": [
+        {
+          "id": "PARAM_SIXTUPO",
+          "ptype": "angle",
+          "scale": 0.01,
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "label": "CLOTH",
+      "setup": {
+        "length": 1,
+        "regist": 0.5,
+        "mass": 1
+      },
+      "src": [
+        {
+          "id": "PARAM_BODY_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.017,
+          "weight": 1
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 2.3,
+          "weight": 1
+        }
+      ],
+      "targets": [
+        {
+          "id": "PARA",
+          "ptype": "angle",
+          "scale": 0.01,
+          "weight": 10
+        },
+        {
+          "id": "PARAM_H",
+          "ptype": "angle",
+          "scale": 0.01,
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

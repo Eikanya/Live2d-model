@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "mercenary",
+  "model": "moc/support_yohei.moc",
+  "textures": [
+    "moc/mercenary2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 3.4,
+    "center_x": 0,
+    "center_y": -0.74
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_yohei_0011.mtn",
+        "text": "おっ。俺に用か？悩みがあるなら聞くぜ。俺一人で出来ることには限りがあるけど、チームで請け負うぜ。",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0012.mtn",
+        "text": "うわっ…！？…ああ、なんだおまえか。いきなり何かと思っちまったぜ。",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0013.mtn",
+        "text": "…なんだ、腕なんて触って。…そりゃ武器を振る腕は特に鍛えてるからな。",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0014.mtn",
+        "text": "一度盗賊のエクスカリバーを使わせてもらったことがあるんだが…。軽すぎてすっぽ抜けちまってな。",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0015.mtn",
+        "text": "…チェス？頭を使うゲームは苦手なんだよ。富豪にでも頼んだら喜んで付き合ってくれるぜ。",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0016.mtn",
+        "text": "歌姫のやつ、たまに街に出て歌を歌ってるらしいんだが、俺達にはあんまり聞かせたがらないんだよな。",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0017.mtn",
+        "text": "俺をつつきまわして、何が楽しいんだ？お前の考えてることはよくわからないな。",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0018.mtn",
+        "text": "…もしかして、これも体を鍛える訓練の一つか？…いや、そんなわけないよな…忘れてくれ。",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0019.mtn",
+        "text": "これからクーホリンの所まで行って訓練に付き合ってもらうんだが、お前も来るか？",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0020.mtn",
+        "text": "…もういいよ。おまえの気の済むまでやればいい…。",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0001.mtn",
+        "text": "よし、今日もいっちょ外敵退治といこうぜ！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0002.mtn",
+        "text": "あいつら…！俺はやらないと言ったのに…また面倒事を押し付けられちまった…。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0003.mtn",
+        "text": "政治だとか、情勢だとか…って話は富豪に任せておけば間違いないぞ。俺か？…そこは察してくれよ…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0004.mtn",
+        "text": "ウアサハ怒ってたな…。またスカアハが何かやらかしたのか？くそ…今日の飯は期待できないな…",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0005.mtn",
+        "text": "報酬度外視って言われてもなぁ…ほっとけない性分なんだよ。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0006.mtn",
+        "text": "「私は戦闘は専門外だ」とか言ってよく護衛を頼んでくるけど、本当は結構強いんだよな…あいつ。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0007.mtn",
+        "text": "さて、情けないところはあまり見せていられないな。そろそろ本気出していくとするか！",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0010.mtn",
+        "text": "どうした？いつもより元気がないな。…たまには休憩も必要だろ、どうせなら一緒に訓練サボっちまうか？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_yohei_0021.mtn",
+        "text": "お、おい……！なにやってんだ……！？",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0022.mtn",
+        "text": "や、やめろ…！揺らされるのは弱いんだ……",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0023.mtn",
+        "text": "うう……目が……まわる……",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0024.mtn",
+        "text": "たのむ……やめてくれ。",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0025.mtn",
+        "text": "…………っ…。こんなことして……何になるって言うんだ…。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_yohei_0027.mtn",
+        "text": "新しい秘境が出たみたいだ。腕試しにちょうどいいんじゃないか？",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_yohei_0028.mtn",
+        "text": "新しいストーリーが見られるようだな。俺も気になるから一緒に見にいこうぜ。",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_yohei_0029.mtn",
+        "text": "おい、プレゼントが消えそうだぞ。もったいないから貰っておけよ。",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_yohei_0030.mtn",
+        "text": "特別な敵が現れているようだな。俺とお前ならきっと勝てる。信じろ。",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_yohei_0031.mtn",
+        "text": "いつもと違う秘境が出ているな。何があるか分からないんだ。慎重にいけよ…。",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_yohei_0032.mtn",
+        "text": "新しいサブストーリーが見られるようだ。仲間を知るいい機会になると思うぜ！",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_yohei_0033.mtn",
+        "text": "お前にフレンド申請が来てるぞ。仲間は大事にした方がいい。",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_yohei_0034.mtn",
+        "text": "プレゼントが来ているな。受け取らないなら俺がもらっちまうぞ？",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_yohei_0008.mtn",
+        "text": "おっ、意外と早起きなんだな！これから朝の鍛錬に行くんだ。よかったら相手になってくれよ。",
+        "sound": "sound/080.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_yohei_0009.mtn",
+        "text": "ふぁ～あ、俺はもう寝るぜ。おまえもほどほどにしろよ。アーサー業は体が資本だからな。",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_yohei_0003.mtn",
+        "text": "政治だとか、情勢だとか…って話は富豪に任せておけば間違いないぞ。俺か？…そこは察してくれよ…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0026.mtn",
+        "text": "俺は前に出るほうが得意なんだが、頼まれたからには全力でサポートするぜ！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_yohei_0001.mtn",
+        "text": "よし、今日もいっちょ外敵退治といこうぜ！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0002.mtn",
+        "text": "あいつら…！俺はやらないと言ったのに…また面倒事を押し付けられちまった…。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0003.mtn",
+        "text": "政治だとか、情勢だとか…って話は富豪に任せておけば間違いないぞ。俺か？…そこは察してくれよ…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0004.mtn",
+        "text": "ウアサハ怒ってたな…。またスカアハが何かやらかしたのか？くそ…今日の飯は期待できないな…",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0005.mtn",
+        "text": "報酬度外視って言われてもなぁ…ほっとけない性分なんだよ。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0006.mtn",
+        "text": "「私は戦闘は専門外だ」とか言ってよく護衛を頼んでくるけど、本当は結構強いんだよな…あいつ。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0007.mtn",
+        "text": "さて、情けないところはあまり見せていられないな。そろそろ本気出していくとするか！",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0010.mtn",
+        "text": "どうした？いつもより元気がないな。…たまには休憩も必要だろ、どうせなら一緒に訓練サボっちまうか？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0021.mtn",
+        "text": "お、おい……！なにやってんだ……！？",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0022.mtn",
+        "text": "や、やめろ…！揺らされるのは弱いんだ……",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0023.mtn",
+        "text": "うう……目が……まわる……",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0024.mtn",
+        "text": "たのむ……やめてくれ。",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_yohei_0025.mtn",
+        "text": "…………っ…。こんなことして……何になるって言うんだ…。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

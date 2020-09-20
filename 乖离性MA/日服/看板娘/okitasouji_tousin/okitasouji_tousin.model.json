@@ -1,0 +1,731 @@
+{
+  "version": "1.0.0",
+  "name": "okitasouji_tousin",
+  "model": "moc/okitasouji_tousin.moc",
+  "textures": [
+    "moc/okitasouji_tousin2048/texture_00.png",
+    "moc/okitasouji_tousin2048/texture_01.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 3.0,
+    "center_x": 0.1,
+    "center_y": -0.63
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_okitasouji_0110.mtn",
+        "text": "……やれやれ。僕ってそんなに信用ないかな？いざというとき、君の背中を守るのも僕の役目だよ。",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0120.mtn",
+        "text": "君って、僕の保護者だったりする？そんなに、土方さんになりたいの？",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0130.mtn",
+        "text": "僕に話があるんでしょ？何の用？",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0140.mtn",
+        "text": "ねえ、君。もしかして、僕で遊んでない？",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0150.mtn",
+        "text": "……君って本当に物好きだよね。いいよ、好きにすれば？僕も君に触られるのは嫌いじゃないし",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0160.mtn",
+        "text": "せっかくだから少しの間、僕の話し相手になってよ",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0170.mtn",
+        "text": "君も大胆だよね。そんなに僕に触りたいの？",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0180.mtn",
+        "text": "……あのさ、勝手に触らないでくれる？僕は別に大丈夫なんだから",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0190.mtn",
+        "text": "ぷっ……。あは、あははははは！やっぱり君って面白い子だよね",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0200.mtn",
+        "text": "どうしてかな。近頃、君に甘えるのが心地良くなってきたよ",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0010.mtn",
+        "text": "おかえり。今日は随分早いんだね",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0020.mtn",
+        "text": "ちょっと、どこに行ってたの？　……勝手な行動は慎めって、いつも言ってると思うんだけど",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0030.mtn",
+        "text": "おかえり。……どうかしたの？僕がここにいるのが意外？",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0040.mtn",
+        "text": "あーあ、君がこんなに近くにくるまで気づかなかったなんて……いずれ、君に斬られちゃうかもしれないね",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0050.mtn",
+        "text": "……あのさ、妙な遠慮はやめなよ。頼るべきときは、頼ればいいんだからさ",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0060.mtn",
+        "text": "……遅かったね。帰ってこないから迎えに行こうと思ってたところだよ",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0070.mtn",
+        "text": "……まったく、手間がかかる子だよね、君って。ここで待ってる僕のことも、少しは考えてほしいなあ",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0100.mtn",
+        "text": "僕は新選組の……、近藤さんの役に立てているのかな？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_okitasouji_0210.mtn",
+        "text": "……変な子だよね、君って。こんなことして何になるんだか",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0220.mtn",
+        "text": "へえ……。ずいぶんと面白いことするよね、君",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0230.mtn",
+        "text": "ねえ君。揺らしすぎじゃないかな？　やめるつもりがないなら斬っちゃうけど。それでもいい？",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0240.mtn",
+        "text": "ふうん……どうやら本当に斬られたいようだね",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0250.mtn",
+        "text": "……意地悪",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_okitasouji_0270.mtn",
+        "text": "新しい秘境があるみたいだよ。探索してみたらいいんじゃない？",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0280.mtn",
+        "text": "新しい物語があるよ。見てみたらいいんじゃない？",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0290.mtn",
+        "text": "急がないと贈り物が消えちゃうんじゃない？早く受け取ってきたら？",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0300.mtn",
+        "text": "強敵が出現しているみたいだけど。僕が斬っちゃってもいい？",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0310.mtn",
+        "text": "いつもと違う秘境を見つけたよ。期待してるから、頑張って探索してきてね",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0320.mtn",
+        "text": "新しい外伝が見られるみたいだね。行ってきたら？",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0330.mtn",
+        "text": "君に友だち申請がきてるって。へえ、君でも友だちがいるんだ",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0340.mtn",
+        "text": "君に贈り物が届いてるって。何だったのか僕にも教えてよ",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0080.mtn",
+        "text": "おはよう。昨日はよく眠れた？髪、すごい寝癖だよ。",
+        "sound": "sound/080.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0090.mtn",
+        "text": "こんな夜遅くまで、どうして起きてるのさ。無理しないでお子様は早く寝なよ。",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_okitasouji_0030.mtn",
+        "text": "おかえり。……どうかしたの？僕がここにいるのが意外？",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0260.mtn",
+        "text": "僕は沖田総司と言います。ちゃんと支援してあげるから、安心してくれていいよ？",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_okitasouji_0010.mtn",
+        "text": "おかえり。今日は随分早いんだね",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0020.mtn",
+        "text": "ちょっと、どこに行ってたの？　……勝手な行動は慎めって、いつも言ってると思うんだけど",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0030.mtn",
+        "text": "おかえり。……どうかしたの？僕がここにいるのが意外？",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0040.mtn",
+        "text": "あーあ、君がこんなに近くにくるまで気づかなかったなんて……いずれ、君に斬られちゃうかもしれないね",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0050.mtn",
+        "text": "……あのさ、妙な遠慮はやめなよ。頼るべきときは、頼ればいいんだからさ",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0060.mtn",
+        "text": "……遅かったね。帰ってこないから迎えに行こうと思ってたところだよ",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0070.mtn",
+        "text": "……まったく、手間がかかる子だよね、君って。ここで待ってる僕のことも、少しは考えてほしいなあ",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0100.mtn",
+        "text": "僕は新選組の……、近藤さんの役に立てているのかな？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0210.mtn",
+        "text": "……変な子だよね、君って。こんなことして何になるんだか",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0220.mtn",
+        "text": "へえ……。ずいぶんと面白いことするよね、君",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0230.mtn",
+        "text": "ねえ君。揺らしすぎじゃないかな？　やめるつもりがないなら斬っちゃうけど。それでもいい？",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0240.mtn",
+        "text": "ふうん……どうやら本当に斬られたいようだね",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_okitasouji_0250.mtn",
+        "text": "……意地悪",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

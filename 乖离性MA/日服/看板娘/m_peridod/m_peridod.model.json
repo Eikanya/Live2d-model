@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "m_peridod",
+  "model": "moc/support_peridod.moc",
+  "textures": [
+    "moc/m_peridod2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 2.5,
+    "center_x": 0,
+    "center_y": -0.5
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_peridod011.mtn",
+        "text": "ふぅむ…たまにはこういう恰好も悪くはないか。くくく……お主も好きじゃろう？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod012.mtn",
+        "text": "戦場に彷徨う魂狩り放題、といったものはないのか？不公平じゃのう。",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod013.mtn",
+        "text": "この格好が原因ということはわかっておるが…ええい！うざったい視線じゃな！そんなに見るでない！",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod014.mtn",
+        "text": "どうにも腹が減った…アーサー…お主の魂、うまそうじゃのう…心配するな、優しくしてやるからの…",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod015.mtn",
+        "text": "んん…「さんおいる」とは中々気持ちの良いものじゃな。もっと頼めるかの？アーサー。",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod016.mtn",
+        "text": "ふぅむ…アーサー…それ以上触るのであれば、覚悟はできているのであろうな？",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod017.mtn",
+        "text": "特別にわらわの頭を撫でることを許そう。他の者にはほいほいするでないぞ？",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod018.mtn",
+        "text": "ふっ。この程度で頬を赤らめるほど初心ではないわ。人生経験の差、といったところかの。",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod019.mtn",
+        "text": "なんじゃさっきからじろじろと。ようやくわらわに惚れたか？",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod020.mtn",
+        "text": "わらわの身体に興味があるか。よいじゃろう。もっと近くに来い。",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod001.mtn",
+        "text": "ここでお主を待たなければならぬとは……サポート、というのは存外つまらんのう。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod002.mtn",
+        "text": "傭兵を見てるとついからかってみたくなってしまうのじゃ。狼狽えている姿が中々可愛くてのう。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod003.mtn",
+        "text": "富豪は「交易」というものを目指しているのだったなあやつの魂は色々なものを吸収している気がするのう",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod004.mtn",
+        "text": "盗賊のやつ、わらわの胸ばかりじろじろ見おって…。男共より鬼気迫る表情じゃったぞ…。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod005.mtn",
+        "text": "歌姫は良い声をしておるのう。魂狩りの時の断末魔もさぞかし美しいのじゃろうなあ…。じゅる…。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod006.mtn",
+        "text": "暇じゃ、アーサー。それに腹が減った。街に繰り出して子供の魂でも狩りに行かんか？…冗談じゃ。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod007.mtn",
+        "text": "あついぞアーサー！なーんもやる気がせん。死神もバテバテじゃし…わらわもアイスが食べたいのう。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod008.mtn",
+        "text": "夏といえばかき氷にパサパサした焼きそば、それにまずいラーメン、これに限るのう。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_peridod021.mtn",
+        "text": "ふん…この程度、わらわには効かぬわ…うぷ。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod022.mtn",
+        "text": "ええいやめい、鬱陶しい。続けるようならここで狩ってしまうぞ？",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod023.mtn",
+        "text": "ん、何やら揺れておるな…。む？お主…一体どこを見ておるのじゃ？…なるほど。",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod024.mtn",
+        "text": "さすがにやりすぎじゃバカモノ…！い、いい加減にしろー！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod025.mtn",
+        "text": "こら……！振り回すでない……！くっ…目が回るではないかぁ～～～！！！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_peridod027.mtn",
+        "text": "新しい秘境が出ているのう。なんだ、探索せぬのか？",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_peridod028.mtn",
+        "text": "新しいストーリーが見られるようじゃの。死神とて、歴史には興味があるぞ？何しろ、魂の記録だからのう",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_peridod029.mtn",
+        "text": "プレゼントが消えそうじゃのう。お主が不要というのであれば、わらわは何も言わぬぞ。",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_peridod030.mtn",
+        "text": "強敵が出現しているようじゃ。美味そうな魂があるやもしれん、わらわも同行しよう。",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_peridod031.mtn",
+        "text": "特別な秘境が出ているようじゃな。ふむ…出るのであれば、魂を狩られぬよう気を付けるがよい。",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_peridod032.mtn",
+        "text": "新しいサブストーリーが見られるぞ。今回はどんな色の魂が登場するか楽しみじゃな。",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_peridod033.mtn",
+        "text": "フレンド申請が来ているようじゃな。どれ……なんじゃ？ちょっとくらい味見してもよかろう？",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_peridod034.mtn",
+        "text": "プレゼントが届いているようじゃ。わらわは魂以外興味がないゆえ、お主の好きにせい。",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_peridod009.mtn",
+        "text": "……わらわは朝は好かぬ。もう少し寝かせてくれても良いじゃろう？",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_peridod010.mtn",
+        "text": "夜はわらわの領域じゃ、お主は早く寝るがよい。…さもないとその魂、わらわが喰らってしまうぞ？",
+        "sound": "sound/100.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_peridod003.mtn",
+        "text": "富豪は「交易」というものを目指しているのだったなあやつの魂は色々なものを吸収している気がするのう",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod026.mtn",
+        "text": "どれ、わらわが直々にサポートしてやろう。報酬はそうじゃなぁ、お主、わらわ専属の死神にならぬか？",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_peridod001.mtn",
+        "text": "ここでお主を待たなければならぬとは……サポート、というのは存外つまらんのう。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod002.mtn",
+        "text": "傭兵を見てるとついからかってみたくなってしまうのじゃ。狼狽えている姿が中々可愛くてのう。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod003.mtn",
+        "text": "富豪は「交易」というものを目指しているのだったなあやつの魂は色々なものを吸収している気がするのう",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod004.mtn",
+        "text": "盗賊のやつ、わらわの胸ばかりじろじろ見おって…。男共より鬼気迫る表情じゃったぞ…。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod005.mtn",
+        "text": "歌姫は良い声をしておるのう。魂狩りの時の断末魔もさぞかし美しいのじゃろうなあ…。じゅる…。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod006.mtn",
+        "text": "暇じゃ、アーサー。それに腹が減った。街に繰り出して子供の魂でも狩りに行かんか？…冗談じゃ。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod007.mtn",
+        "text": "あついぞアーサー！なーんもやる気がせん。死神もバテバテじゃし…わらわもアイスが食べたいのう。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod008.mtn",
+        "text": "夏といえばかき氷にパサパサした焼きそば、それにまずいラーメン、これに限るのう。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod021.mtn",
+        "text": "ふん…この程度、わらわには効かぬわ…うぷ。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod022.mtn",
+        "text": "ええいやめい、鬱陶しい。続けるようならここで狩ってしまうぞ？",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod023.mtn",
+        "text": "ん、何やら揺れておるな…。む？お主…一体どこを見ておるのじゃ？…なるほど。",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod024.mtn",
+        "text": "さすがにやりすぎじゃバカモノ…！い、いい加減にしろー！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_peridod025.mtn",
+        "text": "こら……！振り回すでない……！くっ…目が回るではないかぁ～～～！！！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}
