@@ -1,0 +1,66 @@
+{
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.55,
+    "center_x": 0.01,
+    "center_y": 0.0
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/608520030.wav"
+      },
+      {
+        "sound": "sound/608520070.wav"
+      },
+      {
+        "sound": "sound/608520010.wav"
+      },
+      {
+        "sound": "sound/608520090.wav"
+      },
+      {
+        "sound": "sound/608520080.wav"
+      },
+      {
+        "sound": "sound/608520100.wav"
+      },
+      {
+        "sound": "sound/608520020.wav"
+      },
+      {
+        "sound": "sound/608520050.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 赤﨑 千夏{$br}Illust: きんぎん"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.1,
+    "position_y": 0,
+    "position_z": 0,
+    "size": 5.8
+  },
+  "lip_sync": true,
+  "version": "1.0.0"
+}

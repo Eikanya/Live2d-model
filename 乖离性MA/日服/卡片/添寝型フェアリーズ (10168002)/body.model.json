@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.0,
+    "center_x": -0.3,
+    "center_y": -0.05
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/609940030.wav"
+      },
+      {
+        "sound": "sound/609940100.wav"
+      },
+      {
+        "sound": "sound/609940010.wav"
+      },
+      {
+        "sound": "sound/609940070.wav"
+      },
+      {
+        "sound": "sound/609940050.wav"
+      },
+      {
+        "sound": "sound/609940080.wav"
+      },
+      {
+        "sound": "sound/609940020.wav"
+      },
+      {
+        "sound": "sound/609940090.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 茅野 愛衣　金元 寿子　日高 里菜{$br}Illust: nyanya"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -1.35,
+    "position_y": -0.21,
+    "position_z": 0,
+    "size": 5.04
+  }
+}

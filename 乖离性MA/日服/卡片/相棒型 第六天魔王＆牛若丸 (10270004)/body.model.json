@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.05,
+    "center_x": 0.08,
+    "center_y": 0.027
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/614340070.wav"
+      },
+      {
+        "sound": "sound/614340030.wav"
+      },
+      {
+        "sound": "sound/614340090.wav"
+      },
+      {
+        "sound": "sound/614340100.wav"
+      },
+      {
+        "sound": "sound/614340080.wav"
+      },
+      {
+        "sound": "sound/614340020.wav"
+      },
+      {
+        "sound": "sound/614340050.wav"
+      },
+      {
+        "sound": "sound/614340010.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 雨宮 天　芹澤 優{$br}Illust: 黒裄"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.5,
+    "position_y": 0.13,
+    "position_z": 0,
+    "size": 4.29
+  }
+}
