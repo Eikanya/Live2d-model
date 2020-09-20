@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 3.1,
+    "center_x": 0.1,
+    "center_y": -0.3
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/609890040.wav"
+      },
+      {
+        "sound": "sound/612000080.wav"
+      },
+      {
+        "sound": "sound/609890060.wav"
+      },
+      {
+        "sound": "sound/609890070.wav"
+      },
+      {
+        "sound": "sound/612000040.wav"
+      },
+      {
+        "sound": "sound/609890100.wav"
+      },
+      {
+        "sound": "sound/609890050.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 阿部 敦{$br}Illust: 柴乃櫂人"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.36,
+    "position_y": -1.3,
+    "position_z": 0,
+    "size": 8
+  }
+}

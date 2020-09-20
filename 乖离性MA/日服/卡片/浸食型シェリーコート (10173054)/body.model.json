@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.1225,
+    "center_x": 0.175,
+    "center_y": -0.1865
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/601230020.wav"
+      },
+      {
+        "sound": "sound/601230050.wav"
+      },
+      {
+        "sound": "sound/601230080.wav"
+      },
+      {
+        "sound": "sound/601230100.wav"
+      },
+      {
+        "sound": "sound/601230010.wav"
+      },
+      {
+        "sound": "sound/601230070.wav"
+      },
+      {
+        "sound": "sound/601230030.wav"
+      },
+      {
+        "sound": "sound/601230090.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 雨宮 天{$br}Illust: 夢之式"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.15,
+    "position_y": -0.86,
+    "position_z": 0,
+    "size": 5.8
+  }
+}

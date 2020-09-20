@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 3.225,
+    "center_x": -0.0625,
+    "center_y": -0.2875
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/607320080.wav"
+      },
+      {
+        "sound": "sound/607320010.wav"
+      },
+      {
+        "sound": "sound/607320050.wav"
+      },
+      {
+        "sound": "sound/607320100.wav"
+      },
+      {
+        "sound": "sound/607320020.wav"
+      },
+      {
+        "sound": "sound/607320030.wav"
+      },
+      {
+        "sound": "sound/607320090.wav"
+      },
+      {
+        "sound": "sound/607320070.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 喜多村 英梨{$br}Illust: 藤ちょこ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.17,
+    "position_y": -1.2,
+    "position_z": 0,
+    "size": 6.41
+  }
+}
