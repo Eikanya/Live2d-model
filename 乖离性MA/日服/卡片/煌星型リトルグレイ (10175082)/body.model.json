@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.5,
+    "center_x": -0.05,
+    "center_y": -0.1
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/600330020.wav"
+      },
+      {
+        "sound": "sound/600330060.wav"
+      },
+      {
+        "sound": "sound/600330100.wav"
+      },
+      {
+        "sound": "sound/600330010.wav"
+      },
+      {
+        "sound": "sound/600330070.wav"
+      },
+      {
+        "sound": "sound/600330050.wav"
+      },
+      {
+        "sound": "sound/600330040.wav"
+      },
+      {
+        "sound": "sound/600330030.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 久野 美咲{$br}Illust: あるや"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.7,
+    "position_y": -0.26,
+    "position_z": 0,
+    "size": 7.2
+  }
+}

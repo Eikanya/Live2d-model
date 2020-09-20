@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 3.15,
+    "center_x": 1.05,
+    "center_y": -0.05
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/606460040.wav"
+      },
+      {
+        "sound": "sound/608630040.wav"
+      },
+      {
+        "sound": "sound/602760070.wav"
+      },
+      {
+        "sound": "sound/606260040.wav"
+      },
+      {
+        "sound": "sound/606270050.wav"
+      },
+      {
+        "sound": "sound/600470030.wav"
+      },
+      {
+        "sound": "sound/612340010.wav"
+      },
+      {
+        "sound": "sound/602750060.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "Illust: まろ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 5.25,
+    "position_y": -0.25,
+    "position_z": 0,
+    "size": 5.25
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 3.55,
+    "center_x": -0.54,
+    "center_y": -0.15
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/600450100.wav"
+      },
+      {
+        "sound": "sound/610140050.wav"
+      },
+      {
+        "sound": "sound/610130040.wav"
+      },
+      {
+        "sound": "sound/604010070.wav"
+      },
+      {
+        "sound": "sound/601940030.wav"
+      },
+      {
+        "sound": "sound/610730030.wav"
+      },
+      {
+        "sound": "sound/601650050.wav"
+      },
+      {
+        "sound": "sound/608670010.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "Illust: refeia"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -2.6,
+    "position_y": -1.33,
+    "position_z": 0,
+    "size": 6.84
+  }
+}

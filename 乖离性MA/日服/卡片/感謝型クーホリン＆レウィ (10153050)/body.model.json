@@ -1,0 +1,84 @@
+{
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.75,
+    "center_x": 0.05,
+    "center_y": -0.31
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/600470080.wav"
+      },
+      {
+        "sound": "sound/600470100.wav"
+      },
+      {
+        "sound": "sound/600900050.wav"
+      },
+      {
+        "sound": "sound/600470050.wav"
+      },
+      {
+        "sound": "sound/600900030.wav"
+      },
+      {
+        "sound": "sound/600900020.wav"
+      },
+      {
+        "sound": "sound/600900010.wav"
+      },
+      {
+        "sound": "sound/600470010.wav"
+      },
+      {
+        "sound": "sound/600900070.wav"
+      },
+      {
+        "sound": "sound/600470070.wav"
+      },
+      {
+        "sound": "sound/600470090.wav"
+      },
+      {
+        "sound": "sound/600470030.wav"
+      },
+      {
+        "sound": "sound/600470020.wav"
+      },
+      {
+        "sound": "sound/600900100.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 櫻井 孝宏　水樹 奈々{$br}Illust: まろ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.2,
+    "position_y": -1.65,
+    "position_z": 0,
+    "size": 6.3
+  },
+  "lip_sync": true,
+  "version": "1.0.0"
+}
