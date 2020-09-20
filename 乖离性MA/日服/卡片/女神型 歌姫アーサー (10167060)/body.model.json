@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.325,
+    "center_x": -0.0125,
+    "center_y": -0.08
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/610110070.wav"
+      },
+      {
+        "sound": "sound/610110050.wav"
+      },
+      {
+        "sound": "sound/610110080.wav"
+      },
+      {
+        "sound": "sound/610110090.wav"
+      },
+      {
+        "sound": "sound/610110010.wav"
+      },
+      {
+        "sound": "sound/610110020.wav"
+      },
+      {
+        "sound": "sound/610110100.wav"
+      },
+      {
+        "sound": "sound/610110030.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 内田 真礼{$br}Illust: 活断層"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0,
+    "position_y": -0.55,
+    "position_z": 0,
+    "size": 5.25
+  }
+}

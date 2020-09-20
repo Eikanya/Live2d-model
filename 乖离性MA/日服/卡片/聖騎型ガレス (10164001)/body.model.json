@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 3.54,
+    "center_x": -0.38,
+    "center_y": -0.36
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/608680030.wav"
+      },
+      {
+        "sound": "sound/608680010.wav"
+      },
+      {
+        "sound": "sound/608680100.wav"
+      },
+      {
+        "sound": "sound/608680090.wav"
+      },
+      {
+        "sound": "sound/608680070.wav"
+      },
+      {
+        "sound": "sound/608680080.wav"
+      },
+      {
+        "sound": "sound/608680020.wav"
+      },
+      {
+        "sound": "sound/608680050.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 佐倉 綾音{$br}Illust: 文倉十"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -1,
+    "position_y": -1.76,
+    "position_z": 0,
+    "size": 8.01
+  }
+}

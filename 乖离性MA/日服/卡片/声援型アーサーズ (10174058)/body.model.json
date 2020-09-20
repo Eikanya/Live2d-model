@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 1.6,
+    "center_x": -0.05,
+    "center_y": 0.0
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/610830080.wav"
+      },
+      {
+        "sound": "sound/610830050.wav"
+      },
+      {
+        "sound": "sound/610830100.wav"
+      },
+      {
+        "sound": "sound/610830030.wav"
+      },
+      {
+        "sound": "sound/610830070.wav"
+      },
+      {
+        "sound": "sound/610830020.wav"
+      },
+      {
+        "sound": "sound/610830010.wav"
+      },
+      {
+        "sound": "sound/610830090.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 阿部 敦　岡本 信彦　佐倉 綾音{$br}Illust: teco_uk"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.43,
+    "position_y": 0,
+    "position_z": 0,
+    "size": 4.1
+  }
+}
