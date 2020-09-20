@@ -1,0 +1,778 @@
+{
+  "version": "1.0.0",
+  "model": "moc/akari.moc",
+  "textures": [
+    "moc/akari2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "pose": "json/pose.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 1.8,
+    "center_x": 0,
+    "center_y": -0.25
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/akari_Live2D_idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/akari_Live2D_011.mtn",
+        "text": "はい！な、なんでしょうか！？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_012.mtn",
+        "text": "武偵憲章2条！依頼人との契約は絶対守れ…です！",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_013.mtn",
+        "text": "わわぁ！急に何するんですか！",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_014.mtn",
+        "text": "くすぐったいです…いじわるはやめてください…",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_015.mtn",
+        "text": "防弾制服だから、だ、大丈夫です！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_016.mtn",
+        "text": "ひゃっ！ビックリしちゃいますよ！",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_017.mtn",
+        "text": "えっ！どこさわってるんですか！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_018.mtn",
+        "text": "武偵は自立せよ。要請なき手出しは無用のこと！武偵憲章4条です！手を出しちゃだめですよ！",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_019.mtn",
+        "text": "うぅ～くすぐったいです…",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_020.mtn",
+        "text": "ふぇっ！何か御用ですか？",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_001.mtn",
+        "text": "お帰りなさい、今日はどんな任務に行きますか？",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_002.mtn",
+        "text": "私は今日も元気ですよ！一日頑張りましょう！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_003.mtn",
+        "text": "探索ですか？ご一緒させてください！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_004.mtn",
+        "text": "アリア先輩に追いつけるように、日々の訓練頑張ります！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_005.mtn",
+        "text": "たくさん頑張って、ののかにお姉ちゃんが成長した姿を見せるんだ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_006.mtn",
+        "text": "武偵憲章10条！諦めるな、武偵は決して諦めるな！どんな困難があったとしても、私あきらめません！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_007.mtn",
+        "text": "私たちは武装探偵！与えられた任務を的確に遂行します！",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_008.mtn",
+        "text": "アーサーさんが武偵だったら、どの学部になるのかな…？",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_009.mtn",
+        "text": "私もいつかアリア先輩みたいな武偵になるんだ！",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_010.mtn",
+        "text": "武偵憲章6条！自ら考え、自ら行動せよ！さぁ！今日は何をします？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/akari_Live2D_021.mtn",
+        "text": "目、目がくるくるします～…",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_022.mtn",
+        "text": "諜報科の課題で訓練してきたのに…！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_023.mtn",
+        "text": "もう、耐えられません～～！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_024.mtn",
+        "text": "うきゅう…こういうの、苦手なん、です…",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_025.mtn",
+        "text": "ライカなら余裕でクリアしちゃうのに…！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/akari_Live2D_027.mtn",
+        "text": "初めてくる場所みたいですね！なんだかワクワクしますね♪",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/akari_Live2D_028.mtn",
+        "text": "新たなストーリーですよ！楽しみですね、進めてみましょう！",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/akari_Live2D_029.mtn",
+        "text": "プレゼントの期限が迫っているみたいです…早く開けないともったいないです！",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/akari_Live2D_030.mtn",
+        "text": "強力な敵がいるみたいです！気を付けて進みましょう！",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/akari_Live2D_031.mtn",
+        "text": "いつもと違う場所があります…挑戦しましょう！",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/akari_Live2D_032.mtn",
+        "text": "新しいサブストーリーです！さっそく行ってみましょうよ！",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/akari_Live2D_033.mtn",
+        "text": "フレンド申請ですよ！さすがアーサーさん、人気ものですね！",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/akari_Live2D_034.mtn",
+        "text": "プレゼントが届いてるみたいですよ！怪しいです！諜報科を呼びましょう！",
+        "sound": "sound/340.wav"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/akari_Live2D_003.mtn",
+        "text": "探索ですか？ご一緒させてください！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_026.mtn",
+        "text": "武偵憲章1条！仲間を信じ、仲間を助けよ！いつでもサポートします！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/akari_Live2D_001.mtn",
+        "text": "お帰りなさい、今日はどんな任務に行きますか？",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_002.mtn",
+        "text": "私は今日も元気ですよ！一日頑張りましょう！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_003.mtn",
+        "text": "探索ですか？ご一緒させてください！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_004.mtn",
+        "text": "アリア先輩に追いつけるように、日々の訓練頑張ります！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_005.mtn",
+        "text": "たくさん頑張って、ののかにお姉ちゃんが成長した姿を見せるんだ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_006.mtn",
+        "text": "武偵憲章10条！諦めるな、武偵は決して諦めるな！どんな困難があったとしても、私あきらめません！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_007.mtn",
+        "text": "私たちは武装探偵！与えられた任務を的確に遂行します！",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_008.mtn",
+        "text": "アーサーさんが武偵だったら、どの学部になるのかな…？",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_009.mtn",
+        "text": "私もいつかアリア先輩みたいな武偵になるんだ！",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_010.mtn",
+        "text": "武偵憲章6条！自ら考え、自ら行動せよ！さぁ！今日は何をします？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_021.mtn",
+        "text": "目、目がくるくるします～…",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_022.mtn",
+        "text": "諜報科の課題で訓練してきたのに…！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_023.mtn",
+        "text": "もう、耐えられません～～！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_024.mtn",
+        "text": "うきゅう…こういうの、苦手なん、です…",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/akari_Live2D_025.mtn",
+        "text": "ライカなら余裕でクリアしちゃうのに…！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

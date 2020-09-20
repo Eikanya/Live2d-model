@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "hayamihiro",
+  "model": "moc/hayamihiro.moc",
+  "textures": [
+    "moc/hayamihiro2048/texture_00.png"
+  ],
+  "physics": "json/hayamihiro.physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 2.9,
+    "center_x": 0.1,
+    "center_y": -0.7
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_hiro_0011.mtn",
+        "text": "なんだい？恋のアドバイスならしてあげようか？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0012.mtn",
+        "text": "あんまりつつくと怪我するよ？ふふっ、綺麗な薔薇には棘があるって言うだろ？",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0013.mtn",
+        "text": "僕をつついて遊ぶなんて、君、おもしろいね。",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0014.mtn",
+        "text": "僕が君をパラダイスに連れてってあげるよ♪",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0015.mtn",
+        "text": "どうしたの？楽しそうだね。",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0016.mtn",
+        "text": "ふふっ、そんなに触られると照れちゃうよ。",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0017.mtn",
+        "text": "俺たちが目指すのは勝者じゃない、勇者だ！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0018.mtn",
+        "text": "どうしたんだい？何か困ってるなら聞いてあげるよ。",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0019.mtn",
+        "text": "元気がないって……？実は失恋しちゃってねこれでも普通の男の子だからね。",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0020.mtn",
+        "text": "ん？何か面白いことを探してるって顔してるね！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0001.mtn",
+        "text": "みんな！応援ありがとう！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0002.mtn",
+        "text": "え？クエストに行くって？これからグラビアの撮影があるから、明日でいいかい？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0003.mtn",
+        "text": "無限ハグ！With Love",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0004.mtn",
+        "text": "真の勇者でなければ、真のアイドルにはなれないんだ！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0005.mtn",
+        "text": "僕はみんなのことが大好きだよ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0006.mtn",
+        "text": "コウジの作った歌で輝けるのはただ一人、この速水ヒロだけだ！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0007.mtn",
+        "text": "準備はできてるよ！今日はどこに行こうか？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0010.mtn",
+        "text": "コウジの最近の手料理は名前が長くて覚えられないんだ…味は最高なんだけどね。",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_hiro_0021.mtn",
+        "text": "くっ……",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0022.mtn",
+        "text": "そ、そんなに揺らさないでくれないか……！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0023.mtn",
+        "text": "うあぁぁぁぁぁぁぁぁ……！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0024.mtn",
+        "text": "うっ……僕の負けだ…",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0025.mtn",
+        "text": "もう……やめてくれ…！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_hiro_0027.mtn",
+        "text": "新しい秘境があるみたいだ！行ってみないか？",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_hiro_0028.mtn",
+        "text": "どうやら新しいストーリーがあるらしい。見てみたらいいんじゃないか？",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_hiro_0029.mtn",
+        "text": "プレゼントが消えそうだよ。受け取ったほうがいいんじゃないかな。",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_hiro_0030.mtn",
+        "text": "強敵が出現したみたいだ。なぁに、君ならやれるさ！",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_hiro_0031.mtn",
+        "text": "特別な秘境が出たようだよ。行くなら気をつけることだね。",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_hiro_0032.mtn",
+        "text": "新しいサブストーリーが見られるみたいだ。",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_hiro_0033.mtn",
+        "text": "フレンド申請が来てるよ。君もけっこう人気があるみたいだね！",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_hiro_0034.mtn",
+        "text": "プレゼントが届いているね！開けてみたらどうだい？",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_hiro_0008.mtn",
+        "text": "グッモーニン！昨日は良く眠れたかな？",
+        "sound": "sound/080.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_hiro_0009.mtn",
+        "text": "さて、僕はそろそろ寝ようかな。君も早く寝るんだよ？グンナイ♪",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_hiro_0003.mtn",
+        "text": "無限ハグ！With Love",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0026.mtn",
+        "text": "こんにちは！速水ヒロです！もちろん知ってると思うけど！今日から僕が君をサポートするよ！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_hiro_0001.mtn",
+        "text": "みんな！応援ありがとう！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0002.mtn",
+        "text": "え？クエストに行くって？これからグラビアの撮影があるから、明日でいいかい？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0003.mtn",
+        "text": "無限ハグ！With Love",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0004.mtn",
+        "text": "真の勇者でなければ、真のアイドルにはなれないんだ！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0005.mtn",
+        "text": "僕はみんなのことが大好きだよ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0006.mtn",
+        "text": "コウジの作った歌で輝けるのはただ一人、この速水ヒロだけだ！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0007.mtn",
+        "text": "準備はできてるよ！今日はどこに行こうか？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0010.mtn",
+        "text": "コウジの最近の手料理は名前が長くて覚えられないんだ…味は最高なんだけどね。",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0021.mtn",
+        "text": "くっ……",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0022.mtn",
+        "text": "そ、そんなに揺らさないでくれないか……！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0023.mtn",
+        "text": "うあぁぁぁぁぁぁぁぁ……！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0024.mtn",
+        "text": "うっ……僕の負けだ…",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hiro_0025.mtn",
+        "text": "もう……やめてくれ…！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,774 @@
+{
+  "version": "1.0.0",
+  "name": "hihumi",
+  "model": "moc/t123.moc",
+  "textures": [
+    "moc/hihumi2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 1.8,
+    "center_x": 0,
+    "center_y": -0.25
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_hihumi011.mtn",
+        "text": "な、なにか…用？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi012.mtn",
+        "text": "…なにか…わからないことが…あるの？",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi013.mtn",
+        "text": "…よ、傭兵さんの訓練。…見てるだけなら…付き合うけど。",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi014.mtn",
+        "text": "…富豪さんの服。…着てみたいなぁ…。",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi015.mtn",
+        "text": "…盗賊さんの尻尾…触りたい。…宗次郎みたい…だから。",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi016.mtn",
+        "text": "…歌姫さんの歌。…仕事中に聞いていたい…かも。",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi017.mtn",
+        "text": "あ、あの…触らないで…。",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi018.mtn",
+        "text": "ひゃっ！…な、なに？…何かあったの？",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi019.mtn",
+        "text": "…しつこいのは好きじゃない。…お菓子、もう持ってこない。",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi020.mtn",
+        "text": "そ、そこはダメ…！…きゅ、急に触るの…やめて。",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi001.mtn",
+        "text": "おはようございます…。……あの…まだ何か？",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi002.mtn",
+        "text": "お菓子も…用意…しとく…。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi003.mtn",
+        "text": "しゃべるの…苦手で…。でも…頑張らないと…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi004.mtn",
+        "text": "青葉ちゃん…どこ行ったのかな…？早く帰って…来ないかな…。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi005.mtn",
+        "text": "…え、えっと…あの、その…。…何をすればいいのか…教えて？",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi006.mtn",
+        "text": "…特にすることないなら、…宗次郎と遊んでていい？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi007.mtn",
+        "text": "…なんだか本当に…ゲームの中に来たみたいで、…ちょっと嬉しい。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi008.mtn",
+        "text": "…私にできることがあれば、…手伝うけど…。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi009.mtn",
+        "text": "…ど、どうしよう…。…何をすればいいか…わからない…。",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi010.mtn",
+        "text": "…お腹…空いた？…何か作るけど…食べる？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_hihumi021.mtn",
+        "text": "め、目が…回る…。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi022.mtn",
+        "text": "ひっひっふー…ひっひっふー…。",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi023.mtn",
+        "text": "や、やめて…。助けて…。",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi024.mtn",
+        "text": "…な、なにこれ？…揺れすぎて…怖い…。",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi025.mtn",
+        "text": "うぅ…具合悪く…なってきた…。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_hihumi002.mtn",
+        "text": "新しい秘境がある、みたい。行って…みる？"
+      },
+      {
+        "file": "mtn/Live2D_hihumi007.mtn",
+        "text": "新しいストーリーがある…よ。"
+      },
+      {
+        "file": "mtn/Live2D_hihumi005.mtn",
+        "text": "プレゼントが消えちゃいそう…。早く、受けとらないと…消えちゃう。"
+      },
+      {
+        "file": "mtn/Live2D_hihumi008.mtn",
+        "text": "すごい敵が来てるみたい…、気を付けて、アーサー。"
+      },
+      {
+        "file": "mtn/Live2D_hihumi008.mtn",
+        "text": "雰囲気の違う秘境が出てる…。気を付けて、ね。"
+      },
+      {
+        "file": "mtn/Live2D_hihumi007.mtn",
+        "text": "新しいサブストーリーが見つかったよ。私も…後で、見に行くよ。"
+      },
+      {
+        "file": "mtn/Live2D_hihumi003.mtn",
+        "text": "フレンド申請が来てるみたい…。うう、仲良くできるかな…。"
+      },
+      {
+        "file": "mtn/Live2D_hihumi007.mtn",
+        "text": "プレゼントが届いてる、みたい。中身、一緒に見よう…か？"
+      },
+      {
+        "file": "mtn/Live2D_hihumi001.mtn",
+        "text": "取得可能なサウンドがある…よ。オプションから取れる…みたい。"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_hihumi003.mtn",
+        "text": "しゃべるの…苦手で…。でも…頑張らないと…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi026.mtn",
+        "text": "滝本…ひふみ…。よろしく…。",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_hihumi001.mtn",
+        "text": "おはようございます…。……あの…まだ何か？",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi002.mtn",
+        "text": "お菓子も…用意…しとく…。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi003.mtn",
+        "text": "しゃべるの…苦手で…。でも…頑張らないと…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi004.mtn",
+        "text": "青葉ちゃん…どこ行ったのかな…？早く帰って…来ないかな…。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi005.mtn",
+        "text": "…え、えっと…あの、その…。…何をすればいいのか…教えて？",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi006.mtn",
+        "text": "…特にすることないなら、…宗次郎と遊んでていい？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi007.mtn",
+        "text": "…なんだか本当に…ゲームの中に来たみたいで、…ちょっと嬉しい。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi008.mtn",
+        "text": "…私にできることがあれば、…手伝うけど…。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi009.mtn",
+        "text": "…ど、どうしよう…。…何をすればいいか…わからない…。",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi010.mtn",
+        "text": "…お腹…空いた？…何か作るけど…食べる？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi021.mtn",
+        "text": "め、目が…回る…。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi022.mtn",
+        "text": "ひっひっふー…ひっひっふー…。",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi023.mtn",
+        "text": "や、やめて…。助けて…。",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi024.mtn",
+        "text": "…な、なにこれ？…揺れすぎて…怖い…。",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_hihumi025.mtn",
+        "text": "うぅ…具合悪く…なってきた…。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

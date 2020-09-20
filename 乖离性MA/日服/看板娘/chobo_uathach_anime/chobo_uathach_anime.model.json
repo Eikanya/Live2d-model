@@ -1,0 +1,836 @@
+{
+  "version": "1.0.0",
+  "model": "moc/chobo_uathach_anime.moc",
+  "textures": [
+    "moc/chobo_uathach_anime1024/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "pose": "json/pose.json",
+  "expressions": [
+    {
+      "name": "F01",
+      "file": "json/F01.exp.json"
+    }
+  ],
+  "layout": {
+    "width": 1.4,
+    "height": 1.4,
+    "center_x": 0,
+    "center_y": 0.05
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_idle.mtn",
+        "fade_in": 2000,
+        "fade_out": 2000,
+        "expressions": "F01",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_005.mtn",
+        "expressions": "F01",
+        "text": "そちらにおいででしたか。",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_003.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "スカアハ様に御用ですか？",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "現在、聞き役に徹するモードです。愚痴でも自慢でも、なんなりと。",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "これは訓練の一環なのですか？",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "text": "oh。そこは弱いのです。",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_003.mtn",
+        "expressions": "F01",
+        "text": "oh。それはノーサンキューです。",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_005.mtn",
+        "expressions": "F01",
+        "text": "お呼びですか？アーサー様。",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "expressions": "F01",
+        "text": "そんなに触られては……私の役目が、おろそかになってしまいます……",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_005.mtn",
+        "expressions": "F01",
+        "text": "どこを何回さわったか、世界中に公表いたしましょうか？",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_005.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "いい気になって触ってると、後悔しますよ？",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "お帰りなさいませ。アーサー様。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "お疲れでしょう。まずはおくつろぎ下さい。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "行動を開始しましょう。アーサー様。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "次の行動はお決まりでしょうか？",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "またお会いできました。スカアハ様もお喜びです。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "常に準備は万端です。探索でも食事でもお好きにどうぞ。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "寂しいなどと私にそのような感情はございません。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "あまりに長いお出かけは食事のグレードに影響します。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "スカアハ様がお待ちです。…Whats?Oh，no。私はスカアハ様の言葉を伝えるだけです。",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "ぴょん、ぴょん、ぴょん、ぴょん、ぴょん、ぴょん、ぴょん…",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "エラーが……、発生しました。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "三半規管が……激しく揺さぶられたもようです。……うっ。",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "私を揺らしても……、心は揺れません……。",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "揺れるほどのモノは……、持ち合わせていません……。",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "機能……低下……",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "expressions": "F01",
+        "text": "新しい秘境の探索を提案します。",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "expressions": "F01",
+        "text": "新しいストーリーを検知しました。進行可能です。",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "expressions": "F01",
+        "text": "プレゼントの確認を急いでください。消滅します。",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "expressions": "F01",
+        "text": "特別な敵が出現しました。速やかに排除してください。",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "expressions": "F01",
+        "text": "異質な秘境を検知しました。訓練ではないのでご注意を。",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "expressions": "F01",
+        "text": "新しいサブストーリーの解除を確認しました。息抜きにいかがですか？",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "expressions": "F01",
+        "text": "フレンド申請があります。一目おかれているのでしょう。",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "expressions": "F01",
+        "text": "開封可能なプレゼントがあります。",
+        "sound": "sound/340.wav"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "行動を開始しましょう。アーサー様。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_002.mtn",
+        "expressions": "F01",
+        "text": "今後は私がアーサー様をサポート致します。",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "お帰りなさいませ。アーサー様。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "お疲れでしょう。まずはおくつろぎ下さい。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "行動を開始しましょう。アーサー様。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "次の行動はお決まりでしょうか？",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "またお会いできました。スカアハ様もお喜びです。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "常に準備は万端です。探索でも食事でもお好きにどうぞ。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "寂しいなどと私にそのような感情はございません。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "あまりに長いお出かけは食事のグレードに影響します。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "スカアハ様がお待ちです。…Whats?Oh，no。私はスカアハ様の言葉を伝えるだけです。",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_001.mtn",
+        "expressions": "F01",
+        "text": "ぴょん、ぴょん、ぴょん、ぴょん、ぴょん、ぴょん、ぴょん…",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "エラーが……、発生しました。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "三半規管が……激しく揺さぶられたもようです。……うっ。",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "私を揺らしても……、心は揺れません……。",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "揺れるほどのモノは……、持ち合わせていません……。",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/chobo_uathach_anime_live2D_004.mtn",
+        "text": "機能……低下……",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  },
+  "lip_sync": true
+}
