@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.1,
+    "center_x": -0.277,
+    "center_y": 0.0274
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/600900100.wav"
+      },
+      {
+        "sound": "sound/600900070.wav"
+      },
+      {
+        "sound": "sound/600900090.wav"
+      },
+      {
+        "sound": "sound/600900080.wav"
+      },
+      {
+        "sound": "sound/600900050.wav"
+      },
+      {
+        "sound": "sound/600900030.wav"
+      },
+      {
+        "sound": "sound/600900020.wav"
+      },
+      {
+        "sound": "sound/600900010.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 水樹 奈々{$br}Illust: マニャ子"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -1.4,
+    "position_y": 0.05,
+    "position_z": 0,
+    "size": 4.69
+  },
+  "lip_sync": true
+}

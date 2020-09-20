@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.61,
+    "center_x": 0.02,
+    "center_y": -0.4
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/613020070.wav"
+      },
+      {
+        "sound": "sound/613020030.wav"
+      },
+      {
+        "sound": "sound/613020020.wav"
+      },
+      {
+        "sound": "sound/613020010.wav"
+      },
+      {
+        "sound": "sound/613020100.wav"
+      },
+      {
+        "sound": "sound/613020080.wav"
+      },
+      {
+        "sound": "sound/613020050.wav"
+      },
+      {
+        "sound": "sound/613020090.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 茅野 愛衣{$br}Illust: るろお"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.05,
+    "position_y": -1.97,
+    "position_z": 0,
+    "size": 6.4
+  }
+}
