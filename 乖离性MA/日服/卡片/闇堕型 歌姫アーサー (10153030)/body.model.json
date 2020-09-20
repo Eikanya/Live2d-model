@@ -1,0 +1,67 @@
+{
+  "model": "moc/model.moc",
+  "physics": "json/physics.json",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.65,
+    "center_x": -0.03,
+    "center_y": -0.13
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 0,
+        "fade_out": 0
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/608960050.wav"
+      },
+      {
+        "sound": "sound/608960020.wav"
+      },
+      {
+        "sound": "sound/608960080.wav"
+      },
+      {
+        "sound": "sound/608960100.wav"
+      },
+      {
+        "sound": "sound/608960030.wav"
+      },
+      {
+        "sound": "sound/608960010.wav"
+      },
+      {
+        "sound": "sound/608960090.wav"
+      },
+      {
+        "sound": "sound/608960070.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 内田 真礼{$br}Illust: refeia"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.3,
+    "position_y": -0.97,
+    "position_z": 0,
+    "size": 5.78
+  },
+  "lip_sync": true,
+  "version": "1.0.0"
+}

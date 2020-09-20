@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.9,
+    "center_x": 0.1,
+    "center_y": -0.25
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/600950100.wav"
+      },
+      {
+        "sound": "sound/600950050.wav"
+      },
+      {
+        "sound": "sound/600950020.wav"
+      },
+      {
+        "sound": "sound/600950080.wav"
+      },
+      {
+        "sound": "sound/600950090.wav"
+      },
+      {
+        "sound": "sound/600950030.wav"
+      },
+      {
+        "sound": "sound/600950070.wav"
+      },
+      {
+        "sound": "sound/600950010.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 矢作 紗友里{$br}Illust: 柴乃櫂人"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.55,
+    "position_y": -1.15,
+    "position_z": 0,
+    "size": 8
+  }
+}

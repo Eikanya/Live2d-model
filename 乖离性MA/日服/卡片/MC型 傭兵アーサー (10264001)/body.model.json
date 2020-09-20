@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 1.71,
+    "center_x": 0.08,
+    "center_y": 0.03
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/614020090.wav"
+      },
+      {
+        "sound": "sound/614020070.wav"
+      },
+      {
+        "sound": "sound/614020100.wav"
+      },
+      {
+        "sound": "sound/614020080.wav"
+      },
+      {
+        "sound": "sound/614020050.wav"
+      },
+      {
+        "sound": "sound/614020030.wav"
+      },
+      {
+        "sound": "sound/614020020.wav"
+      },
+      {
+        "sound": "sound/614020010.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 阿部 敦{$br}Illust: PACHI"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.5,
+    "position_y": 0.15,
+    "position_z": 0,
+    "size": 4.28
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 1.622,
+    "center_x": 0.014,
+    "center_y": 0.045
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/608690070.wav"
+      },
+      {
+        "sound": "sound/607380030.wav"
+      },
+      {
+        "sound": "sound/608690090.wav"
+      },
+      {
+        "sound": "sound/608650020.wav"
+      },
+      {
+        "sound": "sound/608650100.wav"
+      },
+      {
+        "sound": "sound/608650050.wav"
+      },
+      {
+        "sound": "sound/607380010.wav"
+      },
+      {
+        "sound": "sound/607380080.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 鈴木 亜理沙　佐倉 綾音　内田 真礼{$br}Illust: やみや"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.09,
+    "position_y": 0.13,
+    "position_z": 0,
+    "size": 4.03
+  }
+}

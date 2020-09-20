@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 4.6,
+    "center_x": 0.9,
+    "center_y": 0.2
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/612420080.wav"
+      },
+      {
+        "sound": "sound/612420100.wav"
+      },
+      {
+        "sound": "sound/612420050.wav"
+      },
+      {
+        "sound": "sound/612420070.wav"
+      },
+      {
+        "sound": "sound/612420090.wav"
+      },
+      {
+        "sound": "sound/612420010.wav"
+      },
+      {
+        "sound": "sound/612420030.wav"
+      },
+      {
+        "sound": "sound/612420020.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 大西 沙織{$br}Illust: 雅"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 3.8,
+    "position_y": 0.38,
+    "position_z": 0,
+    "size": 9.9
+  }
+}
