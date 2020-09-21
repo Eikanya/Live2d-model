@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "kazuki",
+  "model": "moc/kazuki.moc",
+  "textures": [
+    "moc/kazuki2048/texture_00.png"
+  ],
+  "physics": "json/kazuki.physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 2.6,
+    "center_x": 0.1,
+    "center_y": -0.35
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_kazuki_0011.mtn",
+        "text": "どうした？俺に何か用があるのか？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0012.mtn",
+        "text": "お、おおおおい、そんなに触るんじゃねえ！",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0013.mtn",
+        "text": "お前、俺で遊んでるだろ！？",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0014.mtn",
+        "text": "おう、何かあったら言えよ！時空を超えて駆けつけてやるからな！",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0015.mtn",
+        "text": "なんだ？何かアドバイスができればいいんだが……俺にできることなら何でも言ってくれよ！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0016.mtn",
+        "text": "決められたことをバッチリやろうとするから緊張するんだろ？失敗してもいいんだ。",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0017.mtn",
+        "text": "バーニンッ！！燃えてきたぜー！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0018.mtn",
+        "text": "ん？遠慮しなくていいんだからな！何でも言えよ！",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0019.mtn",
+        "text": "今日は調子がいいぜ！",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0020.mtn",
+        "text": "おっ、なんだ？俺と一緒に踊りたいのか？",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0001.mtn",
+        "text": "よっ調子はどうだ？",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0002.mtn",
+        "text": "俺はここにいるから、いつでも頼ってくれよな！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0003.mtn",
+        "text": "準備はOKだ！いつでも出発できるぜ！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0004.mtn",
+        "text": "大丈夫か？あまり無理するなよ！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0005.mtn",
+        "text": "フリーダムなショーを見せてやるぜ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0006.mtn",
+        "text": "ダチをコケにする奴は許さねぇ！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0007.mtn",
+        "text": "やっぱ大事なのは熱いハートだよな！れ、恋愛のこととかは、よくわからねえけど……",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0010.mtn",
+        "text": "バーニングな熱い気持ちを届けるぜ！",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_kazuki_0021.mtn",
+        "text": "お、おいお前！何してるんだよ！",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0022.mtn",
+        "text": "これくらいの揺れ、大したことねえぜ！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0023.mtn",
+        "text": "さすがに目が回るぜ……",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0024.mtn",
+        "text": "な、なんだぁ！？何が起こったんだ？",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0025.mtn",
+        "text": "頼むからもうこれ以上はやめてくれ…！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_kazuki_0027.mtn",
+        "text": "新しい秘境があるみたいだぜ！行ってみるか！",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0028.mtn",
+        "text": "新しいストーリーがあるぜ！見に行かないのか？",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0029.mtn",
+        "text": "おい！プレゼントが消えそうじゃねえか！",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0030.mtn",
+        "text": "いつもと違う敵がいるみてぇだな！お前なら倒せるんじゃねえか？",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0031.mtn",
+        "text": "特別な秘境が出てるみたいだぞ！行くなら気をつけろよ。",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0032.mtn",
+        "text": "新しいサブストーリーが見られるみたいだぜ！",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0033.mtn",
+        "text": "フレンド申請が来てるぜ！人気者だな、お前。",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0034.mtn",
+        "text": "プレゼントが届いてるぞ。受け取らないのか？",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0008.mtn",
+        "text": "おっ、早起きなんだな。こっちに来て一緒に軽く汗でも流そうぜ！",
+        "sound": "sound/080.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0009.mtn",
+        "text": "まだ起きてるのか？あんまり夜更かししないで早く寝ろよ？",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_kazuki_0003.mtn",
+        "text": "準備はOKだ！いつでも出発できるぜ！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0026.mtn",
+        "text": "今日から俺がお前をナビゲートしてやるぜ！安心しろよ、俺にまかせとけ！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_kazuki_0001.mtn",
+        "text": "よっ調子はどうだ？",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0002.mtn",
+        "text": "俺はここにいるから、いつでも頼ってくれよな！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0003.mtn",
+        "text": "準備はOKだ！いつでも出発できるぜ！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0004.mtn",
+        "text": "大丈夫か？あまり無理するなよ！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0005.mtn",
+        "text": "フリーダムなショーを見せてやるぜ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0006.mtn",
+        "text": "ダチをコケにする奴は許さねぇ！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0007.mtn",
+        "text": "やっぱ大事なのは熱いハートだよな！れ、恋愛のこととかは、よくわからねえけど……",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0010.mtn",
+        "text": "バーニングな熱い気持ちを届けるぜ！",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0021.mtn",
+        "text": "お、おいお前！何してるんだよ！",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0022.mtn",
+        "text": "これくらいの揺れ、大したことねえぜ！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0023.mtn",
+        "text": "さすがに目が回るぜ……",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0024.mtn",
+        "text": "な、なんだぁ！？何が起こったんだ？",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_kazuki_0025.mtn",
+        "text": "頼むからもうこれ以上はやめてくれ…！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

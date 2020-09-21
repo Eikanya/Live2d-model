@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "primm",
+  "model": "moc/support_primm.moc",
+  "textures": [
+    "moc/primm2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 1.93,
+    "center_x": 0,
+    "center_y": -0.18
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_primm011.mtn",
+        "text": "きゃっ！ちょっと！急に触らないでよ！",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm012.mtn",
+        "text": "どうしたの？元気ないね。……あっ！そうだ！さっきニキータから買ったアイテムが……",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm013.mtn",
+        "text": "なぁに？ディラックのことが聞きたいの？えへへ……って違うの？もう！何なのよ！",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm014.mtn",
+        "text": "もうっ！そんなに触らないでってば！くすぐったいじゃない！",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm015.mtn",
+        "text": "傭兵って……、さっきから訓練ばっかりやってるけど私には無理だわ…見てるだけで疲れちゃう！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm016.mtn",
+        "text": "富豪はいつも難しい本ばーっかり読んでるけど……そんなに面白いのかな？",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm017.mtn",
+        "text": "わぁ…盗賊ちゃんの尻尾、ふわふわだよ！私もその尻尾欲しいな～！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm018.mtn",
+        "text": "歌姫ちゃんの服、すっごく可愛い！私もあんな服着てみたいな～！…でも戦うときには動きづらそうかも…",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm019.mtn",
+        "text": "ランディって、な～んか頼りないって思っちゃうんだけど、ここぞって時は結構頼りになるのよね……",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm020.mtn",
+        "text": "チビちゃんってば、私たちを子分扱いするんだもの、失礼しちゃうわよね！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm001.mtn",
+        "text": "あれ？　キミの持ってるそれって…え？…えー！それも聖剣なの！？マナの剣とは違うのねぇ…。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm002.mtn",
+        "text": "私、プリム。よろしくね！！あなたの名前は？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm003.mtn",
+        "text": "さぁ、今日も張り切ってクエストに行きましょ！！準備はバッチリだよ！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm004.mtn",
+        "text": "う～ん…ここで待ってるだけって結構退屈ね…",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm005.mtn",
+        "text": "えっ！？キミって王様だったんだ？ふ～ん……あんまり王様っぽく見えないね…",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm006.mtn",
+        "text": "アーサー、もし怪我をしたら言ってね！ウンディーネの癒しの力で回復してあげるよ！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm007.mtn",
+        "text": "サポート…って何をすればいいのかな？ここにいるだけでいいの？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm008.mtn",
+        "text": "もうっ！ランディもチビちゃんもどこ行っちゃったのよ！",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_primm021.mtn",
+        "text": "ちょ、ちょ、ちょっと！揺れてるわ！な、なんなのよ～！？",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm022.mtn",
+        "text": "キャーーーー！ちょっと…！やめっ……もうっ、やめて、って、言ってるでしょ！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm023.mtn",
+        "text": "…うっ……この揺れ…苦手だわ……",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm024.mtn",
+        "text": "……！？何が起きてるの！？キャーー！ちょ、ちょっと！揺らさないでよ！！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm025.mtn",
+        "text": "もう………だめ…………",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_primm027.mtn",
+        "text": "新しい秘境があるみたいだよ！探索してみない？",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_primm028.mtn",
+        "text": "新しいストーリーがあるみたい！どんな話なの？私にも教えて！",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_primm029.mtn",
+        "text": "消えちゃいそうなプレゼントがあるけど…受け取ったほうがいいんじゃない？",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_primm030.mtn",
+        "text": "強敵が出現してるみたい！しょうがないわね、私も一緒に行ってあげる！",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_primm031.mtn",
+        "text": "特別な秘境が出てるよ！行くなら準備しなくっちゃ！",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_primm032.mtn",
+        "text": "新しいサブストーリーが見られるよ！ねぇねぇ、見てみない？",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_primm033.mtn",
+        "text": "フレンド申請が来てるわよ！友達は大事にしなきゃだめよ！",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_primm034.mtn",
+        "text": "プレゼントが届いてるわよ！ねぇねぇ、私が開けちゃってもいーい？",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_primm009.mtn",
+        "text": "ふあぁぁ……おはよう。アーサー、起きるの早いのねぇ……私、まだ寝ててもいいかしら？",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_primm010.mtn",
+        "text": "アーサー、まだ寝ないの？頑張るのねぇ……今日はもう休んで、続きは明日にしたらどうかしら？",
+        "sound": "sound/100.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_primm003.mtn",
+        "text": "さぁ、今日も張り切ってクエストに行きましょ！！準備はバッチリだよ！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm026.mtn",
+        "text": "今日から私がキミをサポートするよ！どーんと頼ってくれて大丈夫だからね！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_primm001.mtn",
+        "text": "あれ？　キミの持ってるそれって…え？…えー！それも聖剣なの！？マナの剣とは違うのねぇ…。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm002.mtn",
+        "text": "私、プリム。よろしくね！！あなたの名前は？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm003.mtn",
+        "text": "さぁ、今日も張り切ってクエストに行きましょ！！準備はバッチリだよ！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm004.mtn",
+        "text": "う～ん…ここで待ってるだけって結構退屈ね…",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm005.mtn",
+        "text": "えっ！？キミって王様だったんだ？ふ～ん……あんまり王様っぽく見えないね…",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm006.mtn",
+        "text": "アーサー、もし怪我をしたら言ってね！ウンディーネの癒しの力で回復してあげるよ！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm007.mtn",
+        "text": "サポート…って何をすればいいのかな？ここにいるだけでいいの？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm008.mtn",
+        "text": "もうっ！ランディもチビちゃんもどこ行っちゃったのよ！",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm021.mtn",
+        "text": "ちょ、ちょ、ちょっと！揺れてるわ！な、なんなのよ～！？",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm022.mtn",
+        "text": "キャーーーー！ちょっと…！やめっ……もうっ、やめて、って、言ってるでしょ！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm023.mtn",
+        "text": "…うっ……この揺れ…苦手だわ……",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm024.mtn",
+        "text": "……！？何が起きてるの！？キャーー！ちょ、ちょっと！揺らさないでよ！！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_primm025.mtn",
+        "text": "もう………だめ…………",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

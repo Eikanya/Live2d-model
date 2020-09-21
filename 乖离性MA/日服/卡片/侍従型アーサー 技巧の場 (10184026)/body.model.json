@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.0,
+    "center_x": -0.15,
+    "center_y": -0.1
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/611150080.wav"
+      },
+      {
+        "sound": "sound/611150020.wav"
+      },
+      {
+        "sound": "sound/611150030.wav"
+      },
+      {
+        "sound": "sound/611150010.wav"
+      },
+      {
+        "sound": "sound/611150050.wav"
+      },
+      {
+        "sound": "sound/611150100.wav"
+      },
+      {
+        "sound": "sound/611150090.wav"
+      },
+      {
+        "sound": "sound/611150070.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 佐藤 利奈{$br}Illust: 風花風花"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.1,
+    "position_y": -1.2,
+    "position_z": 0,
+    "size": 6.5
+  }
+}

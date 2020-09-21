@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "cocoa",
+  "model": "moc/support_cocoa.moc",
+  "textures": [
+    "moc/cocoa2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 2.2,
+    "center_x": 0,
+    "center_y": -0.4
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_cocoa011.mtn",
+        "text": "アーサー、何か私にお手伝いできることあるかな？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa012.mtn",
+        "text": "カフェラテが飲みたいの？任せて！ラテアートも描けるよ♪",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa013.mtn",
+        "text": "おなかすいたね～……あっ！ホットケーキ作ってあげるね！",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa014.mtn",
+        "text": "アーサーも、私のことお姉ちゃんって呼んでもいいよ♪",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa015.mtn",
+        "text": "どうかしたの？お姉ちゃんに遠慮しないでいいんだよ！なんでも頼ってね♪",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa016.mtn",
+        "text": "…はっ！まさか、アーサーもチノちゃんのお姉ちゃんの座を狙ってる…！？",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa017.mtn",
+        "text": "う～ん、アーサーのお手伝いって、何すればいいのかなぁ？",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa018.mtn",
+        "text": "あはははは！くすぐったいよぉ！",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa019.mtn",
+        "text": "わぁ！きゅ、きゅ、急にどうしたの！？びっくりしたよぉ～",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa020.mtn",
+        "text": "えへへ、アーサーに撫でられちゃった！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa001.mtn",
+        "text": "えーっ！アーサーって王様なの！？王様って偉いんだよね？ すっごーい！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa002.mtn",
+        "text": "ブリテンにはうさぎっているのかな～？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa003.mtn",
+        "text": "サポート妖精って、アーサーのお手伝いをするんでしょ？私に任せて！バッチリサポートするよ！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa004.mtn",
+        "text": "うう～、暇だよ～…そうだ！！アーサーにカフェオレ淹れてあげるね！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa005.mtn",
+        "text": "傭兵さんの剣、不思議だよね～！あの岩は取れないのかなぁ？",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa006.mtn",
+        "text": "富豪さんの服、かっこいいよね！私にも似合うかなぁ？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa007.mtn",
+        "text": "盗賊さんの尻尾、触ってみたいな～♪ティッピーとどっちがモフモフかなぁ？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa008.mtn",
+        "text": "歌姫さんはお歌が上手って聞いたよ！いいな～！私も聞いてみたいなぁ",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_cocoa021.mtn",
+        "text": "ううう～、目がまわるよぉ～",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa022.mtn",
+        "text": "なにこれ～！すごく揺れてるよ～！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa023.mtn",
+        "text": "わぁぁぁぁぁん！助けてぇぇ～！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa024.mtn",
+        "text": "わぁっ揺れてる！？地震だよ～！！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa025.mtn",
+        "text": "うええ……アーサー、これ…なんの遊びぃ……？",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_cocoa027.mtn",
+        "text": "新しい秘境があるみたいだよ！探索してみようよ！",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_cocoa028.mtn",
+        "text": "新しいストーリーがあるよ！わーい！一緒に読もう？",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_cocoa029.mtn",
+        "text": "はわわ…プレゼントが消えちゃうよ～！早く受け取らなきゃ…！",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_cocoa030.mtn",
+        "text": "強そうな敵が出現しているみたい…！わわわ、アーサー気を付けてね……！",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_cocoa031.mtn",
+        "text": "特別な秘境が出てるみたいだよ！特別ってことは「すごい」ってことだよね！",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_cocoa032.mtn",
+        "text": "新しいサブストーリーが見られるみたいだよ！どんなお話が読めるのかなぁ？",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_cocoa033.mtn",
+        "text": "フレンド申請が来てるよ！アーサーも友達たくさんいるんだね！",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_cocoa034.mtn",
+        "text": "プレゼントが届いてるよ！早く開けてみようよ♪",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_cocoa009.mtn",
+        "text": "おっはようございまーす！じゃーん！カフェラテ淹れたよ。飲んで飲んで！",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_cocoa010.mtn",
+        "text": "今日も一日お疲れ様だよ♪明日もまた一緒に頑張ろうね！",
+        "sound": "sound/100.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_cocoa003.mtn",
+        "text": "サポート妖精って、アーサーのお手伝いをするんでしょ？私に任せて！バッチリサポートするよ！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa026.mtn",
+        "text": "私は「ココア」だよ！よろしくね、アーサー♪",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_cocoa001.mtn",
+        "text": "えーっ！アーサーって王様なの！？王様って偉いんだよね？ すっごーい！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa002.mtn",
+        "text": "ブリテンにはうさぎっているのかな～？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa003.mtn",
+        "text": "サポート妖精って、アーサーのお手伝いをするんでしょ？私に任せて！バッチリサポートするよ！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa004.mtn",
+        "text": "うう～、暇だよ～…そうだ！！アーサーにカフェオレ淹れてあげるね！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa005.mtn",
+        "text": "傭兵さんの剣、不思議だよね～！あの岩は取れないのかなぁ？",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa006.mtn",
+        "text": "富豪さんの服、かっこいいよね！私にも似合うかなぁ？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa007.mtn",
+        "text": "盗賊さんの尻尾、触ってみたいな～♪ティッピーとどっちがモフモフかなぁ？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa008.mtn",
+        "text": "歌姫さんはお歌が上手って聞いたよ！いいな～！私も聞いてみたいなぁ",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa021.mtn",
+        "text": "ううう～、目がまわるよぉ～",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa022.mtn",
+        "text": "なにこれ～！すごく揺れてるよ～！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa023.mtn",
+        "text": "わぁぁぁぁぁん！助けてぇぇ～！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa024.mtn",
+        "text": "わぁっ揺れてる！？地震だよ～！！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_cocoa025.mtn",
+        "text": "うええ……アーサー、これ…なんの遊びぃ……？",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

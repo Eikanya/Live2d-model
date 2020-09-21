@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.12,
+    "center_x": 0.057,
+    "center_y": -0.008
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/611430030.wav"
+      },
+      {
+        "sound": "sound/611430100.wav"
+      },
+      {
+        "sound": "sound/611430090.wav"
+      },
+      {
+        "sound": "sound/611430050.wav"
+      },
+      {
+        "sound": "sound/611430080.wav"
+      },
+      {
+        "sound": "sound/611430010.wav"
+      },
+      {
+        "sound": "sound/611430070.wav"
+      },
+      {
+        "sound": "sound/611430020.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 小野 賢章　山本 希望　加藤 英美里{$br}Illust: osa"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.5,
+    "position_y": 0.1,
+    "position_z": 0,
+    "size": 4.8
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.39,
+    "center_x": 0.0775,
+    "center_y": -0.225
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/610060010.wav"
+      },
+      {
+        "sound": "sound/610060030.wav"
+      },
+      {
+        "sound": "sound/610060070.wav"
+      },
+      {
+        "sound": "sound/610060090.wav"
+      },
+      {
+        "sound": "sound/610060100.wav"
+      },
+      {
+        "sound": "sound/610060020.wav"
+      },
+      {
+        "sound": "sound/610060080.wav"
+      },
+      {
+        "sound": "sound/610060050.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 坂本 真綾{$br}Illust: CUTEG"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.15,
+    "position_y": -0.8,
+    "position_z": 0,
+    "size": 5.93
+  }
+}

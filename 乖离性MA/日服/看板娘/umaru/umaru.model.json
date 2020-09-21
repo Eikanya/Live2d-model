@@ -1,0 +1,828 @@
+{
+  "version": "1.0.0",
+  "model": "moc/umaru.moc",
+  "textures": [
+    "moc/umaru2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "layout": {
+    "height": 1.15,
+    "center_x": 0,
+    "center_y": 0.15
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/umaru_idle.mtn",
+        "fade_in": 1000,
+        "fade_out": 1000,
+        "expressions": "F00",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/rita_Live2D_011.mtn",
+        "expressions": "F00",
+        "text": "ん？なぁに？お兄ちゃん。うまるのこと呼んだ？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_012.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "ううう～…お兄ちゃんのいじわる…！いたいけなうまるをからかったりして！",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_013.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "どうしたの元気ないけど…あんまり悩みすぎると枯れちゃうよ？",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_014.mtn",
+        "expressions": "F00",
+        "text": "ふっふっふ、お兄ちゃんはうまると遊ぶしかないのだよ！さあ、観念せよお兄ちゃん！",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_015.mtn",
+        "text": "むにゃむにゃ…あと10分だけ～　いいじゃないお兄ちゃんも今日はお休みにしようよ～",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_016.mtn",
+        "expressions": "F00",
+        "text": "お兄ちゃん…うまるのこと置いてどっか行っちゃうの？",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_017.mtn",
+        "expressions": "F00",
+        "text": "わ、わははははっ、ちょ、ちょっと、くっ、くすぐったいってばあ！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_018.mtn",
+        "expressions": "F00",
+        "text": "はい今触ったー！罰ゲームでーす！今からうまるのためにお菓子をたっくさん買ってくること！",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_019.mtn",
+        "expressions": "F00",
+        "text": "ありがとう！お兄ちゃん、今日もお仕事がんばってね♪",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_020.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "むーっ！！ちょっと！変なところ触らないでよお兄ちゃん！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_001.mtn",
+        "expressions": "F00",
+        "text": "おかえり♪お兄ちゃん！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_002.mtn",
+        "expressions": "F00",
+        "text": "お兄ちゃん～ちょっとそこまで行ってポテイト買ってきてくれない？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_003.mtn",
+        "expressions": "F00",
+        "text": "漫画買ってきてよーお兄ちゃん。読みたい読みたい読みたい読みたい～！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_004.mtn",
+        "expressions": "F00",
+        "text": "遅い！遅いよお兄ちゃん！うまるとゲーム三昧してくれないと許してあげないよ！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_005.mtn",
+        "expressions": "F00",
+        "text": "ポテイトとチョコの相性は最高だけど、チーズとイカの相性も申し分ないね！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_006.mtn",
+        "expressions": "F00",
+        "text": "夏はエアコン、冬はこたつのうまる天国（パラダイス）でまったりダラダラしようよ～",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_007.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "海老名ちゃんやきりえちゃんシルフィンさん達とどっか遊びにいきたいな～、行きたいな～。ちらっちらっ",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_008.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "うまるのプリンがないー！？うまるが寝る前はあったのに！お兄ちゃん食べたんでしょ！うわあああ～ん",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_009.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "さみしかったよぉぉおおにいちゃん！どこ行ってたの！もう！",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_010.mtn",
+        "expressions": "F00",
+        "text": "お兄ちゃんっ♪…ぬへへ、呼んでみただけ♪",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/rita_Live2D_021.mtn",
+        "text": "おお…お兄ちゃーーん！！大変だ！地面が揺れてる！",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_022.mtn",
+        "text": "助けて～…お兄ちゃん～…",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_023.mtn",
+        "text": "うわぁぁ～ん！お兄ちゃんのバーカー！なにすんの！？",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_024.mtn",
+        "text": "ふにゅううう…目…目がまわるぅ～…",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_025.mtn",
+        "text": "お兄ちゃん～…何処ー？うまるを一人にしてはいけないよ…",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/rita_Live2D_027.mtn",
+        "expressions": "F00",
+        "text": "新しい敵が出現中だって、うまるのゲームテクニックを見せる時が来たね！",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_028.mtn",
+        "expressions": "F00",
+        "text": "新しいストーリーがあるみたいだよ、これは神ストーリーの予感！チェックしなきゃ！",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_029.mtn",
+        "expressions": "F00",
+        "text": "もうすぐプレゼントが消えちゃうよー？もったいないよー、うまるがもらっちゃうよ？",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_030.mtn",
+        "expressions": "F00",
+        "text": "強そうな敵がいるんだけど…お、お兄ちゃんあとは任せた～っ！！",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_031.mtn",
+        "expressions": "F00",
+        "text": "なんだか他とは雰囲気の違う敵だね…お兄ちゃん、怪我しないでね…？",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_032.mtn",
+        "expressions": "F00",
+        "text": "新しいサブストーリーがあるみたいだよ、うまる伝説もここに載らないかな？",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_033.mtn",
+        "expressions": "F00",
+        "text": "フレンド申請が来てるよ！海老名ちゃんかきりえちゃんかな？もしかしてシルフィンさんかも！",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_034.mtn",
+        "expressions": "F00",
+        "text": "まだ開けてないプレゼントがあるよ！なんともったいない！うまるが有効活用してあげるよ！",
+        "sound": "sound/340.wav"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/rita_Live2D_003.mtn",
+        "expressions": "F00",
+        "text": "漫画買ってきてよーお兄ちゃん。読みたい読みたい読みたい読みたい～！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_026.mtn",
+        "expressions": "F00",
+        "text": "ただいま！お兄ちゃん！たまにはうまるとどっか遊びに行こうよ！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/rita_Live2D_001.mtn",
+        "expressions": "F00",
+        "text": "おかえり♪お兄ちゃん！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_002.mtn",
+        "expressions": "F00",
+        "text": "お兄ちゃん～ちょっとそこまで行ってポテイト買ってきてくれない？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_003.mtn",
+        "expressions": "F00",
+        "text": "漫画買ってきてよーお兄ちゃん。読みたい読みたい読みたい読みたい～！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_004.mtn",
+        "expressions": "F00",
+        "text": "遅い！遅いよお兄ちゃん！うまるとゲーム三昧してくれないと許してあげないよ！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_005.mtn",
+        "expressions": "F00",
+        "text": "ポテイトとチョコの相性は最高だけど、チーズとイカの相性も申し分ないね！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_006.mtn",
+        "expressions": "F00",
+        "text": "夏はエアコン、冬はこたつのうまる天国（パラダイス）でまったりダラダラしようよ～",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_007.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "海老名ちゃんやきりえちゃんシルフィンさん達とどっか遊びにいきたいな～、行きたいな～。ちらっちらっ",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_008.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "うまるのプリンがないー！？うまるが寝る前はあったのに！お兄ちゃん食べたんでしょ！うわあああ～ん",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_009.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "さみしかったよぉぉおおにいちゃん！どこ行ってたの！もう！",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_010.mtn",
+        "expressions": "F00",
+        "text": "お兄ちゃんっ♪…ぬへへ、呼んでみただけ♪",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_021.mtn",
+        "text": "おお…お兄ちゃーーん！！大変だ！地面が揺れてる！",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_022.mtn",
+        "text": "助けて～…お兄ちゃん～…",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_023.mtn",
+        "text": "うわぁぁ～ん！お兄ちゃんのバーカー！なにすんの！？",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_024.mtn",
+        "text": "ふにゅううう…目…目がまわるぅ～…",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_025.mtn",
+        "text": "お兄ちゃん～…何処ー？うまるを一人にしてはいけないよ…",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  },
+  "lip_sync": true
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.3,
+    "center_x": -0.49,
+    "center_y": -0.13
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/609060010.wav"
+      },
+      {
+        "sound": "sound/609060100.wav"
+      },
+      {
+        "sound": "sound/609060080.wav"
+      },
+      {
+        "sound": "sound/609060090.wav"
+      },
+      {
+        "sound": "sound/609060020.wav"
+      },
+      {
+        "sound": "sound/609060070.wav"
+      },
+      {
+        "sound": "sound/609060030.wav"
+      },
+      {
+        "sound": "sound/609060050.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 鳥海 浩輔{$br}Illust: 四季咲組"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -2.45,
+    "position_y": -0.66,
+    "position_z": 0,
+    "size": 5.75
+  },
+  "lip_sync": true
+}

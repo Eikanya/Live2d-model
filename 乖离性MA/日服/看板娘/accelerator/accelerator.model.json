@@ -1,0 +1,778 @@
+{
+  "version": "1.0.0",
+  "name": "accelerator",
+  "model": "moc/support_accelerator.moc",
+  "textures": [
+    "moc/accelerator2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 2.8,
+    "center_x": 0.05,
+    "center_y": -0.64
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_Accelerator011.mtn",
+        "text": "なァ、知ってたかァ？　俺の前に立ったクソ野郎は、普通ならミンチになるんだぜェ？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator012.mtn",
+        "text": "ミンチになりたくなかったら、俺の機嫌だけは損ねないように暮らした方がいいぜ。アーサァ？",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator013.mtn",
+        "text": "あァ？　なんだァ？　……まさかオマエ、この俺に「お悩み相談」なんて変な気ィ起こすなよ？",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator014.mtn",
+        "text": "馬鹿げてやがる……。あのクソガキ相手にしたってここまで疲れたりしねェぞ。",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator015.mtn",
+        "text": "あァ？　ガキのおもりで忙しいンだ。オマエの相手までしてられるか。",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator016.mtn",
+        "text": "ちっ、三下が何の用だァ？　俺に話しかけるってことは、勿論ちゃんとした用事があるンだろォなァ？",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator017.mtn",
+        "text": "てめェらひよっこ見てるとイライラすンだよ……。ミンチになりたくなかったら出しゃばるンじゃねェ。",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator018.mtn",
+        "text": "この城には打ち止め（ラストオーダー）に似た声のガキがいるから紛らわしくてしょーがねェ。",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator019.mtn",
+        "text": "どうやら第三位と第四位までこっちに来てるみてェだが……。顔を合わせると面倒なことになりそォだ。",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator020.mtn",
+        "text": "100万人のアーサーねェ……同じ名前の奴が何万もいるのは良い思い出がねェんだよ。",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator001.mtn",
+        "text": "てめェのサポートに付きやってやるほど暇じゃねェンだよ、こっちは。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator002.mtn",
+        "text": "どいつもこいつも学園都市のイカれた能力者みたいな奴ばっかりじゃねェか……ククク。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator003.mtn",
+        "text": "一流の悪党ってのはな、カタギの命は狙わねェンだよ。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator004.mtn",
+        "text": "何とかしてあのガキだけでも元の世界に戻す手段を見つけねェと…。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator005.mtn",
+        "text": "このザマじゃあ学園都市最強は引退かもしれないが、俺はあのガキの前では最強を語ることにしてンだよ…",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator006.mtn",
+        "text": "良い子ちゃンしてンじゃねェよアーサー。もっと面白いことして盛り上がろォぜェ。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator007.mtn",
+        "text": "あの『妖精』って奴らは相当狂った力持ってるみてェだが、首輪で力抑えてンのか…はッ。俺とは真逆だな",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator008.mtn",
+        "text": "お前らに協力してやってもいいが、こっちの事はこっちでやる。今必要なのは、クソガキの身の安全だけだ",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator009.mtn",
+        "text": "あァ？　チッ…あのクソガキ、どこ行きやがった……腹が減ったら戻ってくンだろーよ。",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator010.mtn",
+        "text": "お前らの使うその「魔法」ってやつ、俺の知ってる力とは違うみてェだな…ったく…面倒くせェ……",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_Accelerator021.mtn",
+        "text": "ウザってェ。俺に触ンな。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator022.mtn",
+        "text": "……っ！　急に何しやがンだ！　このクソ野郎がァ！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator023.mtn",
+        "text": "良い度胸してンなァ。天国への日帰り旅行をプレゼントされてェかァ！？",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator024.mtn",
+        "text": "おい、何してンだァ？　この三下がァ！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator025.mtn",
+        "text": "哀れだなァ。本気でやってンだとしたら抱きしめたくなっちまうくらい哀れだな。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_Accelerator027.mtn",
+        "text": "新しい秘境に行けるみてェだぜ。ビビってンなら、腰抜けはここに残っててもいいンだぜェ？",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_Accelerator028.mtn",
+        "text": "新しいストーリー？　くっだらねェ。勝手に見に行ってくればいいじゃねェか。",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_Accelerator029.mtn",
+        "text": "プレゼントが消滅しそォだァ？いらねーなら俺が綺麗さっぱりゴミ掃除してやってもいいンだぜェ。",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_Accelerator030.mtn",
+        "text": "強敵が出たみてェだな。さァて、スクラップの時間だぜェ、クソ野郎！！",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_Accelerator031.mtn",
+        "text": "特別な秘境が出てるみてェだぜ？オマエがやらねェンなら、俺が片づけてやろうかァ？",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_Accelerator032.mtn",
+        "text": "あァ？　サブストーリーだァ？俺には関係ねェだろうがよ。",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_Accelerator033.mtn",
+        "text": "フレンド申請が来てるぜェ。ちったァ暇つぶしの相手になるンじゃねェかァ？",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_Accelerator034.mtn",
+        "text": "プレゼントが届いてるみてェだぜ。面倒くせェから一気に受け取っちまえよ。",
+        "sound": "sound/340.wav"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_Accelerator003.mtn",
+        "text": "一流の悪党ってのはな、カタギの命は狙わねェンだよ。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator026.mtn",
+        "text": "そォいや、自己紹介がまだだったなァ。一方通行（アクセラレータ）だ、よろしくゥ。",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_Accelerator001.mtn",
+        "text": "てめェのサポートに付きやってやるほど暇じゃねェンだよ、こっちは。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator002.mtn",
+        "text": "どいつもこいつも学園都市のイカれた能力者みたいな奴ばっかりじゃねェか……ククク。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator003.mtn",
+        "text": "一流の悪党ってのはな、カタギの命は狙わねェンだよ。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator004.mtn",
+        "text": "何とかしてあのガキだけでも元の世界に戻す手段を見つけねェと…。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator005.mtn",
+        "text": "このザマじゃあ学園都市最強は引退かもしれないが、俺はあのガキの前では最強を語ることにしてンだよ…",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator006.mtn",
+        "text": "良い子ちゃンしてンじゃねェよアーサー。もっと面白いことして盛り上がろォぜェ。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator007.mtn",
+        "text": "あの『妖精』って奴らは相当狂った力持ってるみてェだが、首輪で力抑えてンのか…はッ。俺とは真逆だな",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator008.mtn",
+        "text": "お前らに協力してやってもいいが、こっちの事はこっちでやる。今必要なのは、クソガキの身の安全だけだ",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator009.mtn",
+        "text": "あァ？　チッ…あのクソガキ、どこ行きやがった……腹が減ったら戻ってくンだろーよ。",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator010.mtn",
+        "text": "お前らの使うその「魔法」ってやつ、俺の知ってる力とは違うみてェだな…ったく…面倒くせェ……",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator021.mtn",
+        "text": "ウザってェ。俺に触ンな。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator022.mtn",
+        "text": "……っ！　急に何しやがンだ！　このクソ野郎がァ！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator023.mtn",
+        "text": "良い度胸してンなァ。天国への日帰り旅行をプレゼントされてェかァ！？",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator024.mtn",
+        "text": "おい、何してンだァ？　この三下がァ！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Accelerator025.mtn",
+        "text": "哀れだなァ。本気でやってンだとしたら抱きしめたくなっちまうくらい哀れだな。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "version": "1.0.0",
+  "name": "support_pharsalia",
+  "model": "moc/support_pharsalia.moc",
+  "textures": [
+    "moc/support_pharsalia2048/texture_00.png"
+  ],
+  "lip_sync": "false",
+  "layout": {
+    "height": 1.3,
+    "center_x": 0.1,
+    "center_y": 0.0
+  },
+  "hit_areas": [
+    {
+      "name": "body",
+      "id": "D_REF_PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/support_pharsalia_live2d_idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/support_pharsalia_live2d_11.mtn",
+        "text": "なにかごよう～？？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_12.mtn",
+        "text": "にゃははは、くすぐったい♪",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_13.mtn",
+        "text": "うふふふ～またあそびにきた～のよ☆",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_14.mtn",
+        "text": "あーさー、あーさー、かまってぇ",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_15.mtn",
+        "text": "いーたーだーきーにゃぁ～す！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_16.mtn",
+        "text": "ふぁるさりあのおなやみそうだ～ん☆",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_17.mtn",
+        "text": "ふぁるふぁるふぁるふぁる、にゃあ☆",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_01.mtn",
+        "text": "ファルにゃ～☆",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_04.mtn",
+        "text": "おなかすいた～の",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_05.mtn",
+        "text": "ウアサハとボーリングいってきた～の♪楽しかったぁ～☆",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_06.mtn",
+        "text": "どした～の？元気ないよ？？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_07.mtn",
+        "text": "ようへはかまってくれるから、すき～☆",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_08.mtn",
+        "text": "ふごーはやさしいから、すき～☆",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_09.mtn",
+        "text": "うたひ～はきれいだから、すき～☆",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_10.mtn",
+        "text": "とうぞくはたのしいから、すき～☆",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_18.mtn",
+        "text": "ぐるぐるぐるぐる～。これや～なの…。",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_19.mtn",
+        "text": "あ～…！はーなーしーてー！",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/support_pharsalia_live2d_18.mtn",
+        "text": "ぐるぐるぐるぐる～。これや～なの…。",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_19.mtn",
+        "text": "あ～…！はーなーしーてー！",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/support_pharsalia_live2d_21.mtn",
+        "text": "へんな場所がでてるのよ～",
+        "sound": "sound/210.wav"
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_22.mtn",
+        "text": "あたらしいお話がでてるのよ～",
+        "sound": "sound/220.wav"
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_23.mtn",
+        "text": "ぷれぜんとが、しゅわわ～ってなっちゃうよ？",
+        "sound": "sound/230.wav"
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_24.mtn",
+        "text": "でんしょうすきゃん…ちゅう…ちゅうしゅつ…",
+        "sound": "sound/240.wav"
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_25.mtn",
+        "text": "きゅいきゅいっ",
+        "sound": "sound/250.wav"
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_26.mtn",
+        "text": "ほかのひとのおはなしがでてるの～！",
+        "sound": "sound/260.wav"
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_27.mtn",
+        "text": "おともだち？？知らな～い。",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_28.mtn",
+        "text": "にゃはは～プレゼント開けちゃおう～☆",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_02.mtn",
+        "text": "にゃは～おは～よぅ～",
+        "sound": "sound/020.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_03.mtn",
+        "text": "にゅふふ～おやすみぃ～Zzz",
+        "sound": "sound/030.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/support_pharsalia_live2d_03.mtn",
+        "text": "にゅふふ～おやすみぃ～Zzz",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/support_pharsalia_live2d_20.mtn",
+        "text": "わたし、ぱおぱぴぽ。よろしくにゃ～ん☆",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ]
+  }
+}

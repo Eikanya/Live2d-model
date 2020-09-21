@@ -1,0 +1,696 @@
+{
+  "version": "1.0.0",
+  "model": "moc/kfz.moc",
+  "textures": [
+    "moc/kfz.1024/texture_00.png",
+    "moc/kfz.1024/texture_01.png",
+    "moc/kfz.1024/texture_02.png",
+    "moc/kfz.1024/texture_03.png"
+  ],
+  "physics": "json/physics.json",
+  "pose": "json/pose.json",
+  "layout": {
+    "height": 2,
+    "center_x": 0,
+    "center_y": 0
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_lian.01"
+    },
+    {
+      "name": "body",
+      "id": "D_shangyi.00"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/kfz_m_01.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/kfz_m_04.mtn",
+        "text": "嗯？怎么啦？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_06.mtn",
+        "text": "诶…想听我唱歌吗？不要，很难听的啦……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_06.mtn",
+        "text": "诶…不要了嘛……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_11.mtn",
+        "text": "那就，那就，嗯，“生きていくことは 汚(ケガ)れていくこと？”",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_09.mtn",
+        "text": "呜…不要这样了啦……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_06.mtn",
+        "text": "啊！好痒……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_14.mtn",
+        "text": "哈哈、哈哈哈，不、不要再挠啦……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_08.mtn",
+        "text": "再、再这样我要生气气了喔……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_08.mtn",
+        "text": "你、你太坏了啦……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_10.mtn",
+        "text": "啊啊啊……不要这样子了啦……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_14.mtn",
+        "text": "好久不见呢！今天有什么打算吗？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_02.mtn",
+        "text": "辛苦啦！休息好再行动哦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_05.mtn",
+        "text": "要去健身了哦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_12.mtn",
+        "text": "嗯？什么，要我去摸毛毛的胸吗？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_13.mtn",
+        "text": "呜……最近爆肝太多，有点困……了……呢……哈啊……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_04.mtn",
+        "text": "唔……不知道寄给你的明信片能不能顺利送到呢……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_05.mtn",
+        "text": "就算沉迷游戏也要好好吃饭哦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_07.mtn",
+        "text": "其实我是一米九的糙汉子……什么的，骗你的啦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_09.mtn",
+        "text": "要多点回来哦，一个人，很寂寞的呢……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/kfz_m_10.mtn",
+        "text": "呜呜呜……好晕、好晕呀……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_08.mtn",
+        "text": "喂！那边那个，对说的就是你，不要再摇了啦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_11.mtn",
+        "text": "请、请替我照顾小响球……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_09.mtn",
+        "text": "呜呜呜……我……不行了……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/kfz_m_07.mtn",
+        "text": "欧皇喷雾！祝你一发入魂哦！"
+      },
+      {
+        "file": "mtn/kfz_m_03.mtn",
+        "text": "有新的秘境哦，我们来一起探索吗？"
+      },
+      {
+        "file": "mtn/kfz_m_16.mtn",
+        "text": "哇呜！有新的剧情哟，一起去看看吧~"
+      },
+      {
+        "file": "mtn/kfz_m_11.mtn",
+        "text": "有新的奖励哟！快去领取，不然就要消失掉啦"
+      },
+      {
+        "file": "mtn/kfz_m_05.mtn",
+        "text": "注意！敌人出现了！我们去打败它吧！"
+      },
+      {
+        "file": "mtn/kfz_m_02.mtn",
+        "text": "出现了不一样的秘境呢！我们去探索吧！"
+      },
+      {
+        "file": "mtn/kfz_m_16.mtn",
+        "text": "新的支线剧情已经开启了呢，有很多奖励呢，要去看看吗？"
+      },
+      {
+        "file": "mtn/kfz_m_03.mtn",
+        "text": "有新的好友申请呢！你很受欢迎的嘛~"
+      },
+      {
+        "file": "mtn/kfz_m_05.mtn",
+        "text": "又有奖励了呢，记得领取哟~"
+      },
+      {
+        "file": "mtn/kfz_m_02.mtn",
+        "text": "声音要在设置里面开启哟~"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/kfz_m_05.mtn",
+        "text": "要去健身了哦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_06.mtn",
+        "text": "两年了呢，很高兴能认识你。以后不管刮风下雨，也会一直陪你走下去。",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_03.mtn",
+        "text": "今后我也会一直陪着你的呢！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/kfz_m_14.mtn",
+        "text": "好久不见呢！今天有什么打算吗？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_02.mtn",
+        "text": "辛苦啦！休息好再行动哦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_05.mtn",
+        "text": "要去健身了哦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_12.mtn",
+        "text": "嗯？什么，要我去摸毛毛的胸吗？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_13.mtn",
+        "text": "呜……最近爆肝太多，有点困……了……呢……哈啊……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_04.mtn",
+        "text": "唔……不知道寄给你的明信片能不能顺利送到呢……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_05.mtn",
+        "text": "就算沉迷游戏也要好好吃饭哦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_07.mtn",
+        "text": "其实我是一米九的糙汉子……什么的，骗你的啦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_09.mtn",
+        "text": "要多点回来哦，一个人，很寂寞的呢……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_10.mtn",
+        "text": "呜呜呜……好晕、好晕呀……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_08.mtn",
+        "text": "喂！那边那个，对说的就是你，不要再摇了啦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_11.mtn",
+        "text": "请、请替我照顾小响球……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/kfz_m_09.mtn",
+        "text": "呜呜呜……我……不行了……",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  },
+  "lip_sync": false
+}

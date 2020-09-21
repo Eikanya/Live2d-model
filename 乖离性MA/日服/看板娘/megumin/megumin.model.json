@@ -1,0 +1,778 @@
+{
+  "version": "1.0.0",
+  "name": "megumin",
+  "model": "moc/megumin_support.moc",
+  "textures": [
+    "moc/megumin2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 1.8,
+    "center_x": 0,
+    "center_y": -0.25
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_megumin011.mtn",
+        "text": "どうしました？アーサー。私に何かご用でしょうか？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin012.mtn",
+        "text": "え？杖ですか？……持ってると爆裂魔法が撃ちたくなるので、あっちに置いてきました。",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin013.mtn",
+        "text": "傭兵さん、訓練のついでに爆裂魔法の練習に付き合ってくれませんか？",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin014.mtn",
+        "text": "富豪さんはチェスが得意なようですね…ふっ、勝負はいつでも受け付けますよ！",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin015.mtn",
+        "text": "盗賊さん…私のどこを見て親近感がわくというのですか？私はこそこそしたりしません",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin016.mtn",
+        "text": "歌姫さんは、名前の通り歌が上手なんでしょうか？一度聞いてみたいです。",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin017.mtn",
+        "text": "ひゃっ……なんですか！セクハラですか！！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin018.mtn",
+        "text": "わっ！……いきなり何するんですか！心臓止まるかと思いましたよ…",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin019.mtn",
+        "text": "んぐぐ……ちょっと、頭を撫でるのはやめてもらえませんか？私はロリッ娘じゃないですからーー！！！",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin020.mtn",
+        "text": "おい、今私を見て思ったことを正直に言ってもらおうか！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin001.mtn",
+        "text": "さぁ、アーサー！私と一緒に爆裂道を歩もうじゃありませんか！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin002.mtn",
+        "text": "ふふふ…しょうがないですねぇ。アーサーもようやく私の素晴らしさに気付いたようですね！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin003.mtn",
+        "text": "えっ！この世界には爆裂魔法というものはないんですか…？安心してください。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin004.mtn",
+        "text": "準備はいつでもできていますよ！アーサー！さぁ、クエストに行きましょう！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin005.mtn",
+        "text": "ばっくれっつ、ばっくれっつ、らんらんら～ん♪",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin006.mtn",
+        "text": "アーサー！ここで爆裂魔法を撃ってもいいですかー！？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin007.mtn",
+        "text": "皆さんアーサーって呼ばれてるんですか？変わった名前ですね。え、「めぐみん」の方が変？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin008.mtn",
+        "text": "そこまで言うのなら見せてあげますよ！真なる魔法使いの力を！",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin009.mtn",
+        "text": "爆裂魔法を覚えたいなら、いくらでも教えてあげましょう！アーサー！",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin010.mtn",
+        "text": "あわ…あわわわわわ…これは霜降り赤蟹……！",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_megumin021.mtn",
+        "text": "やめっ、やめろ～！",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin022.mtn",
+        "text": "うう……目が回る…",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin023.mtn",
+        "text": "ふわああああああ！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin024.mtn",
+        "text": "うう……私が悪かったので…もう揺らすのはやめてくださいぃ……",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin025.mtn",
+        "text": "だいじょうび、私は強い…私は強い…",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_megumin027.mtn",
+        "text": "新しい秘境が出てますね、アーサー！行くなら私も連れて行ってください！",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_megumin028.mtn",
+        "text": "新しいストーリーが見られるみたいです。ふふふ…歴史の深淵を覗くときが来たようですね……",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_megumin029.mtn",
+        "text": "プレゼントが消えそうですが、受け取らないんですか？もし消し飛ばすなら、このめぐみんにお任せを！",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_megumin030.mtn",
+        "text": "強敵が出現しているようですね…すいませんが、今日はもうアーサー一人で行ってきてください。",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_megumin031.mtn",
+        "text": "特別な秘境が出ましたね。え？危険なモンスターですか…？我が爆裂魔法で消し飛ばしてみせましょう！",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_megumin032.mtn",
+        "text": "新しいサブストーリーが見られるみたいですよ。アーサーの仲間の話ですか？面白そうです。",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_megumin033.mtn",
+        "text": "フレンド申請が来ていますよ。アーサーもなかなかやりますね！",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_megumin034.mtn",
+        "text": "プレゼントが届いているようですよ、アーサー。あの、シュワシュワが入っていたら私にも一口……",
+        "sound": "sound/340.wav"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_megumin003.mtn",
+        "text": "えっ！この世界には爆裂魔法というものはないんですか…？安心してください。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin026.mtn",
+        "text": "我が名はめぐみん！アークウィザードを生業とし、最強の攻撃魔法「爆裂魔法」を操りし者！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_megumin001.mtn",
+        "text": "さぁ、アーサー！私と一緒に爆裂道を歩もうじゃありませんか！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin002.mtn",
+        "text": "ふふふ…しょうがないですねぇ。アーサーもようやく私の素晴らしさに気付いたようですね！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin003.mtn",
+        "text": "えっ！この世界には爆裂魔法というものはないんですか…？安心してください。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin004.mtn",
+        "text": "準備はいつでもできていますよ！アーサー！さぁ、クエストに行きましょう！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin005.mtn",
+        "text": "ばっくれっつ、ばっくれっつ、らんらんら～ん♪",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin006.mtn",
+        "text": "アーサー！ここで爆裂魔法を撃ってもいいですかー！？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin007.mtn",
+        "text": "皆さんアーサーって呼ばれてるんですか？変わった名前ですね。え、「めぐみん」の方が変？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin008.mtn",
+        "text": "そこまで言うのなら見せてあげますよ！真なる魔法使いの力を！",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin009.mtn",
+        "text": "爆裂魔法を覚えたいなら、いくらでも教えてあげましょう！アーサー！",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin010.mtn",
+        "text": "あわ…あわわわわわ…これは霜降り赤蟹……！",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin021.mtn",
+        "text": "やめっ、やめろ～！",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin022.mtn",
+        "text": "うう……目が回る…",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin023.mtn",
+        "text": "ふわああああああ！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin024.mtn",
+        "text": "うう……私が悪かったので…もう揺らすのはやめてくださいぃ……",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_megumin025.mtn",
+        "text": "だいじょうび、私は強い…私は強い…",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

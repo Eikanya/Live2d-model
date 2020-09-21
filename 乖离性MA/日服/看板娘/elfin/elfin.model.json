@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "elfin",
+  "model": "moc/elfin.moc",
+  "textures": [
+    "moc/elfin2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 2.0,
+    "center_x": 0.05,
+    "center_y": -0.28
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_elfin_0011.mtn",
+        "text": "私に何か用事？それともわんわんちゃんにかな？",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0012.mtn",
+        "text": "ん？なぁに……って！またほっぺぷにってやったぁ～！",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0013.mtn",
+        "text": "ヘヴリディーズって自由でいいよね～。キャメロットはわんわんちゃんは城に入れちゃダメだって。",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0014.mtn",
+        "text": "私もたまには何かお手伝いしよっか？料理の味見役とか！あ、おやつでもいいよ♪",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0015.mtn",
+        "text": "ウアサハにおやつ貰ったんだ！お返しした方がいいのかな～。えーとマニュアルには何て載ってたっけ…。",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0016.mtn",
+        "text": "わんわんちゃんに頼りっきりじゃなくて、たまには私も頑張るから、色んなとこ連れてってよね♪",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0017.mtn",
+        "text": "私のマニュアルって実は勝手に中身が増えたり変わったりするんだよね。だからチェックが大変で…。",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0018.mtn",
+        "text": "あはははは！くすぐったいってば～！",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0019.mtn",
+        "text": "はぅあ！び、びっくりしたぁ……。",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0020.mtn",
+        "text": "えへへ、気持ちいいからもっと撫でてもいいよ！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0001.mtn",
+        "text": "アーサー！今日も遊びに来たよ～！よろしくね♪",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0002.mtn",
+        "text": "アーサーとの接し方にもちゃんとマニュアルがあるんだよ！1ページ目は「安易に仲良くしない」…あれ？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0003.mtn",
+        "text": "今日はわんわんちゃんはお留守番なんだ。スカアハの部屋をめちゃくちゃにして怒られちゃったから…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0004.mtn",
+        "text": "こないだお城で迷子になっちゃってさ～。キャメロットとヘヴリディーズのどっちか…どっちでもだよ～！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0005.mtn",
+        "text": "傭兵とわんわんちゃんってどっちが力持ちなのかな。ねえねえ、腕相撲してみない？ダメ？",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0006.mtn",
+        "text": "富豪のブックカバーすっごいおしゃれ～！私のマニュアルカバーも同じのにしたいな。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0007.mtn",
+        "text": "尻尾のモフモフ具合ならわんわんちゃんも盗賊に負けてないもん！……でも、もうちょっと触ってていい？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0008.mtn",
+        "text": "歌姫って歌が上手なんだね～。歌っていうとタリエシンのみたいに、ヘンなのばっかりなのかと思ってた！",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_elfin_0021.mtn",
+        "text": "あぅ～。目が回るよ～！どうして！？",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0022.mtn",
+        "text": "わんわんちゃんがグルグルしてるぅ～……って、もしかしてグルグルしてるの私！？",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0023.mtn",
+        "text": "む～っ！アーサーに仕返ししてやるぅ～！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0024.mtn",
+        "text": "ぅー。きもちわるいよう。何でこんなことするの～？",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0025.mtn",
+        "text": "あは、あははは……わんわんちゃんが踊ってる～。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_elfin_0027.mtn",
+        "text": "新しい秘境があるみたい！早速行ってみよ！アーサー！",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_elfin_0028.mtn",
+        "text": "新しいストーリーがあるんだって！気になるな～。",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_elfin_0029.mtn",
+        "text": "マ、マニュアルによると…もうすぐ受け取らないとプレゼントが消えちゃうよ！",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_elfin_0030.mtn",
+        "text": "強そうな敵が出現しているみたいだね。でも、アーサーとわんわんちゃんならヨユーだよね！",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_elfin_0031.mtn",
+        "text": "特別な秘境が出てるみたい！どんなところかな～。私のマニュアルにも載ってないんだよ！",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_elfin_0032.mtn",
+        "text": "新しいサブストーリーが見られるみたいだよ！私のお話もあるかな？",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_elfin_0033.mtn",
+        "text": "フレンド申請が来てるよ！私も後で送っておこうっと。",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_elfin_0034.mtn",
+        "text": "プレゼントが届いてるよ！早く開けてみて！中身が気になるよ～！",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_elfin_0009.mtn",
+        "text": "おはよーっ！なんだか眠そうだね？私と一緒に遊べばばっちりお目覚めだよー。",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_elfin_0010.mtn",
+        "text": "そろそろ帰るね！おやすみアーサー！",
+        "sound": "sound/100.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_elfin_0003.mtn",
+        "text": "今日はわんわんちゃんはお留守番なんだ。スカアハの部屋をめちゃくちゃにして怒られちゃったから…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0026.mtn",
+        "text": "私はエルフィン！このこはわんわんちゃん！マニュアル通りにしっかりサポートするから期待しててね♪",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_elfin_0001.mtn",
+        "text": "アーサー！今日も遊びに来たよ～！よろしくね♪",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0002.mtn",
+        "text": "アーサーとの接し方にもちゃんとマニュアルがあるんだよ！1ページ目は「安易に仲良くしない」…あれ？",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0003.mtn",
+        "text": "今日はわんわんちゃんはお留守番なんだ。スカアハの部屋をめちゃくちゃにして怒られちゃったから…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0004.mtn",
+        "text": "こないだお城で迷子になっちゃってさ～。キャメロットとヘヴリディーズのどっちか…どっちでもだよ～！",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0005.mtn",
+        "text": "傭兵とわんわんちゃんってどっちが力持ちなのかな。ねえねえ、腕相撲してみない？ダメ？",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0006.mtn",
+        "text": "富豪のブックカバーすっごいおしゃれ～！私のマニュアルカバーも同じのにしたいな。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0007.mtn",
+        "text": "尻尾のモフモフ具合ならわんわんちゃんも盗賊に負けてないもん！……でも、もうちょっと触ってていい？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0008.mtn",
+        "text": "歌姫って歌が上手なんだね～。歌っていうとタリエシンのみたいに、ヘンなのばっかりなのかと思ってた！",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0021.mtn",
+        "text": "あぅ～。目が回るよ～！どうして！？",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0022.mtn",
+        "text": "わんわんちゃんがグルグルしてるぅ～……って、もしかしてグルグルしてるの私！？",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0023.mtn",
+        "text": "む～っ！アーサーに仕返ししてやるぅ～！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0024.mtn",
+        "text": "ぅー。きもちわるいよう。何でこんなことするの～？",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_elfin_0025.mtn",
+        "text": "あは、あははは……わんわんちゃんが踊ってる～。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

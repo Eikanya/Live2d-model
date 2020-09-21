@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.1,
+    "center_x": 0,
+    "center_y": -0.1
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/612490100.wav"
+      },
+      {
+        "sound": "sound/612490080.wav"
+      },
+      {
+        "sound": "sound/612490070.wav"
+      },
+      {
+        "sound": "sound/612490010.wav"
+      },
+      {
+        "sound": "sound/612490020.wav"
+      },
+      {
+        "sound": "sound/612490030.wav"
+      },
+      {
+        "sound": "sound/612490090.wav"
+      },
+      {
+        "sound": "sound/612490050.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 上田 麗奈{$br}Illust: ミヅモリ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0,
+    "position_y": -0.5,
+    "position_z": 0,
+    "size": 5.7
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "millionaire",
+  "model": "moc/support_millionaire.moc",
+  "textures": [
+    "moc/millionaire2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 3.4,
+    "center_x": 0,
+    "center_y": -0.9
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_fugou_0011.mtn",
+        "text": "ん？私に何か用かな？相談事なら遠慮せずに聞くといい。",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0012.mtn",
+        "text": "っ！？……急に触らないでくれないか……驚いたじゃないか……！",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0013.mtn",
+        "text": "……君は私をなんだと思っているのかね？",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0014.mtn",
+        "text": "丁度、読書でもしようと思っていたんだが…そうだ、何かおすすめの本はあるかな？",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0015.mtn",
+        "text": "チェス……？私に勝とうというのかい？ふふふ、良いだろう。その挑戦受けて立つよ。",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0016.mtn",
+        "text": "…私は訓練には付き合わないよ？ほら、あっちにいる傭兵の彼でも誘ったらどうだい？",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0017.mtn",
+        "text": "…あまりつつかないでくれないか。こう見えてもくすぐったいのを我慢しているんだ。",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0018.mtn",
+        "text": "ものには限度、というものがあるんだが…どうやら君は知らないようだね……",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0019.mtn",
+        "text": "こんなにちょっかいを出すのも君くらいなものだよ…。",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0020.mtn",
+        "text": "まったく……仕方ない…君の好きにするといいさ。",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0001.mtn",
+        "text": "さぁ、今日も民の為に働くとしようか。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0002.mtn",
+        "text": "私は交易の【手段の一つ】として王になることを選んだが…王の務めも中々やり甲斐があるのだよ。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0003.mtn",
+        "text": "私以外の連中は、頭を使うことを知らないから困る。尤も、悪知恵が働く者はいるのだが…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0004.mtn",
+        "text": "そもそも私は、実戦は得意じゃないんだ。剣よりペンを握って利益を生み出す方が余程いい。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0005.mtn",
+        "text": "報酬度外視で働く傭兵がどこにいるというのだ。全くお人よしが過ぎるぞ…。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0006.mtn",
+        "text": "女性には親切であるべきだとは思うのだが、ここの女性陣はみんな自分勝っ…いや、少し個性的でね。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0007.mtn",
+        "text": "心配せずとも、君を護る程度の力は持ち合わせているよ。安心したまえ。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0010.mtn",
+        "text": "元気がないようだが、大丈夫かい？気が晴れないなら、一緒にティータイムでもどうだね？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_fugou_0021.mtn",
+        "text": "もう少し、丁寧に扱ってくれると嬉しいのだが。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0022.mtn",
+        "text": "なっ…やめたまえ……！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0023.mtn",
+        "text": "いったい、どういう…つもり、なんだ…！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0024.mtn",
+        "text": "船酔いは……しない方なんだが……っ",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0025.mtn",
+        "text": "……理解できない…。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_fugou_0027.mtn",
+        "text": "新しい秘境があるみたいだが、行くといい。新境地開拓といこうじゃないか。",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_fugou_0028.mtn",
+        "text": "新しいストーリーが閲覧できるようだ。我々の状況を知るいい機会なのではないかね？",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_fugou_0029.mtn",
+        "text": "消えそうなプレゼントがあるみたいだが、使えるものは何でも使うべきさ。受け取ったほうがいいね。",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_fugou_0030.mtn",
+        "text": "特別な敵が出現しているようだ。君なら十分勝てる見込みがあるのではないかね？",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_fugou_0031.mtn",
+        "text": "この秘境は……いつもと雰囲気が違うようだ。行くなら戦略を立ててからにすべきだよ。",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_fugou_0032.mtn",
+        "text": "新しいサブストーリーが見られるみたいだが。まずは味方のことを知ってはどうかね？",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_fugou_0033.mtn",
+        "text": "どうやらフレンドの申請があったようだ。伝手は増やしておくに越したことはないよ。",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_fugou_0034.mtn",
+        "text": "プレゼントが未開封のようだが。開けた方が良いのではないかね？",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_fugou_0008.mtn",
+        "text": "おはよう。私は朝は少々苦手でね……おや、心配してくれるのかい？",
+        "sound": "sound/080.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_fugou_0009.mtn",
+        "text": "ご希望とあらば朝まで帳簿片手にお勉強…とでも言いたいところだが……",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_fugou_0003.mtn",
+        "text": "私以外の連中は、頭を使うことを知らないから困る。尤も、悪知恵が働く者はいるのだが…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0026.mtn",
+        "text": "持ちつ持たれつ、と言うものだからね。たまには私がサポートに回ろうか。よろしく頼むよ。",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_fugou_0001.mtn",
+        "text": "さぁ、今日も民の為に働くとしようか。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0002.mtn",
+        "text": "私は交易の【手段の一つ】として王になることを選んだが…王の務めも中々やり甲斐があるのだよ。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0003.mtn",
+        "text": "私以外の連中は、頭を使うことを知らないから困る。尤も、悪知恵が働く者はいるのだが…。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0004.mtn",
+        "text": "そもそも私は、実戦は得意じゃないんだ。剣よりペンを握って利益を生み出す方が余程いい。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0005.mtn",
+        "text": "報酬度外視で働く傭兵がどこにいるというのだ。全くお人よしが過ぎるぞ…。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0006.mtn",
+        "text": "女性には親切であるべきだとは思うのだが、ここの女性陣はみんな自分勝っ…いや、少し個性的でね。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0007.mtn",
+        "text": "心配せずとも、君を護る程度の力は持ち合わせているよ。安心したまえ。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0010.mtn",
+        "text": "元気がないようだが、大丈夫かい？気が晴れないなら、一緒にティータイムでもどうだね？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0021.mtn",
+        "text": "もう少し、丁寧に扱ってくれると嬉しいのだが。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0022.mtn",
+        "text": "なっ…やめたまえ……！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0023.mtn",
+        "text": "いったい、どういう…つもり、なんだ…！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0024.mtn",
+        "text": "船酔いは……しない方なんだが……っ",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_fugou_0025.mtn",
+        "text": "……理解できない…。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

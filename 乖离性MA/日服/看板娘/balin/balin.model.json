@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "balin",
+  "model": "moc/support_balin_junpakugata.moc",
+  "textures": [
+    "moc/balin2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 2.6,
+    "center_x": 0.1,
+    "center_y": -0.55
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF_PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF_PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_balin_0011.mtn",
+        "text": "ん？はに？（何？）……って、またほっぺぷにってしたぁ！",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0012.mtn",
+        "text": "どうしたの？あたしに相談事？このベイリンちゃんにどーんと任せてよ！",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0013.mtn",
+        "text": "あ、あなあなあな……う～！恥ずかしくて『あなた』なんて呼べないよっ……。",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0014.mtn",
+        "text": "『魔剣には負けん！』『魔道師が現れた！まぁ、どうしよう』ってのどうかな？え、20点？",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0015.mtn",
+        "text": "いえーい！ハイタッチ！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0016.mtn",
+        "text": "はっ。アーサーのお嫁さんになったってことは、私って『王妃様』になっちゃったってこと！？",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0017.mtn",
+        "text": "ふふ。アーサーの手、あったかいね。撫でられるの好きだなあ。",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0018.mtn",
+        "text": "ちょちょちょ、ちょっと！どこ触ってるの！",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0019.mtn",
+        "text": "つんつんしないでよ～。くすぐったいってば！",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0020.mtn",
+        "text": "あははははは！ちょ、やめ……やめてってばぁ！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0001.mtn",
+        "text": "どう……かな。似合ってる？　えへへ……お世辞でも嬉しいな。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0002.mtn",
+        "text": "わわっ！このドレス、裾が長くて歩きづらいよ……。あ～！そこ、笑うなぁ～！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0003.mtn",
+        "text": "魔剣ケーキカット……すごかったね。斬ったケーキが爆発して大変だったケド……。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0004.mtn",
+        "text": "傭兵ならこの魔剣へのこだわりもわかってくれると思ったんだけどなぁ〜。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0005.mtn",
+        "text": "こないだ盗賊に魔剣を質屋に入れられそうになってから、手放しておくのが怖くて……。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0006.mtn",
+        "text": "富豪が持ってる本の中に、魔剣のことがたくさん載ってる図鑑とかないのかな？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0007.mtn",
+        "text": "結婚式の時のメイクは歌姫がしてくれたんだ♪えへへ……綺麗だった？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0008.mtn",
+        "text": "べ、別にダジャレが好きなわけじゃないんだけど、思いつくとつい口に出ちゃうというか…。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_balin_0021.mtn",
+        "text": "目が回るよ～！うう、きもちわるい……。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0022.mtn",
+        "text": "アーサーのいじわるー！ふええ。",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0023.mtn",
+        "text": "ふふ、ふふふ……こんなことして、後でお仕置きだからね……？",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0024.mtn",
+        "text": "ま、魔剣使いを怒らせるとどうなるか……思い知らせてあげるよ！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0025.mtn",
+        "text": "あ、気持ち悪いを通りこしてなんだか気持ちよくなってきたカモ……。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_balin_0027.mtn",
+        "text": "新しい秘境が出てるみたい。きっと珍しい魔剣があるよ！絶対！",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_balin_0028.mtn",
+        "text": "新しいストーリーが見られるんだって。たまには一緒に息抜きしようよ。",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_balin_0029.mtn",
+        "text": "プレゼントが消えそう……。私が預かっておいてあげようか？え、ダメ？",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_balin_0030.mtn",
+        "text": "強敵が出現してるよ！絶対油断しちゃだめだからね、気を付けて！",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_balin_0031.mtn",
+        "text": "特別な秘境が出てるんだって……。き、気をつけてね。アーサー。",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_balin_0032.mtn",
+        "text": "新しいサブストーリーが見られるみたい。私、この機会にみんなのこともっとよく知りたいな。",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_balin_0033.mtn",
+        "text": "フレンド申請が来てるよ！私達の結婚式にはみーんな呼ばなきゃね♪",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_balin_0034.mtn",
+        "text": "プレゼントが届いているみたい！私宛……だったりして！あはは！そんなわけないか！",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_balin_0009.mtn",
+        "text": "おはよー！アーサー。今日もすっごく良い日になるといいね！元気だしてこー♪",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_balin_0010.mtn",
+        "text": "ふああ。もう夜だよ。そろそろ寝ようよ～。そ、それとも……その、一緒に寝る？",
+        "sound": "sound/100.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_balin_0003.mtn",
+        "text": "魔剣ケーキカット……すごかったね。斬ったケーキが爆発して大変だったケド……。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0026.mtn",
+        "text": "な、なんかこの姿で一緒にいると照れちゃうね！その……不束者ですが、よ、よろしくお願いします。",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_balin_0001.mtn",
+        "text": "どう……かな。似合ってる？　えへへ……お世辞でも嬉しいな。",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0002.mtn",
+        "text": "わわっ！このドレス、裾が長くて歩きづらいよ……。あ～！そこ、笑うなぁ～！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0003.mtn",
+        "text": "魔剣ケーキカット……すごかったね。斬ったケーキが爆発して大変だったケド……。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0004.mtn",
+        "text": "傭兵ならこの魔剣へのこだわりもわかってくれると思ったんだけどなぁ〜。",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0005.mtn",
+        "text": "こないだ盗賊に魔剣を質屋に入れられそうになってから、手放しておくのが怖くて……。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0006.mtn",
+        "text": "富豪が持ってる本の中に、魔剣のことがたくさん載ってる図鑑とかないのかな？",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0007.mtn",
+        "text": "結婚式の時のメイクは歌姫がしてくれたんだ♪えへへ……綺麗だった？",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0008.mtn",
+        "text": "べ、別にダジャレが好きなわけじゃないんだけど、思いつくとつい口に出ちゃうというか…。",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0021.mtn",
+        "text": "目が回るよ～！うう、きもちわるい……。",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0022.mtn",
+        "text": "アーサーのいじわるー！ふええ。",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0023.mtn",
+        "text": "ふふ、ふふふ……こんなことして、後でお仕置きだからね……？",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0024.mtn",
+        "text": "ま、魔剣使いを怒らせるとどうなるか……思い知らせてあげるよ！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_balin_0025.mtn",
+        "text": "あ、気持ち悪いを通りこしてなんだか気持ちよくなってきたカモ……。",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

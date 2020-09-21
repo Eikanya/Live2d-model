@@ -1,0 +1,778 @@
+{
+  "version": "1.0.0",
+  "model": "moc/rita.moc",
+  "textures": [
+    "moc/rita2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "pose": "json/pose.json",
+  "layout": {
+    "height": 1.8,
+    "center_x": 0,
+    "center_y": -0.11
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/rita_idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/rita_Live2D_011.mtn",
+        "text": "なによ、つっついたって相手しないわよ！",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_012.mtn",
+        "text": "ったく、しょうがないわね。ちょっとくらいなら相手してあげるわよ",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_013.mtn",
+        "text": "なによ、黒焦げにされたいの？",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_014.mtn",
+        "text": "あまり調子に乗って後悔しても知らないわよ？",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_015.mtn",
+        "text": "ちょっと！どこ触ってんのよ！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_016.mtn",
+        "text": "ばか、やめなさいって！くすぐったいじゃない！",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_017.mtn",
+        "text": "そこ！調子に乗らない！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_018.mtn",
+        "text": "なんのつもり？馬鹿っぽい…",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_019.mtn",
+        "text": "ひゃっ！な、なに！？ちょっと、驚かさないでよ！",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_020.mtn",
+        "text": "あ、こら！やめなさいってば！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_001.mtn",
+        "text": "今日も派手にぶっ飛ばすわよ！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_002.mtn",
+        "text": "探索に行くわよ！ほら、さっさと準備する！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_003.mtn",
+        "text": "お腹が減ったわね…。あんた、なんか持ってないの？",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_004.mtn",
+        "text": "あんた、やることないなら手伝いなさい。あたしの実験に付き合わせたげる",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_005.mtn",
+        "text": "ネコ…にゃー…ふふ。はっ！？な、なんでもない、なんでもないったら！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_006.mtn",
+        "text": "ねえ、あんたの円卓貸しなさいってば。大丈夫、壊さない。ちょっと分解するだけよ",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_007.mtn",
+        "text": "ほら、あんたの円卓と聖剣、さっさと出して！徹底的に調べてやるんだから",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_008.mtn",
+        "text": "研究を中断して付き合ってあげてんだから、ありがたく思いなさいよね！",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_009.mtn",
+        "text": "魔導器を応用すればあたしにも騎士を製造できそうね",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_010.mtn",
+        "text": "なんか暇ね…。あんた、なんか面白いこと言いなさいよ",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/rita_Live2D_021.mtn",
+        "text": "な、なに？なにが起きたの！？",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_022.mtn",
+        "text": "地面が揺れて、空が回って、何がどうなってるのよ、もう…",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_023.mtn",
+        "text": "ちょ、ちょっと、やめなさいっての！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_024.mtn",
+        "text": "あんた！これ以上やったらぶっ飛ばすわよ！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_025.mtn",
+        "text": "うう…気持ち悪い…",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/rita_Live2D_027.mtn",
+        "text": "ここは初めて来たわね。あんたも気を抜くんじゃないわよ",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_028.mtn",
+        "text": "ほら、先に進むんでしょ？ぐずぐずしない！",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_029.mtn",
+        "text": "期限切れそうなプレゼント、早いとこ開けたら？いらないなら、あたしがもらうわ",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_030.mtn",
+        "text": "どんなやつがいるか知らないけど、あたしの邪魔をするならただじゃおかないわ",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_031.mtn",
+        "text": "なんか見たことない場所ね…。気になるわ。ちょっと付き合いなさい",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_032.mtn",
+        "text": "新しいサブストーリーだそうよ。行きたければ行けば？あたしはどっちでもいいし",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_033.mtn",
+        "text": "フレンド申請が来てるみたいよ？物好きもいたもんねえ",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/rita_Live2D_034.mtn",
+        "text": "何よ、開けてないプレゼントがあるじゃない。いらないなら、あたしがもらっちゃうわよ？",
+        "sound": "sound/340.wav"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/rita_Live2D_003.mtn",
+        "text": "お腹が減ったわね…。あんた、なんか持ってないの？",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_026.mtn",
+        "text": "このあたしがサポートしてあげてんだから、しっかり成果を残すのよ！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/rita_Live2D_001.mtn",
+        "text": "今日も派手にぶっ飛ばすわよ！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_002.mtn",
+        "text": "探索に行くわよ！ほら、さっさと準備する！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_003.mtn",
+        "text": "お腹が減ったわね…。あんた、なんか持ってないの？",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_004.mtn",
+        "text": "あんた、やることないなら手伝いなさい。あたしの実験に付き合わせたげる",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_005.mtn",
+        "text": "ネコ…にゃー…ふふ。はっ！？な、なんでもない、なんでもないったら！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_006.mtn",
+        "text": "ねえ、あんたの円卓貸しなさいってば。大丈夫、壊さない。ちょっと分解するだけよ",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_007.mtn",
+        "text": "ほら、あんたの円卓と聖剣、さっさと出して！徹底的に調べてやるんだから",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_008.mtn",
+        "text": "研究を中断して付き合ってあげてんだから、ありがたく思いなさいよね！",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_009.mtn",
+        "text": "魔導器を応用すればあたしにも騎士を製造できそうね",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_010.mtn",
+        "text": "なんか暇ね…。あんた、なんか面白いこと言いなさいよ",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_021.mtn",
+        "text": "な、なに？なにが起きたの！？",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_022.mtn",
+        "text": "地面が揺れて、空が回って、何がどうなってるのよ、もう…",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_023.mtn",
+        "text": "ちょ、ちょっと、やめなさいっての！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_024.mtn",
+        "text": "あんた！これ以上やったらぶっ飛ばすわよ！",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/rita_Live2D_025.mtn",
+        "text": "うう…気持ち悪い…",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  },
+  "lip_sync": true
+}

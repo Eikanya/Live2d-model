@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.5,
+    "center_x": 0,
+    "center_y": -0.27
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/602750010.wav"
+      },
+      {
+        "sound": "sound/609450070.wav"
+      },
+      {
+        "sound": "sound/609450100.wav"
+      },
+      {
+        "sound": "sound/609450020.wav"
+      },
+      {
+        "sound": "sound/602760060.wav"
+      },
+      {
+        "sound": "sound/609450050.wav"
+      },
+      {
+        "sound": "sound/608620030.wav"
+      },
+      {
+        "sound": "sound/608620010.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 岡本 信彦{$br}Illust: あっきー人"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0,
+    "position_y": -1,
+    "position_z": 0,
+    "size": 6.8
+  }
+}

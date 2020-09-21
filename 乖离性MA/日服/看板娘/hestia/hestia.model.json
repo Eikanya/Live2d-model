@@ -1,0 +1,778 @@
+{
+  "version": "1.0.0",
+  "model": "moc/hestia.moc",
+  "textures": [
+    "moc/hestia2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "pose": "json/pose.json",
+  "layout": {
+    "height": 1.8,
+    "center_x": 0,
+    "center_y": -0.25
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/Hestia_live2D_idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Hestia_live2D_011.mtn",
+        "text": "本当にしょうがない子だな、君は。",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_012.mtn",
+        "text": "どうしたんだい、ボクに何か用かい？",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_013.mtn",
+        "text": "ちょっ、いったいどこを触ろうとしてるんだ君は！",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_014.mtn",
+        "text": "アハッ、ハハハ！こらっ、くすぐったいじゃないか。",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_015.mtn",
+        "text": "どこを触っているんだ！もう…バカ…",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_016.mtn",
+        "text": "もーまったく！君をそんな子に育てた覚えはないよ！！",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_017.mtn",
+        "text": "自分で触っておいて、照れるなんて、君はかわいいなぁ！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_018.mtn",
+        "text": "イケナイ子だね、君は…お仕置きが必要かな？",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_019.mtn",
+        "text": "そんなにボクに触っていったいどうしようっていうんだ？",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_020.mtn",
+        "text": "ボクのことがそんなに好きかい？なら、今夜は君を寝かさないぜ！！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_001.mtn",
+        "text": "おかえり！今日は早かったね！！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_002.mtn",
+        "text": "お願いだから、ボクを一人にしないでおくれ。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_003.mtn",
+        "text": "今日は君のためにジャガ丸くんをいっぱいもらってきたんだ。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_004.mtn",
+        "text": "それじゃあ、ステータスの更新でもしようか？",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_005.mtn",
+        "text": "誰よりも何よりもボクは君の力になりたいんだ。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_006.mtn",
+        "text": "いつだって頼ってくれよ。ボクは君の神様なんだから。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_007.mtn",
+        "text": "君に出会えて、ボクは心から幸せを感じているよ。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_008.mtn",
+        "text": "ボクが君を勝たせてやる、勝たせてみせる！信じてくれないか？",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_009.mtn",
+        "text": "大丈夫かい？どこかケガをしてたりしないかい？？",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_010.mtn",
+        "text": "どうか、ボクに力を貸してくれないか？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Hestia_live2D_021.mtn",
+        "text": "目が回るー、助けておくれ…",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_022.mtn",
+        "text": "こんなに揺らして…ってうわぁ！？もうエッチ！！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_023.mtn",
+        "text": "あれ？世界がグルグル回って…あうっ…",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_024.mtn",
+        "text": "もう少し優しくできないのかね？",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_025.mtn",
+        "text": "これ以上…イタズラするなら…ボクも容赦しないよ！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Hestia_live2D_027.mtn",
+        "text": "新しい秘境があるみたいだ、探索してみるのはどうだい？",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Hestia_live2D_028.mtn",
+        "text": "新しいストーリーがあるみたいだぜ、さっそく見てみよう！",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Hestia_live2D_029.mtn",
+        "text": "急がないとプレゼントが消えてしまうぞ！早く受け取ってくるんだ！！",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Hestia_live2D_030.mtn",
+        "text": "強敵が出現しているようだね。君の実力を試してみるいい機会だ。",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Hestia_live2D_031.mtn",
+        "text": "他とは異なる秘境を見つけたよ。気を付けて…",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Hestia_live2D_032.mtn",
+        "text": "新しいサブストーリーが見れるようになったぜ。行っておいで！",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Hestia_live2D_033.mtn",
+        "text": "フレンドの申請がきてるぜ。うちのファミリアにも加入してくれるといいな。",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Hestia_live2D_034.mtn",
+        "text": "プレゼントが届いてるぜ。早く開けて見せておくれ。",
+        "sound": "sound/340.wav"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Hestia_live2D_003.mtn",
+        "text": "今日は君のためにジャガ丸くんをいっぱいもらってきたんだ。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_026.mtn",
+        "text": "君のサポートをすることになった、ヘスティアだ！よろしく頼むぜ！！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Hestia_live2D_001.mtn",
+        "text": "おかえり！今日は早かったね！！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_002.mtn",
+        "text": "お願いだから、ボクを一人にしないでおくれ。",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_003.mtn",
+        "text": "今日は君のためにジャガ丸くんをいっぱいもらってきたんだ。",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_004.mtn",
+        "text": "それじゃあ、ステータスの更新でもしようか？",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_005.mtn",
+        "text": "誰よりも何よりもボクは君の力になりたいんだ。",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_006.mtn",
+        "text": "いつだって頼ってくれよ。ボクは君の神様なんだから。",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_007.mtn",
+        "text": "君に出会えて、ボクは心から幸せを感じているよ。",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_008.mtn",
+        "text": "ボクが君を勝たせてやる、勝たせてみせる！信じてくれないか？",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_009.mtn",
+        "text": "大丈夫かい？どこかケガをしてたりしないかい？？",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_010.mtn",
+        "text": "どうか、ボクに力を貸してくれないか？",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_021.mtn",
+        "text": "目が回るー、助けておくれ…",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_022.mtn",
+        "text": "こんなに揺らして…ってうわぁ！？もうエッチ！！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_023.mtn",
+        "text": "あれ？世界がグルグル回って…あうっ…",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_024.mtn",
+        "text": "もう少し優しくできないのかね？",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Hestia_live2D_025.mtn",
+        "text": "これ以上…イタズラするなら…ボクも容赦しないよ！",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  },
+  "lip_sync": true
+}

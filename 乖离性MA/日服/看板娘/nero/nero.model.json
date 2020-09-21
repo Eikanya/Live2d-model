@@ -1,0 +1,562 @@
+{
+  "version": "1.0.0",
+  "name": "nero",
+  "model": "moc/nero.moc",
+  "textures": [
+    "moc/nero2048/texture_00.png"
+  ],
+  "physics": "json/nero.physics.json",
+  "lip_sync": "true",
+  "layout": {
+    "height": 1.8,
+    "center_x": 0.0,
+    "center_y": -0.0
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/nero_live2D_idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/nero_live2D_07.mtn",
+        "text": "褒めてよいのだぞ、奏者よ！",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_08.mtn",
+        "text": "うむ、今日はこれで勘弁してやろう",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_09.mtn",
+        "text": "そんなにじっと見つめられると……照れるではないか……",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_10.mtn",
+        "text": "この運命、そなたと共に―――",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_11.mtn",
+        "text": "ローマのバスは、宇宙一なのだっ！",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_12.mtn",
+        "text": "惚れ直すがよい！",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_01.mtn",
+        "text": "何度でも言うぞ、余は奏者が大好きだっ！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_02.mtn",
+        "text": "愛の力、思い知ったか！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_03.mtn",
+        "text": "奏者よ、準備を……！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_04.mtn",
+        "text": "こういうデートもなかなか良いものだな",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_05.mtn",
+        "text": "ゆくぞ、奏者よ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_06.mtn",
+        "text": "この剣は、星の如く……！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/nero_live2D_13.mtn",
+        "text": "もう怒ったぞっ！",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_14.mtn",
+        "text": "程度があろう！",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_15.mtn",
+        "text": "はうっ…！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_16.mtn",
+        "text": "すまぬ…奏者よ…",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/nero_live2D_07.mtn",
+        "text": "新しい秘境があるみたいだぞ。さっそく行こうではないか！",
+        "sound": "sound/180.wav"
+      },
+      {
+        "file": "mtn/nero_live2D_03.mtn",
+        "text": "奏者よ、新しいストーリーがあるようだ。さっそく見てみるとしよう！",
+        "sound": "sound/190.wav"
+      },
+      {
+        "file": "mtn/nero_live2D_04.mtn",
+        "text": "急がないとプレゼントが消えてしまうではないか！早く受け取るがよい！",
+        "sound": "sound/200.wav"
+      },
+      {
+        "file": "mtn/nero_live2D_06.mtn",
+        "text": "強敵が出現しているようだ。奏者の力を試す時がきたようだな！",
+        "sound": "sound/210.wav"
+      },
+      {
+        "file": "mtn/nero_live2D_04.mtn",
+        "text": "他とは異なる秘境を見つけたぞ。行くなら気を付けるのだぞ！",
+        "sound": "sound/220.wav"
+      },
+      {
+        "file": "mtn/nero_live2D_09.mtn",
+        "text": "新しいサブストーリーが見れるようになったようだ。奏者よ、ゆくぞ！",
+        "sound": "sound/230.wav"
+      },
+      {
+        "file": "mtn/nero_live2D_10.mtn",
+        "text": "フレンドの申請がきているぞ。うむ、余の臣下に加えてやってもよいぞ。",
+        "sound": "sound/240.wav"
+      },
+      {
+        "file": "mtn/nero_live2D_11.mtn",
+        "text": "そなたにプレゼントが届いてるぞ。中身を確認しに行かぬのか？",
+        "sound": "sound/250.wav"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/nero_live2D_03.mtn",
+        "text": "奏者よ、準備を……！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_26.mtn",
+        "text": "うむ、後は任せよ！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_17.mtn",
+        "text": "うむ、後は任せよ！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/nero_live2D_01.mtn",
+        "text": "何度でも言うぞ、余は奏者が大好きだっ！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_02.mtn",
+        "text": "愛の力、思い知ったか！",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_03.mtn",
+        "text": "奏者よ、準備を……！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_04.mtn",
+        "text": "こういうデートもなかなか良いものだな",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_05.mtn",
+        "text": "ゆくぞ、奏者よ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_06.mtn",
+        "text": "この剣は、星の如く……！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_13.mtn",
+        "text": "もう怒ったぞっ！",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_14.mtn",
+        "text": "程度があろう！",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_15.mtn",
+        "text": "はうっ…！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/nero_live2D_16.mtn",
+        "text": "すまぬ…奏者よ…",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

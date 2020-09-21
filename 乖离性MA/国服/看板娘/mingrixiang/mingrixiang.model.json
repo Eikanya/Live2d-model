@@ -1,0 +1,751 @@
+{
+  "version": "1.0.0",
+  "name": "mingrixiang",
+  "model": "moc/mingrixiang.moc",
+  "textures": [
+    "moc/mingrixiang.1024/texture_00.png",
+    "moc/mingrixiang.1024/texture_01.png",
+    "moc/mingrixiang.1024/texture_02.png"
+  ],
+  "physics": "json/physics.json",
+  "pose": "json/pose.json",
+  "layout": {
+    "height": 2,
+    "center_x": 0,
+    "center_y": 0
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_FACE.00"
+    },
+    {
+      "name": "body",
+      "id": "D_body.01"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/mingrixiang_m_00.mtn",
+        "fade_in": 2000,
+        "fade_out": 2000,
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/mingrixiang_m_13.mtn",
+        "text": "来之不易的食物，都给我吃完！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_07.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "跟小孩似的欢闹，好像笨蛋…",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_11.mtn",
+        "fade_in": 500,
+        "fade_out": 500,
+        "text": "想吵架是吗",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_03.mtn",
+        "text": "太过得意忘形的话，待会儿可别后悔哦？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_14.mtn",
+        "text": "你这色狼！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_14.mtn",
+        "text": "笨蛋！变态！难以置信！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_04.mtn",
+        "text": "喂！别得意忘形！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_02.mtn",
+        "text": "想干什么？真像个笨蛋…",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_15.mtn",
+        "text": "稍微，让我待一会吧…",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_01.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "啊，喂！都说快住手啦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_07.mtn",
+        "text": "欢迎回来啊，小鬼头",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_02.mtn",
+        "text": "缺少防反意识",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_12.mtn",
+        "text": "肚子有点饿了呢…。你这家伙，有没有带什么东西？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_06.mtn",
+        "text": "关键时刻不在，这么没自觉",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_04.mtn",
+        "text": "你是笨蛋吗",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_01.mtn",
+        "text": "呐，把你的圆桌借给我好不好。考虑一下谁更优秀",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_06.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "喂，赶紧把你的圆桌和圣剑都拿出来！要不就都当废品扔掉吧",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_11.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "为什么房间这么狭小",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_17.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "有什么奇怪的生物在浴室里！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_02.mtn",
+        "text": "啧，这么悠闲…一点危机感都没有，难以置信",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/mingrixiang_m_11.mtn",
+        "text": "怎、怎么？发生什么事了！？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_02.mtn",
+        "text": "到底怎么了呀，真是的…",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_14.mtn",
+        "text": "等、等一下，别再这样了啊！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_14.mtn",
+        "text": "你这家伙！还这么胡闹的话小心我把你打飞哦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_14.mtn",
+        "text": "呜呜…好恶心…",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/mingrixiang_m_05.mtn",
+        "text": "第一次来这个地方呢。你可别放松警惕哦"
+      },
+      {
+        "file": "mtn/mingrixiang_m_01.mtn",
+        "text": "喂，快往前走啦？别磨磨蹭蹭的！"
+      },
+      {
+        "file": "mtn/mingrixiang_m_06.mtn",
+        "text": "把快要到期的那些礼物，都打开来如何？不需要的话，我就收下咯"
+      },
+      {
+        "file": "mtn/mingrixiang_m_07.mtn",
+        "text": "虽然不知道是个什么样的家伙，但要来妨碍我的话可没那么简单就能饶了的"
+      },
+      {
+        "file": "mtn/mingrixiang_m_03.mtn",
+        "text": "似乎是从未见过的地方呢…。好令人在意。陪我过来一下"
+      },
+      {
+        "file": "mtn/mingrixiang_m_15.mtn",
+        "text": "据说是新的支线故事哦。想去的话就去吧？我反正随便"
+      },
+      {
+        "file": "mtn/mingrixiang_m_16.mtn",
+        "text": "似乎有好友申请来了？居然也有人想和你交朋友呢"
+      },
+      {
+        "file": "mtn/mingrixiang_m_17.mtn",
+        "text": "什么吗，这不是还有没打开的礼物吗。不需要的话，我就收下了哦？"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/mingrixiang_m_12.mtn",
+        "text": "肚子有点饿了呢…。你这家伙，有没有带什么东西？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_04.mtn",
+        "text": "既然是有我在支援你，那就特准你叫我明日香好了",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/mingrixiang_m_07.mtn",
+        "text": "欢迎回来啊，小鬼头",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_02.mtn",
+        "text": "缺少防反意识",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_12.mtn",
+        "text": "肚子有点饿了呢…。你这家伙，有没有带什么东西？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_06.mtn",
+        "text": "关键时刻不在，这么没自觉",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_04.mtn",
+        "text": "你是笨蛋吗",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_01.mtn",
+        "text": "呐，把你的圆桌借给我好不好。考虑一下谁更优秀",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_06.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "喂，赶紧把你的圆桌和圣剑都拿出来！要不就都当废品扔掉吧",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_11.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "为什么房间这么狭小",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_17.mtn",
+        "fade_in": 500,
+        "fade_out": 1000,
+        "text": "有什么奇怪的生物在浴室里！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_02.mtn",
+        "text": "啧，这么悠闲…一点危机感都没有，难以置信",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_11.mtn",
+        "text": "怎、怎么？发生什么事了！？",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_02.mtn",
+        "text": "到底怎么了呀，真是的…",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_14.mtn",
+        "text": "等、等一下，别再这样了啊！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_14.mtn",
+        "text": "你这家伙！还这么胡闹的话小心我把你打飞哦！",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/mingrixiang_m_14.mtn",
+        "text": "呜呜…好恶心…",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  },
+  "lip_sync": false
+}

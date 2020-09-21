@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.275,
+    "center_x": -0.25,
+    "center_y": -0.125
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/607110080.wav"
+      },
+      {
+        "sound": "sound/607110020.wav"
+      },
+      {
+        "sound": "sound/607110010.wav"
+      },
+      {
+        "sound": "sound/607110030.wav"
+      },
+      {
+        "sound": "sound/607110070.wav"
+      },
+      {
+        "sound": "sound/607110090.wav"
+      },
+      {
+        "sound": "sound/607110100.wav"
+      },
+      {
+        "sound": "sound/607110050.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 岡本 信彦{$br}Illust: akka"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -1.4,
+    "position_y": 0.25,
+    "position_z": 0,
+    "size": 6.7
+  }
+}

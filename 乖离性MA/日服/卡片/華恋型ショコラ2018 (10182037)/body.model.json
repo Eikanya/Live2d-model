@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 1.95,
+    "center_x": 0.1,
+    "center_y": -0.045
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/605050070.wav"
+      },
+      {
+        "sound": "sound/605050020.wav"
+      },
+      {
+        "sound": "sound/605050100.wav"
+      },
+      {
+        "sound": "sound/605050040.wav"
+      },
+      {
+        "sound": "sound/605050080.wav"
+      },
+      {
+        "sound": "sound/605050030.wav"
+      },
+      {
+        "sound": "sound/605050010.wav"
+      },
+      {
+        "sound": "sound/605050050.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 池澤 春菜{$br}Illust: だんちょ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.4,
+    "position_y": 0,
+    "position_z": 0,
+    "size": 5.3
+  }
+}

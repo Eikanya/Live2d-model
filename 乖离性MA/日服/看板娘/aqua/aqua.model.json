@@ -1,0 +1,782 @@
+{
+  "version": "1.0.0",
+  "name": "aqua",
+  "model": "moc/aqua.moc",
+  "textures": [
+    "moc/aqua2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 1.8,
+    "center_x": 0,
+    "center_y": -0.25
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_aqua011.mtn",
+        "text": "本来ブリテンの管轄は私じゃないんだけど…しょうがないわね、ちょっとの間だけ面倒みてあげるわ。",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua012.mtn",
+        "text": "宴会芸スキルを覚えたいの？え？違う？またまたぁ～そんな遠慮しなくても教えてあげるわよ。",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua013.mtn",
+        "text": "傭兵って訓練ばっかりしてるのね、少しはカズマも見習ってほしいわ。私？私はいいのよ。",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua014.mtn",
+        "text": "富豪ってお金持ちよね？……ふふーん、ちょーっとだけでも貸してくれないかしら？",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua015.mtn",
+        "text": "盗賊とはちょっと仲良くなれそうだわ！一緒に組んで、お宝をゲットしましょう！",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua016.mtn",
+        "text": "歌姫って、回復が得意なんですって？…ま、まぁ女神であるこのアクア様には叶わないでしょうけどね！",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua017.mtn",
+        "text": "ちょっ、ちょっとやめてよ、びっくりするじゃない！",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua018.mtn",
+        "text": "きゃっ！い、いきなり何するのよ！？",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua019.mtn",
+        "text": "あなたもアクシズ教団に入信してみない？",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua020.mtn",
+        "text": "あはははは…そ、そこは触らないでって言ってるでしょ！あはははは！",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua001.mtn",
+        "text": "私はアクア。そう、アクシズ教団の崇めるご神体、女神アクアよ！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua002.mtn",
+        "text": "支援と回復ならこのアクア様に任せて！みんなを癒すアークプリーストとしては当然よね♪",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua003.mtn",
+        "text": "私は女神にして今はサポート妖精のアクア様よ！クエストならアーサー一人で行ってきて！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua004.mtn",
+        "text": "ねぇ、アーサー。私の高級シュワシュワどこに行ったか知らないかしら？",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua005.mtn",
+        "text": "かっかえる！？嫌よ！かえる討伐だけはやりたくないわ！そんなのはカズマにやらせておけばいいのよ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua006.mtn",
+        "text": "もっと私を讃えてよ！褒めて褒めて甘やかしてよ！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua007.mtn",
+        "text": "なによ！現在進行形で女神よ私は！見てなさい！女神の力を見せてやるわ！震えながら眠るがいい！",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua008.mtn",
+        "text": "ぷぷー！100万人のアーサーって、さすがに多すぎｗｗはっ…ってことは将来の王様候補ってわけよね…",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua009.mtn",
+        "text": "ねぇアーサー、暇なんですけどぉ。やることないならあっちで休んでていいかしら？",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua010.mtn",
+        "text": "アーサー！あなたの後ろには私がついてるわ！王様っぽくやっちゃいなさい！",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_aqua021.mtn",
+        "text": "あああああ！！！目が回る～！",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua022.mtn",
+        "text": "ごーめーんーなーさーいいいい！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua023.mtn",
+        "text": "いぃやぁぁぁぁぁぁ！！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua024.mtn",
+        "text": "ひっく…ひっく…わたしのせいじゃないのに……",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua025.mtn",
+        "text": "うう……気持ち悪い……吐きそう…",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_aqua027.mtn",
+        "text": "新しい秘境があるみたいね！早く行くのよ！クエストよ！お金が欲しいの！",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_aqua028.mtn",
+        "text": "新しいストーリーが見られるわよ。ゆっくり見てきていいわよ！その間私は休んでるから～。",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_aqua029.mtn",
+        "text": "ちょっと！プレゼントが消えそうじゃない！女神への貢ぎ物かもしれないんだから早く受け取ってくるのよ",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_aqua030.mtn",
+        "text": "強敵が出現したみたいよ！この女神アクア様がゴッドブローを食らわせてやるわ！",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_aqua031.mtn",
+        "text": "特別な秘境が出たわよ！えっ！私？私はほら、危ないから入口で待ってるわ！",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_aqua032.mtn",
+        "text": "新しいサブストーリーが見られるみたいね！アーサーも結構強い仲間がいるのねぇ。",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_aqua033.mtn",
+        "text": "フレンド申請が来ているわよ、アーサー！私の神々しくて生命力に溢れるオーラに惹かれて来たのかしら？",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_aqua034.mtn",
+        "text": "プレゼントが届いているようね！ねぇねぇ、早く開けてみない？",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_aqua001.mtn",
+        "text": "取得可能なサウンドがあるわね。オプションから取れるみたいよ。"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_aqua003.mtn",
+        "text": "私は女神にして今はサポート妖精のアクア様よ！クエストならアーサー一人で行ってきて！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua026.mtn",
+        "text": "しょうがないわね～この美しく気高きアークプリーストのアクア様があなたをサポートしてあげるわ！",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_aqua001.mtn",
+        "text": "私はアクア。そう、アクシズ教団の崇めるご神体、女神アクアよ！",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua002.mtn",
+        "text": "支援と回復ならこのアクア様に任せて！みんなを癒すアークプリーストとしては当然よね♪",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua003.mtn",
+        "text": "私は女神にして今はサポート妖精のアクア様よ！クエストならアーサー一人で行ってきて！",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua004.mtn",
+        "text": "ねぇ、アーサー。私の高級シュワシュワどこに行ったか知らないかしら？",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua005.mtn",
+        "text": "かっかえる！？嫌よ！かえる討伐だけはやりたくないわ！そんなのはカズマにやらせておけばいいのよ！",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua006.mtn",
+        "text": "もっと私を讃えてよ！褒めて褒めて甘やかしてよ！",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua007.mtn",
+        "text": "なによ！現在進行形で女神よ私は！見てなさい！女神の力を見せてやるわ！震えながら眠るがいい！",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua008.mtn",
+        "text": "ぷぷー！100万人のアーサーって、さすがに多すぎｗｗはっ…ってことは将来の王様候補ってわけよね…",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua009.mtn",
+        "text": "ねぇアーサー、暇なんですけどぉ。やることないならあっちで休んでていいかしら？",
+        "sound": "sound/090.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua010.mtn",
+        "text": "アーサー！あなたの後ろには私がついてるわ！王様っぽくやっちゃいなさい！",
+        "sound": "sound/100.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua021.mtn",
+        "text": "あああああ！！！目が回る～！",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua022.mtn",
+        "text": "ごーめーんーなーさーいいいい！",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua023.mtn",
+        "text": "いぃやぁぁぁぁぁぁ！！",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua024.mtn",
+        "text": "ひっく…ひっく…わたしのせいじゃないのに……",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_aqua025.mtn",
+        "text": "うう……気持ち悪い……吐きそう…",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

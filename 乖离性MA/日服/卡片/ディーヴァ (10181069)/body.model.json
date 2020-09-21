@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.975,
+    "center_x": -0.37,
+    "center_y": -0.08
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/610910030.wav"
+      },
+      {
+        "sound": "sound/610910100.wav"
+      },
+      {
+        "sound": "sound/610910070.wav"
+      },
+      {
+        "sound": "sound/610910010.wav"
+      },
+      {
+        "sound": "sound/610910050.wav"
+      },
+      {
+        "sound": "sound/610910080.wav"
+      },
+      {
+        "sound": "sound/610910090.wav"
+      },
+      {
+        "sound": "sound/610910020.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 早見 沙織{$br}Illust: 彩樹"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -1.34,
+    "position_y": -0.4,
+    "position_z": 0,
+    "size": 7.7
+  }
+}

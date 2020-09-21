@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.12,
+    "center_x": 0.068,
+    "center_y": -0.074
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/602470090.wav"
+      },
+      {
+        "sound": "sound/602470050.wav"
+      },
+      {
+        "sound": "sound/602470030.wav"
+      },
+      {
+        "sound": "sound/602470010.wav"
+      },
+      {
+        "sound": "sound/602470020.wav"
+      },
+      {
+        "sound": "sound/602470070.wav"
+      },
+      {
+        "sound": "sound/602470100.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 伊藤 かな恵{$br}Illust: フカヒレ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0,
+    "position_y": -0.325,
+    "position_z": 0,
+    "size": 5.3
+  }
+}

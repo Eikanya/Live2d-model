@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 1.74,
+    "center_x": 0.235,
+    "center_y": 0.16
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/609760100.wav"
+      },
+      {
+        "sound": "sound/609760090.wav"
+      },
+      {
+        "sound": "sound/609760070.wav"
+      },
+      {
+        "sound": "sound/609760030.wav"
+      },
+      {
+        "sound": "sound/609760010.wav"
+      },
+      {
+        "sound": "sound/609760050.wav"
+      },
+      {
+        "sound": "sound/609760020.wav"
+      },
+      {
+        "sound": "sound/609760080.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 水瀬 いのり{$br}Illust: teco_uk"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 1.225,
+    "position_y": 0.57,
+    "position_z": 0,
+    "size": 4.8
+  }
+}

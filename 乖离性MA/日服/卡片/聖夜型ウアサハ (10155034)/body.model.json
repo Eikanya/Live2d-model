@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.95,
+    "center_x": 0.008,
+    "center_y": -0.205
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/602240060.wav"
+      },
+      {
+        "sound": "sound/604180050.wav"
+      },
+      {
+        "sound": "sound/602250020.wav"
+      },
+      {
+        "sound": "sound/602240040.wav"
+      },
+      {
+        "sound": "sound/602250070.wav"
+      },
+      {
+        "sound": "sound/600910030.wav"
+      },
+      {
+        "sound": "sound/600910060.wav"
+      },
+      {
+        "sound": "sound/601650040.wav"
+      },
+      {
+        "sound": "sound/604180040.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 金元 寿子{$br}Illust: kona"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.01,
+    "position_y": -0.92,
+    "position_z": 0,
+    "size": 6.35
+  },
+  "lip_sync": true
+}

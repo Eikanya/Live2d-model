@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.15,
+    "center_x": -0.08,
+    "center_y": 0.14
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/602030060.wav"
+      },
+      {
+        "sound": "sound/604200100.wav"
+      },
+      {
+        "sound": "sound/602030050.wav"
+      },
+      {
+        "sound": "sound/602030020.wav"
+      },
+      {
+        "sound": "sound/604200070.wav"
+      },
+      {
+        "sound": "sound/602030030.wav"
+      },
+      {
+        "sound": "sound/602030010.wav"
+      },
+      {
+        "sound": "sound/602030040.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 井口 裕香{$br}Illust: きんぎん"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.44,
+    "position_y": 0.66,
+    "position_z": 0,
+    "size": 5.34
+  }
+}

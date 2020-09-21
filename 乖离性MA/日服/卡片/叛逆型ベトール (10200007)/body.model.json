@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.0,
+    "center_x": 0.05,
+    "center_y": -0.22
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/612330090.wav"
+      },
+      {
+        "sound": "sound/612330080.wav"
+      },
+      {
+        "sound": "sound/612330020.wav"
+      },
+      {
+        "sound": "sound/612330050.wav"
+      },
+      {
+        "sound": "sound/612330070.wav"
+      },
+      {
+        "sound": "sound/612330010.wav"
+      },
+      {
+        "sound": "sound/612330030.wav"
+      },
+      {
+        "sound": "sound/612330100.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 日高 里菜{$br}Illust: モフ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.1,
+    "position_y": -0.9,
+    "position_z": 0,
+    "size": 5.75
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.3,
+    "center_x": -0.045,
+    "center_y": -0.105
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/609480020.wav"
+      },
+      {
+        "sound": "sound/609480050.wav"
+      },
+      {
+        "sound": "sound/609480100.wav"
+      },
+      {
+        "sound": "sound/609480070.wav"
+      },
+      {
+        "sound": "sound/609480030.wav"
+      },
+      {
+        "sound": "sound/609480010.wav"
+      },
+      {
+        "sound": "sound/609480080.wav"
+      },
+      {
+        "sound": "sound/609480090.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 芹澤 優{$br}Illust: 楠元とうか"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.2,
+    "position_y": -0.3,
+    "position_z": 0,
+    "size": 5.5
+  }
+}

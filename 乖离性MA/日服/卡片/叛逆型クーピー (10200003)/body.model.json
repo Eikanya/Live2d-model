@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.02,
+    "center_x": 0,
+    "center_y": -0.125
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/612310020.wav"
+      },
+      {
+        "sound": "sound/612310050.wav"
+      },
+      {
+        "sound": "sound/612310030.wav"
+      },
+      {
+        "sound": "sound/612310080.wav"
+      },
+      {
+        "sound": "sound/612310090.wav"
+      },
+      {
+        "sound": "sound/612310100.wav"
+      },
+      {
+        "sound": "sound/612310070.wav"
+      },
+      {
+        "sound": "sound/612310010.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 東山 奈央{$br}Illust: モフ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0,
+    "position_y": 0.25,
+    "position_z": 0,
+    "size": 6.3
+  }
+}

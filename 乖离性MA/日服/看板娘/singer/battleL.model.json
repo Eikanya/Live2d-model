@@ -1,0 +1,42 @@
+{
+  "version": "Sample 1.0.0",
+  "name": "singer",
+  "model": "moc/singer.moc",
+  "textures": [
+    "moc/singer.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 1.15,
+    "center_x": 0.0,
+    "center_y": 0.0
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/Singer_live2D_idle.mtn"
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_utahime_0210.mtn",
+        "msg_id": "21"
+      },
+      {
+        "file": "mtn/Live2D_utahime_0220.mtn",
+        "msg_id": "22"
+      },
+      {
+        "file": "mtn/Live2D_utahime_0230.mtn",
+        "msg_id": "23"
+      },
+      {
+        "file": "mtn/Live2D_utahime_0240.mtn",
+        "msg_id": "24"
+      },
+      {
+        "file": "mtn/Live2D_utahime_0250.mtn",
+        "msg_id": "25"
+      }
+    ]
+  }
+}

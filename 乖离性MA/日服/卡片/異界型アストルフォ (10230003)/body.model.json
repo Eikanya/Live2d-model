@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.075,
+    "center_x": 0.3,
+    "center_y": -0.05
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/612540070.wav"
+      },
+      {
+        "sound": "sound/612540020.wav"
+      },
+      {
+        "sound": "sound/612540010.wav"
+      },
+      {
+        "sound": "sound/612540090.wav"
+      },
+      {
+        "sound": "sound/612540100.wav"
+      },
+      {
+        "sound": "sound/612540080.wav"
+      },
+      {
+        "sound": "sound/612540030.wav"
+      },
+      {
+        "sound": "sound/612540050.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 大久保 瑠美{$br}Illust: なのたろ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 1.55,
+    "position_y": -0.2,
+    "position_z": 0,
+    "size": 4.8
+  }
+}

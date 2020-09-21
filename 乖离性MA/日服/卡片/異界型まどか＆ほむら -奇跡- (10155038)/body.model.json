@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.6,
+    "center_x": 0.28,
+    "center_y": -0.18
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/606950100.wav"
+      },
+      {
+        "sound": "sound/606950080.wav"
+      },
+      {
+        "sound": "sound/606950050.wav"
+      },
+      {
+        "sound": "sound/606950010.wav"
+      },
+      {
+        "sound": "sound/606950070.wav"
+      },
+      {
+        "sound": "sound/606950090.wav"
+      },
+      {
+        "sound": "sound/606950020.wav"
+      },
+      {
+        "sound": "sound/606950030.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 悠木 碧　斎藤 千和{$br}Illust: しょういん"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 1.43,
+    "position_y": -0.73,
+    "position_z": 0,
+    "size": 6.35
+  },
+  "lip_sync": true
+}

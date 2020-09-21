@@ -1,0 +1,88 @@
+{
+  "type": "Live2D Physics",
+  "physics_hair": [
+    {
+      "setup": {
+        "length": 0.3,
+        "regist": 1,
+        "mass": 0.5
+      },
+      "src": [
+        {
+          "id": "PARAM_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.005,
+          "weight": 0.3
+        },
+        {
+          "id": "PARAM_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 0.002,
+          "weight": 0.3
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.005,
+          "weight": 0.3
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 0.005,
+          "weight": 0.1
+        }
+      ],
+      "targets": [
+        {
+          "id": "PARAM_HAIR_FRONT",
+          "ptype": "angle",
+          "scale": 0.01,
+          "weight": 1
+        },
+        {
+          "id": "PARAM_HAIR_SIDE",
+          "ptype": "angle",
+          "scale": 0.01,
+          "weight": 1
+        },
+        {
+          "id": "PARAM_HAIR_BACK",
+          "ptype": "angle",
+          "scale": 0.01,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "label": "揺れパーツ",
+      "setup": {
+        "length": 0.3,
+        "regist": 0.3,
+        "mass": 0.5
+      },
+      "src": [
+        {
+          "id": "PARAM_BODY_ANGLE_X",
+          "ptype": "x",
+          "scale": 0.005,
+          "weight": 0.8
+        },
+        {
+          "id": "PARAM_BODY_ANGLE_Z",
+          "ptype": "angle",
+          "scale": 0.005,
+          "weight": 0.2
+        }
+      ],
+      "targets": [
+        {
+          "id": "PARAM_WEAR_PARTS",
+          "ptype": "angle",
+          "scale": 0.2,
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

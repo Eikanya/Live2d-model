@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 1.8,
+    "center_x": -0.1,
+    "center_y": 0
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/612820100.wav"
+      },
+      {
+        "sound": "sound/612820030.wav"
+      },
+      {
+        "sound": "sound/612820080.wav"
+      },
+      {
+        "sound": "sound/612820070.wav"
+      },
+      {
+        "sound": "sound/612820050.wav"
+      },
+      {
+        "sound": "sound/612820010.wav"
+      },
+      {
+        "sound": "sound/612820020.wav"
+      },
+      {
+        "sound": "sound/612820090.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 田中 美海{$br}Illust: 榎宮祐"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.25,
+    "position_y": 0.1,
+    "position_z": 0,
+    "size": 4.5
+  }
+}

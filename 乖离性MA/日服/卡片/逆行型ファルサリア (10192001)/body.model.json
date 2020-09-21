@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.08,
+    "center_x": -0.1,
+    "center_y": -0.05
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/609980020.wav"
+      },
+      {
+        "sound": "sound/609980090.wav"
+      },
+      {
+        "sound": "sound/609980030.wav"
+      },
+      {
+        "sound": "sound/609980010.wav"
+      },
+      {
+        "sound": "sound/609980070.wav"
+      },
+      {
+        "sound": "sound/609980080.wav"
+      },
+      {
+        "sound": "sound/609980050.wav"
+      },
+      {
+        "sound": "sound/609980100.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 茅野 愛衣{$br}Illust: osa"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0,
+    "position_y": -0.24,
+    "position_z": 0,
+    "size": 5.5
+  }
+}

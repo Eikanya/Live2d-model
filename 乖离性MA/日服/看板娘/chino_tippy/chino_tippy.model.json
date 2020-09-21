@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "name": "chino_tippy",
+  "model": "moc/chino_tippy.moc",
+  "textures": [
+    "moc/chino_tippy2048/texture_00.png"
+  ],
+  "physics": "json/physics.json",
+  "lip_sync": true,
+  "layout": {
+    "height": 2.2,
+    "center_x": 0,
+    "center_y": -0.4
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_REF.PT_HEAD"
+    },
+    {
+      "name": "body",
+      "id": "D_REF.PT_BODY"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "add 1"
+          }
+        ]
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/Live2D_Chino011.mtn",
+        "text": "「ティッピーはコーヒー占いが得意です」{$br}「どれ、アーサーの運勢も占ってやろうかの」",
+        "sound": "sound/110.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino012.mtn",
+        "text": "「なんじゃ？何か用かの？」{$br}「わたしたちに　できることがあれば、お手伝いします」",
+        "sound": "sound/120.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino013.mtn",
+        "text": "「む、アーサーさんもティッピーをモフモフ　したいんですか？」{$br}「アニマルセラピーじゃな」",
+        "sound": "sound/130.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino014.mtn",
+        "text": "「これ以上触るならティッピーにしてください」{$br}「うむ…ん！？…なぬっ！？」",
+        "sound": "sound/140.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino015.mtn",
+        "text": "もう…しょうがないアーサーさんですね。…少しだけなら触ってもいいですよ。",
+        "sound": "sound/150.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino016.mtn",
+        "text": "「む…くすぐったいのであまり撫でないでください」{$br}「ツンデレじゃな…」",
+        "sound": "sound/160.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino017.mtn",
+        "text": "「わっ…びっくりしました。急に触らないでくだ　さい」{$br}「…し、心臓が止まるかと思ったわい」",
+        "sound": "sound/170.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino018.mtn",
+        "text": "「！？ な、なんじゃあ？」{$br}「…？　ティッピー、どうかしたんですか？」",
+        "sound": "sound/180.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino019.mtn",
+        "text": "「む…身長は、これからココアさんより高くなる　予定です」{$br}「チノの成長が楽しみじゃのう」",
+        "sound": "sound/190.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino020.mtn",
+        "text": "「少し休憩しますか？コーヒー淹れてきます」{$br}「休憩も大事じゃぞ」",
+        "sound": "sound/200.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino001.mtn",
+        "text": "「アーサーもまだまだヒヨッコじゃな」{$br}「…今のは、わ、私の腹話術です」",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino002.mtn",
+        "text": "「サポートとは、何をやればいいのでしょう…？」{$br}「わしに任せなさい」",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino003.mtn",
+        "text": "「傭兵さんは、訓練が好きなんでしょうか？」{$br}「リゼと気が合いそうじゃな」",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino004.mtn",
+        "text": "「富豪さんは、名前の通りお金持ちそうですね…」{$br}「ラビットハウスの常連になってくれないかのう…」",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino005.mtn",
+        "text": "「盗賊さんの尻尾…ティッピーよりモフモフ　かもしれません」{$br}「えっ！なんじゃと……！？」",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino006.mtn",
+        "text": "「歌姫さんの歌…聴いてみたいです…」{$br}「わしも聴いてみたいのう」",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino007.mtn",
+        "text": "「いつかブリテンにも、ラビットハウス2号店を　作りたいです」{$br}「うんうん、店舗拡大じゃな」",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino008.mtn",
+        "text": "「うーむ、暇じゃのう」{$br}「ティッピー、静かにしていてください」",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/Live2D_Chino021.mtn",
+        "text": "「ぬおおおおおお！ゆ、ゆれるぅぅぅ！」{$br}「……ティッピー、うるさいです」",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino022.mtn",
+        "text": "「こら、よせ、やめんか、こら…」{$br}「や、やめてください…うう…揺れる…」",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino023.mtn",
+        "text": "「なんか……揺れてます？」{$br}「地震かのう…？」",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino024.mtn",
+        "text": "「うう……これ以上揺れると…どうしたらいいか…」{$br}「ううううう………」",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino025.mtn",
+        "text": "「今日のところは…これくらいにしといて…あげます　……ガクッ」{$br}「チ、チノォォォォォォ！」",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ],
+    "leave_30_300_450": [
+      {
+        "file": "mtn/Live2D_Chino027.mtn",
+        "text": "「新しい秘境が出ているようです」{$br}「探索してきたらどうじゃ？」",
+        "sound": "sound/270.wav"
+      },
+      {
+        "file": "mtn/Live2D_Chino028.mtn",
+        "text": "「新しいストーリーが見られるみたいです」{$br}「ここはわしらに任せて、見てきたらどうじゃ？」",
+        "sound": "sound/280.wav"
+      },
+      {
+        "file": "mtn/Live2D_Chino029.mtn",
+        "text": "「んー？プレゼントが消えそうじゃぞ」{$br}「早く受け取ったほうがいいと思います」",
+        "sound": "sound/290.wav"
+      },
+      {
+        "file": "mtn/Live2D_Chino030.mtn",
+        "text": "「強敵が出現しているようじゃな」{$br}「きょ、きょうてき…怖そうな響きです…」",
+        "sound": "sound/300.wav"
+      },
+      {
+        "file": "mtn/Live2D_Chino031.mtn",
+        "text": "「特別な秘境がでておるぞ」{$br}「特別……何があるんでしょう…」",
+        "sound": "sound/310.wav"
+      },
+      {
+        "file": "mtn/Live2D_Chino032.mtn",
+        "text": "「新しいサブストーリーが見られるみたいです」{$br}「楽しみじゃのう」",
+        "sound": "sound/320.wav"
+      },
+      {
+        "file": "mtn/Live2D_Chino033.mtn",
+        "text": "「フレンド申請が来ています」{$br}「友達は大事にするんじゃぞ」",
+        "sound": "sound/330.wav"
+      },
+      {
+        "file": "mtn/Live2D_Chino034.mtn",
+        "text": "「プレゼントが届いてるぞい」{$br}「中身はなんでしょうか…？気になります」",
+        "sound": "sound/340.wav"
+      },
+      {
+        "file": "mtn/Live2D_Chino009.mtn",
+        "text": "「おはようございます。アーサーさん。ティッピーも　起きてください」{$br}「むにゃむにゃ……」",
+        "sound": "sound/090.wav",
+        "time_limit": {
+          "hour": 6,
+          "minute": 0,
+          "sustain": 270
+        }
+      },
+      {
+        "file": "mtn/Live2D_Chino010.mtn",
+        "text": "「夜更かしはだめです。眠れないならティッピーを　貸してあげます」{$br}「照れるのぅ……///」",
+        "sound": "sound/100.wav",
+        "time_limit": {
+          "hour": 19,
+          "minute": 0,
+          "sustain": 299
+        }
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/Live2D_Chino003.mtn",
+        "text": "「傭兵さんは、訓練が好きなんでしょうか？」{$br}「リゼと気が合いそうじゃな」",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino026.mtn",
+        "text": "「チノです。よろしくお願いします。こっちは　ティッピーです」{$br}「よろしくたのむぞ」",
+        "sound": "sound/260.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "init 0"
+          },
+          {
+            "name": "max_idle_times",
+            "type": 2,
+            "code": "init 50"
+          }
+        ]
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/Live2D_Chino001.mtn",
+        "text": "「アーサーもまだまだヒヨッコじゃな」{$br}「…今のは、わ、私の腹話術です」",
+        "sound": "sound/010.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino002.mtn",
+        "text": "「サポートとは、何をやればいいのでしょう…？」{$br}「わしに任せなさい」",
+        "sound": "sound/020.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino003.mtn",
+        "text": "「傭兵さんは、訓練が好きなんでしょうか？」{$br}「リゼと気が合いそうじゃな」",
+        "sound": "sound/030.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino004.mtn",
+        "text": "「富豪さんは、名前の通りお金持ちそうですね…」{$br}「ラビットハウスの常連になってくれないかのう…」",
+        "sound": "sound/040.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino005.mtn",
+        "text": "「盗賊さんの尻尾…ティッピーよりモフモフ　かもしれません」{$br}「えっ！なんじゃと……！？」",
+        "sound": "sound/050.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino006.mtn",
+        "text": "「歌姫さんの歌…聴いてみたいです…」{$br}「わしも聴いてみたいのう」",
+        "sound": "sound/060.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino007.mtn",
+        "text": "「いつかブリテンにも、ラビットハウス2号店を　作りたいです」{$br}「うんうん、店舗拡大じゃな」",
+        "sound": "sound/070.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino008.mtn",
+        "text": "「うーむ、暇じゃのう」{$br}「ティッピー、静かにしていてください」",
+        "sound": "sound/080.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "greater_equal $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino021.mtn",
+        "text": "「ぬおおおおおお！ゆ、ゆれるぅぅぅ！」{$br}「……ティッピー、うるさいです」",
+        "sound": "sound/210.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino022.mtn",
+        "text": "「こら、よせ、やめんか、こら…」{$br}「や、やめてください…うう…揺れる…」",
+        "sound": "sound/220.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino023.mtn",
+        "text": "「なんか……揺れてます？」{$br}「地震かのう…？」",
+        "sound": "sound/230.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino024.mtn",
+        "text": "「うう……これ以上揺れると…どうしたらいいか…」{$br}「ううううう………」",
+        "sound": "sound/240.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      },
+      {
+        "file": "mtn/Live2D_Chino025.mtn",
+        "text": "「今日のところは…これくらいにしといて…あげます　……ガクッ」{$br}「チ、チノォォォォォォ！」",
+        "sound": "sound/250.wav",
+        "var_floats": [
+          {
+            "name": "idle_times",
+            "type": 1,
+            "code": "lower $max_idle_times"
+          },
+          {
+            "name": "idle_times",
+            "type": 2,
+            "code": "assign 0"
+          }
+        ]
+      }
+    ]
+  }
+}

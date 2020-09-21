@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 3.8,
+    "center_x": -0.09,
+    "center_y": 0.26
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/609160090.wav"
+      },
+      {
+        "sound": "sound/609160080.wav"
+      },
+      {
+        "sound": "sound/609160020.wav"
+      },
+      {
+        "sound": "sound/609160050.wav"
+      },
+      {
+        "sound": "sound/609160030.wav"
+      },
+      {
+        "sound": "sound/609160010.wav"
+      },
+      {
+        "sound": "sound/609160070.wav"
+      },
+      {
+        "sound": "sound/609160100.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 金元 寿子{$br}Illust: ちょぼらうにょぽみ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0,
+    "position_y": 1.92,
+    "position_z": 0,
+    "size": 8.24
+  },
+  "lip_sync": true
+}
