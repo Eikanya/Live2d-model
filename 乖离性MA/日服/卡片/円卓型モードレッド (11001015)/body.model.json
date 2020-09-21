@@ -1,0 +1,84 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 3.17,
+    "center_x": -0.11,
+    "center_y": -0.43
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/609240100.wav"
+      },
+      {
+        "sound": "sound/600370090.wav"
+      },
+      {
+        "sound": "sound/600370100.wav"
+      },
+      {
+        "sound": "sound/600370080.wav"
+      },
+      {
+        "sound": "sound/600370030.wav"
+      },
+      {
+        "sound": "sound/609240070.wav"
+      },
+      {
+        "sound": "sound/600370070.wav"
+      },
+      {
+        "sound": "sound/600370050.wav"
+      },
+      {
+        "sound": "sound/600370020.wav"
+      },
+      {
+        "sound": "sound/609240010.wav"
+      },
+      {
+        "sound": "sound/609240030.wav"
+      },
+      {
+        "sound": "sound/609240050.wav"
+      },
+      {
+        "sound": "sound/600370010.wav"
+      },
+      {
+        "sound": "sound/609240080.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 福山 潤{$br}Illust: まろ"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.35,
+    "position_y": -1.99,
+    "position_z": 0,
+    "size": 7.27
+  },
+  "lip_sync": true
+}

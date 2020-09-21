@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.5,
+    "center_x": 0.1,
+    "center_y": -0.4
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/600480050.wav"
+      },
+      {
+        "sound": "sound/600480090.wav"
+      },
+      {
+        "sound": "sound/600480100.wav"
+      },
+      {
+        "sound": "sound/600480030.wav"
+      },
+      {
+        "sound": "sound/600480070.wav"
+      },
+      {
+        "sound": "sound/600480010.wav"
+      },
+      {
+        "sound": "sound/600480020.wav"
+      },
+      {
+        "sound": "sound/600480080.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 戸松 遥{$br}Illust: 凪良"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.2,
+    "position_y": -2,
+    "position_z": 0,
+    "size": 7.5
+  }
+}

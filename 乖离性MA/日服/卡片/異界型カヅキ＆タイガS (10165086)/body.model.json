@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 1.77,
+    "center_x": -0.01,
+    "center_y": 0.02
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/609320050.wav"
+      },
+      {
+        "sound": "sound/609320070.wav"
+      },
+      {
+        "sound": "sound/609320020.wav"
+      },
+      {
+        "sound": "sound/609320080.wav"
+      },
+      {
+        "sound": "sound/609320010.wav"
+      },
+      {
+        "sound": "sound/609320090.wav"
+      },
+      {
+        "sound": "sound/609320100.wav"
+      },
+      {
+        "sound": "sound/609320030.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 増田 俊樹　畠中 祐{$br}Illust: あっきー人"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0,
+    "position_y": -0.02,
+    "position_z": 0,
+    "size": 4.22
+  }
+}

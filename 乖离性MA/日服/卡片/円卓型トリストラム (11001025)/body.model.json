@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.6,
+    "center_x": -0.55,
+    "center_y": 0.01
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/600260080.wav"
+      },
+      {
+        "sound": "sound/607790030.wav"
+      },
+      {
+        "sound": "sound/607790080.wav"
+      },
+      {
+        "sound": "sound/600260050.wav"
+      },
+      {
+        "sound": "sound/607790100.wav"
+      },
+      {
+        "sound": "sound/607790020.wav"
+      },
+      {
+        "sound": "sound/600260020.wav"
+      },
+      {
+        "sound": "sound/607790070.wav"
+      },
+      {
+        "sound": "sound/607790010.wav"
+      },
+      {
+        "sound": "sound/607790090.wav"
+      },
+      {
+        "sound": "sound/600260090.wav"
+      },
+      {
+        "sound": "sound/607790050.wav"
+      },
+      {
+        "sound": "sound/600260030.wav"
+      },
+      {
+        "sound": "sound/600260100.wav"
+      },
+      {
+        "sound": "sound/600260010.wav"
+      },
+      {
+        "sound": "sound/600260070.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 浪川 大輔{$br}Illust: 東柚己"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -2.86,
+    "position_y": 0.16,
+    "position_z": 0,
+    "size": 6.15
+  },
+  "lip_sync": true
+}
