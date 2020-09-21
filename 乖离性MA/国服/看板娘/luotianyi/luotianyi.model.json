@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "name": "luotianyi",
+  "model": "moc/luotianyi.moc",
+  "textures": [
+    "moc/luotianyi.1024/texture_00.png",
+    "moc/luotianyi.1024/texture_01.png",
+    "moc/luotianyi.1024/texture_02.png",
+    "moc/luotianyi.1024/texture_03.png",
+    "moc/luotianyi.1024/texture_04.png"
+  ],
+  "physics": "json/physics.json",
+  "pose": "json/pose.json",
+  "expressions": [
+    {
+      "name": "F00",
+      "file": "expressions/F00.exp.json"
+    },
+    {
+      "name": "F01",
+      "file": "expressions/F01.exp.json"
+    },
+    {
+      "name": "F03",
+      "file": "expressions/F03.exp.json"
+    },
+    {
+      "name": "F08",
+      "file": "expressions/F08.exp.json"
+    }
+  ],
+  "layout": {
+    "height": 2,
+    "center_x": 0,
+    "center_y": 0
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_face.28"
+    },
+    {
+      "name": "body",
+      "id": "D_body.00"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/luotianyi_m_01.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_11.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_12.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_zhayan.mtn",
+        "expression": "F00"
+      }
+    ],
+    "tap_body": [
+      {
+        "file": "mtn/luotianyi_m_02.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_03.mtn",
+        "expression": "F03"
+      },
+      {
+        "file": "mtn/luotianyi_m_04.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_05.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_07.mtn",
+        "expression": "F03"
+      },
+      {
+        "file": "mtn/luotianyi_m_10.mtn",
+        "expression": "F03"
+      },
+      {
+        "file": "mtn/luotianyi_m_13.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_mimang.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_xieyan.mtn",
+        "expression": "F01"
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/luotianyi_m_06.mtn",
+        "expression": "F03"
+      },
+      {
+        "file": "mtn/luotianyi_m_08.mtn",
+        "expression": "F03"
+      },
+      {
+        "file": "mtn/luotianyi_m_yun.mtn",
+        "expression": "F01"
+      }
+    ],
+    "start": [
+      {
+        "file": "mtn/luotianyi_m_07.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_10.mtn",
+        "expression": "F00"
+      }
+    ],
+    "tap_head": [
+      {
+        "file": "mtn/luotianyi_m_09.mtn",
+        "expression": "F08"
+      },
+      {
+        "file": "mtn/luotianyi_m_qidai.mtn",
+        "expression": "F00"
+      },
+      {
+        "file": "mtn/luotianyi_m_duzui.mtn",
+        "expression": "F01"
+      },
+      {
+        "file": "mtn/luotianyi_m_liukoushui.mtn",
+        "expression": "F01"
+      },
+      {
+        "file": "mtn/luotianyi_m_06.mtn",
+        "expression": "F03"
+      },
+      {
+        "file": "mtn/luotianyi_m_08.mtn",
+        "expression": "F03"
+      },
+      {
+        "file": "mtn/luotianyi_m_yun.mtn",
+        "expression": "F01"
+      }
+    ]
+  },
+  "lip_sync": false
+}

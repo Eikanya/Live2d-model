@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "model": "moc/xuekeni.moc",
+  "textures": [
+    "moc/xuekeni.1024/texture_00.png",
+    "moc/xuekeni.1024/texture_01.png",
+    "moc/xuekeni.1024/texture_02.png"
+  ],
+  "layout": {
+    "height": 2.8,
+    "center_x": -0.3,
+    "center_y": 0.0
+  },
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "start": [
+      {
+        "text": "Illust: AO"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.96,
+    "position_y": -0.44,
+    "position_z": 0,
+    "size": 7.1
+  }
+}
