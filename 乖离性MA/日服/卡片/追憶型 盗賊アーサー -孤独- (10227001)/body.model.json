@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.15,
+    "center_x": 0,
+    "center_y": -0.18
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/612370100.wav"
+      },
+      {
+        "sound": "sound/612370040.wav"
+      },
+      {
+        "sound": "sound/612370020.wav"
+      },
+      {
+        "sound": "sound/612370010.wav"
+      },
+      {
+        "sound": "sound/612370070.wav"
+      },
+      {
+        "sound": "sound/612370050.wav"
+      },
+      {
+        "sound": "sound/612370060.wav"
+      },
+      {
+        "sound": "sound/612370030.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 佐倉 綾音{$br}Illust: 荻pote"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": 0.15,
+    "position_y": -0.7,
+    "position_z": 0,
+    "size": 5.6
+  }
+}
