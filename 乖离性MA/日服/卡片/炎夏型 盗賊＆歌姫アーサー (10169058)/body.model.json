@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "model": "moc/model.moc",
+  "textures": [
+    "moc/texture.2048/texture_00.png"
+  ],
+  "layout": {
+    "height": 2.925,
+    "center_x": 0.0,
+    "center_y": -0.2175
+  },
+  "lip_sync": true,
+  "motions": {
+    "idle": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "shake": [
+      {
+        "file": "mtn/idle.mtn",
+        "fade_in": 10,
+        "fade_out": 10
+      }
+    ],
+    "tap": [
+      {
+        "sound": "sound/610130050.wav"
+      },
+      {
+        "sound": "sound/610130080.wav"
+      },
+      {
+        "sound": "sound/610130090.wav"
+      },
+      {
+        "sound": "sound/610130010.wav"
+      },
+      {
+        "sound": "sound/610130070.wav"
+      },
+      {
+        "sound": "sound/610130100.wav"
+      },
+      {
+        "sound": "sound/610130030.wav"
+      },
+      {
+        "sound": "sound/610130020.wav"
+      }
+    ],
+    "start": [
+      {
+        "text": "CV: 佐倉 綾音　内田 真礼{$br}Illust: 牛木義隆"
+      }
+    ]
+  },
+  "camera": {
+    "position_x": -0.5,
+    "position_y": -1.15,
+    "position_z": 0,
+    "size": 6.8
+  }
+}
