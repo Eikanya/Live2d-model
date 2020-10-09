@@ -1,0 +1,122 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "w106a_01.moc3",
+		"Textures": [
+			"w106a_01.2048/texture_00.png",
+			"w106a_01.2048/texture_01.png"
+		],
+		"DisplayInfo": "w106a_01.cdi3.json",
+		"Expressions": [
+			{ "Name": "w106a",  "File": "expressions/w106a_a2.exp3.json", "PartsIndex":0 },
+			{ "Name": "w106b",  "File": "expressions/w106a_b.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w106c",  "File": "expressions/w106a_c.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w106d",  "File": "expressions/w106a_d.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w106e",  "File": "expressions/w106a_e.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w106f",  "File": "expressions/w106a_f.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w106g",  "File": "expressions/w106a_g.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w106aa", "File": "expressions/w106a_a2.exp3.json", "PartsIndex":1 }
+		],
+		"Layout":
+		{
+			"center_x":2.26,
+			"y":-0.61,
+			"height":1.647
+		},
+		"Motions": {
+			"w106a_a":[
+				{ "File":"motions/w106a_base_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106a_b":[
+				{ "File":"motions/w106a_base_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106a_c":[
+				{ "File":"motions/w106a_base_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w106h_a":[
+				{ "File":"motions/w106a_h_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106h_b":[
+				{ "File":"motions/w106a_h_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106h_c":[
+				{ "File":"motions/w106a_h_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w106i_a":[
+				{ "File":"motions/w106a_i_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106i_b":[
+				{ "File":"motions/w106a_i_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106i_c":[
+				{ "File":"motions/w106a_i_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w106j_a":[
+				{ "File":"motions/w106a_j_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106j_b":[
+				{ "File":"motions/w106a_j_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106j_c":[
+				{ "File":"motions/w106a_j_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w106k_a":[
+				{ "File":"motions/w106a_k_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106k_b":[
+				{ "File":"motions/w106a_k_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106k_c":[
+				{ "File":"motions/w106a_k_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w106l_a":[
+				{ "File":"motions/w106a_l_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106l_b":[
+				{ "File":"motions/w106a_l_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106l_c":[
+				{ "File":"motions/w106a_l_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w106m_a":[
+				{ "File":"motions/w106a_m_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106m_b":[
+				{ "File":"motions/w106a_m_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106m_c":[
+				{ "File":"motions/w106a_m_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w106n_a":[
+				{ "File":"motions/w106a_n_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w106n_b":[
+				{ "File":"motions/w106a_n_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"idle":[
+				{ "File":"motions/w106a_base_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

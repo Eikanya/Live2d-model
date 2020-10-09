@@ -1,0 +1,101 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "s_Hatuka_01.moc3",
+		"Textures": [
+			"s_Hatuka_01.2048/texture_00.png",
+			"s_Hatuka_01.2048/texture_01.png"
+		],
+		"Physics": "s_Hatuka_01.physics3.json",
+		"Layout":
+		{
+			"center_x":1.20,
+			"y":-1.1,
+			"height":3.4
+		},
+		"DisplayInfo": "s_Hatuka_01.cdi3.json",
+		"Motions": {
+			"m01":[
+				{ "File":"motions/idle_a.motion3.json","FadeInTime":0.3,"FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":-1, "Memo":"01通常" }
+			],
+			"m02":[
+				{ "File":"motions/m02.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":-1, "Memo":"02照れ笑い" }
+			],
+			"m03":[
+				{ "File":"motions/m03.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_EX_MOUTH__06A__Y", "EndDelay":-1, "Memo":"03あれ？" }
+			],
+			"m04":[
+				{ "File":"motions/m04.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":-1, "Memo":"04少し不機嫌" }
+			],
+			"m05":[
+				{ "File":"motions/m05.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_EX_MOUTH__04A_2__Y", "EndDelay":-1, "Memo":"05落ち込んでいる" }
+			],
+			"m06":[
+				{ "File":"motions/m06.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":-1, "Memo":"06口を開けてにっこり" }
+			],
+			"m07":[
+				{ "File":"motions/m07.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":-1, "Memo":"07口を閉じてにっこり" }
+			],
+			"m08":[
+				{ "File":"motions/m08.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_EX_MOUTH__06A__Y", "EndDelay":-1, "Memo":"08不安げ" }
+			],
+			"m09":[
+				{ "File":"motions/m09.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":0.4, "LipId":"PARAM_EX_M_14A_Y", "EndDelay":-1, "Memo":"09びっくり" }
+			],
+			"m10":[
+				{ "File":"motions/m10.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":-1, "BreathWeight":0.5, "Memo":"10考える" }
+			],
+			"m11":[
+				{ "File":"motions/m11.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":-1, "BreathWeight":0.5, "Memo":"11真剣" }
+			],
+			"m12":[
+				{ "File":"motions/m12.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":0.4, "LipId":"PARAM_EX_M_14A_Y", "EndDelay":-1, "BreathWeight":0.5, "Memo":"12怒り（咆吼）" }
+			],
+			"m13":[
+				{ "File":"motions/m13.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":-1, "Memo":"13肯定" }
+			],
+			"m14":[
+				{ "File":"motions/m14.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":-1, "Memo":"14否定" }
+			],
+			"m17":[
+				{ "File":"motions/m17.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":0.0, "Memo":"17ハッとする→照れ" }
+			],
+			"m18":[
+				{ "File":"motions/m18.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":0.4, "LipId":"PARAM_EX_M_14A_Y", "EndDelay":0.0, "Memo":"18乳揺れ＆照れ驚き→照れ怒り" }
+			],
+			"m19":[
+				{ "File":"motions/m03.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_EX_MOUTH__06A__Y", "EndDelay":1, "Memo":"19-03あれ？" },
+				{ "File":"motions/m07.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "EndDelay":2, "Memo":"19-07口を閉じてにっこり" }
+			],
+			"idle": [
+				{ "File": "motions/idle_b.motion3.json","FadeInTime":0.5, "FadeOutTime":0.0, "LipWeight":2.0, "LipId":"PARAM_MOUTH_OPEN_Y", "Memo":"01b通常" }
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"PARAM_EYE_L_OPEN", "PARAM_EYE_R_OPEN"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea_Head",
+			"Name": "head",
+			"OffsetX":5, "OffsetY":60, "ScaleX":0.55, "ScaleY":0.6
+		},
+		{
+			"Id": "HitArea_Body",
+			"Name": "body",
+			"OffsetX":15, "OffsetY":-15, "ScaleX":0.6, "ScaleY":0.6
+		}
+	]
+}

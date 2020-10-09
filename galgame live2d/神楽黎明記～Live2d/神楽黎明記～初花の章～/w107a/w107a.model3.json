@@ -1,0 +1,95 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "w107_01.moc3",
+		"Textures": [
+			"w107_01.2048/texture_00.png",
+			"w107_01.2048/texture_01.png"
+		],
+		"DisplayInfo": "w107_01.cdi3.json",
+		"Expressions": [
+			{ "Name": "w107a",  "File": "expressions/w107_a2.exp3.json", "PartsIndex":0 },
+			{ "Name": "w107b",  "File": "expressions/w107_b.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w107c",  "File": "expressions/w107_c.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w107d",  "File": "expressions/w107_d.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w107e",  "File": "expressions/w107_e.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w107f",  "File": "expressions/w107_f.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w107g",  "File": "expressions/w107_g.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w107aa", "File": "expressions/w107_a2.exp3.json", "PartsIndex":1 }
+		],
+		"Layout":
+		{
+			"center_x":2.27,
+			"y":-0.62,
+			"height":1.647
+		},
+		"Motions": {
+			"w107a_a":[
+				{ "File":"motions/w107_base_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107a_b":[
+				{ "File":"motions/w107_base_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107a_c":[
+				{ "File":"motions/w107_base_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w107h_a":[
+				{ "File":"motions/w107_h_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107h_b":[
+				{ "File":"motions/w107_h_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107h_c":[
+				{ "File":"motions/w107_h_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w107i_a":[
+				{ "File":"motions/w107_i_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107i_b":[
+				{ "File":"motions/w107_i_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107i_c":[
+				{ "File":"motions/w107_i_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w107j_a":[
+				{ "File":"motions/w107_j_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107j_b":[
+				{ "File":"motions/w107_j_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107j_c":[
+				{ "File":"motions/w107_j_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w107k_a":[
+				{ "File":"motions/w107_k_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107k_b":[
+				{ "File":"motions/w107_k_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w107k_c":[
+				{ "File":"motions/w107_k_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"idle":[
+				{ "File":"motions/w107_base_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
