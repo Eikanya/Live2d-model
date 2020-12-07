@@ -1,0 +1,99 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "s_Natu_01.moc3",
+		"Textures": [
+			"s_Natu_01.2048/texture_00.png",
+			"s_Natu_01.2048/texture_01.png",
+			"s_Natu_01.2048/texture_02.png"
+		],
+		"Physics": "s_Natu_01.physics3.json",
+		"Layout":
+		{
+			"center_x":1.4,
+			"y":-1.8,
+			"height":3.0
+		},
+		"DisplayInfo": "s_Natu_01.cdi3.json",
+		"Motions": {
+			"m01":[
+				{ "File":"motions/m01.motion3.json","FadeInTime":0.3,"FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "EndDelay":-1, "Memo":"01í èÌ" }
+			],
+			"m02":[
+				{ "File":"motions/m02.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "EndDelay":-1, "Memo":"02î˜èŒÇ›" }
+			],
+			"m03":[
+				{ "File":"motions/m03.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamM03_Y"], "EndDelay":-1, "Memo":"03èŒäÁ" }
+			],
+			"m04":[
+				{ "File":"motions/m04.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamM02_formY"], "EndDelay":-1, "Memo":"04évàƒ" }
+			],
+			"m05":[
+				{ "File":"motions/m05.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[0.4], "LipId":["ParamM_openbig_Y"], "EndDelay":-1, "Memo":"05ã¡Ç´" }
+			],
+			"m06":[
+				{ "File":"motions/m06.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "EndDelay":-1, "Memo":"06Ç´ÇÂÇ∆ÇÒ" }
+			],
+			"m07":[
+				{ "File":"motions/m07.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "EndDelay":-1, "BreathWeight":0.5, "Memo":"07ÇµÇÂÇ⁄ÇÒ" }
+			],
+			"m08":[
+				{ "File":"motions/m08.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamM02_formY"], "EndDelay":-1, "BreathWeight":0.5, "Memo":"08ê^åï" }
+			],
+			"m09":[
+				{ "File":"motions/m09.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamM02_formY"], "EndDelay":-1, "BreathWeight":0.5, "Memo":"09ì{ÇË" }
+			],
+			"m10":[
+				{ "File":"motions/m10.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[0.4], "LipId":["ParamM_openbig_Y"], "EndDelay":-1, "BreathWeight":0.5, "Memo":"10ã©Ç—" }
+			],
+			"m11":[
+				{ "File":"motions/m11.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "EndDelay":-1, "Memo":"11è∆ÇÍ" }
+			],
+			"m12":[
+				{ "File":"motions/m12.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "EndDelay":-1, "Memo":"12çmíË" }
+			],
+			"m13":[
+				{ "File":"motions/m13.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0, 2.0], "LipId":["ParamM02_formY", "ParamMouthOpenY"], "LipTimer":[0.8, -1], "EndDelay":-1, "Memo":"13î€íË" }
+			],
+			"m18":[
+				{ "File":"motions/m18a.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "EndDelay":0.0, "Memo":"18ÉnÉbÇ∆Ç∑ÇÈÅ®è∆ÇÍ" }
+			],
+			"m19":[
+				{ "File":"motions/m19a.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[0.4], "LipId":["ParamM_openbig_Y"], "EndDelay":0.0, "Memo":"19ì˚óhÇÍÅïè∆ÇÍã¡Ç´Å®è∆ÇÍì{ÇË" }
+			],
+			"m20":[
+				{ "File":"motions/m06.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "EndDelay":0.0, "Memo":"20-06Ç´ÇÂÇ∆ÇÒ" },
+				{ "File":"motions/m02.motion3.json" ,"FadeInTime":0.3, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "EndDelay":1.0, "Memo":"20-02î˜èŒÇ›" }
+			],
+			"idle": [
+				{ "File": "motions/idle_b.motion3.json","FadeInTime":0.5, "FadeOutTime":0.0, "LipWeight":[2.0], "LipId":["ParamMouthOpenY"], "Memo":"01bí èÌ" }
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen", "ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea_Head",
+			"Name": "head",
+			"OffsetX":-4, "OffsetY":86, "ScaleX":0.5, "ScaleY":0.55
+		},
+		{
+			"Id": "HitArea_Body",
+			"Name": "body",
+			"OffsetX":16, "OffsetY":-160, "ScaleX":0.36, "ScaleY":0.36
+		}
+	]
+}

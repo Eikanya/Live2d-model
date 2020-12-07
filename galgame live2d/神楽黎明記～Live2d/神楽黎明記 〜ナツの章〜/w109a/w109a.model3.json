@@ -1,0 +1,125 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "w109_01.moc3",
+		"Textures": [
+			"w109_01.2048/texture_00.png",
+			"w109_01.2048/texture_01.png"
+		],
+		"DisplayInfo": "w109_01.cdi3.json",
+		"Expressions": [
+			{ "Name": "w109a",  "File": "expressions/w109_a2.exp3.json", "PartsIndex":0 },
+			{ "Name": "w109a2", "File": "expressions/w109_a2.exp3.json", "PartsIndex":0 },
+			{ "Name": "w109b",  "File": "expressions/w109_b.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w109c",  "File": "expressions/w109_c.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w109d",  "File": "expressions/w109_d.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w109e",  "File": "expressions/w109_e.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w109f",  "File": "expressions/w109_f.exp3.json",  "PartsIndex":0 },
+			{ "Name": "w109aa", "File": "expressions/w109_a2.exp3.json", "PartsIndex":1 }
+		],
+		"Layout":
+		{
+			"center_x":2.27,
+			"y":-0.616,
+			"height":1.647
+		},
+		"Motions": {
+			"w109a_a":[
+				{ "File":"motions/w109_base_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109a_b":[
+				{ "File":"motions/w109_base_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109a_c":[
+				{ "File":"motions/w109_base_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w109g_a":[
+				{ "File":"motions/w109_g_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109g_b":[
+				{ "File":"motions/w109_g_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109g_c":[
+				{ "File":"motions/w109_g_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w109h_a":[
+				{ "File":"motions/w109_h_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109h_b":[
+				{ "File":"motions/w109_h_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109h_c":[
+				{ "File":"motions/w109_h_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w109i_a":[
+				{ "File":"motions/w109_i_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109i_b":[
+				{ "File":"motions/w109_i_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109i_c":[
+				{ "File":"motions/w109_i_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w109j_a":[
+				{ "File":"motions/w109_j_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109j_b":[
+				{ "File":"motions/w109_j_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109j_c":[
+				{ "File":"motions/w109_j_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w109k_a":[
+				{ "File":"motions/w109_k_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109k_b":[
+				{ "File":"motions/w109_k_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109k_c":[
+				{ "File":"motions/w109_k_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w109l_a":[
+				{ "File":"motions/w109_l_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109l_b":[
+				{ "File":"motions/w109_l_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109l_c":[
+				{ "File":"motions/w109_l_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"w109m_a":[
+				{ "File":"motions/w109_m_a.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109m_b":[
+				{ "File":"motions/w109_m_b.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+			"w109m_c":[
+				{ "File":"motions/w109_m_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			],
+
+			"idle":[
+				{ "File":"motions/w109_base_c.motion3.json" ,"FadeInTime":0.5, "FadeOutTime":0.0 }
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
