@@ -10,7 +10,28 @@
 Live2d模型提取参考：[链接](https://www.perfare.net/1564.html)。
 模型已经提取出来了。
 
-语音提取方法：[参考](https://eiknya.github.io)
+语音提取方法：
+**步骤**   
+1.  把游戏文件夹`File`里的`version.zip`移动出来，重上游戏下载数据`Fildder`抓包。
+2. 找到地址后主要是下载`vo_normal_girl_12.u`[下载](https://cdn-cafe2.xoyo.jp/seasun_jp/10113/Android/V299/Bundles/wwisedata/english(us)/vo_normal_girl_12.u)文件, 音频文件`url`后缀`/Bundles/wwisedata/english(us)/vo_normal_girl_12.u`,
+音频文件是下载到`wwisedata`文件夹然后解压到`audio/english(us)/`文件夹里，`normal`代表日常，`12`代表角色编号，在换装可以看到顺序号。`vo_story_girl_12`表示故事线的语音，看看文件名都能知道.注意：请求文件的文件名是小写
+3. 用`AssetStudio`解包语音文件，全部提取出来，用`Advanced Renamer`把后缀批量删除，`wem`后缀才是正确的。
+4. `bnk`文件用`bnkextr`提取，出来文件后缀是`wem`。如果提取不出来说明这文件不需要的。
+5.  用`revorb.bat`批量把`.wem`文件转换成`.ogg`音频，在修正'.ogg'音频文件。
+```
+for %%f in (*.wem) do ww2ogg.exe %%f --pcb packed_codebooks_aoTuV_603.bin
+pause 
+for %%f in (*.ogg) do revorb.exe %%f 
+pause
+
+```
+
+6.  删除多余的`.wem`文件，根目录`delwem.bat`。 
+```
+del *.wem
+
+```
+
 音频文件在手机存储 \Android\data\jp.Marvelous.girlcafegun\files\AutoAudio\Android (日服)
 国服的把jp.Marvelous.girlcafegun换成有bilibili的
 人物语音在手机存储  \Android\data\jp.Marvelous.girlcafegun\files\AutoAudio\Android\English(US)
@@ -21,12 +42,12 @@ Live2d模型提取参考：[链接](https://www.perfare.net/1564.html)。
 3. 用`AssetStudio`解包语音文件，全部提取出来，用`Advanced Renamer`把后缀批量删除，`wem`后缀才是正确的。
 
 voice的文件夹是提取音频的文件，有6个文件
-bnkextr.exe 解压.bnk文件，解压出来是.wem文件。
-revorb.bat  批量把.wem文件转换成.ogg音频
-ww2ogg.exe 	.web to .ogg
-revorb.exe  把转换.ogg矫正
-packed_codebooks_aoTuV_603.b
-delwem.bat  删除.web文件
+- bnkextr.exe 解压.bnk文件，解压出来是.wem文件。
+- revorb.bat  批量把.wem文件转换成.ogg音频
+- ww2ogg.exe 	.web to .ogg
+- revorb.exe  把转换.ogg矫正
+- packed_codebooks_aoTuV_603.b
+- delwem.bat  删除.web文件
 
 1.复制出你需要解压的Vo_Normal_xxxx.bnk文件，用bnkextr.exe 打开，拖去bnkextr.exe 就可以了。
 2.打开revorb.bat自动完成转换，再回车一次。如果转换出来的音频有不正常，就是少运行了一步。
@@ -53,3 +74,6 @@ delwem.bat  删除.web文件
 - ybxd0414__l2d_337.u
 - ybxd0414__l2d_338.u
 - ybxd0414__l2d_339.u
+
+20.12.8
+添加语音提取方法
