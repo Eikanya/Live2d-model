@@ -1,0 +1,224 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "cg.moc3",
+		"Textures": [
+			"cg.8192/texture_00.png"
+		],
+		"Expressions": [
+			{
+				"Name": "Bust_uphigh",
+				"File": "expressions/Bust_uphigh.exp3.json"
+			},
+			{
+				"Name": "Bust_uplow",
+				"File": "expressions/Bust_uplow.exp3.json"
+			},
+			{
+				"Name": "Bust_upmid",
+				"File": "expressions/Bust_upmid.exp3.json"
+			},
+			{
+				"Name": "Center_out",
+				"File": "expressions/Center_out.exp3.json"
+			},
+			{
+				"Name": "Center_uphigh",
+				"File": "expressions/Center_uphigh.exp3.json"
+			},
+			{
+				"Name": "Center_uplow",
+				"File": "expressions/Center_uplow.exp3.json"
+			},
+			{
+				"Name": "Center_upneck",
+				"File": "expressions/Center_upneck.exp3.json"
+			},
+			{
+				"Name": "Face_uphigh",
+				"File": "expressions/Face_uphigh.exp3.json"
+			},
+			{
+				"Name": "Face_uplow",
+				"File": "expressions/Face_uplow.exp3.json"
+			},
+			{
+				"Name": "Face_upmid",
+				"File": "expressions/Face_upmid.exp3.json"
+			}
+		],
+		"Motions": {
+						"Idle": [
+								{"File": "motions/01_Idle.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/01_Idle_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/01_Idle_c.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Idle_todef": [
+								{"File": "motions/01_Idle.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Idle_penis": [
+								{"File": "motions/02_Idle_penis.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/02_Idle_penis_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Idle_topenis": [
+								{"File": "motions/02_Idle_penis.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Idle_tolick": [
+								{"File": "motions/03_Idle_tolick.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Lick": [
+								{"File": "motions/04_Lick.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/04_Lick_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Lick_todef": [
+								{"File": "motions/04_Lick.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Lick_penis": [
+								{"File": "motions/05_Lick_penis.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/05_Lick_penis_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Lick_topenis": [
+								{"File": "motions/05_Lick_penis.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Lick_tosuck": [
+								{"File": "motions/06_Lick_tosuck.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Suck": [
+								{"File": "motions/07_Suck.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/07_Suck_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Suck_todef": [
+								{"File": "motions/07_Suck.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Suck_penis": [
+								{"File": "motions/08_Suck_penis.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/08_Suck_penis_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Suck_topenis": [
+								{"File": "motions/08_Suck_penis.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Suck_toexiteidle": [
+								{"File": "motions/09_Suck_toexiteidle.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Exite_idle": [
+								{"File": "motions/10_Exite_idle.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/10_Exite_idle_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Exite_idle_todef": [
+								{"File": "motions/10_Exite_idle.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Exite_idletolick": [
+								{"File": "motions/11_Exite_idletolick_penis.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Exite_lick_penis": [
+								{"File": "motions/12_Exite_lick_penis.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/12_Exite_lick_penis_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Exite_lick_topenis": [
+								{"File": "motions/12_Exite_lick_penis.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Exite_lick": [
+								{"File": "motions/13_Exite_lick.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/13_Exite_lick_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Exite_lick_todef": [
+								{"File": "motions/13_Exite_lick.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Exite_lick_tosuck": [
+								{"File": "motions/14_Exite_licktosuck.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Exite_suck_penis": [
+								{"File": "motions/15_Exite_suck_penis.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/15_Exite_suck_penis_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Exite_suck_topenis": [
+								{"File": "motions/15_Exite_suck_penis.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Exite_suck": [
+								{"File": "motions/16_Exite_suck.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/16_Exite_suck_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Exite_suck_todef": [
+								{"File": "motions/16_Exite_suck.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Exite_sucktolick": [
+								{"File": "motions/17_Exite_sucktolick.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Hard_suck_penis": [
+								{"File": "motions/18_Hard_suck_penis.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/18_Hard_suck_penis_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Hard_suck_topenis": [
+								{"File": "motions/18_Hard_suck_penis.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Hard_suck": [
+								{"File": "motions/19_Hard_suck.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/19_Hard_suck_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Hard_suck_todef": [
+								{"File": "motions/19_Hard_suck.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Hard_suck_penis_high": [
+								{"File": "motions/20_Hard_suck_penis_high.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/20_Hard_suck_penis_high_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Hard_suck_topenis_high": [
+								{"File": "motions/20_Hard_suck_penis_high.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Hard_suck_high": [
+								{"File": "motions/21_Hard_suck_high.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/21_Hard_suck_high_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Hard_suck_todef_high": [
+								{"File": "motions/21_Hard_suck_high.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Cum": [
+								{"File": "motions/22_Cum.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Cum_after": [
+								{"File": "motions/23_Cumafter.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/23_Cumafter_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Cum_toafter": [
+								{"File": "motions/23_Cumafter.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Hard_lick": [
+								{"File": "motions/24_Hard_lick.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/24_Hard_lick_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/24_Hard_lick_c.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Hard_lick_todef": [
+								{"File": "motions/24_Hard_lick.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Hard_cum": [
+								{"File": "motions/25_Hard_cum.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Hard_cum_after": [
+								{"File": "motions/26_Hard_lick_cumafter.motion3.json", "FadeInTime":0.5, "FadeOutTime":0},
+								{"File": "motions/26_Hard_lick_cumafter_b.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Hard_cum_toafter": [
+								{"File": "motions/26_Hard_lick_cumafter.motion3.json", "FadeInTime":2.5, "FadeOutTime":0.5}
+						],
+						"Hard_cum_after_ex": [
+								{"File": "motions/27_Hard_lick_cumafter_ex.motion3.json", "FadeInTime":0.5, "FadeOutTime":0}
+						],
+						"Reset": [
+								{"File": "motions/00_Reset.motion3.json", "FadeInTime":2, "FadeOutTime":0}
+						]
+　　　　 },
+		"DisplayInfo": "cg.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
