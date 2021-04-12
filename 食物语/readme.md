@@ -1,0 +1,62 @@
+模型提取自游戏食物语。
+
+没有配置文件
+
+
+配置文件参考如下，保存为.model.json
+```
+{
+    "expression":[
+        {
+            "file":"expression/chijing.exp.json",
+            "name":"chijing.exp.json"
+        },
+        {
+            "file":"expression/haixiu.exp.json",
+            "name":"haixiu.exp.json"
+        },
+        {
+            "file":"expression/kaixin.exp.json",
+            "name":"kaixin.exp.json"
+        },
+        {
+            "file":"expression/idle.exp.json",
+            "name":"idle.exp.json"
+        },
+        {
+            "file":"expression/nanguo.exp.json",
+            "name":"nanguo.exp.json"
+        },
+        {
+            "file":"expression/shengqi.exp.json",
+            "name":"shengqi.exp.json"
+        },
+        {
+            "file":"expression/wunai.exp.json",
+            "name":"wunai.exp.json"
+        }
+    ],
+    "model":"model.moc",
+    "motions":{
+        "":[
+            {
+                "file":"action/diantou.mtn"
+            },
+            {
+                "file":"action/ditang.mtn"
+            },
+            {
+                "file":"action/idle.mtn"
+            },
+            {
+                "file":"action/niulian.mtn"
+            }
+        ]
+    },
+    "textures":[
+        "texture_00.png"
+    ],
+	"physics":"moc/physics.json",
+    "version":"Sample 1.0.0"
+}
+```
