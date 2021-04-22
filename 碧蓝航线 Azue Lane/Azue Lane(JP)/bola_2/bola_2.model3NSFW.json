@@ -1,0 +1,190 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "bola_2.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "bola_2.physics3.json",
+    "PhysicsV2": {
+      "File": "bola_2.physics3.json"
+    },
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "Start": [
+        {
+          "File": "motions/login.motion3.json",
+          "Sound": "voice/Pola_LogJP.ogg",
+          "Text": "好慢啊指挥官，编队演习马上就要开始了喔？"
+        },
+        {
+          "File": "motions/home.motion3.json",
+          "Sound": "voice/Pola_SelfIntroJP.ogg",
+          "Text": "我是扎拉级重巡洋舰的四号舰，波拉。我们姐妹拥有着重巡中少有的坚固装甲，在水面炮战中有着独特的优势。论担当舰队旗舰的能力，我说不定要比扎拉姐姐还要强呢"
+        }
+      ],
+      "TapTouchSpecial": [
+        {
+          "File": "motions/touch_special.motion3.json",
+          "Sound": "voice/Pola_Sec2JP.ogg",
+          "Text": "指挥官，你该不会对扎拉姐姐做了同样的事情吧？"
+        }
+      ],
+      "TapTouchHead": [
+        {
+          "File": "motions/touch_head.motion3.json",
+          "Sound": "voice/Pola_DetailsJP.ogg",
+          "Text": "扎拉姐姐总是那么温柔，那么优秀，真是耀眼夺目啊"
+        }
+      ],
+      "TapTouchBody": [
+        {
+          "File": "motions/touch_body.motion3.json",
+          "Sound": "voice/Pola_Sec1JP.ogg",
+          "Text": "我的佩剑，可不只是为了好看而存在的喔？"
+        }
+      ],
+      "TapFace": [
+        {
+          "File": "motions/main_1.motion3.json",
+          "Sound": "voice/Pola_SecIdle1JP.ogg",
+          "Text": "“条约”、“协定”，那些东西都是没有感情的枷锁，如果能够通通消失掉就好了"
+        },
+        {
+          "File": "motions/main_2.motion3.json",
+          "Sound": "voice/Pola_SecIdle2JP.ogg",
+          "Text": "即使面对再大的暴风雨我也不会退缩，真正的战士，是不会畏惧任何挑战的"
+        },
+        {
+          "File": "motions/main_3.motion3.json",
+          "Sound": "voice/Pola_SecIdle3JP.ogg",
+          "Text": "被探照灯的白光笼罩着的感觉，让人不快"
+        }
+      ],
+      "Tappanci": [
+        {
+          "File": "motions/wedding.motion3.json",
+          "Sound": "voice/Pola_PledgeJP.ogg",
+          "Text": "一旦成为了我选中的指挥官，就要做好被我束缚一生的准备呢。这份“条约”，您愿意和我一同签下么？"
+        },
+        {
+          "File": "motions/mail.motion3.json",
+          "Sound": "voice/Pola_MailJP.ogg",
+          "Text": "指挥官，是司令部发来的邮件，磨磨蹭蹭的话，说不定会错过重要的消息哦？"
+        }
+      ],
+      "Tapdamuzi": [
+        {
+          "File": "motions/mission.motion3.json",
+          "Sound": "voice/Pola_TaskJP.ogg",
+          "Text": "指挥官，没有完成任务的动力可不行喔？还是说您在期待着我给您单独准备的奖励呢？"
+        },
+        {
+          "File": "motions/mission_complete.motion3.json",
+          "Sound": "voice/Pola_TaskCJP.ogg",
+          "Text": "任务顺利完成了，就是得这样才行呢。奖励？呵呵，我可没有忘记喔？请您期待一下吧"
+        },
+        {
+          "File": "motions/complete.motion3.json",
+          "Sound": "voice/Pola_CommissionJP.ogg",
+          "Text": "委托组已经回港了，大家都是很努力的孩子啊"
+        }
+      ],
+      "Tapchange": [
+        {
+          "Name": "change",
+          "Command": "change_cos bola_2.model3.json"
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0,
+      "Items": [
+        {
+          "Id": "MouthOpen",
+          "Min": 0.0,
+          "Max": 1.0,
+          "Input": 0
+        }
+      ],
+      "Enabled": true
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "TouchSpecial",
+      "Id": "TouchSpecial"
+    },
+    {
+      "Name": "TouchHead",
+      "Id": "TouchHead"
+    },
+    {
+      "Name": "TouchBody",
+      "Id": "TouchBody"
+    },
+    {
+      "Name": "Face",
+      "Id": "Face",
+      "Order": 1
+    },
+    {
+      "Name": "panci",
+      "Id": "panci",
+      "Order": 1
+    },
+    {
+      "Name": "damuzi",
+      "Id": "ArtMesh234",
+      "Order": 9
+    },
+    {
+      "Name": "change",
+      "Id": "ArtMesh29"
+    }
+  ],
+  "Options": {
+    "ScaleFactor": 0.1,
+    "AnisoLevel": 5
+  }
+}
