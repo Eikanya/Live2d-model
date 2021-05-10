@@ -1,0 +1,3 @@
+资源文件在游戏资源Shared文件夹下，art_live2d_xxx是live2d文件夹。
+
+导入UnityLive2DExtractor.v1.0.3提取live2d
