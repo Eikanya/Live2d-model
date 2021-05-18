@@ -8,3 +8,7 @@
 <br>live2d提取[参考](https://www.perfare.net/1162.html)
 <br>语音提取：语音文件格式为*(人形)名字.acb.bytes，为acb加密，可以使用VGMToolbox工具解密，Extraction Tools-Common Archives-CRI ACB/
 <br>再用HCADecoder解密音频，在tool文件有HCA和简单bat批处理，可以在根目录下执行。
+
+
+2021.5.18
+live2d更新moc3格式

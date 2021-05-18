@@ -1,0 +1,55 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "model3_moc.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": null,
+    "Motions": {
+      "": [
+        {
+          "File": "motions/motou_03.motion3.json"
+        },
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        },
+        {
+          "File": "motions/motou_01.motion3.json"
+        },
+        {
+          "File": "motions/wait_01.motion3.json"
+        },
+        {
+          "File": "motions/wait_02.motion3.json"
+        },
+        {
+          "File": "motions/motou_02.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeLOpen",
+        "ParamEyeROpen",
+        "ParamEyeROpen",
+        "ParamEyeROpen",
+        "ParamEyeLOpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY",
+        "ParamMouthOpenY",
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}
