@@ -13,7 +13,7 @@ Live2d模型提取参考：[链接](https://www.perfare.net/1564.html)。
 语音提取方法：
 **步骤**   
 1.  把游戏文件夹`File`里的`version.zip`移动出来，重上游戏下载数据`Fildder`抓包。
-2. 找到地址后主要是下载`vo_normal_girl_12.u`[下载](https://cdn-cafe2.xoyo.jp/seasun_jp/10113/Android/V299/Bundles/wwisedata/english(us)/vo_normal_girl_12.u)文件, 音频文件`url`后缀`/Bundles/wwisedata/english(us)/vo_normal_girl_12.u`,
+2. 找到地址后主要是下载`vo_normal_girl_12.u`[下载](https://cdn-cafe2.xoyo.jp/seasun_jp/10114/Android/V529/Bundles/wwisedata/english(us)/vo_normal_girl_01.u) 文件, 音频文件`url`后缀`/Bundles/wwisedata/english(us)/vo_normal_girl_12.u`,
 音频文件是下载到`wwisedata`文件夹然后解压到`audio/english(us)/`文件夹里，`normal`代表日常，`12`代表角色编号，在换装可以看到顺序号。`vo_story_girl_12`表示故事线的语音，看看文件名都能知道.注意：请求文件的文件名是小写
 3. 用`AssetStudio`解包语音文件，全部提取出来，用`Advanced Renamer`把后缀批量删除，`wem`后缀才是正确的。
 4. `bnk`文件用`bnkextr`提取，出来文件后缀是`wem`。如果提取不出来说明这文件不需要的。
@@ -54,7 +54,11 @@ voice的文件夹是提取音频的文件，有6个文件
 3.可以运行delwem.bat  删除.web文件。
 
 
+```
+spine动态在2dAnimation文件夹，就是氪金购买的皮肤。
 
+
+```
 2020.3.9
 \Android\data\jp.Marvelous.girlcafegun\files\AutoAudio\Android\English(US) 目录下是人物对话配合，好像不是Live2d的音频
 \Android\data\jp.Marvelous.girlcafegun\files\AutoAudio\Android\  目录下是游戏音乐，L2D.bnk是Live2d语音，好像只加载游戏界面人物的语音。
@@ -77,3 +81,6 @@ voice的文件夹是提取音频的文件，有6个文件
 
 20.12.8
 添加语音提取方法
+
+21.5.22
+更新角色语音
