@@ -5,9 +5,9 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
-    "CurveCount": 26,
-    "TotalSegmentCount": 58,
-    "TotalPointCount": 68,
+    "CurveCount": 33,
+    "TotalSegmentCount": 75,
+    "TotalPointCount": 85,
     "UserDataCount": 1,
     "TotalUserDataSize": 0
   },
@@ -203,6 +203,58 @@
       ]
     },
     {
+      "Target": "Parameter",
+      "Id": "ParamArmL",
+      "Segments": [
+        0,
+        0,
+        0,
+        0.5,
+        -10,
+        0,
+        1.3,
+        10,
+        2,
+        2.033,
+        10,
+        0,
+        3,
+        0,
+        2,
+        4,
+        0,
+        2,
+        4.5,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamArmR",
+      "Segments": [
+        0,
+        0,
+        0,
+        0.5,
+        -10,
+        0,
+        1.3,
+        -9,
+        2,
+        2,
+        -9,
+        0,
+        3,
+        0,
+        2,
+        4,
+        0,
+        2,
+        4.5,
+        0
+      ]
+    },
+    {
       "Target": "Model",
       "Id": "Opacity",
       "Segments": [
@@ -380,6 +432,39 @@
     },
     {
       "Target": "Parameter",
+      "Id": "ParamClothes",
+      "Segments": [
+        0,
+        0,
+        0,
+        4.5,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamClothesY",
+      "Segments": [
+        0,
+        0,
+        0,
+        4.5,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamSkirt",
+      "Segments": [
+        0,
+        0,
+        0,
+        4.5,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "ParamSkirtY",
       "Segments": [
         0,
@@ -403,6 +488,28 @@
     {
       "Target": "Parameter",
       "Id": "ParamSleeveY",
+      "Segments": [
+        0,
+        0,
+        0,
+        4.5,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBag",
+      "Segments": [
+        0,
+        0,
+        0,
+        4.5,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBagY",
       "Segments": [
         0,
         0,

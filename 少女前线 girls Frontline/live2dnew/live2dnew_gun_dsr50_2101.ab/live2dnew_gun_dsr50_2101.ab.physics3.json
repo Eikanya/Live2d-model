@@ -3,7 +3,7 @@
   "Meta": {
     "PhysicsSettingCount": 16,
     "TotalInputCount": 49,
-    "TotalOutputCount": 19,
+    "TotalOutputCount": 22,
     "VertexCount": 33,
     "EffectiveForces": {
       "Gravity": {
@@ -734,17 +734,6 @@
           "Weight": 100,
           "Type": "Angle",
           "Reflect": false
-        },
-        {
-          "Destination": {
-            "Target": "Parameter",
-            "Id": "ParamHairBack2"
-          },
-          "VertexIndex": 1,
-          "Scale": 1.485,
-          "Weight": 100,
-          "Type": "Angle",
-          "Reflect": false
         }
       ],
       "Vertices": [
@@ -818,17 +807,6 @@
           "Destination": {
             "Target": "Parameter",
             "Id": "ParamHairBackY"
-          },
-          "VertexIndex": 1,
-          "Scale": 1,
-          "Weight": 100,
-          "Type": "Angle",
-          "Reflect": false
-        },
-        {
-          "Destination": {
-            "Target": "Parameter",
-            "Id": "ParamHairBack2Y"
           },
           "VertexIndex": 1,
           "Scale": 1,
@@ -916,6 +894,17 @@
           "Weight": 100,
           "Type": "Angle",
           "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "ParamSkirt2"
+          },
+          "VertexIndex": 1,
+          "Scale": 1.075,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
         }
       ],
       "Vertices": [
@@ -989,6 +978,17 @@
           "Destination": {
             "Target": "Parameter",
             "Id": "ParamSkirtY"
+          },
+          "VertexIndex": 1,
+          "Scale": 1,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "ParamSkirt2Y"
           },
           "VertexIndex": 1,
           "Scale": 1,
@@ -1121,7 +1121,19 @@
           "Reflect": false
         }
       ],
-      "Output": [],
+      "Output": [
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "ParamWine"
+          },
+          "VertexIndex": 1,
+          "Scale": 2,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        }
+      ],
       "Vertices": [
         {
           "Position": {
@@ -1188,7 +1200,19 @@
           "Reflect": false
         }
       ],
-      "Output": [],
+      "Output": [
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "ParamWineY"
+          },
+          "VertexIndex": 1,
+          "Scale": 2,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        }
+      ],
       "Vertices": [
         {
           "Position": {
@@ -1352,6 +1376,17 @@
           "Destination": {
             "Target": "Parameter",
             "Id": "ParamSkirtY"
+          },
+          "VertexIndex": 1,
+          "Scale": 1,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "ParamSleeveY"
           },
           "VertexIndex": 1,
           "Scale": 1,

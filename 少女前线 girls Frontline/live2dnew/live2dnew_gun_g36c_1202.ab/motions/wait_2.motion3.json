@@ -5,9 +5,9 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
-    "CurveCount": 26,
-    "TotalSegmentCount": 86,
-    "TotalPointCount": 106,
+    "CurveCount": 33,
+    "TotalSegmentCount": 106,
+    "TotalPointCount": 130,
     "UserDataCount": 1,
     "TotalUserDataSize": 0
   },
@@ -312,6 +312,46 @@
     },
     {
       "Target": "Parameter",
+      "Id": "ParamArmL",
+      "Segments": [
+        0,
+        0,
+        0,
+        0.767,
+        9,
+        1,
+        1.345,
+        9,
+        1.922,
+        9.057,
+        2.5,
+        8,
+        1,
+        2.878,
+        7.309,
+        3.255,
+        -3,
+        3.633,
+        -3,
+        0,
+        4.767,
+        -2,
+        2,
+        5.367,
+        -2,
+        0,
+        5.967,
+        10,
+        0,
+        6.5,
+        0,
+        2,
+        7,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "ParamArmLY",
       "Segments": [
         0,
@@ -331,6 +371,35 @@
         2,
         5.367,
         10,
+        0,
+        6.5,
+        0,
+        2,
+        7,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamArmR",
+      "Segments": [
+        0,
+        0,
+        0,
+        0.767,
+        -10,
+        0,
+        2.5,
+        0,
+        0,
+        3.5,
+        -5,
+        0,
+        4.767,
+        -3,
+        2,
+        5.367,
+        -3,
         0,
         6.5,
         0,
@@ -484,6 +553,39 @@
     },
     {
       "Target": "Parameter",
+      "Id": "ParamClothes",
+      "Segments": [
+        0,
+        0,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamClothesY",
+      "Segments": [
+        0,
+        0,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamSkirt",
+      "Segments": [
+        0,
+        0,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "ParamSkirtY",
       "Segments": [
         0,
@@ -507,6 +609,28 @@
     {
       "Target": "Parameter",
       "Id": "ParamSleeveY",
+      "Segments": [
+        0,
+        0,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBag",
+      "Segments": [
+        0,
+        0,
+        0,
+        7,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBagY",
       "Segments": [
         0,
         0,

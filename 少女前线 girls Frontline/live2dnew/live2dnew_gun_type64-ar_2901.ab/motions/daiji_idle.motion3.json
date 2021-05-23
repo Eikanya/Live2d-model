@@ -5,9 +5,9 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
-    "CurveCount": 30,
-    "TotalSegmentCount": 103,
-    "TotalPointCount": 155,
+    "CurveCount": 36,
+    "TotalSegmentCount": 120,
+    "TotalPointCount": 164,
     "UserDataCount": 1,
     "TotalUserDataSize": 0
   },
@@ -165,22 +165,17 @@
         2,
         5.767,
         1,
-        1,
-        5.8,
-        0.984,
-        5.834,
-        0.016,
+        0,
         5.867,
         0,
         2,
         5.9,
         0,
-        1,
-        5.956,
-        -0.008,
-        6.011,
-        1.008,
+        0,
         6.067,
+        1,
+        2,
+        13.533,
         1,
         2,
         13.567,
@@ -196,22 +191,17 @@
         2,
         5.767,
         1,
-        1,
-        5.8,
-        0.984,
-        5.834,
-        0.016,
+        0,
         5.867,
         0,
         2,
         5.9,
         0,
-        1,
-        5.956,
-        -0.008,
-        6.011,
-        1.008,
+        0,
         6.067,
+        1,
+        2,
+        13.533,
         1,
         2,
         13.567,
@@ -432,6 +422,44 @@
       ]
     },
     {
+      "Target": "Parameter",
+      "Id": "ParamFingerL",
+      "Segments": [
+        0,
+        0,
+        0,
+        1.1,
+        -0.84,
+        0,
+        2,
+        0.62,
+        0,
+        3.467,
+        -1,
+        0,
+        5.167,
+        0.75,
+        0,
+        6.567,
+        -0.54,
+        0,
+        8.133,
+        0.61,
+        0,
+        9.733,
+        -0.83,
+        0,
+        11.567,
+        0.59,
+        0,
+        13.5,
+        0,
+        2,
+        13.567,
+        0
+      ]
+    },
+    {
       "Target": "Model",
       "Id": "Opacity",
       "Segments": [
@@ -566,6 +594,61 @@
     {
       "Target": "Parameter",
       "Id": "ParamBodyAngleZ",
+      "Segments": [
+        0,
+        0,
+        0,
+        13.57,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamLegR",
+      "Segments": [
+        0,
+        0,
+        0,
+        13.57,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamLegR2",
+      "Segments": [
+        0,
+        0,
+        0,
+        13.57,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamLegR2Y",
+      "Segments": [
+        0,
+        0,
+        0,
+        13.57,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamLegL",
+      "Segments": [
+        0,
+        0.69,
+        0,
+        13.57,
+        0.69
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamLegL2",
       "Segments": [
         0,
         0,

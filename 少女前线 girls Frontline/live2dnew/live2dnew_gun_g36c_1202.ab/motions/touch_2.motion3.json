@@ -5,9 +5,9 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
-    "CurveCount": 26,
-    "TotalSegmentCount": 151,
-    "TotalPointCount": 281,
+    "CurveCount": 33,
+    "TotalSegmentCount": 173,
+    "TotalPointCount": 315,
     "UserDataCount": 1,
     "TotalUserDataSize": 0
   },
@@ -752,6 +752,49 @@
     },
     {
       "Target": "Parameter",
+      "Id": "ParamArmL",
+      "Segments": [
+        0,
+        0,
+        0,
+        0.467,
+        5.92,
+        0,
+        0.967,
+        0,
+        1,
+        1.156,
+        0,
+        1.344,
+        5.402,
+        1.533,
+        6.77,
+        1,
+        1.722,
+        8.138,
+        1.911,
+        8,
+        2.1,
+        8,
+        0,
+        2.867,
+        -6,
+        0,
+        3.5,
+        0,
+        2,
+        5,
+        0,
+        2,
+        5.5,
+        0,
+        2,
+        6.033,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "ParamArmLY",
       "Segments": [
         0,
@@ -773,6 +816,54 @@
         3.078,
         -0.805,
         3.289,
+        0,
+        3.5,
+        0,
+        2,
+        5,
+        0,
+        2,
+        5.5,
+        0,
+        2,
+        6.033,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamArmR",
+      "Segments": [
+        0,
+        0,
+        1,
+        0.156,
+        0,
+        0.311,
+        5.872,
+        0.467,
+        5.92,
+        1,
+        0.634,
+        5.971,
+        0.8,
+        5.95,
+        0.967,
+        6,
+        1,
+        1.156,
+        6.057,
+        1.344,
+        6.313,
+        1.533,
+        6.77,
+        1,
+        1.722,
+        7.227,
+        1.911,
+        10,
+        2.1,
+        10,
         0,
         3.5,
         0,
@@ -899,6 +990,39 @@
     },
     {
       "Target": "Parameter",
+      "Id": "ParamClothes",
+      "Segments": [
+        0,
+        0,
+        0,
+        6.033,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamClothesY",
+      "Segments": [
+        0,
+        0,
+        0,
+        6.033,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamSkirt",
+      "Segments": [
+        0,
+        0,
+        0,
+        6.033,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "ParamSkirtY",
       "Segments": [
         0,
@@ -922,6 +1046,28 @@
     {
       "Target": "Parameter",
       "Id": "ParamSleeveY",
+      "Segments": [
+        0,
+        0,
+        0,
+        6.033,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBag",
+      "Segments": [
+        0,
+        0,
+        0,
+        6.033,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamBagY",
       "Segments": [
         0,
         0,
