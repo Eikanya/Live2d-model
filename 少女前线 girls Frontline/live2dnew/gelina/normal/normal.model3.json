@@ -1,0 +1,112 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "normal.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "normal.physics3.json",
+    "Motions": {
+      "": [
+        {
+          "File": "motions/buy_1.motion3.json"
+        },
+        {
+          "File": "motions/buy_2.motion3.json"
+        },
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        },
+        {
+          "File": "motions/daiji_idle_02.motion3.json"
+        },
+        {
+          "File": "motions/enter_shop.motion3.json"
+        },
+        {
+          "File": "motions/kalina_004.motion3.json"
+        },
+        {
+          "File": "motions/kalina_014.motion3.json"
+        },
+        {
+          "File": "motions/kalina_024.motion3.json"
+        },
+        {
+          "File": "motions/kalina_025.motion3.json"
+        },
+        {
+          "File": "motions/kalina_027.motion3.json"
+        },
+        {
+          "File": "motions/kalina_030.motion3.json"
+        },
+        {
+          "File": "motions/kalina_035.motion3.json"
+        },
+        {
+          "File": "motions/kalina_037.motion3.json"
+        },
+        {
+          "File": "motions/kalina_043.motion3.json"
+        },
+        {
+          "File": "motions/kalina_054.motion3.json"
+        },
+        {
+          "File": "motions/levelup.motion3.json"
+        },
+        {
+          "File": "motions/mall_01.motion3.json"
+        },
+        {
+          "File": "motions/mall_02.motion3.json"
+        },
+        {
+          "File": "motions/mall_03.motion3.json"
+        },
+        {
+          "File": "motions/mall_04.motion3.json"
+        },
+        {
+          "File": "motions/shake.motion3.json"
+        },
+        {
+          "File": "motions/touch_arm.motion3.json"
+        },
+        {
+          "File": "motions/touch_breast.motion3.json"
+        },
+        {
+          "File": "motions/touch_head.motion3.json"
+        },
+        {
+          "File": "motions/wait_1_idle_02.motion3.json"
+        },
+        {
+          "File": "motions/wait_2.motion3.json"
+        },
+        {
+          "File": "motions/wait_3.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeROpen",
+        "ParamEyeLOpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

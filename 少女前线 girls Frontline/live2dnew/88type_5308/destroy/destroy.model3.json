@@ -1,0 +1,62 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "destroy.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": "destroy.physics3.json",
+    "Motions": {
+      "": [
+        {
+          "File": "motions/broken_1.motion3.json"
+        },
+        {
+          "File": "motions/broken_2.motion3.json"
+        },
+        {
+          "File": "motions/broken_3.motion3.json"
+        },
+        {
+          "File": "motions/broken_4.motion3.json"
+        },
+        {
+          "File": "motions/broken_5.motion3.json"
+        },
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        },
+        {
+          "File": "motions/login.motion3.json"
+        },
+        {
+          "File": "motions/shake.motion3.json"
+        },
+        {
+          "File": "motions/wait_1.motion3.json"
+        },
+        {
+          "File": "motions/wait_2.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeROpen",
+        "ParamEyeLOpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "normal.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "normal.physics3.json",
+    "Motions": {
+      "": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        },
+        {
+          "File": "motions/login.motion3.json"
+        },
+        {
+          "File": "motions/shake.motion3.json"
+        },
+        {
+          "File": "motions/touch_1.motion3.json"
+        },
+        {
+          "File": "motions/touch_2.motion3.json"
+        },
+        {
+          "File": "motions/touch_3.motion3.json"
+        },
+        {
+          "File": "motions/touch_4.motion3.json"
+        },
+        {
+          "File": "motions/touch_5.motion3.json"
+        },
+        {
+          "File": "motions/wait_1.motion3.json"
+        },
+        {
+          "File": "motions/wait_2.motion3.json"
+        },
+        {
+          "File": "motions/wedding.motion3.json"
+        },
+        {
+          "File": "motions/wedding_touch.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeROpen",
+        "ParamEyeLOpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "normal.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "normal.physics3.json",
+    "Motions": {
+      "": [
+        {
+          "File": "motions/daiji_idle_01.motion3.json"
+        },
+        {
+          "File": "motions/login.motion3.json"
+        },
+        {
+          "File": "motions/motou_01.motion3.json"
+        },
+        {
+          "File": "motions/motou_02.motion3.json"
+        },
+        {
+          "File": "motions/motou_03.motion3.json"
+        },
+        {
+          "File": "motions/moxiong_01.motion3.json"
+        },
+        {
+          "File": "motions/moxiong_02.motion3.json"
+        },
+        {
+          "File": "motions/moxiong_03.motion3.json"
+        },
+        {
+          "File": "motions/newyear.motion3.json"
+        },
+        {
+          "File": "motions/shake.motion3.json"
+        },
+        {
+          "File": "motions/shoucase.motion3.json"
+        },
+        {
+          "File": "motions/shuohua_01.motion3.json"
+        },
+        {
+          "File": "motions/shuohua_02.motion3.json"
+        },
+        {
+          "File": "motions/shuohua_03.motion3.json"
+        },
+        {
+          "File": "motions/wait_1.motion3.json"
+        },
+        {
+          "File": "motions/wait_2.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}
