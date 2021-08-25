@@ -3,6 +3,9 @@
 **Girl Cafe cancer**
 **ガールカフェガン**
 
+**日服与2021.8.31停服。此live2d和spine资源不完整，如有需要请自行提取。spine动态在2dAnimation文件夹，就是氪金购买的皮肤**
+
+
 配置模型推荐用Live2DViewerEX，比较容易配置。
 
 **Live2d模型提取和语音提取方法
@@ -54,8 +57,7 @@ voice的文件夹是提取音频的文件，有6个文件
 3.可以运行delwem.bat  删除.web文件。
 
 
-```
-spine动态在2dAnimation文件夹，就是氪金购买的皮肤。
+
 
 
 ```
