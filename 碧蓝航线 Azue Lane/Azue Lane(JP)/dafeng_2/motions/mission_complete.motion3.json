@@ -4,9 +4,10 @@
     "Duration": 7.77,
     "Fps": 30.0,
     "Loop": true,
+    "AreBeziersRestricted": true,
     "CurveCount": 206,
-    "TotalSegmentCount": 928,
-    "TotalPointCount": 1114,
+    "TotalSegmentCount": 932,
+    "TotalPointCount": 1118,
     "UserDataCount": 2,
     "TotalUserDataSize": 0
   },
@@ -1262,6 +1263,29 @@
     },
     {
       "Target": "Parameter",
+      "Id": "ParamMouthForm",
+      "Segments": [
+        0,
+        1,
+        2,
+        2.3,
+        1,
+        0,
+        3.6,
+        -1,
+        0,
+        4.4,
+        1,
+        0,
+        4.7,
+        -1,
+        0,
+        7.767,
+        1
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "ZXBXZ",
       "Segments": [
         0,
@@ -2177,25 +2201,25 @@
         -0.489,
         0,
         5.433,
-        0.709,
+        0.497,
         0,
         5.8,
-        -0.223,
+        -0.115,
         0,
         6.233,
-        0.387,
+        0.123,
         0,
         6.533,
-        -0.182,
+        -0.098,
         0,
         6.967,
-        0.135,
+        -0.001,
         0,
         7.467,
-        -0.131,
+        -0.037,
         0,
         7.767,
-        0.051
+        0
       ]
     },
     {
@@ -3747,17 +3771,6 @@
     },
     {
       "Target": "Parameter",
-      "Id": "ParamMouthForm",
-      "Segments": [
-        0,
-        1,
-        0,
-        7.77,
-        1
-      ]
-    },
-    {
-      "Target": "Parameter",
       "Id": "ParamMouthOpenY",
       "Segments": [
         0,
@@ -4815,11 +4828,11 @@
   ],
   "UserData": [
     {
-      "Time": 7.27,
+      "Time": 0.0,
       "Value": ""
     },
     {
-      "Time": 0.0,
+      "Time": 7.27,
       "Value": ""
     }
   ]

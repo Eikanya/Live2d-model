@@ -4,9 +4,10 @@
     "Duration": 30.0,
     "Fps": 30.0,
     "Loop": true,
+    "AreBeziersRestricted": true,
     "CurveCount": 210,
-    "TotalSegmentCount": 2457,
-    "TotalPointCount": 3961,
+    "TotalSegmentCount": 2462,
+    "TotalPointCount": 3966,
     "UserDataCount": 2,
     "TotalUserDataSize": 0
   },
@@ -3385,6 +3386,12 @@
         0,
         1,
         0,
+        1.7,
+        -1,
+        0,
+        2.633,
+        1,
+        0,
         3.633,
         -1,
         0,
@@ -3396,7 +3403,16 @@
         0,
         18,
         1,
-        2,
+        0,
+        19.2,
+        -1,
+        0,
+        20.867,
+        1,
+        0,
+        22.633,
+        -1,
+        0,
         24,
         1,
         0,
@@ -4718,8 +4734,8 @@
       ]
     },
     {
-      "Target": "2834155349",
-      "Id": "2834155349",
+      "Target": "Parameter",
+      "Id": "shoujiubeixiatuceng",
       "Segments": [
         0,
         0,
@@ -4840,8 +4856,8 @@
       ]
     },
     {
-      "Target": "460155192",
-      "Id": "460155192",
+      "Target": "Parameter",
+      "Id": "xiongjiubeijiaodu",
       "Segments": [
         0,
         0,
@@ -4894,8 +4910,8 @@
       ]
     },
     {
-      "Target": "401832459",
-      "Id": "401832459",
+      "Target": "Parameter",
+      "Id": "xiongjieubeibianxing",
       "Segments": [
         0,
         0,
@@ -12070,11 +12086,11 @@
   ],
   "UserData": [
     {
-      "Time": 29.5,
+      "Time": 0.0,
       "Value": ""
     },
     {
-      "Time": 0.0,
+      "Time": 29.5,
       "Value": ""
     }
   ]

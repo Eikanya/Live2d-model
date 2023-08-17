@@ -4,9 +4,10 @@
     "Duration": 9.2,
     "Fps": 30.0,
     "Loop": true,
+    "AreBeziersRestricted": true,
     "CurveCount": 205,
-    "TotalSegmentCount": 1008,
-    "TotalPointCount": 1288,
+    "TotalSegmentCount": 1015,
+    "TotalPointCount": 1291,
     "UserDataCount": 2,
     "TotalUserDataSize": 0
   },
@@ -1158,6 +1159,29 @@
     },
     {
       "Target": "Parameter",
+      "Id": "muyudaxiao",
+      "Segments": [
+        0,
+        0,
+        2,
+        1.167,
+        0,
+        0,
+        1.567,
+        -0.6,
+        0,
+        3,
+        0,
+        2,
+        4.8,
+        0,
+        2,
+        9.2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "ParamEyeBallX",
       "Segments": [
         0,
@@ -1442,7 +1466,16 @@
       "Segments": [
         0,
         1,
-        2,
+        0,
+        0.7,
+        -1,
+        0,
+        1.067,
+        1,
+        0,
+        1.367,
+        -0.3,
+        0,
         3.567,
         1,
         0,
@@ -1451,43 +1484,24 @@
         2,
         4.667,
         -1,
+        0,
+        5.267,
         1,
-        5.011,
-        -1,
-        5.356,
-        -1.033,
+        0,
         5.7,
         -0.8,
+        0,
+        6.067,
         1,
-        6.011,
-        -0.59,
-        6.322,
-        1,
-        6.633,
+        0,
+        7.167,
+        -1,
+        0,
+        7.5,
         1,
         2,
         9.2,
         1
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "ParamMouthOpenY",
-      "Segments": [
-        0,
-        0,
-        2,
-        3.567,
-        0,
-        0,
-        4.667,
-        1,
-        0,
-        6.9,
-        0,
-        2,
-        9.2,
-        0
       ]
     },
     {
@@ -4321,7 +4335,7 @@
     },
     {
       "Target": "Parameter",
-      "Id": "muyudaxiao",
+      "Id": "muyu1",
       "Segments": [
         0,
         0,
@@ -4332,7 +4346,7 @@
     },
     {
       "Target": "Parameter",
-      "Id": "muyu1",
+      "Id": "ParamMouthOpenY",
       "Segments": [
         0,
         0,
@@ -5235,11 +5249,11 @@
   ],
   "UserData": [
     {
-      "Time": 8.7,
+      "Time": 0.0,
       "Value": ""
     },
     {
-      "Time": 0.0,
+      "Time": 8.7,
       "Value": ""
     }
   ]
