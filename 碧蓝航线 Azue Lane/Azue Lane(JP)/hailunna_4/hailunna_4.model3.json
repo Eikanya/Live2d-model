@@ -1,0 +1,64 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "Bounds": {
+    "Width": 2231.176,
+    "Height": 1762.696,
+    "CenterX": 10.0,
+    "CenterY": -61.29858
+  },
+  "FileReferences": {
+    "Moc": "hailunna_4.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "hailunna_4.physics3.json",
+    "PhysicsV2": {
+      "File": "hailunna_4.physics3.json"
+    }
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 5.0
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "Options": {}
+}
