@@ -51,3 +51,5 @@ Live2d模型也可以用于facerig，当虚拟角色，vtuber出道。
 
 [FastGit](https://fastgit.org/)
 
+`git config --global https.postBuffer 20480M`
+`git clone https://github.com/Eikanya/Live2d-model`
