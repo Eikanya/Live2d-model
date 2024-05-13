@@ -1,0 +1,107 @@
+{
+  "Version": 3,
+  "Name": "dafeng_2_hx",
+  "FileReferences": {
+    "Moc": "dafeng_2_hx.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": null,
+    "Physics": "dafeng_2_hx.physics3.json",
+    "Motions": {
+      "complete": [
+        {
+          "File": "motions/complete.motion3.json"
+        }
+      ],
+      "effect": [
+        {
+          "File": "motions/effect.motion3.json"
+        }
+      ],
+      "home": [
+        {
+          "File": "motions/home.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "login": [
+        {
+          "File": "motions/login.motion3.json"
+        }
+      ],
+      "mail": [
+        {
+          "File": "motions/mail.motion3.json"
+        }
+      ],
+      "main_1": [
+        {
+          "File": "motions/main_1.motion3.json"
+        }
+      ],
+      "main_2": [
+        {
+          "File": "motions/main_2.motion3.json"
+        }
+      ],
+      "main_3": [
+        {
+          "File": "motions/main_3.motion3.json"
+        }
+      ],
+      "mission": [
+        {
+          "File": "motions/mission.motion3.json"
+        }
+      ],
+      "mission_complete": [
+        {
+          "File": "motions/mission_complete.motion3.json"
+        }
+      ],
+      "touch_body": [
+        {
+          "File": "motions/touch_body.motion3.json"
+        }
+      ],
+      "touch_head": [
+        {
+          "File": "motions/touch_head.motion3.json"
+        }
+      ],
+      "touch_special": [
+        {
+          "File": "motions/touch_special.motion3.json"
+        }
+      ],
+      "wedding": [
+        {
+          "File": "motions/wedding.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}
