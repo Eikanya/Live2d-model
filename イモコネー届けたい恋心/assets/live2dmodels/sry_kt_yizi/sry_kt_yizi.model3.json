@@ -1,0 +1,102 @@
+{
+  "Version": 3,
+  "Name": "sry_kt_yizi",
+  "FileReferences": {
+    "Moc": "sry_kt_yizi.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "sry_kt_yizi.cdi3.json",
+    "Physics": null,
+    "Motions": {
+      "breast_touch_angry": [
+        {
+          "File": "motions/breast_touch_angry.motion3.json"
+        }
+      ],
+      "breast_touch_shy": [
+        {
+          "File": "motions/breast_touch_shy.motion3.json"
+        }
+      ],
+      "face_touch_angry": [
+        {
+          "File": "motions/face_touch_angry.motion3.json"
+        }
+      ],
+      "hair_touch_angry": [
+        {
+          "File": "motions/hair_touch_angry.motion3.json"
+        }
+      ],
+      "hair_touch_enjoy": [
+        {
+          "File": "motions/hair_touch_enjoy.motion3.json"
+        }
+      ],
+      "hair_touch_puzzled": [
+        {
+          "File": "motions/hair_touch_puzzled.motion3.json"
+        }
+      ],
+      "hair_touch_shy": [
+        {
+          "File": "motions/hair_touch_shy.motion3.json"
+        }
+      ],
+      "idle_change": [
+        {
+          "File": "motions/idle_change.motion3.json"
+        }
+      ],
+      "idle1": [
+        {
+          "File": "motions/idle1.motion3.json"
+        }
+      ],
+      "idle2": [
+        {
+          "File": "motions/idle2.motion3.json"
+        }
+      ],
+      "leg_touch_angry": [
+        {
+          "File": "motions/leg_touch_angry.motion3.json"
+        }
+      ],
+      "leg_touch_legup": [
+        {
+          "File": "motions/leg_touch_legup.motion3.json"
+        }
+      ],
+      "Panties_touch_legdown": [
+        {
+          "File": "motions/Panties_touch_legdown.motion3.json"
+        }
+      ],
+      "Panties_touch_shy": [
+        {
+          "File": "motions/Panties_touch_shy.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

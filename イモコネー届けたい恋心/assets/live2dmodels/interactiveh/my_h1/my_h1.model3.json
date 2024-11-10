@@ -1,0 +1,137 @@
+{
+  "Version": 3,
+  "Name": "my_h1",
+  "FileReferences": {
+    "Moc": "my_h1.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "my_h1.cdi3.json",
+    "Physics": null,
+    "Motions": {
+      "01_idle": [
+        {
+          "File": "motions/01_idle.motion3.json"
+        }
+      ],
+      "02_kiss": [
+        {
+          "File": "motions/02_kiss.motion3.json"
+        }
+      ],
+      "03_ribbon_off": [
+        {
+          "File": "motions/03_ribbon_off.motion3.json"
+        }
+      ],
+      "04_clothe_off_01": [
+        {
+          "File": "motions/04_clothe_off_01.motion3.json"
+        }
+      ],
+      "05_clothe_off_02": [
+        {
+          "File": "motions/05_clothe_off_02.motion3.json"
+        }
+      ],
+      "06_bra_off": [
+        {
+          "File": "motions/06_bra_off.motion3.json"
+        }
+      ],
+      "07_skirt_up": [
+        {
+          "File": "motions/07_skirt_up.motion3.json"
+        }
+      ],
+      "08_idle": [
+        {
+          "File": "motions/08_idle.motion3.json"
+        }
+      ],
+      "09_arm_behind": [
+        {
+          "File": "motions/09_arm_behind.motion3.json"
+        }
+      ],
+      "10_idle": [
+        {
+          "File": "motions/10_idle.motion3.json"
+        }
+      ],
+      "11_idle": [
+        {
+          "File": "motions/11_idle.motion3.json"
+        }
+      ],
+      "12_console": [
+        {
+          "File": "motions/12_console.motion3.json"
+        }
+      ],
+      "13_idle": [
+        {
+          "File": "motions/13_idle.motion3.json"
+        }
+      ],
+      "14_penisin_1": [
+        {
+          "File": "motions/14_penisin_1.motion3.json"
+        }
+      ],
+      "15_penisin_2": [
+        {
+          "File": "motions/15_penisin_2.motion3.json"
+        }
+      ],
+      "16_idle": [
+        {
+          "File": "motions/16_idle.motion3.json"
+        }
+      ],
+      "17_piston1": [
+        {
+          "File": "motions/17_piston1.motion3.json"
+        }
+      ],
+      "18_piston2": [
+        {
+          "File": "motions/18_piston2.motion3.json"
+        }
+      ],
+      "19_piston3": [
+        {
+          "File": "motions/19_piston3.motion3.json"
+        }
+      ],
+      "20_gonobolia": [
+        {
+          "File": "motions/20_gonobolia.motion3.json"
+        }
+      ],
+      "21_idle": [
+        {
+          "File": "motions/21_idle.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "Version": 3,
+  "Name": "sry_kt_shafa",
+  "FileReferences": {
+    "Moc": "sry_kt_shafa.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "sry_kt_shafa.cdi3.json",
+    "Physics": null,
+    "Motions": {
+      "5hit_buttocks2": [
+        {
+          "File": "motions/5hit_buttocks2.motion3.json"
+        }
+      ],
+      "darg_buttocks": [
+        {
+          "File": "motions/darg_buttocks.motion3.json"
+        }
+      ],
+      "hit_buttocks_angry": [
+        {
+          "File": "motions/hit_buttocks_angry.motion3.json"
+        }
+      ],
+      "hit_buttocks_shy": [
+        {
+          "File": "motions/hit_buttocks_shy.motion3.json"
+        }
+      ],
+      "hit_chest_angry": [
+        {
+          "File": "motions/hit_chest_angry.motion3.json"
+        }
+      ],
+      "hit_chest_shy": [
+        {
+          "File": "motions/hit_chest_shy.motion3.json"
+        }
+      ],
+      "hit_face": [
+        {
+          "File": "motions/hit_face.motion3.json"
+        }
+      ],
+      "hit_foot": [
+        {
+          "File": "motions/hit_foot.motion3.json"
+        }
+      ],
+      "hit_head": [
+        {
+          "File": "motions/hit_head.motion3.json"
+        }
+      ],
+      "idle1": [
+        {
+          "File": "motions/idle1.motion3.json"
+        }
+      ],
+      "idle2": [
+        {
+          "File": "motions/idle2.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

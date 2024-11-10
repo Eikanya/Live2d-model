@@ -1,0 +1,87 @@
+{
+  "Version": 3,
+  "Name": "a_001",
+  "FileReferences": {
+    "Moc": "a_001.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "a_001.cdi3.json",
+    "Physics": "a_001.physics3.json",
+    "Motions": {
+      "压裙子": [
+        {
+          "File": "motions/压裙子.motion3.json"
+        }
+      ],
+      "待机": [
+        {
+          "File": "motions/待机.motion3.json"
+        }
+      ],
+      "打哈欠": [
+        {
+          "File": "motions/打哈欠.motion3.json"
+        }
+      ],
+      "拖拽毛衣": [
+        {
+          "File": "motions/拖拽毛衣.motion3.json"
+        }
+      ],
+      "掀裙子（低好感）": [
+        {
+          "File": "motions/掀裙子（低好感）.motion3.json"
+        }
+      ],
+      "掀裙子（高好感）": [
+        {
+          "File": "motions/掀裙子（高好感）.motion3.json"
+        }
+      ],
+      "揉眼睛": [
+        {
+          "File": "motions/揉眼睛.motion3.json"
+        }
+      ],
+      "摸头": [
+        {
+          "File": "motions/摸头.motion3.json"
+        }
+      ],
+      "摸胸（低好感）": [
+        {
+          "File": "motions/摸胸（低好感）.motion3.json"
+        }
+      ],
+      "摸胸（高好感）": [
+        {
+          "File": "motions/摸胸（高好感）.motion3.json"
+        }
+      ],
+      "诱惑": [
+        {
+          "File": "motions/诱惑.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

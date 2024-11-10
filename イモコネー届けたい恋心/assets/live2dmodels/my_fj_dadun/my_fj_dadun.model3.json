@@ -1,0 +1,122 @@
+{
+  "Version": 3,
+  "Name": "my_fj_dadun",
+  "FileReferences": {
+    "Moc": "my_fj_dadun.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "my_fj_dadun.cdi3.json",
+    "Physics": null,
+    "Motions": {
+      "01_idle_1": [
+        {
+          "File": "motions/01_idle_1.motion3.json"
+        }
+      ],
+      "02_sleeptouch_1": [
+        {
+          "File": "motions/02_sleeptouch_1.motion3.json"
+        }
+      ],
+      "03_sleeptouch_2": [
+        {
+          "File": "motions/03_sleeptouch_2.motion3.json"
+        }
+      ],
+      "04_sleeptouch_3": [
+        {
+          "File": "motions/04_sleeptouch_3.motion3.json"
+        }
+      ],
+      "05_wake": [
+        {
+          "File": "motions/05_wake.motion3.json"
+        }
+      ],
+      "06_idle_2": [
+        {
+          "File": "motions/06_idle_2.motion3.json"
+        }
+      ],
+      "07_touch_head": [
+        {
+          "File": "motions/07_touch_head.motion3.json"
+        }
+      ],
+      "08_raise_skirt_1": [
+        {
+          "File": "motions/08_raise_skirt_1.motion3.json"
+        }
+      ],
+      "08_raise_skirt_1_param": [
+        {
+          "File": "motions/08_raise_skirt_1_param.motion3.json"
+        }
+      ],
+      "09_raise_skirt_2": [
+        {
+          "File": "motions/09_raise_skirt_2.motion3.json"
+        }
+      ],
+      "09_raise_skirt_2_param": [
+        {
+          "File": "motions/09_raise_skirt_2_param.motion3.json"
+        }
+      ],
+      "10_switch_takeoff_skirt": [
+        {
+          "File": "motions/10_switch_takeoff_skirt.motion3.json"
+        }
+      ],
+      "11_switch_takeoff_pants": [
+        {
+          "File": "motions/11_switch_takeoff_pants.motion3.json"
+        }
+      ],
+      "12_touch_briefs_2": [
+        {
+          "File": "motions/12_touch_briefs_2.motion3.json"
+        }
+      ],
+      "13_takeoffclothes": [
+        {
+          "File": "motions/13_takeoffclothes.motion3.json"
+        }
+      ],
+      "14_touch_chest": [
+        {
+          "File": "motions/14_touch_chest.motion3.json"
+        }
+      ],
+      "15_idle_3": [
+        {
+          "File": "motions/15_idle_3.motion3.json"
+        }
+      ],
+      "16_touch_chest_2": [
+        {
+          "File": "motions/16_touch_chest_2.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeROpen",
+        "ParamEyeLOpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

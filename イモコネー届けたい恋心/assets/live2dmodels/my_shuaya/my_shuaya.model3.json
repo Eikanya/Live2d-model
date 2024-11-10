@@ -1,0 +1,114 @@
+{
+  "Version": 3,
+  "Name": "my_shuaya",
+  "FileReferences": {
+    "Moc": "my_shuaya.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png",
+      "textures/texture_02.png"
+    ],
+    "DisplayInfo": "my_shuaya.cdi3.json",
+    "Physics": "my_shuaya.physics3.json",
+    "Motions": {
+      "挡胖吃": [
+        {
+          "File": "motions/挡胖吃.motion3.json"
+        }
+      ],
+      "挡胖吃 回正": [
+        {
+          "File": "motions/挡胖吃 回正.motion3.json"
+        }
+      ],
+      "挡胖吃不循环": [
+        {
+          "File": "motions/挡胖吃不循环.motion3.json"
+        }
+      ],
+      "挡胖吃循环": [
+        {
+          "File": "motions/挡胖吃循环.motion3.json"
+        }
+      ],
+      "摸头侧面": [
+        {
+          "File": "motions/摸头侧面.motion3.json"
+        }
+      ],
+      "摸头侧面(散发)": [
+        {
+          "File": "motions/摸头侧面(散发).motion3.json"
+        }
+      ],
+      "摸头正面": [
+        {
+          "File": "motions/摸头正面.motion3.json"
+        }
+      ],
+      "摸头正面(散发)": [
+        {
+          "File": "motions/摸头正面(散发).motion3.json"
+        }
+      ],
+      "摸屁股": [
+        {
+          "File": "motions/摸屁股.motion3.json"
+        }
+      ],
+      "摸屁股 (散发)": [
+        {
+          "File": "motions/摸屁股 (散发).motion3.json"
+        }
+      ],
+      "摸胸反馈（低好感）": [
+        {
+          "File": "motions/摸胸反馈（低好感）.motion3.json"
+        }
+      ],
+      "摸胸反馈（高好感）": [
+        {
+          "File": "motions/摸胸反馈（高好感）.motion3.json"
+        }
+      ],
+      "散发循环（看镜头）": [
+        {
+          "File": "motions/散发循环（看镜头）.motion3.json"
+        }
+      ],
+      "散发循环（看镜子）": [
+        {
+          "File": "motions/散发循环（看镜子）.motion3.json"
+        }
+      ],
+      "绑头循环（看镜头）": [
+        {
+          "File": "motions/绑头循环（看镜头）.motion3.json"
+        }
+      ],
+      "绑头循环（看镜子）": [
+        {
+          "File": "motions/绑头循环（看镜子）.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

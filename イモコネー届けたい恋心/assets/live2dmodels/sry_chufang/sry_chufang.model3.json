@@ -1,0 +1,115 @@
+{
+  "Version": 3,
+  "Name": "sry_chufang",
+  "FileReferences": {
+    "Moc": "sry_chufang.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png",
+      "textures/texture_02.png",
+      "textures/texture_03.png"
+    ],
+    "DisplayInfo": "sry_chufang.cdi3.json",
+    "Physics": null,
+    "Motions": {
+      "jj_cf_c1": [
+        {
+          "File": "motions/jj_cf_c1.motion3.json"
+        }
+      ],
+      "jj_cf_c2": [
+        {
+          "File": "motions/jj_cf_c2.motion3.json"
+        }
+      ],
+      "jj_cf_c3": [
+        {
+          "File": "motions/jj_cf_c3.motion3.json"
+        }
+      ],
+      "jj_cf_c4": [
+        {
+          "File": "motions/jj_cf_c4.motion3.json"
+        }
+      ],
+      "jj_cf_c5": [
+        {
+          "File": "motions/jj_cf_c5.motion3.json"
+        }
+      ],
+      "jj_cf_c6": [
+        {
+          "File": "motions/jj_cf_c6.motion3.json"
+        }
+      ],
+      "jj_cf_c7": [
+        {
+          "File": "motions/jj_cf_c7.motion3.json"
+        }
+      ],
+      "jj_cf_c8": [
+        {
+          "File": "motions/jj_cf_c8.motion3.json"
+        }
+      ],
+      "jj_cf_z1": [
+        {
+          "File": "motions/jj_cf_z1.motion3.json"
+        }
+      ],
+      "jj_cf_z2": [
+        {
+          "File": "motions/jj_cf_z2.motion3.json"
+        }
+      ],
+      "jj_cf_z3": [
+        {
+          "File": "motions/jj_cf_z3.motion3.json"
+        }
+      ],
+      "jj_cf_z4": [
+        {
+          "File": "motions/jj_cf_z4.motion3.json"
+        }
+      ],
+      "jj_cf_z5": [
+        {
+          "File": "motions/jj_cf_z5.motion3.json"
+        }
+      ],
+      "jj_cf_z6": [
+        {
+          "File": "motions/jj_cf_z6.motion3.json"
+        }
+      ],
+      "jj_cf_z7": [
+        {
+          "File": "motions/jj_cf_z7.motion3.json"
+        }
+      ],
+      "jj_cf_z8": [
+        {
+          "File": "motions/jj_cf_z8.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeROpen",
+        "ParamEyeLOpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

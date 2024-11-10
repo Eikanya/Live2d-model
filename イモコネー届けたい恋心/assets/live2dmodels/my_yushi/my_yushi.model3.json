@@ -1,0 +1,57 @@
+{
+  "Version": 3,
+  "Name": "my_yushi",
+  "FileReferences": {
+    "Moc": "my_yushi.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "my_yushi.cdi3.json",
+    "Physics": null,
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/Idle.motion3.json"
+        }
+      ],
+      "戳脸蛋": [
+        {
+          "File": "motions/戳脸蛋.motion3.json"
+        }
+      ],
+      "摸大腿": [
+        {
+          "File": "motions/摸大腿.motion3.json"
+        }
+      ],
+      "摸头": [
+        {
+          "File": "motions/摸头.motion3.json"
+        }
+      ],
+      "摸胸": [
+        {
+          "File": "motions/摸胸.motion3.json"
+        }
+      ],
+      "生气": [
+        {
+          "File": "motions/生气.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ]
+}

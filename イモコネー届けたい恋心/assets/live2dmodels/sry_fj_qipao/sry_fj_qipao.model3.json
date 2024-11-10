@@ -1,0 +1,67 @@
+{
+  "Version": 3,
+  "Name": "sry_fj_qipao",
+  "FileReferences": {
+    "Moc": "sry_fj_qipao.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "sry_fj_qipao.cdi3.json",
+    "Physics": null,
+    "Motions": {
+      "idle1": [
+        {
+          "File": "motions/idle1.motion3.json"
+        }
+      ],
+      "idle2": [
+        {
+          "File": "motions/idle2.motion3.json"
+        }
+      ],
+      "SilkStockings": [
+        {
+          "File": "motions/SilkStockings.motion3.json"
+        }
+      ],
+      "Touch_1": [
+        {
+          "File": "motions/Touch_1.motion3.json"
+        }
+      ],
+      "Touch_2": [
+        {
+          "File": "motions/Touch_2.motion3.json"
+        }
+      ],
+      "Touch_S1": [
+        {
+          "File": "motions/Touch_S1.motion3.json"
+        }
+      ],
+      "Touch_S2": [
+        {
+          "File": "motions/Touch_S2.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

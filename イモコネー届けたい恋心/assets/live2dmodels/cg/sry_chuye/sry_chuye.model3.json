@@ -1,0 +1,77 @@
+{
+  "Version": 3,
+  "Name": "sry_chuye",
+  "FileReferences": {
+    "Moc": "sry_chuye.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "sry_chuye.cdi3.json",
+    "Physics": "sry_chuye.physics3.json",
+    "Motions": {
+      "体外": [
+        {
+          "File": "motions/体外.motion3.json"
+        }
+      ],
+      "体外射": [
+        {
+          "File": "motions/体外射.motion3.json"
+        }
+      ],
+      "体外磨蹭": [
+        {
+          "File": "motions/体外磨蹭.motion3.json"
+        }
+      ],
+      "最快": [
+        {
+          "File": "motions/最快.motion3.json"
+        }
+      ],
+      "快": [
+        {
+          "File": "motions/快.motion3.json"
+        }
+      ],
+      "慢": [
+        {
+          "File": "motions/慢.motion3.json"
+        }
+      ],
+      "插入": [
+        {
+          "File": "motions/插入.motion3.json"
+        }
+      ],
+      "胖次穿上": [
+        {
+          "File": "motions/胖次穿上.motion3.json"
+        }
+      ],
+      "高潮": [
+        {
+          "File": "motions/高潮.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

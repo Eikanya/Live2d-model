@@ -1,0 +1,82 @@
+{
+  "Version": 3,
+  "Name": "b_101",
+  "FileReferences": {
+    "Moc": "b_101.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "b_101.cdi3.json",
+    "Physics": null,
+    "Motions": {
+      "侧面待机1": [
+        {
+          "File": "motions/侧面待机1.motion3.json"
+        }
+      ],
+      "侧面待机2": [
+        {
+          "File": "motions/侧面待机2.motion3.json"
+        }
+      ],
+      "侧面转向正面": [
+        {
+          "File": "motions/侧面转向正面.motion3.json"
+        }
+      ],
+      "戳脸（正面）": [
+        {
+          "File": "motions/戳脸（正面）.motion3.json"
+        }
+      ],
+      "摸头（侧转正）": [
+        {
+          "File": "motions/摸头（侧转正）.motion3.json"
+        }
+      ],
+      "正面待机": [
+        {
+          "File": "motions/正面待机.motion3.json"
+        }
+      ],
+      "正面转向侧面": [
+        {
+          "File": "motions/正面转向侧面.motion3.json"
+        }
+      ],
+      "胖次（低好感_正面）": [
+        {
+          "File": "motions/胖次（低好感_正面）.motion3.json"
+        }
+      ],
+      "胖次（高好感_正面）": [
+        {
+          "File": "motions/胖次（高好感_正面）.motion3.json"
+        }
+      ],
+      "脱胖次（正转侧）": [
+        {
+          "File": "motions/脱胖次（正转侧）.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

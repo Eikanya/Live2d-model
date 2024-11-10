@@ -1,0 +1,77 @@
+{
+  "Version": 3,
+  "Name": "my_fj_youxi",
+  "FileReferences": {
+    "Moc": "my_fj_youxi.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": "my_fj_youxi.cdi3.json",
+    "Physics": null,
+    "Motions": {
+      "Idle1": [
+        {
+          "File": "motions/Idle1.motion3.json"
+        }
+      ],
+      "Idle2": [
+        {
+          "File": "motions/Idle2.motion3.json"
+        }
+      ],
+      "戳脸": [
+        {
+          "File": "motions/戳脸.motion3.json"
+        }
+      ],
+      "扯衣服": [
+        {
+          "File": "motions/扯衣服.motion3.json"
+        }
+      ],
+      "摸头": [
+        {
+          "File": "motions/摸头.motion3.json"
+        }
+      ],
+      "摸妹妹": [
+        {
+          "File": "motions/摸妹妹.motion3.json"
+        }
+      ],
+      "摸胸（中好感）": [
+        {
+          "File": "motions/摸胸（中好感）.motion3.json"
+        }
+      ],
+      "摸胸（好感低）": [
+        {
+          "File": "motions/摸胸（好感低）.motion3.json"
+        }
+      ],
+      "摸胸（好感高）": [
+        {
+          "File": "motions/摸胸（好感高）.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

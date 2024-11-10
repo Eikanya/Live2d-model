@@ -1,0 +1,135 @@
+{
+  "Version": 3,
+  "Name": "sry_fj_youxi",
+  "FileReferences": {
+    "Moc": "sry_fj_youxi.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png",
+      "textures/texture_02.png",
+      "textures/texture_03.png"
+    ],
+    "DisplayInfo": "sry_fj_youxi.cdi3.json",
+    "Physics": "sry_fj_youxi.physics3.json",
+    "Motions": {
+      "1-CF1-idle1": [
+        {
+          "File": "motions/1-CF1-idle1.motion3.json"
+        }
+      ],
+      "1-CF1-idle2": [
+        {
+          "File": "motions/1-CF1-idle2.motion3.json"
+        }
+      ],
+      "10-1-CF2-idle 2": [
+        {
+          "File": "motions/10-1-CF2-idle 2.motion3.json"
+        }
+      ],
+      "11-1-CF2-idle1": [
+        {
+          "File": "motions/11-1-CF2-idle1.motion3.json"
+        }
+      ],
+      "12-3-CF2-touch face": [
+        {
+          "File": "motions/12-3-CF2-touch face.motion3.json"
+        }
+      ],
+      "13-3-CF2-touch head": [
+        {
+          "File": "motions/13-3-CF2-touch head.motion3.json"
+        }
+      ],
+      "14-CF2-pull down briefs feedback": [
+        {
+          "File": "motions/14-CF2-pull down briefs feedback.motion3.json"
+        }
+      ],
+      "15-0-CF2 to CF1": [
+        {
+          "File": "motions/15-0-CF2 to CF1.motion3.json"
+        }
+      ],
+      "16-4-CF2-low favorability": [
+        {
+          "File": "motions/16-4-CF2-low favorability.motion3.json"
+        }
+      ],
+      "17-5-CF2-high favorability": [
+        {
+          "File": "motions/17-5-CF2-high favorability.motion3.json"
+        }
+      ],
+      "18-pull down briefs": [
+        {
+          "File": "motions/18-pull down briefs.motion3.json"
+        }
+      ],
+      "19-briefs back": [
+        {
+          "File": "motions/19-briefs back.motion3.json"
+        }
+      ],
+      "2-CF1 put down switch": [
+        {
+          "File": "motions/2-CF1 put down switch.motion3.json"
+        }
+      ],
+      "3-CF1-pull clothes": [
+        {
+          "File": "motions/3-CF1-pull clothes.motion3.json"
+        }
+      ],
+      "4-CF1 touch head": [
+        {
+          "File": "motions/4-CF1 touch head.motion3.json"
+        }
+      ],
+      "5-CF1 touch face": [
+        {
+          "File": "motions/5-CF1 touch face.motion3.json"
+        }
+      ],
+      "6-CF1 touch breast-low favorability": [
+        {
+          "File": "motions/6-CF1 touch breast-low favorability.motion3.json"
+        }
+      ],
+      "7-CF1 touch breast-high favorability": [
+        {
+          "File": "motions/7-CF1 touch breast-high favorability.motion3.json"
+        }
+      ],
+      "8-CF1 pull down briefs feedback": [
+        {
+          "File": "motions/8-CF1 pull down briefs feedback.motion3.json"
+        }
+      ],
+      "9-0-CF1 to CF2": [
+        {
+          "File": "motions/9-0-CF1 to CF2.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

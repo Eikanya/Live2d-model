@@ -1,0 +1,77 @@
+{
+  "Version": 3,
+  "Name": "sry_yushi",
+  "FileReferences": {
+    "Moc": "sry_yushi.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "DisplayInfo": null,
+    "Physics": null,
+    "Motions": {
+      "effect_roop": [
+        {
+          "File": "motions/effect_roop.motion3.json"
+        }
+      ],
+      "idle": [
+        {
+          "File": "motions/idle.motion3.json"
+        }
+      ],
+      "interact_1": [
+        {
+          "File": "motions/interact_1.motion3.json"
+        }
+      ],
+      "interact_2": [
+        {
+          "File": "motions/interact_2.motion3.json"
+        }
+      ],
+      "interact_3": [
+        {
+          "File": "motions/interact_3.motion3.json"
+        }
+      ],
+      "interact_4": [
+        {
+          "File": "motions/interact_4.motion3.json"
+        }
+      ],
+      "touch_1": [
+        {
+          "File": "motions/touch_1.motion3.json"
+        }
+      ],
+      "touch_1_idle": [
+        {
+          "File": "motions/touch_1_idle.motion3.json"
+        }
+      ],
+      "touch_1_toidle": [
+        {
+          "File": "motions/touch_1_toidle.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}
