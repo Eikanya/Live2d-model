@@ -1,0 +1,610 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeLSmile",
+			"GroupId": "",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeLForm",
+			"GroupId": "",
+			"Name": "左目　変形"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeRSmile",
+			"GroupId": "",
+			"Name": "右目　笑顔"
+		},
+		{
+			"Id": "ParamEyeRForm",
+			"GroupId": "",
+			"Name": "右目　変形"
+		},
+		{
+			"Id": "ParamEyeHiDisplay",
+			"GroupId": "",
+			"Name": "目ハイライト　表示"
+		},
+		{
+			"Id": "ParamTear",
+			"GroupId": "",
+			"Name": "涙"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamEyeballForm",
+			"GroupId": "",
+			"Name": "目玉　収縮"
+		},
+		{
+			"Id": "ParamShiwa",
+			"GroupId": "",
+			"Name": "シワの表示"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　上下"
+		},
+		{
+			"Id": "ParamBrowLX",
+			"GroupId": "",
+			"Name": "左眉　左右"
+		},
+		{
+			"Id": "ParamBrowRX",
+			"GroupId": "",
+			"Name": "右眉　左右"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamBrowLForm",
+			"GroupId": "",
+			"Name": "左眉　変形"
+		},
+		{
+			"Id": "ParamBrowLForm02",
+			"GroupId": "",
+			"Name": "左眉　変形02"
+		},
+		{
+			"Id": "ParamBrowRForm",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamBrowRForm02",
+			"GroupId": "",
+			"Name": "右眉　変形02"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamMouthForm02",
+			"GroupId": "",
+			"Name": "口　変形02"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "照れ"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "体の回転　X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "髪揺れ　前"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "髪揺れ　横"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "髪揺れ　後"
+		},
+		{
+			"Id": "ParamHairHane",
+			"GroupId": "",
+			"Name": "髪揺れ　ハネ"
+		},
+		{
+			"Id": "ParamBreast",
+			"GroupId": "",
+			"Name": "胸揺れ"
+		},
+		{
+			"Id": "ParamSkirt",
+			"GroupId": "",
+			"Name": "スカート揺れ"
+		},
+		{
+			"Id": "ParamSkirt02",
+			"GroupId": "",
+			"Name": "スカート飾り揺れ"
+		},
+		{
+			"Id": "ParamCollar",
+			"GroupId": "",
+			"Name": "マント後ろ揺れ"
+		},
+		{
+			"Id": "ParamNeck",
+			"GroupId": "",
+			"Name": "首チューブの揺れ"
+		},
+		{
+			"Id": "ParamHood",
+			"GroupId": "",
+			"Name": "フード揺れ"
+		},
+		{
+			"Id": "ParamString",
+			"GroupId": "",
+			"Name": "フード紐 揺れ"
+		},
+		{
+			"Id": "ParamMantDisplayA",
+			"GroupId": "",
+			"Name": "右マントの表示"
+		},
+		{
+			"Id": "ParamMantDisplayRC",
+			"GroupId": "",
+			"Name": "右マントCの表示"
+		},
+		{
+			"Id": "ParamMantL",
+			"GroupId": "",
+			"Name": "左マント変形"
+		},
+		{
+			"Id": "ParamMantR",
+			"GroupId": "",
+			"Name": "右マント変形"
+		},
+		{
+			"Id": "ParamArmLA01",
+			"GroupId": "",
+			"Name": "左腕A 01"
+		},
+		{
+			"Id": "ParamArmLA02",
+			"GroupId": "",
+			"Name": "左腕A 02"
+		},
+		{
+			"Id": "ParamArmLA03",
+			"GroupId": "",
+			"Name": "左腕A 03"
+		},
+		{
+			"Id": "ParamArmRA01",
+			"GroupId": "",
+			"Name": "右腕A 01"
+		},
+		{
+			"Id": "ParamArmRA02",
+			"GroupId": "",
+			"Name": "右腕A 02"
+		},
+		{
+			"Id": "ParamArmRA03",
+			"GroupId": "",
+			"Name": "右腕A 03"
+		},
+		{
+			"Id": "ParamArmLB01",
+			"GroupId": "",
+			"Name": "左腕B 01"
+		},
+		{
+			"Id": "ParamArmLB02",
+			"GroupId": "",
+			"Name": "左腕B 02"
+		},
+		{
+			"Id": "ParamArmLB03",
+			"GroupId": "",
+			"Name": "左腕B 03"
+		},
+		{
+			"Id": "ParamArmRB01",
+			"GroupId": "",
+			"Name": "右腕B 01"
+		},
+		{
+			"Id": "ParamArmRB02",
+			"GroupId": "",
+			"Name": "右腕B 02"
+		},
+		{
+			"Id": "ParamArmRB03",
+			"GroupId": "",
+			"Name": "右腕B 03"
+		},
+		{
+			"Id": "ParamArmRC01",
+			"GroupId": "",
+			"Name": "右腕C 01"
+		},
+		{
+			"Id": "ParamArmRC02",
+			"GroupId": "",
+			"Name": "右腕C 02"
+		},
+		{
+			"Id": "ParamArmRC03",
+			"GroupId": "",
+			"Name": "右腕C 03"
+		},
+		{
+			"Id": "ParamArmLD01",
+			"GroupId": "",
+			"Name": "左腕D 01"
+		},
+		{
+			"Id": "ParamArmLD02",
+			"GroupId": "",
+			"Name": "左腕D 02"
+		},
+		{
+			"Id": "ParamArmLD03",
+			"GroupId": "",
+			"Name": "左腕D 03"
+		},
+		{
+			"Id": "ParamArmRD01",
+			"GroupId": "",
+			"Name": "右腕D 01"
+		},
+		{
+			"Id": "ParamArmRD02",
+			"GroupId": "",
+			"Name": "右腕D 02"
+		},
+		{
+			"Id": "ParamArmRD03",
+			"GroupId": "",
+			"Name": "右腕D 03"
+		},
+		{
+			"Id": "ParamArmLE01",
+			"GroupId": "",
+			"Name": "左腕E 01"
+		},
+		{
+			"Id": "ParamArmLE02",
+			"GroupId": "",
+			"Name": "左腕E 02"
+		},
+		{
+			"Id": "ParamArmLE03",
+			"GroupId": "",
+			"Name": "左腕E 03"
+		},
+		{
+			"Id": "ParamArmRE01",
+			"GroupId": "",
+			"Name": "右腕E 01"
+		},
+		{
+			"Id": "ParamArmRE02",
+			"GroupId": "",
+			"Name": "右腕E 02"
+		},
+		{
+			"Id": "ParamArmRE03",
+			"GroupId": "",
+			"Name": "右腕E 03"
+		},
+		{
+			"Id": "ParamArmRF01",
+			"GroupId": "",
+			"Name": "右腕F 01"
+		},
+		{
+			"Id": "ParamArmRF02",
+			"GroupId": "",
+			"Name": "右腕F 02"
+		},
+		{
+			"Id": "ParamArmRF03",
+			"GroupId": "",
+			"Name": "右腕F 03"
+		},
+		{
+			"Id": "ParamHandLE00Display",
+			"GroupId": "",
+			"Name": "左手E00 表示"
+		},
+		{
+			"Id": "ParamHandLE01Display",
+			"GroupId": "",
+			"Name": "左手E01 表示"
+		},
+		{
+			"Id": "ParamSoulgem",
+			"GroupId": "",
+			"Name": "ソウルジェム　表示"
+		},
+		{
+			"Id": "ParamLegL",
+			"GroupId": "",
+			"Name": "左足"
+		},
+		{
+			"Id": "ParamLegR",
+			"GroupId": "",
+			"Name": "右足"
+		},
+		{
+			"Id": "ParamAngleZAll",
+			"GroupId": "",
+			"Name": "全体回転"
+		},
+		{
+			"Id": "ParamMoveLrAll",
+			"GroupId": "",
+			"Name": "横移動"
+		},
+		{
+			"Id": "ParamMoveUdAll",
+			"GroupId": "",
+			"Name": "縦移動"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part01ArmLA01",
+			"Name": "左腕パーツA　変身前"
+		},
+		{
+			"Id": "Part01ArmRA01",
+			"Name": "右腕パーツA　変身前"
+		},
+		{
+			"Id": "Part01ArmLB01",
+			"Name": "左腕パーツB 変身前"
+		},
+		{
+			"Id": "Part01ArmRB01",
+			"Name": "右腕パーツB 変身前"
+		},
+		{
+			"Id": "Part01ArmRC01",
+			"Name": "右腕パーツC 変身前"
+		},
+		{
+			"Id": "Part01ArmRD01",
+			"Name": "右腕パーツD　変身前"
+		},
+		{
+			"Id": "Part01ArmLD01",
+			"Name": "左腕パーツD　変身前"
+		},
+		{
+			"Id": "Part01ArmRE01",
+			"Name": "右腕パーツE　変身前"
+		},
+		{
+			"Id": "Part01ArmLE01",
+			"Name": "左腕パーツE　変身前"
+		},
+		{
+			"Id": "Part01Leg01",
+			"Name": "足　変身前"
+		},
+		{
+			"Id": "Part01Body01",
+			"Name": "体　変身前"
+		},
+		{
+			"Id": "Part01Neck01",
+			"Name": "首　変身前"
+		},
+		{
+			"Id": "Part01HairBack01",
+			"Name": "後ろ髪_変身前"
+		},
+		{
+			"Id": "Part01HairSide01",
+			"Name": "横髪_変身前"
+		},
+		{
+			"Id": "Part01HairFront01",
+			"Name": "前髪_変身前"
+		},
+		{
+			"Id": "Part01Sketch",
+			"Name": "[ 下絵 ]"
+		},
+		{
+			"Id": "Part01ArmLA00",
+			"Name": "左腕パーツA　魔法少女"
+		},
+		{
+			"Id": "Part01ArmRA00",
+			"Name": "右腕パーツA　魔法少女"
+		},
+		{
+			"Id": "Part01ArmLB00",
+			"Name": "左腕パーツB 魔法少女"
+		},
+		{
+			"Id": "Part01ArmRB00",
+			"Name": "右腕パーツB 魔法少女"
+		},
+		{
+			"Id": "Part01ArmRC00",
+			"Name": "右腕パーツC 魔法少女"
+		},
+		{
+			"Id": "Part01ArmRD00",
+			"Name": "右腕パーツD　魔法少女"
+		},
+		{
+			"Id": "Part01ArmLD00",
+			"Name": "左腕パーツD　魔法少女"
+		},
+		{
+			"Id": "Part01ArmRE00",
+			"Name": "右腕パーツE　魔法少女"
+		},
+		{
+			"Id": "Part01ArmLE00",
+			"Name": "左腕パーツE　魔法少女"
+		},
+		{
+			"Id": "Part01ArmRF00",
+			"Name": "右腕パーツF　魔法少女"
+		},
+		{
+			"Id": "Part01Leg00",
+			"Name": "足　魔法少女"
+		},
+		{
+			"Id": "Part01Body00",
+			"Name": "体　魔法少女"
+		},
+		{
+			"Id": "Part01Neck00",
+			"Name": "首　魔法少女"
+		},
+		{
+			"Id": "Part01Accessories00",
+			"Name": "アクセサリー　魔法少女"
+		},
+		{
+			"Id": "Part01HairBack",
+			"Name": "後ろ髪　魔法少女"
+		},
+		{
+			"Id": "Part01HairSide",
+			"Name": "横髪　魔法少女"
+		},
+		{
+			"Id": "Part01HairFront",
+			"Name": "前髪　魔法少女"
+		},
+		{
+			"Id": "Part01Ear00",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part01Cheek00",
+			"Name": "頬"
+		},
+		{
+			"Id": "Part01Nose00",
+			"Name": "鼻"
+		},
+		{
+			"Id": "Part01Mouth00",
+			"Name": "口"
+		},
+		{
+			"Id": "Part01Brow00",
+			"Name": "まゆ毛"
+		},
+		{
+			"Id": "Part01EyeBall00",
+			"Name": "目玉"
+		},
+		{
+			"Id": "Part01Eye00",
+			"Name": "目"
+		},
+		{
+			"Id": "Part01Face00",
+			"Name": "顔"
+		},
+		{
+			"Id": "Part01Core",
+			"Name": "コアパーツ"
+		},
+		{
+			"Id": "Part02FaceShadow",
+			"Name": "顔影　シャドウ"
+		}
+	]
+}

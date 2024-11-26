@@ -1,0 +1,147 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "model.moc3",
+		"Textures": [
+			"model.1024/texture_00.png",
+			"model.1024/texture_01.png",
+			"model.1024/texture_02.png",
+			"model.1024/texture_03.png"
+		],
+		"Physics": "model.physics3.json",
+		"Pose": "model.pose3.json",
+		"Expressions": [
+			{
+				"Name": "mtn_ex_010.exp3.json",
+				"File": "exp/mtn_ex_010.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_011.exp3.json",
+				"File": "exp/mtn_ex_011.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_020.exp3.json",
+				"File": "exp/mtn_ex_020.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_030.exp3.json",
+				"File": "exp/mtn_ex_030.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_031.exp3.json",
+				"File": "exp/mtn_ex_031.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_040.exp3.json",
+				"File": "exp/mtn_ex_040.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_050.exp3.json",
+				"File": "exp/mtn_ex_050.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_052.exp3.json",
+				"File": "exp/mtn_ex_052.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_060.exp3.json",
+				"File": "exp/mtn_ex_060.exp3.json"
+			}
+		],
+		"Motions": {
+			"Motion": [
+				{
+					"File": "mtn/motion_000.motion3.json",
+                                        "Name": "motion_000"
+				},
+				{
+					"File": "mtn/motion_001.motion3.json",
+                                        "Name": "motion_001"
+				},
+				{
+					"File": "mtn/motion_100.motion3.json",
+                                        "Name": "motion_100"
+				},
+				{
+					"File": "mtn/motion_101.motion3.json",
+                                        "Name": "motion_101"
+				},
+				{
+					"File": "mtn/motion_102.motion3.json",
+                                        "Name": "motion_102"
+				},
+				{
+					"File": "mtn/motion_103.motion3.json",
+                                        "Name": "motion_103"
+				},
+				{
+					"File": "mtn/motion_110.motion3.json",
+                                        "Name": "motion_110"
+				},
+				{
+					"File": "mtn/motion_120.motion3.json",
+                                        "Name": "motion_120"
+				},
+				{
+					"File": "mtn/motion_121.motion3.json",
+                                        "Name": "motion_121"
+				},
+				{
+					"File": "mtn/motion_220.motion3.json",
+                                        "Name": "motion_220"
+				},
+				{
+					"File": "mtn/motion_300.motion3.json",
+                                        "Name": "motion_300"
+				},
+				{
+					"File": "mtn/motion_310.motion3.json",
+                                        "Name": "motion_310"
+				},
+				{
+					"File": "mtn/motion_320.motion3.json",
+                                        "Name": "motion_320"
+				},
+				{
+					"File": "mtn/motion_400.motion3.json",
+                                        "Name": "motion_400"
+				},
+				{
+					"File": "mtn/motion_420.motion3.json",
+                                        "Name": "motion_420"
+				},
+				{
+					"File": "mtn/motion_421.motion3.json",
+                                        "Name": "motion_421"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitAreaBody",
+			"Name": ""
+		},
+		{
+			"Id": "HitAreaHead",
+			"Name": ""
+		}
+	]
+}
