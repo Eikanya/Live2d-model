@@ -1,0 +1,242 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "model.moc3",
+		"Textures": [
+			"model.8192/texture_00.png"
+		],
+		"Motions": {
+			"Action": [
+				{
+					"File": "motion/action_00.motion3.json"
+				},
+				{
+					"File": "motion/action_01.motion3.json"
+				},
+				{
+					"File": "motion/action_02.motion3.json"
+				},
+				{
+					"File": "motion/action_03.motion3.json"
+				},
+				{
+					"File": "motion/action_04.motion3.json"
+				},
+				{
+					"File": "motion/action_05.motion3.json"
+				},
+				{
+					"File": "motion/action_06.motion3.json"
+				},
+				{
+					"File": "motion/action_07.motion3.json"
+				},
+				{
+					"File": "motion/action_08.motion3.json"
+				},
+				{
+					"File": "motion/action_09.motion3.json"
+				}
+			],
+			"Face": [
+				{
+					"File": "motion/face_00.motion3.json"
+				},
+				{
+					"File": "motion/face_01.motion3.json"
+				},
+				{
+					"File": "motion/face_02.motion3.json"
+				},
+				{
+					"File": "motion/face_03.motion3.json"
+				},
+				{
+					"File": "motion/face_04.motion3.json"
+				},
+				{
+					"File": "motion/face_05.motion3.json"
+				},
+				{
+					"File": "motion/face_06.motion3.json"
+				},
+				{
+					"File": "motion/face_07.motion3.json"
+				},
+				{
+					"File": "motion/face_08.motion3.json"
+				},
+				{
+					"File": "motion/face_09.motion3.json"
+				},
+				{
+					"File": "motion/face_10.motion3.json"
+				},
+				{
+					"File": "motion/face_11.motion3.json"
+				},
+				{
+					"File": "motion/face_12.motion3.json"
+				},
+				{
+					"File": "motion/face_13.motion3.json"
+				},
+				{
+					"File": "motion/face_14.motion3.json"
+				},
+				{
+					"File": "motion/face_15.motion3.json"
+				},
+				{
+					"File": "motion/face_16.motion3.json"
+				},
+				{
+					"File": "motion/face_17.motion3.json"
+				},
+				{
+					"File": "motion/face_18.motion3.json"
+				},
+				{
+					"File": "motion/face_19.motion3.json"
+				},
+				{
+					"File": "motion/face_20.motion3.json"
+				},
+				{
+					"File": "motion/face_21.motion3.json"
+				},
+				{
+					"File": "motion/face_22.motion3.json"
+				},
+				{
+					"File": "motion/face_23.motion3.json"
+				},
+				{
+					"File": "motion/face_24.motion3.json"
+				},
+				{
+					"File": "motion/face_25.motion3.json"
+				},
+				{
+					"File": "motion/face_26.motion3.json"
+				},
+				{
+					"File": "motion/face_27.motion3.json"
+				},
+				{
+					"File": "motion/face_28.motion3.json"
+				},
+				{
+					"File": "motion/face_29.motion3.json"
+				},
+				{
+					"File": "motion/face_30.motion3.json"
+				},
+				{
+					"File": "motion/face_31.motion3.json"
+				},
+				{
+					"File": "motion/face_32.motion3.json"
+				},
+				{
+					"File": "motion/face_33.motion3.json"
+				},
+				{
+					"File": "motion/face_34.motion3.json"
+				},
+				{
+					"File": "motion/face_35.motion3.json"
+				},
+				{
+					"File": "motion/face_36.motion3.json"
+				},
+				{
+					"File": "motion/face_37.motion3.json"
+				},
+				{
+					"File": "motion/face_38.motion3.json"
+				},
+				{
+					"File": "motion/face_39.motion3.json"
+				},
+				{
+					"File": "motion/face_40.motion3.json"
+				},
+				{
+					"File": "motion/face_41.motion3.json"
+				},
+				{
+					"File": "motion/face_42.motion3.json"
+				},
+				{
+					"File": "motion/face_43.motion3.json"
+				},
+				{
+					"File": "motion/face_44.motion3.json"
+				},
+				{
+					"File": "motion/face_45.motion3.json"
+				},
+				{
+					"File": "motion/face_46.motion3.json"
+				},
+				{
+					"File": "motion/face_47.motion3.json"
+				},
+				{
+					"File": "motion/face_48.motion3.json"
+				},
+				{
+					"File": "motion/face_49.motion3.json"
+				},
+				{
+					"File": "motion/face_50.motion3.json"
+				},
+				{
+					"File": "motion/face_51.motion3.json"
+				},
+				{
+					"File": "motion/face_52.motion3.json"
+				},
+				{
+					"File": "motion/face_53.motion3.json"
+				},
+				{
+					"File": "motion/face_54.motion3.json"
+				},
+				{
+					"File": "motion/face_55.motion3.json"
+				},
+				{
+					"File": "motion/face_56.motion3.json"
+				}
+			],
+			"Idle": [
+				{
+					"File": "motion/idle_00.motion3.json"
+				},
+				{
+					"File": "motion/idle_01.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

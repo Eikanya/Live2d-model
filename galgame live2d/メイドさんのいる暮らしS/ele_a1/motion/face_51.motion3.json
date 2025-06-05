@@ -1,0 +1,94 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 0.583,
+		"Fps": 60.0,
+		"Loop": true,
+		"AreBeziersRestricted": false,
+		"CurveCount": 6,
+		"TotalSegmentCount": 6,
+		"TotalPointCount": 12,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "Param_eye_differnce",
+			"FadeInTime": 0.25,
+			"FadeOutTime": 0.25,
+			"Segments": [
+				0,
+				1,
+				0,
+				0.583,
+				1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_eye_circle",
+			"FadeInTime": 0.25,
+			"FadeOutTime": 0.25,
+			"Segments": [
+				0,
+				0,
+				0,
+				0.583,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_brow_differnce",
+			"FadeInTime": 0.25,
+			"FadeOutTime": 0.25,
+			"Segments": [
+				0,
+				6,
+				0,
+				0.583,
+				6
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_mouth_difference",
+			"FadeInTime": 0.25,
+			"FadeOutTime": 0.25,
+			"Segments": [
+				0,
+				16,
+				0,
+				0.583,
+				16
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCheek",
+			"FadeInTime": 0.25,
+			"FadeOutTime": 0.25,
+			"Segments": [
+				0,
+				2,
+				0,
+				0.583,
+				2
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "Param_sweat_difference",
+			"FadeInTime": 0.25,
+			"FadeOutTime": 0.25,
+			"Segments": [
+				0,
+				0,
+				0,
+				0.583,
+				0
+			]
+		}
+	]
+}
