@@ -1,0 +1,46 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ev_cg007_03s.moc3",
+		"Textures": [
+			"ev_cg007_03s.4096/texture_00.png"
+		],
+		"UserData": "ev_cg007_03s.userdata3.json",
+		"DisplayInfo": "ev_cg007_03s.cdi3.json",
+		"Motions": {
+			"": [
+				{
+					"File": "motions/ev_mv007_03_01.motion3.json"
+				},
+				{
+					"File": "motions/ev_mv007_03_02.motion3.json"
+				},
+				{
+					"File": "motions/ev_mv007_03_03.motion3.json"
+				},
+				{
+					"File": "motions/ev_mv007_03_03h.motion3.json"
+				},
+				{
+					"File": "motions/ev_mv007_03_04.motion3.json"
+				},
+				{
+					"File": "motions/ev_mv007_03_04s.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

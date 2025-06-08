@@ -1,0 +1,1222 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleY2",
+			"GroupId": "",
+			"Name": "首"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyes",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyesSmile",
+			"GroupId": "",
+			"Name": "左目　笑顔"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamBrowLY",
+			"GroupId": "",
+			"Name": "左眉　上下"
+		},
+		{
+			"Id": "ParamBrowRY",
+			"GroupId": "",
+			"Name": "右眉　変形"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamCheek",
+			"GroupId": "",
+			"Name": "照れ"
+		},
+		{
+			"Id": "ParamCheek2",
+			"GroupId": "",
+			"Name": "移動"
+		},
+		{
+			"Id": "ParamEmo1",
+			"GroupId": "",
+			"Name": "1"
+		},
+		{
+			"Id": "ParamEmo2",
+			"GroupId": "",
+			"Name": "2"
+		},
+		{
+			"Id": "ParamEmo3",
+			"GroupId": "",
+			"Name": "3"
+		},
+		{
+			"Id": "ParamEmo4",
+			"GroupId": "",
+			"Name": "目の切り替え"
+		},
+		{
+			"Id": "ParamEmo7",
+			"GroupId": "",
+			"Name": "口の切り替え"
+		},
+		{
+			"Id": "ParamEmo8",
+			"GroupId": "",
+			"Name": "まゆ切り替え"
+		},
+		{
+			"Id": "ParamEmo5",
+			"GroupId": "",
+			"Name": "亜へライン"
+		},
+		{
+			"Id": "ParamEmo6",
+			"GroupId": "",
+			"Name": "涙"
+		},
+		{
+			"Id": "ParamLayerHip",
+			"GroupId": "",
+			"Name": "前後切り替え"
+		},
+		{
+			"Id": "ParamLayerHip2",
+			"GroupId": "",
+			"Name": "挿入切り替え"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "Param58",
+			"GroupId": "",
+			"Name": "つぶれ"
+		},
+		{
+			"Id": "Param59",
+			"GroupId": "",
+			"Name": "フラッシュ"
+		},
+		{
+			"Id": "wind",
+			"GroupId": "",
+			"Name": "風"
+		},
+		{
+			"Id": "kira1",
+			"GroupId": "ParamGroup10",
+			"Name": "kira1"
+		},
+		{
+			"Id": "kira2",
+			"GroupId": "ParamGroup10",
+			"Name": "kira1"
+		},
+		{
+			"Id": "kira3",
+			"GroupId": "ParamGroup10",
+			"Name": "kira1"
+		},
+		{
+			"Id": "kira4",
+			"GroupId": "ParamGroup10",
+			"Name": "kira1"
+		},
+		{
+			"Id": "kira5",
+			"GroupId": "ParamGroup10",
+			"Name": "kira1"
+		},
+		{
+			"Id": "kira6",
+			"GroupId": "ParamGroup10",
+			"Name": "kira1"
+		},
+		{
+			"Id": "kiragl",
+			"GroupId": "ParamGroup10",
+			"Name": "kiragl"
+		},
+		{
+			"Id": "kiragl2",
+			"GroupId": "ParamGroup10",
+			"Name": "kiragl"
+		},
+		{
+			"Id": "kiragl3",
+			"GroupId": "ParamGroup10",
+			"Name": "kiragl"
+		},
+		{
+			"Id": "kiragl4",
+			"GroupId": "ParamGroup10",
+			"Name": "kiragl"
+		},
+		{
+			"Id": "kiragl5",
+			"GroupId": "ParamGroup10",
+			"Name": "kiragl"
+		},
+		{
+			"Id": "kiragl6",
+			"GroupId": "ParamGroup10",
+			"Name": "kiragl"
+		},
+		{
+			"Id": "kirax1",
+			"GroupId": "ParamGroup10",
+			"Name": "kirax1"
+		},
+		{
+			"Id": "kirax2",
+			"GroupId": "ParamGroup10",
+			"Name": "kirax1"
+		},
+		{
+			"Id": "kirax3",
+			"GroupId": "ParamGroup10",
+			"Name": "kirax1"
+		},
+		{
+			"Id": "kirax4",
+			"GroupId": "ParamGroup10",
+			"Name": "kirax1"
+		},
+		{
+			"Id": "kiray1",
+			"GroupId": "ParamGroup10",
+			"Name": "kiray1"
+		},
+		{
+			"Id": "kiray2",
+			"GroupId": "ParamGroup10",
+			"Name": "kiray1"
+		},
+		{
+			"Id": "kiray3",
+			"GroupId": "ParamGroup10",
+			"Name": "kiray1"
+		},
+		{
+			"Id": "kiray4",
+			"GroupId": "ParamGroup10",
+			"Name": "kiray1"
+		},
+		{
+			"Id": "breath1",
+			"GroupId": "ParamGroup10",
+			"Name": "breath1"
+		},
+		{
+			"Id": "breath2",
+			"GroupId": "ParamGroup10",
+			"Name": "breath2"
+		},
+		{
+			"Id": "breath3",
+			"GroupId": "ParamGroup10",
+			"Name": "breath3"
+		},
+		{
+			"Id": "breath4",
+			"GroupId": "ParamGroup10",
+			"Name": "breath4"
+		},
+		{
+			"Id": "awa1",
+			"GroupId": "ParamGroup10",
+			"Name": "awa1"
+		},
+		{
+			"Id": "awa4",
+			"GroupId": "ParamGroup10",
+			"Name": "awa1"
+		},
+		{
+			"Id": "awa5",
+			"GroupId": "ParamGroup10",
+			"Name": "awa1"
+		},
+		{
+			"Id": "awa6",
+			"GroupId": "ParamGroup10",
+			"Name": "awa1"
+		},
+		{
+			"Id": "awa7",
+			"GroupId": "ParamGroup10",
+			"Name": "awa1"
+		},
+		{
+			"Id": "awa8",
+			"GroupId": "ParamGroup10",
+			"Name": "awa1"
+		},
+		{
+			"Id": "awaX",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX"
+		},
+		{
+			"Id": "awaX4",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX"
+		},
+		{
+			"Id": "awaX5",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX"
+		},
+		{
+			"Id": "awaX6",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX"
+		},
+		{
+			"Id": "awaX7",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX"
+		},
+		{
+			"Id": "awaX8",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX"
+		},
+		{
+			"Id": "awaY",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY"
+		},
+		{
+			"Id": "awaY4",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY"
+		},
+		{
+			"Id": "awaY5",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY"
+		},
+		{
+			"Id": "awaY6",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY"
+		},
+		{
+			"Id": "awaY7",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY"
+		},
+		{
+			"Id": "awaY8",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY"
+		},
+		{
+			"Id": "awa2",
+			"GroupId": "ParamGroup10",
+			"Name": "awa2"
+		},
+		{
+			"Id": "awaX2",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX2"
+		},
+		{
+			"Id": "awaY2",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY2"
+		},
+		{
+			"Id": "awa3",
+			"GroupId": "ParamGroup10",
+			"Name": "awa3"
+		},
+		{
+			"Id": "awa9",
+			"GroupId": "ParamGroup10",
+			"Name": "awa3"
+		},
+		{
+			"Id": "awa10",
+			"GroupId": "ParamGroup10",
+			"Name": "awa3"
+		},
+		{
+			"Id": "awaX3",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX3"
+		},
+		{
+			"Id": "awaX9",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX3"
+		},
+		{
+			"Id": "awaX10",
+			"GroupId": "ParamGroup10",
+			"Name": "awaX3"
+		},
+		{
+			"Id": "awaY3",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY3"
+		},
+		{
+			"Id": "awaY9",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY3"
+		},
+		{
+			"Id": "awaY10",
+			"GroupId": "ParamGroup10",
+			"Name": "awaY3"
+		},
+		{
+			"Id": "spl1",
+			"GroupId": "ParamGroup11",
+			"Name": "spl1"
+		},
+		{
+			"Id": "spl2",
+			"GroupId": "ParamGroup11",
+			"Name": "spl2"
+		},
+		{
+			"Id": "spl3",
+			"GroupId": "ParamGroup11",
+			"Name": "spl3"
+		},
+		{
+			"Id": "spl4",
+			"GroupId": "ParamGroup11",
+			"Name": "spsp"
+		},
+		{
+			"Id": "Param19",
+			"GroupId": "ParamGroup2",
+			"Name": "main1"
+		},
+		{
+			"Id": "Param35",
+			"GroupId": "ParamGroup2",
+			"Name": "main2"
+		},
+		{
+			"Id": "Param36",
+			"GroupId": "ParamGroup2",
+			"Name": "main3"
+		},
+		{
+			"Id": "Param28",
+			"GroupId": "ParamGroup2",
+			"Name": "main3sub"
+		},
+		{
+			"Id": "Param42",
+			"GroupId": "ParamGroup2",
+			"Name": "腕"
+		},
+		{
+			"Id": "Param51",
+			"GroupId": "ParamGroup2",
+			"Name": "手首"
+		},
+		{
+			"Id": "Param27",
+			"GroupId": "ParamGroup2",
+			"Name": "男2"
+		},
+		{
+			"Id": "Param37",
+			"GroupId": "ParamGroup2",
+			"Name": "男"
+		},
+		{
+			"Id": "Param53",
+			"GroupId": "ParamGroup2",
+			"Name": "棒長さ"
+		},
+		{
+			"Id": "Param54",
+			"GroupId": "ParamGroup2",
+			"Name": "全体"
+		},
+		{
+			"Id": "Param55",
+			"GroupId": "ParamGroup2",
+			"Name": "パース"
+		},
+		{
+			"Id": "Param29",
+			"GroupId": "ParamGroup2",
+			"Name": "手首力"
+		},
+		{
+			"Id": "Param30",
+			"GroupId": "ParamGroup2",
+			"Name": "カリ"
+		},
+		{
+			"Id": "Param52",
+			"GroupId": "ParamGroup2",
+			"Name": "まんのび"
+		},
+		{
+			"Id": "Param22",
+			"GroupId": "ParamGroup2",
+			"Name": "ぱくぱく"
+		},
+		{
+			"Id": "Paramsplash1",
+			"GroupId": "ParamGroup12",
+			"Name": "射精とび１"
+		},
+		{
+			"Id": "Paramsplash2",
+			"GroupId": "ParamGroup12",
+			"Name": "射精とび2"
+		},
+		{
+			"Id": "Paramsplash3",
+			"GroupId": "ParamGroup12",
+			"Name": "射精とび3"
+		},
+		{
+			"Id": "Param62",
+			"GroupId": "ParamGroup12",
+			"Name": "精液たれ"
+		},
+		{
+			"Id": "Paramsplash4",
+			"GroupId": "ParamGroup12",
+			"Name": "とびよだれ"
+		},
+		{
+			"Id": "ParamBackground01",
+			"GroupId": "ParamGroup7",
+			"Name": "BG1"
+		},
+		{
+			"Id": "ParamBackground02",
+			"GroupId": "ParamGroup7",
+			"Name": "BG2"
+		},
+		{
+			"Id": "ParamBackground03",
+			"GroupId": "ParamGroup7",
+			"Name": "BG3"
+		},
+		{
+			"Id": "ParamBackground04",
+			"GroupId": "ParamGroup7",
+			"Name": "BG4"
+		},
+		{
+			"Id": "ParamBackground05",
+			"GroupId": "ParamGroup7",
+			"Name": "BG5"
+		},
+		{
+			"Id": "Param32",
+			"GroupId": "ParamGroup7",
+			"Name": "上下"
+		},
+		{
+			"Id": "Param40",
+			"GroupId": "ParamGroup7",
+			"Name": "左右"
+		},
+		{
+			"Id": "Param43",
+			"GroupId": "ParamGroup7",
+			"Name": "拡縮"
+		},
+		{
+			"Id": "Param33",
+			"GroupId": "ParamGroup7",
+			"Name": "パラメータ54"
+		},
+		{
+			"Id": "Param41",
+			"GroupId": "ParamGroup7",
+			"Name": "パラメータ59"
+		},
+		{
+			"Id": "ParamFrontHair01",
+			"GroupId": "ParamGroup",
+			"Name": "FrontHair"
+		},
+		{
+			"Id": "ParamFrontHair02",
+			"GroupId": "ParamGroup",
+			"Name": "FrontHair2"
+		},
+		{
+			"Id": "ParamBackHair01",
+			"GroupId": "ParamGroup",
+			"Name": "backHair01"
+		},
+		{
+			"Id": "ParamBackHair02",
+			"GroupId": "ParamGroup",
+			"Name": "backHair02"
+		},
+		{
+			"Id": "ParamHairAcc01",
+			"GroupId": "ParamGroup",
+			"Name": "hairAcc1"
+		},
+		{
+			"Id": "ParamHairAcc02",
+			"GroupId": "ParamGroup",
+			"Name": "hairAcc2"
+		},
+		{
+			"Id": "ParamClothes01",
+			"GroupId": "ParamGroup",
+			"Name": "clothes1"
+		},
+		{
+			"Id": "ParamClothes02",
+			"GroupId": "ParamGroup",
+			"Name": "clothes2"
+		},
+		{
+			"Id": "Param63",
+			"GroupId": "ParamGroup3",
+			"Name": "息１"
+		},
+		{
+			"Id": "Param34",
+			"GroupId": "ParamGroup8",
+			"Name": "舌"
+		},
+		{
+			"Id": "Param57",
+			"GroupId": "ParamGroup8",
+			"Name": "舌２"
+		},
+		{
+			"Id": "Param44",
+			"GroupId": "ParamGroup8",
+			"Name": "橋"
+		},
+		{
+			"Id": "Param38",
+			"GroupId": "ParamGroup8",
+			"Name": "にく"
+		},
+		{
+			"Id": "Param45",
+			"GroupId": "ParamGroup8",
+			"Name": "にく２"
+		},
+		{
+			"Id": "Param39",
+			"GroupId": "ParamGroup8",
+			"Name": "にく3"
+		},
+		{
+			"Id": "Param17",
+			"GroupId": "ParamGroup4",
+			"Name": "Pyx"
+		},
+		{
+			"Id": "Param20",
+			"GroupId": "ParamGroup4",
+			"Name": "Tkx"
+		},
+		{
+			"Id": "Param18",
+			"GroupId": "ParamGroup4",
+			"Name": "Pyy"
+		},
+		{
+			"Id": "Param21",
+			"GroupId": "ParamGroup4",
+			"Name": "Tky"
+		},
+		{
+			"Id": "Param25",
+			"GroupId": "ParamGroup5",
+			"Name": "HX"
+		},
+		{
+			"Id": "Param26",
+			"GroupId": "ParamGroup5",
+			"Name": "HX2"
+		},
+		{
+			"Id": "Param23",
+			"GroupId": "ParamGroup5",
+			"Name": "HY"
+		},
+		{
+			"Id": "Param24",
+			"GroupId": "ParamGroup5",
+			"Name": "HY2"
+		},
+		{
+			"Id": "Param47",
+			"GroupId": "ParamGroup9",
+			"Name": "cam1"
+		},
+		{
+			"Id": "Param48",
+			"GroupId": "ParamGroup9",
+			"Name": "cam2"
+		},
+		{
+			"Id": "Param49",
+			"GroupId": "ParamGroup9",
+			"Name": "cam3"
+		},
+		{
+			"Id": "Param50",
+			"GroupId": "ParamGroup9",
+			"Name": "Tky"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup10",
+			"GroupId": "",
+			"Name": "particle"
+		},
+		{
+			"Id": "ParamGroup11",
+			"GroupId": "",
+			"Name": "perticle2"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "Main"
+		},
+		{
+			"Id": "ParamGroup12",
+			"GroupId": "",
+			"Name": "sprm"
+		},
+		{
+			"Id": "ParamGroup7",
+			"GroupId": "",
+			"Name": "camera"
+		},
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "hair"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "FX"
+		},
+		{
+			"Id": "ParamGroup8",
+			"GroupId": "",
+			"Name": "Bodyphisic"
+		},
+		{
+			"Id": "ParamGroup4",
+			"GroupId": "",
+			"Name": "Bust"
+		},
+		{
+			"Id": "ParamGroup5",
+			"GroupId": "",
+			"Name": "hip"
+		},
+		{
+			"Id": "ParamGroup9",
+			"GroupId": "",
+			"Name": "BustR"
+		},
+		{
+			"Id": "ParamGroup6",
+			"GroupId": "",
+			"Name": "ARM"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part136",
+			"Name": "cg004_02s_import.psd（対応無し）"
+		},
+		{
+			"Id": "Part131",
+			"Name": "cg004import.psd（対応無し）"
+		},
+		{
+			"Id": "sprm",
+			"Name": "精液パーツ"
+		},
+		{
+			"Id": "Part34",
+			"Name": "EF"
+		},
+		{
+			"Id": "Part67",
+			"Name": "cg004import.psd（対応無し）"
+		},
+		{
+			"Id": "Part33",
+			"Name": "cg004import.psd"
+		},
+		{
+			"Id": "PartSketch0",
+			"Name": "[ 下絵 ]"
+		},
+		{
+			"Id": "Part45",
+			"Name": "⑤精液"
+		},
+		{
+			"Id": "Part101",
+			"Name": "②③④⑤チン"
+		},
+		{
+			"Id": "Part104",
+			"Name": "◎②③④⑤下半身"
+		},
+		{
+			"Id": "Part35",
+			"Name": "息１"
+		},
+		{
+			"Id": "Part36",
+			"Name": "息２"
+		},
+		{
+			"Id": "Part37",
+			"Name": "息３"
+		},
+		{
+			"Id": "Part38",
+			"Name": "息４"
+		},
+		{
+			"Id": "Part99",
+			"Name": "しぶき"
+		},
+		{
+			"Id": "Part",
+			"Name": "●♂"
+		},
+		{
+			"Id": "Part2",
+			"Name": "①ちん"
+		},
+		{
+			"Id": "Part3",
+			"Name": "②③④⑤チン"
+		},
+		{
+			"Id": "Part6",
+			"Name": "尻"
+		},
+		{
+			"Id": "Part7",
+			"Name": "●母体"
+		},
+		{
+			"Id": "Part13",
+			"Name": "⑤頭"
+		},
+		{
+			"Id": "Part16",
+			"Name": "◎①②③④⑥頭"
+		},
+		{
+			"Id": "Part30",
+			"Name": "●奥髪"
+		},
+		{
+			"Id": "Part31",
+			"Name": "●奥腕"
+		},
+		{
+			"Id": "Part41",
+			"Name": "キラキラ"
+		},
+		{
+			"Id": "Part5",
+			"Name": "泡２"
+		},
+		{
+			"Id": "Part39",
+			"Name": "泡１"
+		},
+		{
+			"Id": "Part40",
+			"Name": "泡３"
+		},
+		{
+			"Id": "Part32",
+			"Name": "背景"
+		},
+		{
+			"Id": "Part102",
+			"Name": "チン"
+		},
+		{
+			"Id": "Part48",
+			"Name": "2"
+		},
+		{
+			"Id": "Part49",
+			"Name": "3"
+		},
+		{
+			"Id": "Part50",
+			"Name": "1"
+		},
+		{
+			"Id": "Part4",
+			"Name": "チン"
+		},
+		{
+			"Id": "Part8",
+			"Name": "●上半身"
+		},
+		{
+			"Id": "Part9",
+			"Name": "●奥脚"
+		},
+		{
+			"Id": "Part10",
+			"Name": "●髪"
+		},
+		{
+			"Id": "Part11",
+			"Name": "●手前胸"
+		},
+		{
+			"Id": "Part12",
+			"Name": "●奥胸"
+		},
+		{
+			"Id": "Part14",
+			"Name": "髪"
+		},
+		{
+			"Id": "Part15",
+			"Name": "口"
+		},
+		{
+			"Id": "Part24",
+			"Name": "★うさ耳"
+		},
+		{
+			"Id": "Part17",
+			"Name": "表情"
+		},
+		{
+			"Id": "Part25",
+			"Name": "★前髪"
+		},
+		{
+			"Id": "Part26",
+			"Name": "★後頭部髪"
+		},
+		{
+			"Id": "Part27",
+			"Name": "★キャップ"
+		},
+		{
+			"Id": "Part28",
+			"Name": "★輪郭"
+		},
+		{
+			"Id": "Part29",
+			"Name": "★奥もみあげ"
+		},
+		{
+			"Id": "Part84",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part85",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part86",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part87",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part88",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part89",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part90",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part59",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part58",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part57",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part46",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part70",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part69",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part42",
+			"Name": "しぶき早"
+		},
+		{
+			"Id": "Part91",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part92",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part93",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part94",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part95",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part96",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part97",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part68",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part66",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part56",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part55",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part54",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part47",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part43",
+			"Name": "しぶき落ち"
+		},
+		{
+			"Id": "Part98",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part75",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part76",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part77",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part78",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part79",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part80",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part81",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part82",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part83",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part53",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part52",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part51",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part64",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part63",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part60",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part62",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part61",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part74",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part73",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part72",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part71",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part44",
+			"Name": "しぶき放物"
+		},
+		{
+			"Id": "Part18",
+			"Name": "頬"
+		},
+		{
+			"Id": "Part19",
+			"Name": "④"
+		},
+		{
+			"Id": "Part20",
+			"Name": "③"
+		},
+		{
+			"Id": "Part21",
+			"Name": "②"
+		},
+		{
+			"Id": "Part22",
+			"Name": "①"
+		},
+		{
+			"Id": "Part23",
+			"Name": "目元基本"
+		},
+		{
+			"Id": "hitomi",
+			"Name": "hitomi"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamFrontHair01",
+			"ParamFrontHair02"
+		],
+		[
+			"ParamHairAcc01",
+			"ParamHairAcc02"
+		],
+		[
+			"ParamClothes01",
+			"ParamClothes02"
+		]
+	]
+}
