@@ -1,0 +1,150 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 0.57,
+		"Fps": 30.0,
+		"FadeInTime": 1.0,
+		"FadeOutTime": 1.0,
+		"Loop": true,
+		"AreBeziersRestricted": false,
+		"CurveCount": 6,
+		"TotalSegmentCount": 14,
+		"TotalPointCount": 36,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Model",
+			"Id": "Opacity",
+			"Segments": [
+				0,
+				1,
+				0,
+				0.57,
+				1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleX",
+			"FadeInTime": 0.2,
+			"FadeOutTime": 0.2,
+			"Segments": [
+				0,
+				0,
+				1,
+				0.067,
+				0,
+				0.133,
+				0,
+				0.2,
+				0,
+				1,
+				0.211,
+				0,
+				0.222,
+				3,
+				0.233,
+				3,
+				1,
+				0.244,
+				3,
+				0.256,
+				-4,
+				0.267,
+				-4,
+				1,
+				0.278,
+				-4,
+				0.289,
+				2,
+				0.3,
+				2,
+				0,
+				0.567,
+				2
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleY",
+			"FadeInTime": 0.2,
+			"FadeOutTime": 0.2,
+			"Segments": [
+				0,
+				0,
+				1,
+				0.067,
+				0,
+				0.133,
+				0,
+				0.2,
+				0,
+				0,
+				0.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleZ",
+			"FadeInTime": 0.2,
+			"FadeOutTime": 0.2,
+			"Segments": [
+				0,
+				0,
+				1,
+				0.067,
+				0,
+				0.133,
+				0,
+				0.2,
+				0,
+				0,
+				0.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCrack",
+			"FadeInTime": 0.2,
+			"FadeOutTime": 0.2,
+			"Segments": [
+				0,
+				0,
+				1,
+				0.067,
+				0,
+				0.133,
+				0,
+				0.2,
+				0,
+				0,
+				0.567,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamCrack2",
+			"FadeInTime": 0.2,
+			"FadeOutTime": 0.2,
+			"Segments": [
+				0,
+				0,
+				1,
+				0.067,
+				0,
+				0.133,
+				0,
+				0.2,
+				0,
+				0,
+				0.567,
+				0
+			]
+		}
+	]
+}

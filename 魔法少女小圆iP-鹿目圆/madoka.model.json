@@ -1,0 +1,253 @@
+{
+  "type": 0,
+  "model": "madoka.moc",
+  "textures": [
+    "texture_00.png",
+    "texture_01.png",
+    "texture_02.png"
+  ],
+  "controllers": {
+    "param_hit": {},
+    "param_loop": {},
+    "key_trigger": {},
+    "param_trigger": {},
+    "area_trigger": {},
+    "hand_trigger": {},
+    "eye_blink": {
+      "min_interval": 500,
+      "max_interval": 6000,
+      "enabled": true
+    },
+    "lip_sync": {
+      "gain": 5.0
+    },
+    "mouse_tracking": {
+      "smooth_time": 0.15,
+      "enabled": true
+    },
+    "auto_breath": {
+      "enabled": true
+    },
+    "extra_motion": {
+      "enabled": true
+    },
+    "accelerometer": {
+      "enabled": true
+    },
+    "microphone": {},
+    "transform": {},
+    "face_tracking": {
+      "enabled": true
+    },
+    "hand_tracking": {},
+    "param_value": {},
+    "part_opacity": {},
+    "artmesh_opacity": {},
+    "artmesh_color": {},
+    "artmesh_culling": {
+      "default_mode": 0
+    },
+    "intimacy_system": {}
+  },
+  "hit_areas": [
+    {
+      "name": "hair_back",
+      "id": "D_HAIR_BACK.02",
+      "motion": "tap:tap_good_2"
+    },
+    {
+      "name": "hair_left",
+      "id": "D_HAIR_BACK.04",
+      "motion": "tap:tap_good_2"
+    },
+    {
+      "name": "hair_right",
+      "id": "D_HAIR_BACK.03",
+      "motion": "tap:tap_good_2"
+    },
+    {
+      "name": "arm_left",
+      "id": "D_ARM_R.08",
+      "motion": "tap:tap_good_1"
+    },
+    {
+      "name": "arm_right",
+      "id": "D_ARM_L.08",
+      "motion": "tap:tap_good_1"
+    },
+    {
+      "name": "leg_left",
+      "id": "D_FOOT.00",
+      "motion": "tap:tap_bad_3"
+    },
+    {
+      "name": "leg_right",
+      "id": "D_FOOT.01",
+      "motion": "tap:tap_bad_3"
+    }
+  ],
+  "motions": {
+    "tap": [
+      {
+        "name": "tap_good_1",
+        "file": "motion/tap_good_1.mtn",
+        "sound": "sound/tap_good_1.wav"
+      },
+      {
+        "name": "tap_good_2",
+        "file": "motion/tap_good_2.mtn",
+        "sound": "sound/tap_good_2.wav"
+      },
+      {
+        "name": "tap_good_3",
+        "file": "motion/tap_good_3.mtn",
+        "sound": "sound/tap_good_3.wav"
+      },
+      {
+        "name": "tap_bad_1",
+        "file": "motion/tap_bad_1.mtn",
+        "sound": "sound/tap_bad_1.wav"
+      },
+      {
+        "name": "tap_bad_2",
+        "file": "motion/tap_bad_2.mtn",
+        "sound": "sound/tap_bad_2.wav"
+      },
+      {
+        "name": "tap_bad_3",
+        "file": "motion/tap_bad_3.mtn",
+        "sound": "sound/tap_bad_3.wav"
+      }
+    ],
+    "shake": [
+      {
+        "name": "shake_01",
+        "file": "motion/shake_01.mtn"
+      }
+    ],
+    "idle": [
+      {
+        "name": "idle_01",
+        "file": "motion/idle_01.mtn",
+        "file_loop": true,
+        "time_limit": {}
+      },
+      {
+        "name": "idle_02",
+        "file": "motion/idle_02.mtn",
+        "file_loop": true
+      },
+      {
+        "name": "idle_03",
+        "file": "motion/idle_03.mtn",
+        "file_loop": true
+      },
+      {
+        "name": "idle_04",
+        "file": "motion/idle_04.mtn",
+        "file_loop": true
+      },
+      {
+        "name": "idle_05",
+        "file": "motion/idle_05.mtn",
+        "file_loop": true
+      }
+    ],
+    "tick_15": [
+      {
+        "name": "hour_0-2",
+        "file": "motion/time_midnight_toonight.mtn",
+        "sound": "sound/time_midnight_toonight.wav",
+        "time_limit": {
+          "hour": 0,
+          "sustain": 180
+        }
+      },
+      {
+        "name": "hour_3-5",
+        "file": "motion/time_midnight.mtn",
+        "sound": "sound/time_midnight.wav",
+        "time_limit": {
+          "hour": 3,
+          "sustain": 180
+        }
+      },
+      {
+        "name": "hour_6",
+        "file": "motion/time_morning_wakeup.mtn",
+        "sound": "sound/time_morning_wakeup.wav",
+        "time_limit": {
+          "hour": 6,
+          "sustain": 60
+        }
+      },
+      {
+        "name": "hour_7-8",
+        "file": "motion/time_morning_goodmorning.mtn",
+        "sound": "sound/time_morning_goodmorning.wav",
+        "time_limit": {
+          "hour": 7,
+          "sustain": 120
+        }
+      },
+      {
+        "name": "hour_9-11",
+        "file": "motion/time_morning.mtn",
+        "sound": "sound/time_morning.wav",
+        "time_limit": {
+          "hour": 9,
+          "sustain": 180
+        }
+      },
+      {
+        "name": "hour_12-14",
+        "file": "motion/time_noon.mtn",
+        "sound": "sound/time_noon.wav",
+        "time_limit": {
+          "hour": 12,
+          "sustain": 180
+        }
+      },
+      {
+        "name": "hour_15-17",
+        "file": "motion/time_afternoon.mtn",
+        "sound": "sound/time_afternoon.wav",
+        "time_limit": {
+          "hour": 15,
+          "sustain": 180
+        }
+      },
+      {
+        "name": "hour_18-21",
+        "file": "motion/time_night.mtn",
+        "sound": "sound/time_night.wav",
+        "time_limit": {
+          "hour": 18,
+          "sustain": 240
+        }
+      },
+      {
+        "name": "hour_22-23",
+        "file": "motion/time_night_goodnight.mtn",
+        "sound": "sound/time_night_goodnight.wav",
+        "time_limit": {
+          "hour": 22,
+          "sustain": 120
+        }
+      }
+    ],
+    "start": [
+      {
+        "name": "start",
+        "file": "motion/start.mtn",
+        "sound": "sound/start.wav"
+      }
+    ]
+  },
+  "physics_v2": {},
+  "options": {
+    "scale_factor": 0.76,
+    "tex_type": 0,
+    "shader_type": 0
+  }
+}

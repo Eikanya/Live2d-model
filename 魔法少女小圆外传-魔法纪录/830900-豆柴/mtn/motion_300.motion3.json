@@ -1,0 +1,115 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 2.967,
+		"Fps": 30.0,
+		"FadeInTime": 1.0,
+		"FadeOutTime": 1.0,
+		"Loop": true,
+		"AreBeziersRestricted": false,
+		"CurveCount": 6,
+		"TotalSegmentCount": 7,
+		"TotalPointCount": 21,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "ParamMouthForm",
+			"FadeInTime": 0.0,
+			"FadeOutTime": 0.0,
+			"Segments": [
+				0,
+				-1,
+				1,
+				0.989,
+				-1,
+				1.978,
+				-1,
+				2.967,
+				-1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamMouthOpen",
+			"FadeInTime": 0.0,
+			"FadeOutTime": 0.0,
+			"Segments": [
+				0,
+				0,
+				0,
+				2.967,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBreath",
+			"FadeInTime": 0.0,
+			"FadeOutTime": 0.0,
+			"Segments": [
+				0,
+				0,
+				1,
+				0.478,
+				0,
+				0.956,
+				1,
+				1.433,
+				1,
+				1,
+				1.944,
+				1,
+				2.456,
+				0,
+				2.967,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEarL",
+			"FadeInTime": 0.0,
+			"FadeOutTime": 0.0,
+			"Segments": [
+				0,
+				0,
+				0,
+				2.967,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamEarR",
+			"FadeInTime": 0.0,
+			"FadeOutTime": 0.0,
+			"Segments": [
+				0,
+				0,
+				0,
+				2.967,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamTail",
+			"FadeInTime": 0.0,
+			"FadeOutTime": 0.0,
+			"Segments": [
+				0,
+				0,
+				1,
+				0.989,
+				0,
+				1.978,
+				0,
+				2.967,
+				0
+			]
+		}
+	]
+}
