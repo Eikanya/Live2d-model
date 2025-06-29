@@ -1,0 +1,41 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "model.moc3",
+		"Textures": [
+			"model.1024/texture_00.png",
+			"model.1024/texture_01.png"
+		],
+		"Pose": "model.pose3.json",
+		"DisplayInfo": "model.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "mtn_ex_000.exp3.json",
+				"File": "exp/mtn_ex_000.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_010.exp3.json",
+				"File": "exp/mtn_ex_010.exp3.json"
+			},
+			{
+				"Name": "mtn_ex_020.exp3.json",
+				"File": "exp/mtn_ex_020.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}

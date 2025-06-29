@@ -1,0 +1,137 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 3.3,
+		"Fps": 30.0,
+		"FadeInTime": 1.0,
+		"FadeOutTime": 1.0,
+		"Loop": true,
+		"AreBeziersRestricted": false,
+		"CurveCount": 7,
+		"TotalSegmentCount": 9,
+		"TotalPointCount": 34,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "ParamHazeMove1",
+			"Segments": [
+				0,
+				1,
+				1,
+				0.5,
+				1,
+				1,
+				0,
+				1.5,
+				0,
+				1,
+				2.1,
+				0,
+				2.7,
+				0.964,
+				3.3,
+				0.999
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamHazeMove2",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.1,
+				0,
+				2.2,
+				0,
+				3.3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamMistMove1",
+			"Segments": [
+				0,
+				0.5,
+				1,
+				0.5,
+				0.5,
+				1,
+				0,
+				1.5,
+				0,
+				1,
+				2.1,
+				0,
+				2.7,
+				0.482,
+				3.3,
+				0.5
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBreath",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.1,
+				0,
+				2.2,
+				0,
+				3.3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamAngleZAll",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.1,
+				0,
+				2.2,
+				0,
+				3.3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamMoveLrAll",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.1,
+				0,
+				2.2,
+				0,
+				3.3,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamMoveUdAll",
+			"Segments": [
+				0,
+				0,
+				1,
+				1.1,
+				0,
+				2.2,
+				0,
+				3.3,
+				0
+			]
+		}
+	]
+}
