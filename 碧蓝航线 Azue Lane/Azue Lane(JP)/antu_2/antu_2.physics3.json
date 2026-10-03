@@ -1,0 +1,1314 @@
+{
+  "Version": 3,
+  "Meta": {
+    "PhysicsSettingCount": 5,
+    "TotalInputCount": 5,
+    "TotalOutputCount": 70,
+    "VertexCount": 35,
+    "Fps": 60,
+    "EffectiveForces": {
+      "Gravity": {
+        "X": 0,
+        "Y": -1
+      },
+      "Wind": {
+        "X": 0,
+        "Y": 0
+      }
+    },
+    "PhysicsDictionary": [
+      {
+        "Id": "PhysicsSetting1",
+        "Name": "Dummy1"
+      },
+      {
+        "Id": "PhysicsSetting2",
+        "Name": "Dummy2"
+      },
+      {
+        "Id": "PhysicsSetting3",
+        "Name": "Dummy3"
+      },
+      {
+        "Id": "PhysicsSetting4",
+        "Name": "Dummy4"
+      },
+      {
+        "Id": "PhysicsSetting5",
+        "Name": "Dummy5"
+      }
+    ]
+  },
+  "PhysicsSettings": [
+    {
+      "Id": "PhysicsSetting1",
+      "Input": [
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "Param42"
+          },
+          "Weight": 80,
+          "Type": "X",
+          "Reflect": false
+        }
+      ],
+      "Output": [
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param4"
+          },
+          "VertexIndex": 1,
+          "Scale": 30,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param5"
+          },
+          "VertexIndex": 2,
+          "Scale": 30,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param6"
+          },
+          "VertexIndex": 3,
+          "Scale": 30,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param7"
+          },
+          "VertexIndex": 4,
+          "Scale": 30,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        }
+      ],
+      "Vertices": [
+        {
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Mobility": 1,
+          "Delay": 0.85,
+          "Acceleration": 0.8,
+          "Radius": 0
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 5
+          },
+          "Mobility": 0.98,
+          "Delay": 0.85,
+          "Acceleration": 0.8,
+          "Radius": 5
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 10
+          },
+          "Mobility": 0.9,
+          "Delay": 0.85,
+          "Acceleration": 0.8,
+          "Radius": 5
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 15
+          },
+          "Mobility": 0.9,
+          "Delay": 0.85,
+          "Acceleration": 0.8,
+          "Radius": 5
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 20
+          },
+          "Mobility": 0.9,
+          "Delay": 0.85,
+          "Acceleration": 0.8,
+          "Radius": 5
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 25
+          },
+          "Mobility": 0.9,
+          "Delay": 0.85,
+          "Acceleration": 0.8,
+          "Radius": 5
+        }
+      ],
+      "Normalization": {
+        "Position": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        },
+        "Angle": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        }
+      }
+    },
+    {
+      "Id": "PhysicsSetting2",
+      "Input": [
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "Param42"
+          },
+          "Weight": 100,
+          "Type": "X",
+          "Reflect": false
+        }
+      ],
+      "Output": [
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param23"
+          },
+          "VertexIndex": 1,
+          "Scale": 30,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param24"
+          },
+          "VertexIndex": 2,
+          "Scale": 30,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param25"
+          },
+          "VertexIndex": 3,
+          "Scale": 30,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param26"
+          },
+          "VertexIndex": 4,
+          "Scale": 30,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param27"
+          },
+          "VertexIndex": 5,
+          "Scale": 30,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        }
+      ],
+      "Vertices": [
+        {
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Mobility": 1,
+          "Delay": 0.9,
+          "Acceleration": 1,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 10
+          },
+          "Mobility": 0.92,
+          "Delay": 0.9,
+          "Acceleration": 1,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 20
+          },
+          "Mobility": 0.9,
+          "Delay": 0.9,
+          "Acceleration": 1,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 30
+          },
+          "Mobility": 0.9,
+          "Delay": 0.9,
+          "Acceleration": 1,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 40
+          },
+          "Mobility": 0.9,
+          "Delay": 0.9,
+          "Acceleration": 1,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 50
+          },
+          "Mobility": 0.9,
+          "Delay": 0.9,
+          "Acceleration": 1,
+          "Radius": 10
+        }
+      ],
+      "Normalization": {
+        "Position": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        },
+        "Angle": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        }
+      }
+    },
+    {
+      "Id": "PhysicsSetting3",
+      "Input": [
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "Param42"
+          },
+          "Weight": 80,
+          "Type": "X",
+          "Reflect": false
+        }
+      ],
+      "Output": [
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param20"
+          },
+          "VertexIndex": 1,
+          "Scale": 10,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param50"
+          },
+          "VertexIndex": 2,
+          "Scale": 10,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param51"
+          },
+          "VertexIndex": 3,
+          "Scale": 10,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param52"
+          },
+          "VertexIndex": 4,
+          "Scale": 10,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param53"
+          },
+          "VertexIndex": 5,
+          "Scale": 10,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        }
+      ],
+      "Vertices": [
+        {
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Mobility": 1,
+          "Delay": 1,
+          "Acceleration": 1,
+          "Radius": 0
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 10
+          },
+          "Mobility": 0.95,
+          "Delay": 0.8,
+          "Acceleration": 0.8,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 15
+          },
+          "Mobility": 0.9,
+          "Delay": 0.8,
+          "Acceleration": 0.8,
+          "Radius": 5
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 20
+          },
+          "Mobility": 0.9,
+          "Delay": 0.8,
+          "Acceleration": 0.8,
+          "Radius": 5
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 25
+          },
+          "Mobility": 0.9,
+          "Delay": 0.8,
+          "Acceleration": 0.8,
+          "Radius": 5
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 30
+          },
+          "Mobility": 0.9,
+          "Delay": 0.8,
+          "Acceleration": 0.8,
+          "Radius": 5
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 35
+          },
+          "Mobility": 0.9,
+          "Delay": 0.8,
+          "Acceleration": 0.8,
+          "Radius": 5
+        }
+      ],
+      "Normalization": {
+        "Position": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        },
+        "Angle": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        }
+      }
+    },
+    {
+      "Id": "PhysicsSetting4",
+      "Input": [
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "Param102"
+          },
+          "Weight": 80,
+          "Type": "X",
+          "Reflect": false
+        }
+      ],
+      "Output": [
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param39"
+          },
+          "VertexIndex": 1,
+          "Scale": 40,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param40"
+          },
+          "VertexIndex": 2,
+          "Scale": 40,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param41"
+          },
+          "VertexIndex": 3,
+          "Scale": 40,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        }
+      ],
+      "Vertices": [
+        {
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Mobility": 1,
+          "Delay": 1,
+          "Acceleration": 1,
+          "Radius": 0
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 6
+          },
+          "Mobility": 0.95,
+          "Delay": 1.1,
+          "Acceleration": 1.5,
+          "Radius": 6
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 12
+          },
+          "Mobility": 0.9,
+          "Delay": 1.1,
+          "Acceleration": 1.5,
+          "Radius": 6
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 18
+          },
+          "Mobility": 0.9,
+          "Delay": 1.1,
+          "Acceleration": 1.5,
+          "Radius": 6
+        }
+      ],
+      "Normalization": {
+        "Position": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        },
+        "Angle": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        }
+      }
+    },
+    {
+      "Id": "PhysicsSetting5",
+      "Input": [
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "Param42"
+          },
+          "Weight": 80,
+          "Type": "X",
+          "Reflect": false
+        }
+      ],
+      "Output": [
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_1_ArtMesh37"
+          },
+          "VertexIndex": 1,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_2_ArtMesh37"
+          },
+          "VertexIndex": 2,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_3_ArtMesh37"
+          },
+          "VertexIndex": 3,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_4_ArtMesh37"
+          },
+          "VertexIndex": 4,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_5_ArtMesh37"
+          },
+          "VertexIndex": 5,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_6_ArtMesh37"
+          },
+          "VertexIndex": 6,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_7_ArtMesh37"
+          },
+          "VertexIndex": 7,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_8_ArtMesh37"
+          },
+          "VertexIndex": 8,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_9_ArtMesh37"
+          },
+          "VertexIndex": 9,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_10_ArtMesh37"
+          },
+          "VertexIndex": 10,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_11_ArtMesh37"
+          },
+          "VertexIndex": 11,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param58"
+          },
+          "VertexIndex": 1,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_1_ArtMesh36"
+          },
+          "VertexIndex": 1,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_2_ArtMesh36"
+          },
+          "VertexIndex": 2,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_3_ArtMesh36"
+          },
+          "VertexIndex": 3,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_4_ArtMesh36"
+          },
+          "VertexIndex": 4,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_5_ArtMesh36"
+          },
+          "VertexIndex": 5,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_6_ArtMesh36"
+          },
+          "VertexIndex": 6,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_7_ArtMesh36"
+          },
+          "VertexIndex": 7,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_8_ArtMesh36"
+          },
+          "VertexIndex": 8,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_9_ArtMesh36"
+          },
+          "VertexIndex": 9,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_10_ArtMesh36"
+          },
+          "VertexIndex": 10,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_11_ArtMesh36"
+          },
+          "VertexIndex": 11,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param59"
+          },
+          "VertexIndex": 1,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_1_ArtMesh35"
+          },
+          "VertexIndex": 1,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_2_ArtMesh35"
+          },
+          "VertexIndex": 2,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_3_ArtMesh35"
+          },
+          "VertexIndex": 3,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_4_ArtMesh35"
+          },
+          "VertexIndex": 4,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_5_ArtMesh35"
+          },
+          "VertexIndex": 5,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_6_ArtMesh35"
+          },
+          "VertexIndex": 6,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_7_ArtMesh35"
+          },
+          "VertexIndex": 7,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_8_ArtMesh35"
+          },
+          "VertexIndex": 8,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_9_ArtMesh35"
+          },
+          "VertexIndex": 9,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param61"
+          },
+          "VertexIndex": 1,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_1_ArtMesh34"
+          },
+          "VertexIndex": 1,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_2_ArtMesh34"
+          },
+          "VertexIndex": 2,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_3_ArtMesh34"
+          },
+          "VertexIndex": 3,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_4_ArtMesh34"
+          },
+          "VertexIndex": 4,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_5_ArtMesh34"
+          },
+          "VertexIndex": 5,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_6_ArtMesh34"
+          },
+          "VertexIndex": 6,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_7_ArtMesh34"
+          },
+          "VertexIndex": 7,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_8_ArtMesh34"
+          },
+          "VertexIndex": 8,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_9_ArtMesh34"
+          },
+          "VertexIndex": 9,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_10_ArtMesh34"
+          },
+          "VertexIndex": 10,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_11_ArtMesh34"
+          },
+          "VertexIndex": 11,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param62"
+          },
+          "VertexIndex": 1,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_1_ArtMesh193"
+          },
+          "VertexIndex": 1,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_2_ArtMesh193"
+          },
+          "VertexIndex": 2,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_3_ArtMesh193"
+          },
+          "VertexIndex": 3,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_4_ArtMesh193"
+          },
+          "VertexIndex": 4,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_5_ArtMesh193"
+          },
+          "VertexIndex": 5,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_6_ArtMesh193"
+          },
+          "VertexIndex": 6,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "Param_Angle_Rotation_7_ArtMesh193"
+          },
+          "VertexIndex": 7,
+          "Scale": 45,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        }
+      ],
+      "Vertices": [
+        {
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 20
+          },
+          "Mobility": 0.92,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 20
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 30
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 40
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 50
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 60
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 70
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 80
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 90
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 100
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 110
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 120
+          },
+          "Mobility": 0.82,
+          "Delay": 0.9,
+          "Acceleration": 2,
+          "Radius": 10
+        }
+      ],
+      "Normalization": {
+        "Position": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        },
+        "Angle": {
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
+        }
+      }
+    }
+  ]
+}

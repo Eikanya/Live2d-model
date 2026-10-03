@@ -5,6 +5,7 @@
     "TotalInputCount": 12,
     "TotalOutputCount": 13,
     "VertexCount": 45,
+    "Fps": 60,
     "EffectiveForces": {
       "Gravity": {
         "X": 0,
@@ -68,7 +69,7 @@
             "Id": "ParamHairFront"
           },
           "VertexIndex": 1,
-          "Scale": 2,
+          "Scale": 3,
           "Weight": 100,
           "Type": "Angle",
           "Reflect": false
@@ -79,7 +80,7 @@
             "Id": "qianfayaobai"
           },
           "VertexIndex": 2,
-          "Scale": 2,
+          "Scale": 3,
           "Weight": 100,
           "Type": "Angle",
           "Reflect": false
@@ -542,7 +543,7 @@
             "Target": "Parameter",
             "Id": "ParamAngleX"
           },
-          "Weight": 25,
+          "Weight": 40,
           "Type": "X",
           "Reflect": false
         },
@@ -560,7 +561,7 @@
             "Target": "Parameter",
             "Id": "ParamAngleY"
           },
-          "Weight": 25,
+          "Weight": 10,
           "Type": "X",
           "Reflect": false
         }
@@ -572,7 +573,7 @@
             "Id": "zuoxiongshangxai"
           },
           "VertexIndex": 1,
-          "Scale": 2,
+          "Scale": 3,
           "Weight": 100,
           "Type": "Angle",
           "Reflect": false
@@ -583,7 +584,7 @@
             "Id": "Param25"
           },
           "VertexIndex": 2,
-          "Scale": 2,
+          "Scale": 3,
           "Weight": 100,
           "Type": "Angle",
           "Reflect": false
@@ -690,15 +691,6 @@
         {
           "Source": {
             "Target": "Parameter",
-            "Id": "ParamAngleX"
-          },
-          "Weight": 25,
-          "Type": "X",
-          "Reflect": false
-        },
-        {
-          "Source": {
-            "Target": "Parameter",
             "Id": "OPwuli"
           },
           "Weight": 50,
@@ -710,7 +702,16 @@
             "Target": "Parameter",
             "Id": "ParamAngleY"
           },
-          "Weight": 25,
+          "Weight": 40,
+          "Type": "X",
+          "Reflect": false
+        },
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "ParamAngleX"
+          },
+          "Weight": 10,
           "Type": "X",
           "Reflect": false
         }

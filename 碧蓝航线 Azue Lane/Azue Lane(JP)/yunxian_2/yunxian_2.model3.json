@@ -4,10 +4,12 @@
   "FileReferences": {
     "Moc": "yunxian_2.moc3",
     "Textures": [
-      "textures/texture_00.png"
+      "textures/texture_00.png",
+      "textures/texture_01.png"
     ],
-    "DisplayInfo": null,
     "Physics": "yunxian_2.physics3.json",
+    "Pose": null,
+    "DisplayInfo": null,
     "Motions": {
       "complete": [
         {
@@ -62,6 +64,16 @@
       "main_3": [
         {
           "File": "motions/main_3.motion3.json"
+        }
+      ],
+      "main_4": [
+        {
+          "File": "motions/main_4.motion3.json"
+        }
+      ],
+      "main_5": [
+        {
+          "File": "motions/main_5.motion3.json"
         }
       ],
       "mission": [
